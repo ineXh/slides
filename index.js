@@ -14,16 +14,23 @@ var port_http = process.env.PORT || 80;
 // Serve Request Files
 // ///////////////////
 //app.use(express.static('source'));
-app.use(express.static('public'));
+//app.use(express.static('public'));
 
 app.get('/', function (req, res) {
-  //res.send('Hello World!');
-  res.sendFile(__dirname + '/public/index.html')
+  res.sendFile(__dirname + '/index.html')
 });
+app.get('*.js', function (req, res, next) {
+  req.url = req.url + '.gz';
+  res.set('Content-Encoding', 'gzip');
+  //console.log('js')
+  //console.log(req.url)
+  next();
+});
+app.use('/dist', express.static('dist'))
 
 app.post('/', function (req, res) {
   //res.send('Hello World!');
-  res.sendFile(__dirname + '/public/index.html')
+  res.sendFile(__dirname + '/index.html')
 });
 
 
@@ -38,7 +45,7 @@ var server = app.listen(port, function(){
     console.log('listening on *:' + port_http);
 })*/
 
-var communication = require('./app/communication.js')(app, server);
+//var communication = require('./app/communication.js')(app, server);
 
 
 // start app
