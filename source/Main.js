@@ -90,7 +90,10 @@ import pvector from 'script-loader!./Lib/pvector.js';
 		//slip2.slide(width + slip.sprite.width/2, height*0.2,
 		//				width - slip.sprite.width*0.4, height*0.2, 3000);
 		//talk = "You know the area of a rectangle if the length of the width of the rectangle times the height of the rectangle.";
-		var talk = "Click on the microphone and then speak as long as you want"
+		//var talk = "Click on the microphone and then speak as long as you want"
+
+		var talk = "What is Friction? Today we are going to put Friction into practice by showing you a racing game that we have developed. Have you ever wondered how a game simulate the real life scenario when a race car has a much harder time to steer on the road when it moves through a puddle of water or have a hard time accelerating when you are off track. Game developers simulate these scenarios by putting the force of friction into practice. "
+
 		message = new SpeechSynthesisUtterance(talk);
 		message["rate"] = 1;
 		message["volume"] = 3;
@@ -109,7 +112,7 @@ import pvector from 'script-loader!./Lib/pvector.js';
 		    if( i == 20){
 		    	message.voice = voices[0];
 				//console.log(message.voice.name)
-				
+
 				message.onend = function(){
 					character.smile();
 				}
