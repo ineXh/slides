@@ -1,5 +1,6 @@
 var width = 0;
 var height = 0;
+var dim = 0;
 var stageWidth = 0;
 var stageHeight = 0;
 var time = {t:0, dt: 0, count: 0};
@@ -15,4 +16,6 @@ var stage = null;
 var updateQueue = null;
 
 // Objects
-var balls = [];
+//var balls = [];
+var message = null;
+var voices = null;

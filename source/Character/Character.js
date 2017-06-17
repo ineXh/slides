@@ -10,46 +10,52 @@ function Character(){
 Character.prototype = {
   create: function(){
   	this.bodySprite = Helper.buttonCreate(Assets.characterTextures.cowBodyTexture,
-                     width/2, height/2, width);
-  	this.bodySprite.scale.set(1);
+                     width/2, height/2, width/8);
+    this.scale = this.bodySprite.scale.x;
+  	this.bodySprite.scale.set(this.scale);
   	this.headSprite = Helper.buttonCreate(Assets.characterTextures.cowHeadTexture,
                      width/2, height/2, width);
-  	this.headSprite.scale.set(1);
+  	this.headSprite.scale.set(this.scale);
 
     this.eyebrowSprite = Helper.buttonCreate(Assets.characterTextures.cowEyebrowTexture,
                      width/2, height/2, width);
-    this.eyebrowSprite.scale.set(1);
+    this.eyebrowSprite.scale.set(this.scale);
 
     this.eyeSprite = Helper.buttonCreate(Assets.characterTextures.cowEyesTexture,
                      width/2, height/2, width);
-    this.eyeSprite.scale.set(1);
+    this.eyeSprite.scale.set(this.scale);
 
-    this.mouthSprite = new PIXI.extras.AnimatedSprite(Assets.mouthTextures.cowTalkTexture);
-    this.mouthSprite.anchor.x = 0.5;
-    this.mouthSprite.anchor.y = 0.5;
-    this.mouthSprite.scale.set(0.8);
-    this.mouthSprite.animationSpeed = 0.5;
-    //this.mouthSprite.loop = false;
+    this.talkSprite = new PIXI.extras.AnimatedSprite(Assets.mouthTextures.cowTalkTexture);
+    this.talkSprite.anchor.x = 0.5;
+    this.talkSprite.anchor.y = 0.5;
+    this.talkSprite.scale.set(this.scale*0.6);
+    this.talkSprite.animationSpeed = 0.4;
+    //this.talkSprite.loop = false;
+
+    this.mouthSprite = Helper.buttonCreate(Assets.mouthTextures.mouth1Texture,
+                     width/2, height/2, width);
+    this.mouthSprite.scale.set(this.scale*0.6);
 
   	this.lArmSprite = Helper.buttonCreate(Assets.characterTextures.cowLeftTexture,
                      width/2, height/2, width);
-  	this.lArmSprite.scale.set(1);
+  	this.lArmSprite.scale.set(this.scale);
   	this.rArmSprite = Helper.buttonCreate(Assets.characterTextures.cowLeftTexture,
                      width/2, height/2, width);
-  	this.rArmSprite.scale.set(1);
-  	this.rArmSprite.scale.x = -1;
+  	this.rArmSprite.scale.set(this.scale);
+  	this.rArmSprite.scale.x = -this.rArmSprite.scale.x;
 
   	this.lLegSprite = Helper.buttonCreate(Assets.characterTextures.cowLeftLegTexture,
                      width/2, height/2, width);
-  	this.lLegSprite.scale.set(1);
+  	this.lLegSprite.scale.set(this.scale);
 
   	this.rLegSprite = Helper.buttonCreate(Assets.characterTextures.cowLeftLegTexture,
                      width/2, height/2, width);
-  	this.rLegSprite.scale.set(1);
-  	this.rLegSprite.scale.x = -1;
+  	this.rLegSprite.scale.set(this.scale);
+  	this.rLegSprite.scale.x = -this.rLegSprite.scale.x;
 
   },
   init: function(container, x, y){
+    this.container = container;
   	container.addChild(this.lArmSprite);
   	container.addChild(this.rArmSprite);
   	container.addChild(this.lLegSprite);
@@ -59,7 +65,7 @@ Character.prototype = {
     container.addChild(this.eyeSprite);
     container.addChild(this.eyebrowSprite);
 
-    container.addChild(this.mouthSprite);
+    container.addChild(this.talkSprite);
 
   	//debugger;
   	this.bodySprite.x = x;
@@ -82,7 +88,7 @@ Character.prototype = {
 
   	this.lArmRotation = PI/180;
 
-    this.mouthSprite.play();
+    this.talkSprite.play();
   },
   update: function(){
   	this.lArmSprite.x = this.bodySprite.x - this.bodySprite.width*0.3;
@@ -105,11 +111,19 @@ Character.prototype = {
     this.eyebrowSprite.x = this.headSprite.x;
     this.eyebrowSprite.y = this.headSprite.y - this.headSprite.height*0.2;
 
+    this.talkSprite.x = this.headSprite.x;
+    this.talkSprite.y = this.headSprite.y + this.headSprite.height*0.4;
+
     this.mouthSprite.x = this.headSprite.x;
-    this.mouthSprite.y = this.headSprite.y + this.headSprite.height*0.35;
+    this.mouthSprite.y = this.headSprite.y + this.headSprite.height*0.4;
 
   	this.lArmSprite.rotation += this.lArmRotation;
   	if(this.lArmSprite.rotation > PI/4) this.lArmRotation = -this.lArmRotation;
   	if(this.lArmSprite.rotation < -PI/4) this.lArmRotation = -this.lArmRotation;
   },
+  smile: function(){
+    this.talkSprite.stop();
+    this.container.removeChild(this.talkSprite);
+    this.container.addChild(this.mouthSprite);
+  }
 }

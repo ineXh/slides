@@ -57,6 +57,9 @@ var loadMouthTextures = function(){
 	Assets.mouthTextures.mouth5Texture 	= PIXI.Texture.fromFrame("mouth5");
 
 	Assets.mouthTextures.cowTalkTexture = [];
+	//Assets.mouthTextures.cowTalkTexture.push(PIXI.Texture.fromFrame('mouth1'));
+	//Assets.mouthTextures.cowTalkTexture.push(PIXI.Texture.fromFrame('mouth10'));
+	//Assets.mouthTextures.cowTalkTexture.push(PIXI.Texture.fromFrame('mouth14'));
     for(var i = 10; i <= 14; i++){
         Assets.mouthTextures.cowTalkTexture.push(PIXI.Texture.fromFrame('mouth' + i));
     }
