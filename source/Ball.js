@@ -49,19 +49,19 @@ Ball.prototype = {
     this.graphics.endFill();
     stage.addChild(this.graphics);
   },
-  update: function(time){
-    this.move(time);
+  update: function(){
+    //this.move();
     if(this.toDraw) this.render();
     if(this.toDrawSprite) this.renderSprite();
   },
-  move: function(time){
+  move: function(){
     this.vel.add(this.accel);
     //this.vel.mult(damping);
     this.vel.limit(this.maxspeed);
     this.pos.add(this.vel);
     this.accel.mult(0);
     if(this.border)   this.stayinBorder();
-  },  
+  },
   render: function(){
     this.graphics.x = this.pos.x;
     this.graphics.y = this.pos.y;
@@ -69,7 +69,7 @@ Ball.prototype = {
   renderSprite: function(){
     this.sprite.x = this.pos.x;
     this.sprite.y = this.pos.y;
-    this.sprite.rotation += 0.01;
+    //this.sprite.rotation += 0.01;
   },
   stayinBorder : function(){
     if (this.pos.x - this.r < 0) {

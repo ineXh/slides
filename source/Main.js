@@ -1,10 +1,11 @@
 var PIXI = require('pixi.js');
 var Assets = require('./Assets.js');
 var Ball = require('./Ball.js');
+var Character = require('./Character/Character.js');
 var Utils = require('./Utils.js');
 var constants = require('./Constants.js');
 var UpdateQueue = require('./UpdateQueue.js');
-//require("./styles.css");
+require("./styles.css");
 // /////////////
 // Script-loader
 // /////////////
@@ -33,15 +34,15 @@ import pvector from 'script-loader!./Lib/pvector.js';
 
 		updateQueue = new UpdateQueue();
 
-		var button = new PIXI.Sprite(Assets.textures.schoolTexture);
-		button.anchor.x = 0.5;
-		button.anchor.y = 0.5;
-		button.position.x = width/2;
-		button.position.y = height/2;
-		//button.scale.set( width / button.width);
+		var bg = new PIXI.Sprite(Assets.textures.schoolTexture);
+		bg.anchor.x = 0.5;
+		bg.anchor.y = 0.5;
+		bg.x = width/2;
+		bg.y = height/2;
+		//bg.scale.set( width / bg.width);
 		stage0 = new PIXI.Container();
 		stage = new PIXI.Container();
-		stage0.addChild(button);
+		stage0.addChild(bg);
 		stage0.addChild(stage);
 		
 
@@ -49,6 +50,10 @@ import pvector from 'script-loader!./Lib/pvector.js';
 		//updateQueue.add(ball);
 		//var ball = new Ball(0, 0, width/20, true, Assets.textures.bunnyTexture);
 		//updateQueue.add(ball);
+
+		var character = new Character();
+		character.init(stage, width/4, height*0.8);
+		updateQueue.add(character);
 
         animate();
     } // end initialize

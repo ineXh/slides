@@ -1,0 +1,15 @@
+/*@import './styles2.css';*/
+
+canvas{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+body {
+    /*background: #FFEB3B;/*yellow;*/
+}
+p {
+	background-color: #ffc6c6;
+  	color: blue;
+}

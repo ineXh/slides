@@ -13,6 +13,8 @@ var config = {
   devtool: "#eval-source-map",
   module : {
     loaders : [
+    // cssloader
+    { test: /\.css$/, loader: "style-loader!css-loader" },
       {
         test : /\.jsx?/,
         include : APP_DIR, //'./src/js/',//APP_DIR,
