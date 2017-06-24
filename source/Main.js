@@ -131,8 +131,8 @@ import pvector from 'script-loader!./Lib/pvector.js';
 		// by showing you a racing game that we have developed. Have you ever wondered how a game simulate the real life scenario when a race car has a much harder time to steer on the road when it moves through a puddle of water or have a hard time accelerating when you are off track. Game developers simulate these scenarios by putting the force of friction into practice. "
 
 		message = new SpeechSynthesisUtterance(talk);
-		message["rate"] = 0.8;
-		message["volume"] = 1;
+		message["rate"] = 0.9;
+		message["volume"] = 0.1;
 		message["pitch"] = 1.2;
 
 		//debugger;
@@ -142,13 +142,15 @@ import pvector from 'script-loader!./Lib/pvector.js';
 		var interval = setInterval(function () {
 		    voices = speechSynthesis.getVoices();
 		    if (voices.length) clearInterval(interval); else return;
+		    var index = 0;
 		    for (var i = 0; i < voices.length; i++) {
-		        //console.log(voices[i].name);
+		        console.log(voices[i].name);
+		        if(voices[i].name == "Google UK English Female") index = i;
 		    }
 		    if( i == voices.length){
-		    	message.voice = voices[2];
+		    	message.voice = voices[index];
 		    	speechSynthesis.speak(message);
-				//console.log(message.voice.name)
+				console.log(message.voice.name)
 
 				message.onend = function(){
 					character.smile();

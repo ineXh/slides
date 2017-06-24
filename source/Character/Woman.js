@@ -61,10 +61,10 @@ Woman.prototype = {
   	this.lArmSprite.rotation = -PI*0.40;
   	this.rArmSprite.anchor.x = 1
   	this.rArmSprite.anchor.y = 0.95
-  	this.rArmSprite.rotation = PI*0.2;
+  	this.rArmSprite.rotation = PI*0.25;
 
-  	this.lArmRotation = PI/720;
-    this.rArmRotation = PI/720;
+  	this.lArmRotation = PI/720/2;
+    this.rArmRotation = PI/720/2;
 
     this.talkSprite.play();
   },
@@ -75,9 +75,9 @@ Woman.prototype = {
 
 
   	this.lArmSprite.x = this.bodySprite.x - this.bodySprite.width*0.25;
-  	this.lArmSprite.y = this.bodySprite.y - this.bodySprite.height*0.20;
+  	this.lArmSprite.y = this.bodySprite.y - this.bodySprite.height*0.18;
   	this.rArmSprite.x = this.bodySprite.x + this.bodySprite.width*0.14;
-  	this.rArmSprite.y = this.bodySprite.y - this.bodySprite.height*0.20;
+  	this.rArmSprite.y = this.bodySprite.y - this.bodySprite.height*0.18;
 
 
 
@@ -88,8 +88,8 @@ Woman.prototype = {
     this.mouthSprite.y = this.bodySprite.y - this.bodySprite.height*0.275;
 
     this.rArmSprite.rotation += this.rArmRotation;
-    if(this.rArmSprite.rotation > PI*0.25) this.rArmRotation = -this.rArmRotation;
-    if(this.rArmSprite.rotation < PI*0.0) this.rArmRotation = -this.rArmRotation;
+    if(this.rArmSprite.rotation > PI*0.45) this.rArmRotation = -this.rArmRotation;
+    if(this.rArmSprite.rotation < PI*0.25) this.rArmRotation = -this.rArmRotation;
 
   	//this.lArmSprite.rotation += this.lArmRotation;
   	//if(this.lArmSprite.rotation > -PI*0.1) this.lArmRotation = -this.lArmRotation;
