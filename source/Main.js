@@ -2,6 +2,7 @@ var PIXI = require('pixi.js');
 var Assets = require('./Assets.js');
 var Ball = require('./Ball.js');
 var Character = require('./Character/Character.js');
+var Woman = require('./Character/Woman.js');
 var Helper = require('./Helper.js');
 var Slip = require('./Interface/Slip.js');
 var Utils = require('./Utils.js');
@@ -36,12 +37,13 @@ import pvector from 'script-loader!./Lib/pvector.js';
 	stageWidth = width;
 	stageHeight = height;
 	var app = new PIXI.Application(width, height,
-	    {backgroundColor : 0x82cd3c,
+	    {backgroundColor : 0xFCF4e6, //0x82cd3c,
 	    transparent : false, antialias: true
 	});
 	worldRenderer = app.renderer;
 	document.body.appendChild(app.view);
 
+	var titleText;
 	var initialize = function(load, res){
         loader = load;
         resources = res;
@@ -49,7 +51,7 @@ import pvector from 'script-loader!./Lib/pvector.js';
 
 		updateQueue = new UpdateQueue();
 
-		var bg = Helper.buttonCreate(Assets.textures.schoolTexture, //Assets.textures.rectTexture,
+		var bg = Helper.buttonCreate(Assets.textures.classTexture, //Assets.textures.rectTexture,
                      width/2, height/2, width);
 
 		/*new PIXI.Sprite(Assets.textures.schoolTexture);
@@ -71,9 +73,23 @@ import pvector from 'script-loader!./Lib/pvector.js';
 		//var ball = new Ball(0, 0, width/20, true, Assets.textures.bunnyTexture);
 		//updateQueue.add(ball);
 
-		var character = new Character();
-		character.init(stage, width/4, height*0.78);
+		var desk = Helper.buttonCreate(Assets.textures.deskTexture,
+                     width*0.2, height*0.765, width);
+		desk.scale.set(1.75);
+		var deskShadow = Helper.buttonCreate(Assets.textures.deskShadowTexture,
+                     desk.x, desk.y + desk.height/2, width);
+		deskShadow.scale.set(1.75);
+
+		stage.addChild(deskShadow);
+
+
+		var character = new Woman();//Character();
+		//character.init(stage, width/4, height*0.78);
+		character.init(stage, width*0.2, height*0.5);
 		updateQueue.add(character);
+
+
+		stage.addChild(desk);
 
 		var slip = new Slip();
 		slip.init(stage, -slip.sprite.width, 0, 0xAF4756);
@@ -81,24 +97,44 @@ import pvector from 'script-loader!./Lib/pvector.js';
 		var slip2 = new Slip();
 		slip2.init(stage, -slip.sprite.width, 0, 0x507BC4);
 
-		var cb = slip2.slide.bind(slip2, width + slip.sprite.width/2, height*0.2,
+		var TextOptions = {
+            fontFamily: 'Courier', //'Mario'
+            fontSize: (width >> 4) + (width >> 6) + 'px',
+            fill: '#000000', // Set fill color
+            align: 'left', // Center align the text, since it's multiline
+            stroke: '#34495e', // Set stroke color
+            strokeThickness: Math.floor(width/256), // Set stroke thickness
+            lineJoin: 'round' // Set the lineJoin to round instead of 'miter'
+        }
+        titleText = new PIXI.Text('F', TextOptions);
+        titleText.anchor.x = 0.5;
+        titleText.anchor.y = 0.5;
+        titleText.x = width*0.675;
+        titleText.y = height*0.35;
+
+        stage.addChild(titleText)
+
+
+
+		/*var cb = slip2.slide.bind(slip2, width + slip.sprite.width/2, height*0.2,
 						width - slip.sprite.width*0.4, height*0.2, 4000);
 
 		slip.slide(-slip.sprite.width/2, height*0.2,
 						slip.sprite.width*0.4, height*0.2, 4000, cb);
+	*/
 
-		//slip2.slide(width + slip.sprite.width/2, height*0.2,
-		//				width - slip.sprite.width*0.4, height*0.2, 3000);
+
 		//talk = "You know the area of a rectangle if the length of the width of the rectangle times the height of the rectangle.";
 		//var talk = "Click on the microphone and then speak as long as you want"
 
-		var talk = "What is Friction? Today we are going to put Friction into practice by showing you a racing game that we have developed. Have you ever wondered how a game simulate the real life scenario when a race car has a much harder time to steer on the road when it moves through a puddle of water or have a hard time accelerating when you are off track. Game developers simulate these scenarios by putting the force of friction into practice. "
+		var talk = "What is Friction? Today we are going to put Friction into practice"
+		// by showing you a racing game that we have developed. Have you ever wondered how a game simulate the real life scenario when a race car has a much harder time to steer on the road when it moves through a puddle of water or have a hard time accelerating when you are off track. Game developers simulate these scenarios by putting the force of friction into practice. "
 
 		message = new SpeechSynthesisUtterance(talk);
-		message["rate"] = 1;
-		message["volume"] = 3;
-		message["pitch"] = 3;
-		speechSynthesis.speak(message);
+		message["rate"] = 0.8;
+		message["volume"] = 1;
+		message["pitch"] = 1.2;
+
 		//debugger;
 		//http://jsfiddle.net/aybalasubramanian/y8c38b3k/
 		// SpeechSynthesisUtterance not tab audio, cannot capture
@@ -109,8 +145,9 @@ import pvector from 'script-loader!./Lib/pvector.js';
 		    for (var i = 0; i < voices.length; i++) {
 		        //console.log(voices[i].name);
 		    }
-		    if( i == 20){
-		    	message.voice = voices[0];
+		    if( i == voices.length){
+		    	message.voice = voices[2];
+		    	speechSynthesis.speak(message);
 				//console.log(message.voice.name)
 
 				message.onend = function(){
@@ -125,7 +162,7 @@ import pvector from 'script-loader!./Lib/pvector.js';
     } // end initialize
 
     Assets.loadAssets(initialize);
-
+    var textCount = 0;
     var update = function(){
         var now = Date.now(),
          dt  = (now - lastTime),
@@ -135,6 +172,16 @@ import pvector from 'script-loader!./Lib/pvector.js';
         time.dt = dt;
         time.count++;
         lastTime = now;
+
+        if(time.count%5 == 0) textCount++;
+        if(textCount == 0) titleText.text = "F       ";
+        if(textCount == 1) titleText.text = "Fr      ";
+        if(textCount == 2) titleText.text = "Fri     ";
+        if(textCount == 3) titleText.text = "Fric    ";
+        if(textCount == 4) titleText.text = "Frict   ";
+        if(textCount == 5) titleText.text = "Fricti  ";
+        if(textCount == 6) titleText.text = "Frictio ";
+        if(textCount == 7) titleText.text = "Friction";
 
         if(updateQueue) updateQueue.update();
     } // end update

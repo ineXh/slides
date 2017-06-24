@@ -63,7 +63,7 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 99);
+/******/ 	return __webpack_require__(__webpack_require__.s = 100);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -475,7 +475,7 @@ Object.defineProperty(exports, 'DisplayObject', {
   }
 });
 
-var _Container = __webpack_require__(11);
+var _Container = __webpack_require__(14);
 
 Object.defineProperty(exports, 'Container', {
   enumerable: true,
@@ -520,7 +520,7 @@ Object.defineProperty(exports, 'Sprite', {
   }
 });
 
-var _CanvasSpriteRenderer = __webpack_require__(132);
+var _CanvasSpriteRenderer = __webpack_require__(133);
 
 Object.defineProperty(exports, 'CanvasSpriteRenderer', {
   enumerable: true,
@@ -538,7 +538,7 @@ Object.defineProperty(exports, 'CanvasTinter', {
   }
 });
 
-var _SpriteRenderer = __webpack_require__(134);
+var _SpriteRenderer = __webpack_require__(135);
 
 Object.defineProperty(exports, 'SpriteRenderer', {
   enumerable: true,
@@ -547,7 +547,7 @@ Object.defineProperty(exports, 'SpriteRenderer', {
   }
 });
 
-var _Text = __webpack_require__(136);
+var _Text = __webpack_require__(137);
 
 Object.defineProperty(exports, 'Text', {
   enumerable: true,
@@ -574,7 +574,7 @@ Object.defineProperty(exports, 'TextMetrics', {
   }
 });
 
-var _Graphics = __webpack_require__(104);
+var _Graphics = __webpack_require__(105);
 
 Object.defineProperty(exports, 'Graphics', {
   enumerable: true,
@@ -592,7 +592,7 @@ Object.defineProperty(exports, 'GraphicsData', {
   }
 });
 
-var _GraphicsRenderer = __webpack_require__(107);
+var _GraphicsRenderer = __webpack_require__(108);
 
 Object.defineProperty(exports, 'GraphicsRenderer', {
   enumerable: true,
@@ -601,7 +601,7 @@ Object.defineProperty(exports, 'GraphicsRenderer', {
   }
 });
 
-var _CanvasGraphicsRenderer = __webpack_require__(105);
+var _CanvasGraphicsRenderer = __webpack_require__(106);
 
 Object.defineProperty(exports, 'CanvasGraphicsRenderer', {
   enumerable: true,
@@ -610,7 +610,7 @@ Object.defineProperty(exports, 'CanvasGraphicsRenderer', {
   }
 });
 
-var _Spritesheet = __webpack_require__(137);
+var _Spritesheet = __webpack_require__(138);
 
 Object.defineProperty(exports, 'Spritesheet', {
   enumerable: true,
@@ -682,7 +682,7 @@ Object.defineProperty(exports, 'CanvasRenderTarget', {
   }
 });
 
-var _Shader = __webpack_require__(10);
+var _Shader = __webpack_require__(13);
 
 Object.defineProperty(exports, 'Shader', {
   enumerable: true,
@@ -691,7 +691,7 @@ Object.defineProperty(exports, 'Shader', {
   }
 });
 
-var _WebGLManager = __webpack_require__(13);
+var _WebGLManager = __webpack_require__(16);
 
 Object.defineProperty(exports, 'WebGLManager', {
   enumerable: true,
@@ -700,7 +700,7 @@ Object.defineProperty(exports, 'WebGLManager', {
   }
 });
 
-var _ObjectRenderer = __webpack_require__(21);
+var _ObjectRenderer = __webpack_require__(22);
 
 Object.defineProperty(exports, 'ObjectRenderer', {
   enumerable: true,
@@ -709,7 +709,7 @@ Object.defineProperty(exports, 'ObjectRenderer', {
   }
 });
 
-var _RenderTarget = __webpack_require__(22);
+var _RenderTarget = __webpack_require__(23);
 
 Object.defineProperty(exports, 'RenderTarget', {
   enumerable: true,
@@ -775,11 +775,11 @@ var _settings = __webpack_require__(3);
 
 var _settings2 = _interopRequireDefault(_settings);
 
-var _CanvasRenderer = __webpack_require__(12);
+var _CanvasRenderer = __webpack_require__(15);
 
 var _CanvasRenderer2 = _interopRequireDefault(_CanvasRenderer);
 
-var _WebGLRenderer = __webpack_require__(20);
+var _WebGLRenderer = __webpack_require__(21);
 
 var _WebGLRenderer2 = _interopRequireDefault(_WebGLRenderer);
 
@@ -834,11 +834,11 @@ var _eventemitter = __webpack_require__(8);
 
 var _eventemitter2 = _interopRequireDefault(_eventemitter);
 
-var _pluginTarget = __webpack_require__(145);
+var _pluginTarget = __webpack_require__(146);
 
 var _pluginTarget2 = _interopRequireDefault(_pluginTarget);
 
-var _mixin = __webpack_require__(144);
+var _mixin = __webpack_require__(145);
 
 var mixins = _interopRequireWildcard(_mixin);
 
@@ -846,11 +846,11 @@ var _ismobilejs = __webpack_require__(37);
 
 var isMobile = _interopRequireWildcard(_ismobilejs);
 
-var _removeArrayItems = __webpack_require__(196);
+var _removeArrayItems = __webpack_require__(197);
 
 var _removeArrayItems2 = _interopRequireDefault(_removeArrayItems);
 
-var _mapPremultipliedBlendModes = __webpack_require__(142);
+var _mapPremultipliedBlendModes = __webpack_require__(143);
 
 var _mapPremultipliedBlendModes2 = _interopRequireDefault(_mapPremultipliedBlendModes);
 
@@ -1283,11 +1283,11 @@ function premultiplyTintToRgba(tint, alpha, out, premultiply) {
 
 exports.__esModule = true;
 
-var _maxRecommendedTextures = __webpack_require__(143);
+var _maxRecommendedTextures = __webpack_require__(144);
 
 var _maxRecommendedTextures2 = _interopRequireDefault(_maxRecommendedTextures);
 
-var _canUploadSameBuffer = __webpack_require__(140);
+var _canUploadSameBuffer = __webpack_require__(141);
 
 var _canUploadSameBuffer2 = _interopRequireDefault(_canUploadSameBuffer);
 
@@ -1559,7 +1559,7 @@ Object.defineProperty(exports, 'GroupD8', {
   }
 });
 
-var _Circle = __webpack_require__(114);
+var _Circle = __webpack_require__(115);
 
 Object.defineProperty(exports, 'Circle', {
   enumerable: true,
@@ -1568,7 +1568,7 @@ Object.defineProperty(exports, 'Circle', {
   }
 });
 
-var _Ellipse = __webpack_require__(115);
+var _Ellipse = __webpack_require__(116);
 
 Object.defineProperty(exports, 'Ellipse', {
   enumerable: true,
@@ -1577,7 +1577,7 @@ Object.defineProperty(exports, 'Ellipse', {
   }
 });
 
-var _Polygon = __webpack_require__(116);
+var _Polygon = __webpack_require__(117);
 
 Object.defineProperty(exports, 'Polygon', {
   enumerable: true,
@@ -1595,7 +1595,7 @@ Object.defineProperty(exports, 'Rectangle', {
   }
 });
 
-var _RoundedRectangle = __webpack_require__(117);
+var _RoundedRectangle = __webpack_require__(118);
 
 Object.defineProperty(exports, 'RoundedRectangle', {
   enumerable: true,
@@ -1612,14 +1612,14 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 /***/ (function(module, exports, __webpack_require__) {
 
 var gl = {
-    createContext:          __webpack_require__(194),
+    createContext:          __webpack_require__(195),
     setVertexAttribArrays:  __webpack_require__(78),
-    GLBuffer:               __webpack_require__(190),
-    GLFramebuffer:          __webpack_require__(191),
-    GLShader:               __webpack_require__(192),
+    GLBuffer:               __webpack_require__(191),
+    GLFramebuffer:          __webpack_require__(192),
+    GLShader:               __webpack_require__(193),
     GLTexture:              __webpack_require__(77),
-    VertexArrayObject:      __webpack_require__(193),
-    shader:                 __webpack_require__(195)
+    VertexArrayObject:      __webpack_require__(194),
+    shader:                 __webpack_require__(196)
 };
 
 // Export for Node-compatible environments
@@ -1867,7 +1867,7 @@ var substr = 'ab'.substr(-1) === 'b'
     }
 ;
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(205)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(206)))
 
 /***/ }),
 /* 7 */
@@ -2886,7 +2886,7 @@ var _eventemitter = __webpack_require__(8);
 
 var _eventemitter2 = _interopRequireDefault(_eventemitter);
 
-var _determineCrossOrigin = __webpack_require__(141);
+var _determineCrossOrigin = __webpack_require__(142);
 
 var _determineCrossOrigin2 = _interopRequireDefault(_determineCrossOrigin);
 
@@ -3720,1534 +3720,26 @@ exports.default = BaseTexture;
 /* 10 */
 /***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
-
-
-exports.__esModule = true;
-
-var _pixiGlCore = __webpack_require__(5);
-
-var _settings = __webpack_require__(3);
-
-var _settings2 = _interopRequireDefault(_settings);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-function checkPrecision(src, def) {
-    if (src instanceof Array) {
-        if (src[0].substring(0, 9) !== 'precision') {
-            var copy = src.slice(0);
-
-            copy.unshift('precision ' + def + ' float;');
-
-            return copy;
-        }
-    } else if (src.substring(0, 9) !== 'precision') {
-        return 'precision ' + def + ' float;\n' + src;
-    }
-
-    return src;
-}
-
-/**
- * Wrapper class, webGL Shader for Pixi.
- * Adds precision string if vertexSrc or fragmentSrc have no mention of it.
- *
- * @class
- * @extends GLShader
- * @memberof PIXI
- */
-
-var Shader = function (_GLShader) {
-    _inherits(Shader, _GLShader);
-
-    /**
-     *
-     * @param {WebGLRenderingContext} gl - The current WebGL rendering context
-     * @param {string|string[]} vertexSrc - The vertex shader source as an array of strings.
-     * @param {string|string[]} fragmentSrc - The fragment shader source as an array of strings.
-     */
-    function Shader(gl, vertexSrc, fragmentSrc) {
-        _classCallCheck(this, Shader);
-
-        return _possibleConstructorReturn(this, _GLShader.call(this, gl, checkPrecision(vertexSrc, _settings2.default.PRECISION_VERTEX), checkPrecision(fragmentSrc, _settings2.default.PRECISION_FRAGMENT)));
-    }
-
-    return Shader;
-}(_pixiGlCore.GLShader);
-
-exports.default = Shader;
-//# sourceMappingURL=Shader.js.map
-
-/***/ }),
-/* 11 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.__esModule = true;
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _utils = __webpack_require__(2);
-
-var _DisplayObject2 = __webpack_require__(46);
-
-var _DisplayObject3 = _interopRequireDefault(_DisplayObject2);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-/**
- * A Container represents a collection of display objects.
- * It is the base class of all display objects that act as a container for other objects.
- *
- *```js
- * let container = new PIXI.Container();
- * container.addChild(sprite);
- * ```
- *
- * @class
- * @extends PIXI.DisplayObject
- * @memberof PIXI
- */
-var Container = function (_DisplayObject) {
-    _inherits(Container, _DisplayObject);
-
-    /**
-     *
-     */
-    function Container() {
-        _classCallCheck(this, Container);
-
-        /**
-         * The array of children of this container.
-         *
-         * @member {PIXI.DisplayObject[]}
-         * @readonly
-         */
-        var _this = _possibleConstructorReturn(this, _DisplayObject.call(this));
-
-        _this.children = [];
-        return _this;
-    }
-
-    /**
-     * Overridable method that can be used by Container subclasses whenever the children array is modified
-     *
-     * @private
-     */
-
-
-    Container.prototype.onChildrenChange = function onChildrenChange() {}
-    /* empty */
-
-
-    /**
-     * Adds one or more children to the container.
-     *
-     * Multiple items can be added like so: `myContainer.addChild(thingOne, thingTwo, thingThree)`
-     *
-     * @param {...PIXI.DisplayObject} child - The DisplayObject(s) to add to the container
-     * @return {PIXI.DisplayObject} The first child that was added.
-     */
-    ;
-
-    Container.prototype.addChild = function addChild(child) {
-        var argumentsLength = arguments.length;
-
-        // if there is only one argument we can bypass looping through the them
-        if (argumentsLength > 1) {
-            // loop through the arguments property and add all children
-            // use it the right way (.length and [i]) so that this function can still be optimised by JS runtimes
-            for (var i = 0; i < argumentsLength; i++) {
-                this.addChild(arguments[i]);
-            }
-        } else {
-            // if the child has a parent then lets remove it as Pixi objects can only exist in one place
-            if (child.parent) {
-                child.parent.removeChild(child);
-            }
-
-            child.parent = this;
-            // ensure child transform will be recalculated
-            child.transform._parentID = -1;
-
-            this.children.push(child);
-
-            // ensure bounds will be recalculated
-            this._boundsID++;
-
-            // TODO - lets either do all callbacks or all events.. not both!
-            this.onChildrenChange(this.children.length - 1);
-            child.emit('added', this);
-        }
-
-        return child;
-    };
-
-    /**
-     * Adds a child to the container at a specified index. If the index is out of bounds an error will be thrown
-     *
-     * @param {PIXI.DisplayObject} child - The child to add
-     * @param {number} index - The index to place the child in
-     * @return {PIXI.DisplayObject} The child that was added.
-     */
-
-
-    Container.prototype.addChildAt = function addChildAt(child, index) {
-        if (index < 0 || index > this.children.length) {
-            throw new Error(child + 'addChildAt: The index ' + index + ' supplied is out of bounds ' + this.children.length);
-        }
-
-        if (child.parent) {
-            child.parent.removeChild(child);
-        }
-
-        child.parent = this;
-        // ensure child transform will be recalculated
-        child.transform._parentID = -1;
-
-        this.children.splice(index, 0, child);
-
-        // ensure bounds will be recalculated
-        this._boundsID++;
-
-        // TODO - lets either do all callbacks or all events.. not both!
-        this.onChildrenChange(index);
-        child.emit('added', this);
-
-        return child;
-    };
-
-    /**
-     * Swaps the position of 2 Display Objects within this container.
-     *
-     * @param {PIXI.DisplayObject} child - First display object to swap
-     * @param {PIXI.DisplayObject} child2 - Second display object to swap
-     */
-
-
-    Container.prototype.swapChildren = function swapChildren(child, child2) {
-        if (child === child2) {
-            return;
-        }
-
-        var index1 = this.getChildIndex(child);
-        var index2 = this.getChildIndex(child2);
-
-        this.children[index1] = child2;
-        this.children[index2] = child;
-        this.onChildrenChange(index1 < index2 ? index1 : index2);
-    };
-
-    /**
-     * Returns the index position of a child DisplayObject instance
-     *
-     * @param {PIXI.DisplayObject} child - The DisplayObject instance to identify
-     * @return {number} The index position of the child display object to identify
-     */
-
-
-    Container.prototype.getChildIndex = function getChildIndex(child) {
-        var index = this.children.indexOf(child);
-
-        if (index === -1) {
-            throw new Error('The supplied DisplayObject must be a child of the caller');
-        }
-
-        return index;
-    };
-
-    /**
-     * Changes the position of an existing child in the display object container
-     *
-     * @param {PIXI.DisplayObject} child - The child DisplayObject instance for which you want to change the index number
-     * @param {number} index - The resulting index number for the child display object
-     */
-
-
-    Container.prototype.setChildIndex = function setChildIndex(child, index) {
-        if (index < 0 || index >= this.children.length) {
-            throw new Error('The supplied index is out of bounds');
-        }
-
-        var currentIndex = this.getChildIndex(child);
-
-        (0, _utils.removeItems)(this.children, currentIndex, 1); // remove from old position
-        this.children.splice(index, 0, child); // add at new position
-
-        this.onChildrenChange(index);
-    };
-
-    /**
-     * Returns the child at the specified index
-     *
-     * @param {number} index - The index to get the child at
-     * @return {PIXI.DisplayObject} The child at the given index, if any.
-     */
-
-
-    Container.prototype.getChildAt = function getChildAt(index) {
-        if (index < 0 || index >= this.children.length) {
-            throw new Error('getChildAt: Index (' + index + ') does not exist.');
-        }
-
-        return this.children[index];
-    };
-
-    /**
-     * Removes one or more children from the container.
-     *
-     * @param {...PIXI.DisplayObject} child - The DisplayObject(s) to remove
-     * @return {PIXI.DisplayObject} The first child that was removed.
-     */
-
-
-    Container.prototype.removeChild = function removeChild(child) {
-        var argumentsLength = arguments.length;
-
-        // if there is only one argument we can bypass looping through the them
-        if (argumentsLength > 1) {
-            // loop through the arguments property and add all children
-            // use it the right way (.length and [i]) so that this function can still be optimised by JS runtimes
-            for (var i = 0; i < argumentsLength; i++) {
-                this.removeChild(arguments[i]);
-            }
-        } else {
-            var index = this.children.indexOf(child);
-
-            if (index === -1) return null;
-
-            child.parent = null;
-            // ensure child transform will be recalculated
-            child.transform._parentID = -1;
-            (0, _utils.removeItems)(this.children, index, 1);
-
-            // ensure bounds will be recalculated
-            this._boundsID++;
-
-            // TODO - lets either do all callbacks or all events.. not both!
-            this.onChildrenChange(index);
-            child.emit('removed', this);
-        }
-
-        return child;
-    };
-
-    /**
-     * Removes a child from the specified index position.
-     *
-     * @param {number} index - The index to get the child from
-     * @return {PIXI.DisplayObject} The child that was removed.
-     */
-
-
-    Container.prototype.removeChildAt = function removeChildAt(index) {
-        var child = this.getChildAt(index);
-
-        // ensure child transform will be recalculated..
-        child.parent = null;
-        child.transform._parentID = -1;
-        (0, _utils.removeItems)(this.children, index, 1);
-
-        // ensure bounds will be recalculated
-        this._boundsID++;
-
-        // TODO - lets either do all callbacks or all events.. not both!
-        this.onChildrenChange(index);
-        child.emit('removed', this);
-
-        return child;
-    };
-
-    /**
-     * Removes all children from this container that are within the begin and end indexes.
-     *
-     * @param {number} [beginIndex=0] - The beginning position.
-     * @param {number} [endIndex=this.children.length] - The ending position. Default value is size of the container.
-     * @returns {DisplayObject[]} List of removed children
-     */
-
-
-    Container.prototype.removeChildren = function removeChildren() {
-        var beginIndex = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 0;
-        var endIndex = arguments[1];
-
-        var begin = beginIndex;
-        var end = typeof endIndex === 'number' ? endIndex : this.children.length;
-        var range = end - begin;
-        var removed = void 0;
-
-        if (range > 0 && range <= end) {
-            removed = this.children.splice(begin, range);
-
-            for (var i = 0; i < removed.length; ++i) {
-                removed[i].parent = null;
-                if (removed[i].transform) {
-                    removed[i].transform._parentID = -1;
-                }
-            }
-
-            this._boundsID++;
-
-            this.onChildrenChange(beginIndex);
-
-            for (var _i = 0; _i < removed.length; ++_i) {
-                removed[_i].emit('removed', this);
-            }
-
-            return removed;
-        } else if (range === 0 && this.children.length === 0) {
-            return [];
-        }
-
-        throw new RangeError('removeChildren: numeric values are outside the acceptable range.');
-    };
-
-    /**
-     * Updates the transform on all children of this container for rendering
-     */
-
-
-    Container.prototype.updateTransform = function updateTransform() {
-        this._boundsID++;
-
-        this.transform.updateTransform(this.parent.transform);
-
-        // TODO: check render flags, how to process stuff here
-        this.worldAlpha = this.alpha * this.parent.worldAlpha;
-
-        for (var i = 0, j = this.children.length; i < j; ++i) {
-            var child = this.children[i];
-
-            if (child.visible) {
-                child.updateTransform();
-            }
-        }
-    };
-
-    /**
-     * Recalculates the bounds of the container.
-     *
-     */
-
-
-    Container.prototype.calculateBounds = function calculateBounds() {
-        this._bounds.clear();
-
-        this._calculateBounds();
-
-        for (var i = 0; i < this.children.length; i++) {
-            var child = this.children[i];
-
-            if (!child.visible || !child.renderable) {
-                continue;
-            }
-
-            child.calculateBounds();
-
-            // TODO: filter+mask, need to mask both somehow
-            if (child._mask) {
-                child._mask.calculateBounds();
-                this._bounds.addBoundsMask(child._bounds, child._mask._bounds);
-            } else if (child.filterArea) {
-                this._bounds.addBoundsArea(child._bounds, child.filterArea);
-            } else {
-                this._bounds.addBounds(child._bounds);
-            }
-        }
-
-        this._lastBoundsID = this._boundsID;
-    };
-
-    /**
-     * Recalculates the bounds of the object. Override this to
-     * calculate the bounds of the specific object (not including children).
-     *
-     */
-
-
-    Container.prototype._calculateBounds = function _calculateBounds() {}
-    // FILL IN//
-
-
-    /**
-     * Renders the object using the WebGL renderer
-     *
-     * @param {PIXI.WebGLRenderer} renderer - The renderer
-     */
-    ;
-
-    Container.prototype.renderWebGL = function renderWebGL(renderer) {
-        // if the object is not visible or the alpha is 0 then no need to render this element
-        if (!this.visible || this.worldAlpha <= 0 || !this.renderable) {
-            return;
-        }
-
-        // do a quick check to see if this element has a mask or a filter.
-        if (this._mask || this._filters) {
-            this.renderAdvancedWebGL(renderer);
-        } else {
-            this._renderWebGL(renderer);
-
-            // simple render children!
-            for (var i = 0, j = this.children.length; i < j; ++i) {
-                this.children[i].renderWebGL(renderer);
-            }
-        }
-    };
-
-    /**
-     * Render the object using the WebGL renderer and advanced features.
-     *
-     * @private
-     * @param {PIXI.WebGLRenderer} renderer - The renderer
-     */
-
-
-    Container.prototype.renderAdvancedWebGL = function renderAdvancedWebGL(renderer) {
-        renderer.flush();
-
-        var filters = this._filters;
-        var mask = this._mask;
-
-        // push filter first as we need to ensure the stencil buffer is correct for any masking
-        if (filters) {
-            if (!this._enabledFilters) {
-                this._enabledFilters = [];
-            }
-
-            this._enabledFilters.length = 0;
-
-            for (var i = 0; i < filters.length; i++) {
-                if (filters[i].enabled) {
-                    this._enabledFilters.push(filters[i]);
-                }
-            }
-
-            if (this._enabledFilters.length) {
-                renderer.filterManager.pushFilter(this, this._enabledFilters);
-            }
-        }
-
-        if (mask) {
-            renderer.maskManager.pushMask(this, this._mask);
-        }
-
-        // add this object to the batch, only rendered if it has a texture.
-        this._renderWebGL(renderer);
-
-        // now loop through the children and make sure they get rendered
-        for (var _i2 = 0, j = this.children.length; _i2 < j; _i2++) {
-            this.children[_i2].renderWebGL(renderer);
-        }
-
-        renderer.flush();
-
-        if (mask) {
-            renderer.maskManager.popMask(this, this._mask);
-        }
-
-        if (filters && this._enabledFilters && this._enabledFilters.length) {
-            renderer.filterManager.popFilter();
-        }
-    };
-
-    /**
-     * To be overridden by the subclasses.
-     *
-     * @private
-     * @param {PIXI.WebGLRenderer} renderer - The renderer
-     */
-
-
-    Container.prototype._renderWebGL = function _renderWebGL(renderer) // eslint-disable-line no-unused-vars
-    {}
-    // this is where content itself gets rendered...
-
-
-    /**
-     * To be overridden by the subclass
-     *
-     * @private
-     * @param {PIXI.CanvasRenderer} renderer - The renderer
-     */
-    ;
-
-    Container.prototype._renderCanvas = function _renderCanvas(renderer) // eslint-disable-line no-unused-vars
-    {}
-    // this is where content itself gets rendered...
-
-
-    /**
-     * Renders the object using the Canvas renderer
-     *
-     * @param {PIXI.CanvasRenderer} renderer - The renderer
-     */
-    ;
-
-    Container.prototype.renderCanvas = function renderCanvas(renderer) {
-        // if not visible or the alpha is 0 then no need to render this
-        if (!this.visible || this.worldAlpha <= 0 || !this.renderable) {
-            return;
-        }
-
-        if (this._mask) {
-            renderer.maskManager.pushMask(this._mask);
-        }
-
-        this._renderCanvas(renderer);
-        for (var i = 0, j = this.children.length; i < j; ++i) {
-            this.children[i].renderCanvas(renderer);
-        }
-
-        if (this._mask) {
-            renderer.maskManager.popMask(renderer);
-        }
-    };
-
-    /**
-     * Removes all internal references and listeners as well as removes children from the display list.
-     * Do not use a Container after calling `destroy`.
-     *
-     * @param {object|boolean} [options] - Options parameter. A boolean will act as if all options
-     *  have been set to that value
-     * @param {boolean} [options.children=false] - if set to true, all the children will have their destroy
-     *  method called as well. 'options' will be passed on to those calls.
-     * @param {boolean} [options.texture=false] - Only used for child Sprites if options.children is set to true
-     *  Should it destroy the texture of the child sprite
-     * @param {boolean} [options.baseTexture=false] - Only used for child Sprites if options.children is set to true
-     *  Should it destroy the base texture of the child sprite
-     */
-
-
-    Container.prototype.destroy = function destroy(options) {
-        _DisplayObject.prototype.destroy.call(this);
-
-        var destroyChildren = typeof options === 'boolean' ? options : options && options.children;
-
-        var oldChildren = this.removeChildren(0, this.children.length);
-
-        if (destroyChildren) {
-            for (var i = 0; i < oldChildren.length; ++i) {
-                oldChildren[i].destroy(options);
-            }
-        }
-    };
-
-    /**
-     * The width of the Container, setting this will actually modify the scale to achieve the value set
-     *
-     * @member {number}
-     */
-
-
-    _createClass(Container, [{
-        key: 'width',
-        get: function get() {
-            return this.scale.x * this.getLocalBounds().width;
-        },
-        set: function set(value) // eslint-disable-line require-jsdoc
-        {
-            var width = this.getLocalBounds().width;
-
-            if (width !== 0) {
-                this.scale.x = value / width;
-            } else {
-                this.scale.x = 1;
-            }
-
-            this._width = value;
-        }
-
-        /**
-         * The height of the Container, setting this will actually modify the scale to achieve the value set
-         *
-         * @member {number}
-         */
-
-    }, {
-        key: 'height',
-        get: function get() {
-            return this.scale.y * this.getLocalBounds().height;
-        },
-        set: function set(value) // eslint-disable-line require-jsdoc
-        {
-            var height = this.getLocalBounds().height;
-
-            if (height !== 0) {
-                this.scale.y = value / height;
-            } else {
-                this.scale.y = 1;
-            }
-
-            this._height = value;
-        }
-    }]);
-
-    return Container;
-}(_DisplayObject3.default);
-
-// performance increase to avoid using call.. (10x faster)
-
-
-exports.default = Container;
-Container.prototype.containerUpdateTransform = Container.prototype.updateTransform;
-//# sourceMappingURL=Container.js.map
-
-/***/ }),
-/* 12 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.__esModule = true;
-
-var _SystemRenderer2 = __webpack_require__(52);
-
-var _SystemRenderer3 = _interopRequireDefault(_SystemRenderer2);
-
-var _CanvasMaskManager = __webpack_require__(118);
-
-var _CanvasMaskManager2 = _interopRequireDefault(_CanvasMaskManager);
-
-var _CanvasRenderTarget = __webpack_require__(53);
-
-var _CanvasRenderTarget2 = _interopRequireDefault(_CanvasRenderTarget);
-
-var _mapCanvasBlendModesToPixi = __webpack_require__(119);
-
-var _mapCanvasBlendModesToPixi2 = _interopRequireDefault(_mapCanvasBlendModesToPixi);
-
-var _utils = __webpack_require__(2);
-
-var _const = __webpack_require__(0);
-
-var _settings = __webpack_require__(3);
-
-var _settings2 = _interopRequireDefault(_settings);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-/**
- * The CanvasRenderer draws the scene and all its content onto a 2d canvas. This renderer should
- * be used for browsers that do not support WebGL. Don't forget to add the CanvasRenderer.view to
- * your DOM or you will not see anything :)
- *
- * @class
- * @memberof PIXI
- * @extends PIXI.SystemRenderer
- */
-var CanvasRenderer = function (_SystemRenderer) {
-    _inherits(CanvasRenderer, _SystemRenderer);
-
-    // eslint-disable-next-line valid-jsdoc
-    /**
-     * @param {object} [options] - The optional renderer parameters
-     * @param {number} [options.width=800] - the width of the screen
-     * @param {number} [options.height=600] - the height of the screen
-     * @param {HTMLCanvasElement} [options.view] - the canvas to use as a view, optional
-     * @param {boolean} [options.transparent=false] - If the render view is transparent, default false
-     * @param {boolean} [options.autoResize=false] - If the render view is automatically resized, default false
-     * @param {boolean} [options.antialias=false] - sets antialias (only applicable in chrome at the moment)
-     * @param {number} [options.resolution=1] - The resolution / device pixel ratio of the renderer. The
-     *  resolution of the renderer retina would be 2.
-     * @param {boolean} [options.preserveDrawingBuffer=false] - enables drawing buffer preservation,
-     *  enable this if you need to call toDataUrl on the webgl context.
-     * @param {boolean} [options.clearBeforeRender=true] - This sets if the renderer will clear the canvas or
-     *      not before the new render pass.
-     * @param {number} [options.backgroundColor=0x000000] - The background color of the rendered area
-     *  (shown if not transparent).
-     * @param {boolean} [options.roundPixels=false] - If true Pixi will Math.floor() x/y values when rendering,
-     *  stopping pixel interpolation.
-     */
-    function CanvasRenderer(options, arg2, arg3) {
-        _classCallCheck(this, CanvasRenderer);
-
-        var _this = _possibleConstructorReturn(this, _SystemRenderer.call(this, 'Canvas', options, arg2, arg3));
-
-        _this.type = _const.RENDERER_TYPE.CANVAS;
-
-        /**
-         * The root canvas 2d context that everything is drawn with.
-         *
-         * @member {CanvasRenderingContext2D}
-         */
-        _this.rootContext = _this.view.getContext('2d', { alpha: _this.transparent });
-
-        /**
-         * The currently active canvas 2d context (could change with renderTextures)
-         *
-         * @member {CanvasRenderingContext2D}
-         */
-        _this.context = _this.rootContext;
-
-        /**
-         * Boolean flag controlling canvas refresh.
-         *
-         * @member {boolean}
-         */
-        _this.refresh = true;
-
-        /**
-         * Instance of a CanvasMaskManager, handles masking when using the canvas renderer.
-         *
-         * @member {PIXI.CanvasMaskManager}
-         */
-        _this.maskManager = new _CanvasMaskManager2.default(_this);
-
-        /**
-         * The canvas property used to set the canvas smoothing property.
-         *
-         * @member {string}
-         */
-        _this.smoothProperty = 'imageSmoothingEnabled';
-
-        if (!_this.rootContext.imageSmoothingEnabled) {
-            if (_this.rootContext.webkitImageSmoothingEnabled) {
-                _this.smoothProperty = 'webkitImageSmoothingEnabled';
-            } else if (_this.rootContext.mozImageSmoothingEnabled) {
-                _this.smoothProperty = 'mozImageSmoothingEnabled';
-            } else if (_this.rootContext.oImageSmoothingEnabled) {
-                _this.smoothProperty = 'oImageSmoothingEnabled';
-            } else if (_this.rootContext.msImageSmoothingEnabled) {
-                _this.smoothProperty = 'msImageSmoothingEnabled';
-            }
-        }
-
-        _this.initPlugins();
-
-        _this.blendModes = (0, _mapCanvasBlendModesToPixi2.default)();
-        _this._activeBlendMode = null;
-
-        _this.renderingToScreen = false;
-
-        _this.resize(_this.options.width, _this.options.height);
-
-        /**
-         * Fired after rendering finishes.
-         *
-         * @event PIXI.CanvasRenderer#postrender
-         */
-
-        /**
-         * Fired before rendering starts.
-         *
-         * @event PIXI.CanvasRenderer#prerender
-         */
-        return _this;
-    }
-
-    /**
-     * Renders the object to this canvas view
-     *
-     * @param {PIXI.DisplayObject} displayObject - The object to be rendered
-     * @param {PIXI.RenderTexture} [renderTexture] - A render texture to be rendered to.
-     *  If unset, it will render to the root context.
-     * @param {boolean} [clear=false] - Whether to clear the canvas before drawing
-     * @param {PIXI.Transform} [transform] - A transformation to be applied
-     * @param {boolean} [skipUpdateTransform=false] - Whether to skip the update transform
-     */
-
-
-    CanvasRenderer.prototype.render = function render(displayObject, renderTexture, clear, transform, skipUpdateTransform) {
-        if (!this.view) {
-            return;
-        }
-
-        // can be handy to know!
-        this.renderingToScreen = !renderTexture;
-
-        this.emit('prerender');
-
-        var rootResolution = this.resolution;
-
-        if (renderTexture) {
-            renderTexture = renderTexture.baseTexture || renderTexture;
-
-            if (!renderTexture._canvasRenderTarget) {
-                renderTexture._canvasRenderTarget = new _CanvasRenderTarget2.default(renderTexture.width, renderTexture.height, renderTexture.resolution);
-                renderTexture.source = renderTexture._canvasRenderTarget.canvas;
-                renderTexture.valid = true;
-            }
-
-            this.context = renderTexture._canvasRenderTarget.context;
-            this.resolution = renderTexture._canvasRenderTarget.resolution;
-        } else {
-            this.context = this.rootContext;
-        }
-
-        var context = this.context;
-
-        if (!renderTexture) {
-            this._lastObjectRendered = displayObject;
-        }
-
-        if (!skipUpdateTransform) {
-            // update the scene graph
-            var cacheParent = displayObject.parent;
-            var tempWt = this._tempDisplayObjectParent.transform.worldTransform;
-
-            if (transform) {
-                transform.copy(tempWt);
-
-                // lets not forget to flag the parent transform as dirty...
-                this._tempDisplayObjectParent.transform._worldID = -1;
-            } else {
-                tempWt.identity();
-            }
-
-            displayObject.parent = this._tempDisplayObjectParent;
-
-            displayObject.updateTransform();
-            displayObject.parent = cacheParent;
-            // displayObject.hitArea = //TODO add a temp hit area
-        }
-
-        context.setTransform(1, 0, 0, 1, 0, 0);
-        context.globalAlpha = 1;
-        context.globalCompositeOperation = this.blendModes[_const.BLEND_MODES.NORMAL];
-
-        if (navigator.isCocoonJS && this.view.screencanvas) {
-            context.fillStyle = 'black';
-            context.clear();
-        }
-
-        if (clear !== undefined ? clear : this.clearBeforeRender) {
-            if (this.renderingToScreen) {
-                if (this.transparent) {
-                    context.clearRect(0, 0, this.width, this.height);
-                } else {
-                    context.fillStyle = this._backgroundColorString;
-                    context.fillRect(0, 0, this.width, this.height);
-                }
-            } // else {
-            // TODO: implement background for CanvasRenderTarget or RenderTexture?
-            // }
-        }
-
-        // TODO RENDER TARGET STUFF HERE..
-        var tempContext = this.context;
-
-        this.context = context;
-        displayObject.renderCanvas(this);
-        this.context = tempContext;
-
-        this.resolution = rootResolution;
-
-        this.emit('postrender');
-    };
-
-    /**
-     * Clear the canvas of renderer.
-     *
-     * @param {string} [clearColor] - Clear the canvas with this color, except the canvas is transparent.
-     */
-
-
-    CanvasRenderer.prototype.clear = function clear(clearColor) {
-        var context = this.context;
-
-        clearColor = clearColor || this._backgroundColorString;
-
-        if (!this.transparent && clearColor) {
-            context.fillStyle = clearColor;
-            context.fillRect(0, 0, this.width, this.height);
-        } else {
-            context.clearRect(0, 0, this.width, this.height);
-        }
-    };
-
-    /**
-     * Sets the blend mode of the renderer.
-     *
-     * @param {number} blendMode - See {@link PIXI.BLEND_MODES} for valid values.
-     */
-
-
-    CanvasRenderer.prototype.setBlendMode = function setBlendMode(blendMode) {
-        if (this._activeBlendMode === blendMode) {
-            return;
-        }
-
-        this._activeBlendMode = blendMode;
-        this.context.globalCompositeOperation = this.blendModes[blendMode];
-    };
-
-    /**
-     * Removes everything from the renderer and optionally removes the Canvas DOM element.
-     *
-     * @param {boolean} [removeView=false] - Removes the Canvas element from the DOM.
-     */
-
-
-    CanvasRenderer.prototype.destroy = function destroy(removeView) {
-        this.destroyPlugins();
-
-        // call the base destroy
-        _SystemRenderer.prototype.destroy.call(this, removeView);
-
-        this.context = null;
-
-        this.refresh = true;
-
-        this.maskManager.destroy();
-        this.maskManager = null;
-
-        this.smoothProperty = null;
-    };
-
-    /**
-     * Resizes the canvas view to the specified width and height.
-     *
-     * @extends PIXI.SystemRenderer#resize
-     *
-     * @param {number} screenWidth - the new width of the screen
-     * @param {number} screenHeight - the new height of the screen
-     */
-
-
-    CanvasRenderer.prototype.resize = function resize(screenWidth, screenHeight) {
-        _SystemRenderer.prototype.resize.call(this, screenWidth, screenHeight);
-
-        // reset the scale mode.. oddly this seems to be reset when the canvas is resized.
-        // surely a browser bug?? Let pixi fix that for you..
-        if (this.smoothProperty) {
-            this.rootContext[this.smoothProperty] = _settings2.default.SCALE_MODE === _const.SCALE_MODES.LINEAR;
-        }
-    };
-
-    return CanvasRenderer;
-}(_SystemRenderer3.default);
-
-/**
- * Collection of installed plugins. These are included by default in PIXI, but can be excluded
- * by creating a custom build. Consult the README for more information about creating custom
- * builds and excluding plugins.
- * @name PIXI.CanvasRenderer#plugins
- * @type {object}
- * @readonly
- * @property {PIXI.accessibility.AccessibilityManager} accessibility Support tabbing interactive elements.
- * @property {PIXI.extract.CanvasExtract} extract Extract image data from renderer.
- * @property {PIXI.interaction.InteractionManager} interaction Handles mouse, touch and pointer events.
- * @property {PIXI.prepare.CanvasPrepare} prepare Pre-render display objects.
- */
-
-/**
- * Adds a plugin to the renderer.
- *
- * @method PIXI.CanvasRenderer#registerPlugin
- * @param {string} pluginName - The name of the plugin.
- * @param {Function} ctor - The constructor function or class for the plugin.
- */
-
-exports.default = CanvasRenderer;
-_utils.pluginTarget.mixin(CanvasRenderer);
-//# sourceMappingURL=CanvasRenderer.js.map
-
-/***/ }),
-/* 13 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.__esModule = true;
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-/**
- * @class
- * @memberof PIXI
- */
-var WebGLManager = function () {
-  /**
-   * @param {PIXI.WebGLRenderer} renderer - The renderer this manager works for.
-   */
-  function WebGLManager(renderer) {
-    _classCallCheck(this, WebGLManager);
-
-    /**
-     * The renderer this manager works for.
-     *
-     * @member {PIXI.WebGLRenderer}
-     */
-    this.renderer = renderer;
-
-    this.renderer.on('context', this.onContextChange, this);
-  }
-
-  /**
-   * Generic method called when there is a WebGL context change.
-   *
-   */
-
-
-  WebGLManager.prototype.onContextChange = function onContextChange() {}
-  // do some codes init!
-
-
-  /**
-   * Generic destroy methods to be overridden by the subclass
-   *
-   */
-  ;
-
-  WebGLManager.prototype.destroy = function destroy() {
-    this.renderer.off('context', this.onContextChange, this);
-
-    this.renderer = null;
-  };
-
-  return WebGLManager;
-}();
-
-exports.default = WebGLManager;
-//# sourceMappingURL=WebGLManager.js.map
-
-/***/ }),
-/* 14 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.__esModule = true;
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _core = __webpack_require__(1);
-
-var core = _interopRequireWildcard(_core);
-
-var _TextureTransform = __webpack_require__(34);
-
-var _TextureTransform2 = _interopRequireDefault(_TextureTransform);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var tempPoint = new core.Point();
-var tempPolygon = new core.Polygon();
-
-/**
- * Base mesh class
- * @class
- * @extends PIXI.Container
- * @memberof PIXI.mesh
- */
-
-var Mesh = function (_core$Container) {
-  _inherits(Mesh, _core$Container);
-
-  /**
-   * @param {PIXI.Texture} texture - The texture to use
-   * @param {Float32Array} [vertices] - if you want to specify the vertices
-   * @param {Float32Array} [uvs] - if you want to specify the uvs
-   * @param {Uint16Array} [indices] - if you want to specify the indices
-   * @param {number} [drawMode] - the drawMode, can be any of the Mesh.DRAW_MODES consts
-   */
-  function Mesh(texture, vertices, uvs, indices, drawMode) {
-    _classCallCheck(this, Mesh);
-
-    /**
-     * The texture of the Mesh
-     *
-     * @member {PIXI.Texture}
-     * @private
-     */
-    var _this = _possibleConstructorReturn(this, _core$Container.call(this));
-
-    _this._texture = texture;
-
-    /**
-     * The Uvs of the Mesh
-     *
-     * @member {Float32Array}
-     */
-    _this.uvs = uvs || new Float32Array([0, 0, 1, 0, 1, 1, 0, 1]);
-
-    /**
-     * An array of vertices
-     *
-     * @member {Float32Array}
-     */
-    _this.vertices = vertices || new Float32Array([0, 0, 100, 0, 100, 100, 0, 100]);
-
-    /**
-     * An array containing the indices of the vertices
-     *
-     * @member {Uint16Array}
-     */
-    //  TODO auto generate this based on draw mode!
-    _this.indices = indices || new Uint16Array([0, 1, 3, 2]);
-
-    /**
-     * Version of mesh uvs are dirty or not
-     *
-     * @member {number}
-     */
-    _this.dirty = 0;
-
-    /**
-     * Version of mesh indices
-     *
-     * @member {number}
-     */
-    _this.indexDirty = 0;
-
-    /**
-     * The blend mode to be applied to the sprite. Set to `PIXI.BLEND_MODES.NORMAL` to remove
-     * any blend mode.
-     *
-     * @member {number}
-     * @default PIXI.BLEND_MODES.NORMAL
-     * @see PIXI.BLEND_MODES
-     */
-    _this.blendMode = core.BLEND_MODES.NORMAL;
-
-    /**
-     * Triangles in canvas mode are automatically antialiased, use this value to force triangles
-     * to overlap a bit with each other.
-     *
-     * @member {number}
-     */
-    _this.canvasPadding = 0;
-
-    /**
-     * The way the Mesh should be drawn, can be any of the {@link PIXI.mesh.Mesh.DRAW_MODES} consts
-     *
-     * @member {number}
-     * @see PIXI.mesh.Mesh.DRAW_MODES
-     */
-    _this.drawMode = drawMode || Mesh.DRAW_MODES.TRIANGLE_MESH;
-
-    /**
-     * The default shader that is used if a mesh doesn't have a more specific one.
-     *
-     * @member {PIXI.Shader}
-     */
-    _this.shader = null;
-
-    /**
-     * The tint applied to the mesh. This is a [r,g,b] value. A value of [1,1,1] will remove any
-     * tint effect.
-     *
-     * @member {number}
-     */
-    _this.tintRgb = new Float32Array([1, 1, 1]);
-
-    /**
-     * A map of renderer IDs to webgl render data
-     *
-     * @private
-     * @member {object<number, object>}
-     */
-    _this._glDatas = {};
-
-    /**
-     * transform that is applied to UV to get the texture coords
-     * its updated independently from texture uvTransform
-     * updates of uvs are tied to that thing
-     *
-     * @member {PIXI.extras.TextureTransform}
-     * @private
-     */
-    _this._uvTransform = new _TextureTransform2.default(texture);
-
-    /**
-     * whether or not upload uvTransform to shader
-     * if its false, then uvs should be pre-multiplied
-     * if you change it for generated mesh, please call 'refresh(true)'
-     * @member {boolean}
-     * @default false
-     */
-    _this.uploadUvTransform = false;
-
-    /**
-     * Plugin that is responsible for rendering this element.
-     * Allows to customize the rendering process without overriding '_renderWebGL' & '_renderCanvas' methods.
-     * @member {string}
-     * @default 'mesh'
-     */
-    _this.pluginName = 'mesh';
-    return _this;
-  }
-
-  /**
-   * Renders the object using the WebGL renderer
-   *
-   * @private
-   * @param {PIXI.WebGLRenderer} renderer - a reference to the WebGL renderer
-   */
-
-
-  Mesh.prototype._renderWebGL = function _renderWebGL(renderer) {
-    this.refresh();
-    renderer.setObjectRenderer(renderer.plugins[this.pluginName]);
-    renderer.plugins[this.pluginName].render(this);
-  };
-
-  /**
-   * Renders the object using the Canvas renderer
-   *
-   * @private
-   * @param {PIXI.CanvasRenderer} renderer - The canvas renderer.
-   */
-
-
-  Mesh.prototype._renderCanvas = function _renderCanvas(renderer) {
-    this.refresh();
-    renderer.plugins[this.pluginName].render(this);
-  };
-
-  /**
-   * When the texture is updated, this event will fire to update the scale and frame
-   *
-   * @private
-   */
-
-
-  Mesh.prototype._onTextureUpdate = function _onTextureUpdate() {
-    this._uvTransform.texture = this._texture;
-    this.refresh();
-  };
-
-  /**
-   * multiplies uvs only if uploadUvTransform is false
-   * call it after you change uvs manually
-   * make sure that texture is valid
-   */
-
-
-  Mesh.prototype.multiplyUvs = function multiplyUvs() {
-    if (!this.uploadUvTransform) {
-      this._uvTransform.multiplyUvs(this.uvs);
-    }
-  };
-
-  /**
-   * Refreshes uvs for generated meshes (rope, plane)
-   * sometimes refreshes vertices too
-   *
-   * @param {boolean} [forceUpdate=false] if true, matrices will be updated any case
-   */
-
-
-  Mesh.prototype.refresh = function refresh(forceUpdate) {
-    if (this._uvTransform.update(forceUpdate)) {
-      this._refresh();
-    }
-  };
-
-  /**
-   * re-calculates mesh coords
-   * @protected
-   */
-
-
-  Mesh.prototype._refresh = function _refresh() {}
-  /* empty */
-
-
-  /**
-   * Returns the bounds of the mesh as a rectangle. The bounds calculation takes the worldTransform into account.
-   *
-   */
-  ;
-
-  Mesh.prototype._calculateBounds = function _calculateBounds() {
-    // TODO - we can cache local bounds and use them if they are dirty (like graphics)
-    this._bounds.addVertices(this.transform, this.vertices, 0, this.vertices.length);
-  };
-
-  /**
-   * Tests if a point is inside this mesh. Works only for TRIANGLE_MESH
-   *
-   * @param {PIXI.Point} point - the point to test
-   * @return {boolean} the result of the test
-   */
-
-
-  Mesh.prototype.containsPoint = function containsPoint(point) {
-    if (!this.getBounds().contains(point.x, point.y)) {
-      return false;
-    }
-
-    this.worldTransform.applyInverse(point, tempPoint);
-
-    var vertices = this.vertices;
-    var points = tempPolygon.points;
-    var indices = this.indices;
-    var len = this.indices.length;
-    var step = this.drawMode === Mesh.DRAW_MODES.TRIANGLES ? 3 : 1;
-
-    for (var i = 0; i + 2 < len; i += step) {
-      var ind0 = indices[i] * 2;
-      var ind1 = indices[i + 1] * 2;
-      var ind2 = indices[i + 2] * 2;
-
-      points[0] = vertices[ind0];
-      points[1] = vertices[ind0 + 1];
-      points[2] = vertices[ind1];
-      points[3] = vertices[ind1 + 1];
-      points[4] = vertices[ind2];
-      points[5] = vertices[ind2 + 1];
-
-      if (tempPolygon.contains(tempPoint.x, tempPoint.y)) {
-        return true;
-      }
-    }
-
-    return false;
-  };
-
-  /**
-   * The texture that the mesh uses.
-   *
-   * @member {PIXI.Texture}
-   */
-
-
-  _createClass(Mesh, [{
-    key: 'texture',
-    get: function get() {
-      return this._texture;
-    },
-    set: function set(value) // eslint-disable-line require-jsdoc
-    {
-      if (this._texture === value) {
-        return;
-      }
-
-      this._texture = value;
-
-      if (value) {
-        // wait for the texture to load
-        if (value.baseTexture.hasLoaded) {
-          this._onTextureUpdate();
-        } else {
-          value.once('update', this._onTextureUpdate, this);
-        }
-      }
-    }
-
-    /**
-     * The tint applied to the mesh. This is a hex value. A value of 0xFFFFFF will remove any tint effect.
-     *
-     * @member {number}
-     * @default 0xFFFFFF
-     */
-
-  }, {
-    key: 'tint',
-    get: function get() {
-      return core.utils.rgb2hex(this.tintRgb);
-    },
-    set: function set(value) // eslint-disable-line require-jsdoc
-    {
-      this.tintRgb = core.utils.hex2rgb(value, this.tintRgb);
-    }
-  }]);
-
-  return Mesh;
-}(core.Container);
-
-/**
- * Different drawing buffer modes supported
- *
- * @static
- * @constant
- * @type {object}
- * @property {number} TRIANGLE_MESH
- * @property {number} TRIANGLES
- */
-
-
-exports.default = Mesh;
-Mesh.DRAW_MODES = {
-  TRIANGLE_MESH: 0,
-  TRIANGLES: 1
-};
-//# sourceMappingURL=Mesh.js.map
-
-/***/ }),
-/* 15 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-// import Loader from './Loader';
-// import Resource from './Resource';
-// import * as async from './async';
-// import * as b64 from './b64';
-
-/* eslint-disable no-undef */
-
-var Loader = __webpack_require__(197).default;
-var Resource = __webpack_require__(39).default;
-var async = __webpack_require__(86);
-var b64 = __webpack_require__(87);
-
-Loader.Resource = Resource;
-Loader.async = async;
-Loader.base64 = b64;
-
-// export manually, and also as default
-module.exports = Loader;
-// export default Loader;
-module.exports.default = Loader;
-//# sourceMappingURL=index.js.map
-
-/***/ }),
-/* 16 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var constants = __webpack_require__(17);
+var constants = __webpack_require__(11);
 var PIXI = __webpack_require__(42);
 
 var Assets = function () {};
 Assets.textures = {};
 
 var loadAssets = function (cb) {
-	PIXI.loader.add('bunny', "assets/misc/bunny.png").add('school', "assets/background/school.png"
+	PIXI.loader.add('bunny', "assets/misc/bunny.png").add('class', "assets/background/class.png").add('desk', "assets/background/desk.png").add('deskShadow', "assets/background/desk_shadow.png").add('school', "assets/background/school.png"
 	// Characters
-	).add('cowBody', "assets/cow/body.png").add('cowEyebrow', "assets/cow/eyebrow.png").add('cowEyes', "assets/cow/eyes.png").add('cowHead', "assets/cow/head.png").add('cowLeft', "assets/cow/left.png").add('cowLeftLeg', "assets/cow/leftleg.png").add('cowRightLeg', "assets/cow/rightleg.png"
+	).add('cowBody', "assets/cow/body.png").add('cowEyebrow', "assets/cow/eyebrow.png").add('cowEyes', "assets/cow/eyes.png").add('cowHead', "assets/cow/head.png").add('cowLeft', "assets/cow/left.png").add('cowLeftLeg', "assets/cow/leftleg.png").add('cowRightLeg', "assets/cow/rightleg.png").add('womanBody', "assets/woman/body.png").add('womanLeft', "assets/woman/left.png").add('womanHairBack', "assets/woman/hair_back.png"
 	// Mouth
-	).add('mouth1', "assets/mouth/1.png").add('mouth2', "assets/mouth/2.png").add('mouth3', "assets/mouth/3.png").add('mouth4', "assets/mouth/4.png").add('mouth5', "assets/mouth/5.png").add('mouth10', "assets/mouth/10.png").add('mouth11', "assets/mouth/11.png").add('mouth12', "assets/mouth/12.png").add('mouth13', "assets/mouth/13.png").add('mouth14', "assets/mouth/14.png").load(cb.bind(this));
+	).add('mouth1', "assets/mouth/1.png").add('mouth2', "assets/mouth/2.png").add('mouth3', "assets/mouth/3.png").add('mouth4', "assets/mouth/4.png").add('mouth5', "assets/mouth/5.png").add('mouth10', "assets/mouth/10.png").add('mouth11', "assets/mouth/11.png").add('mouth12', "assets/mouth/12.png").add('mouth13', "assets/mouth/13.png").add('mouth14', "assets/mouth/14.png").add('womanMouth1', "assets/woman/mouth/1.png").add('womanMouth10', "assets/woman/mouth/10.png").add('womanMouth11', "assets/woman/mouth/11.png").add('womanMouth12', "assets/woman/mouth/12.png").add('womanMouth13', "assets/woman/mouth/13.png").add('womanMouth14', "assets/woman/mouth/14.png").add('womanMouth15', "assets/woman/mouth/15.png").add('womanMouth16', "assets/woman/mouth/16.png").add('womanMouth17', "assets/woman/mouth/17.png").add('womanMouth18', "assets/woman/mouth/18.png").load(cb.bind(this));
 }; // end loadAssets
 
 var loadTextures = function () {
 	Assets.textures = {};
 	Assets.textures.bunnyTexture = PIXI.Texture.fromFrame("bunny");
+	Assets.textures.classTexture = PIXI.Texture.fromFrame("class");
+	Assets.textures.deskTexture = PIXI.Texture.fromFrame("desk");
+	Assets.textures.deskShadowTexture = PIXI.Texture.fromFrame("deskShadow");
 	Assets.textures.schoolTexture = PIXI.Texture.fromFrame("school");
 	loadCharacterTextures();
 };
@@ -5260,6 +3752,11 @@ var loadCharacterTextures = function () {
 	Assets.characterTextures.cowLeftTexture = PIXI.Texture.fromFrame("cowLeft");
 	Assets.characterTextures.cowLeftLegTexture = PIXI.Texture.fromFrame("cowLeftLeg");
 	Assets.characterTextures.cowRightLegTexture = PIXI.Texture.fromFrame("cowRightLeg");
+
+	Assets.characterTextures.womanBodyTexture = PIXI.Texture.fromFrame("womanBody");
+	Assets.characterTextures.womanLeftTexture = PIXI.Texture.fromFrame("womanLeft");
+	Assets.characterTextures.womanHairBackTexture = PIXI.Texture.fromFrame("womanHairBack");
+
 	loadMouthTextures();
 };
 var loadMouthTextures = function () {
@@ -5280,6 +3777,15 @@ var loadMouthTextures = function () {
 	for (var i = 13; i >= 11; i--) {
 		Assets.mouthTextures.cowTalkTexture.push(PIXI.Texture.fromFrame('mouth' + i));
 	}
+
+	Assets.mouthTextures.womanMouth1Texture = PIXI.Texture.fromFrame("womanMouth1");
+	Assets.mouthTextures.womanTalkTexture = [];
+	for (var i = 10; i <= 18; i++) {
+		Assets.mouthTextures.womanTalkTexture.push(PIXI.Texture.fromFrame('womanMouth' + i));
+	}
+	for (var i = 17; i >= 11; i--) {
+		Assets.mouthTextures.womanTalkTexture.push(PIXI.Texture.fromFrame('womanMouth' + i));
+	}
 }; // end loadMouthTextures
 
 
@@ -5289,7 +3795,7 @@ Assets.loadTextures = loadTextures;
 module.exports = exports = Assets;
 
 /***/ }),
-/* 17 */
+/* 11 */
 /***/ (function(module, exports) {
 
 var constants = function () {};
@@ -5298,7 +3804,7 @@ module.exports = exports = constants;
 window.PI = Math.PI;
 
 /***/ }),
-/* 18 */
+/* 12 */
 /***/ (function(module, exports) {
 
 //var Effects = require('./Particle/Effects.js');
@@ -6049,7 +4555,1613 @@ window.isMobile = {
 };
 
 /***/ }),
+/* 13 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+exports.__esModule = true;
+
+var _pixiGlCore = __webpack_require__(5);
+
+var _settings = __webpack_require__(3);
+
+var _settings2 = _interopRequireDefault(_settings);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+function checkPrecision(src, def) {
+    if (src instanceof Array) {
+        if (src[0].substring(0, 9) !== 'precision') {
+            var copy = src.slice(0);
+
+            copy.unshift('precision ' + def + ' float;');
+
+            return copy;
+        }
+    } else if (src.substring(0, 9) !== 'precision') {
+        return 'precision ' + def + ' float;\n' + src;
+    }
+
+    return src;
+}
+
+/**
+ * Wrapper class, webGL Shader for Pixi.
+ * Adds precision string if vertexSrc or fragmentSrc have no mention of it.
+ *
+ * @class
+ * @extends GLShader
+ * @memberof PIXI
+ */
+
+var Shader = function (_GLShader) {
+    _inherits(Shader, _GLShader);
+
+    /**
+     *
+     * @param {WebGLRenderingContext} gl - The current WebGL rendering context
+     * @param {string|string[]} vertexSrc - The vertex shader source as an array of strings.
+     * @param {string|string[]} fragmentSrc - The fragment shader source as an array of strings.
+     */
+    function Shader(gl, vertexSrc, fragmentSrc) {
+        _classCallCheck(this, Shader);
+
+        return _possibleConstructorReturn(this, _GLShader.call(this, gl, checkPrecision(vertexSrc, _settings2.default.PRECISION_VERTEX), checkPrecision(fragmentSrc, _settings2.default.PRECISION_FRAGMENT)));
+    }
+
+    return Shader;
+}(_pixiGlCore.GLShader);
+
+exports.default = Shader;
+//# sourceMappingURL=Shader.js.map
+
+/***/ }),
+/* 14 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+exports.__esModule = true;
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _utils = __webpack_require__(2);
+
+var _DisplayObject2 = __webpack_require__(46);
+
+var _DisplayObject3 = _interopRequireDefault(_DisplayObject2);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+/**
+ * A Container represents a collection of display objects.
+ * It is the base class of all display objects that act as a container for other objects.
+ *
+ *```js
+ * let container = new PIXI.Container();
+ * container.addChild(sprite);
+ * ```
+ *
+ * @class
+ * @extends PIXI.DisplayObject
+ * @memberof PIXI
+ */
+var Container = function (_DisplayObject) {
+    _inherits(Container, _DisplayObject);
+
+    /**
+     *
+     */
+    function Container() {
+        _classCallCheck(this, Container);
+
+        /**
+         * The array of children of this container.
+         *
+         * @member {PIXI.DisplayObject[]}
+         * @readonly
+         */
+        var _this = _possibleConstructorReturn(this, _DisplayObject.call(this));
+
+        _this.children = [];
+        return _this;
+    }
+
+    /**
+     * Overridable method that can be used by Container subclasses whenever the children array is modified
+     *
+     * @private
+     */
+
+
+    Container.prototype.onChildrenChange = function onChildrenChange() {}
+    /* empty */
+
+
+    /**
+     * Adds one or more children to the container.
+     *
+     * Multiple items can be added like so: `myContainer.addChild(thingOne, thingTwo, thingThree)`
+     *
+     * @param {...PIXI.DisplayObject} child - The DisplayObject(s) to add to the container
+     * @return {PIXI.DisplayObject} The first child that was added.
+     */
+    ;
+
+    Container.prototype.addChild = function addChild(child) {
+        var argumentsLength = arguments.length;
+
+        // if there is only one argument we can bypass looping through the them
+        if (argumentsLength > 1) {
+            // loop through the arguments property and add all children
+            // use it the right way (.length and [i]) so that this function can still be optimised by JS runtimes
+            for (var i = 0; i < argumentsLength; i++) {
+                this.addChild(arguments[i]);
+            }
+        } else {
+            // if the child has a parent then lets remove it as Pixi objects can only exist in one place
+            if (child.parent) {
+                child.parent.removeChild(child);
+            }
+
+            child.parent = this;
+            // ensure child transform will be recalculated
+            child.transform._parentID = -1;
+
+            this.children.push(child);
+
+            // ensure bounds will be recalculated
+            this._boundsID++;
+
+            // TODO - lets either do all callbacks or all events.. not both!
+            this.onChildrenChange(this.children.length - 1);
+            child.emit('added', this);
+        }
+
+        return child;
+    };
+
+    /**
+     * Adds a child to the container at a specified index. If the index is out of bounds an error will be thrown
+     *
+     * @param {PIXI.DisplayObject} child - The child to add
+     * @param {number} index - The index to place the child in
+     * @return {PIXI.DisplayObject} The child that was added.
+     */
+
+
+    Container.prototype.addChildAt = function addChildAt(child, index) {
+        if (index < 0 || index > this.children.length) {
+            throw new Error(child + 'addChildAt: The index ' + index + ' supplied is out of bounds ' + this.children.length);
+        }
+
+        if (child.parent) {
+            child.parent.removeChild(child);
+        }
+
+        child.parent = this;
+        // ensure child transform will be recalculated
+        child.transform._parentID = -1;
+
+        this.children.splice(index, 0, child);
+
+        // ensure bounds will be recalculated
+        this._boundsID++;
+
+        // TODO - lets either do all callbacks or all events.. not both!
+        this.onChildrenChange(index);
+        child.emit('added', this);
+
+        return child;
+    };
+
+    /**
+     * Swaps the position of 2 Display Objects within this container.
+     *
+     * @param {PIXI.DisplayObject} child - First display object to swap
+     * @param {PIXI.DisplayObject} child2 - Second display object to swap
+     */
+
+
+    Container.prototype.swapChildren = function swapChildren(child, child2) {
+        if (child === child2) {
+            return;
+        }
+
+        var index1 = this.getChildIndex(child);
+        var index2 = this.getChildIndex(child2);
+
+        this.children[index1] = child2;
+        this.children[index2] = child;
+        this.onChildrenChange(index1 < index2 ? index1 : index2);
+    };
+
+    /**
+     * Returns the index position of a child DisplayObject instance
+     *
+     * @param {PIXI.DisplayObject} child - The DisplayObject instance to identify
+     * @return {number} The index position of the child display object to identify
+     */
+
+
+    Container.prototype.getChildIndex = function getChildIndex(child) {
+        var index = this.children.indexOf(child);
+
+        if (index === -1) {
+            throw new Error('The supplied DisplayObject must be a child of the caller');
+        }
+
+        return index;
+    };
+
+    /**
+     * Changes the position of an existing child in the display object container
+     *
+     * @param {PIXI.DisplayObject} child - The child DisplayObject instance for which you want to change the index number
+     * @param {number} index - The resulting index number for the child display object
+     */
+
+
+    Container.prototype.setChildIndex = function setChildIndex(child, index) {
+        if (index < 0 || index >= this.children.length) {
+            throw new Error('The supplied index is out of bounds');
+        }
+
+        var currentIndex = this.getChildIndex(child);
+
+        (0, _utils.removeItems)(this.children, currentIndex, 1); // remove from old position
+        this.children.splice(index, 0, child); // add at new position
+
+        this.onChildrenChange(index);
+    };
+
+    /**
+     * Returns the child at the specified index
+     *
+     * @param {number} index - The index to get the child at
+     * @return {PIXI.DisplayObject} The child at the given index, if any.
+     */
+
+
+    Container.prototype.getChildAt = function getChildAt(index) {
+        if (index < 0 || index >= this.children.length) {
+            throw new Error('getChildAt: Index (' + index + ') does not exist.');
+        }
+
+        return this.children[index];
+    };
+
+    /**
+     * Removes one or more children from the container.
+     *
+     * @param {...PIXI.DisplayObject} child - The DisplayObject(s) to remove
+     * @return {PIXI.DisplayObject} The first child that was removed.
+     */
+
+
+    Container.prototype.removeChild = function removeChild(child) {
+        var argumentsLength = arguments.length;
+
+        // if there is only one argument we can bypass looping through the them
+        if (argumentsLength > 1) {
+            // loop through the arguments property and add all children
+            // use it the right way (.length and [i]) so that this function can still be optimised by JS runtimes
+            for (var i = 0; i < argumentsLength; i++) {
+                this.removeChild(arguments[i]);
+            }
+        } else {
+            var index = this.children.indexOf(child);
+
+            if (index === -1) return null;
+
+            child.parent = null;
+            // ensure child transform will be recalculated
+            child.transform._parentID = -1;
+            (0, _utils.removeItems)(this.children, index, 1);
+
+            // ensure bounds will be recalculated
+            this._boundsID++;
+
+            // TODO - lets either do all callbacks or all events.. not both!
+            this.onChildrenChange(index);
+            child.emit('removed', this);
+        }
+
+        return child;
+    };
+
+    /**
+     * Removes a child from the specified index position.
+     *
+     * @param {number} index - The index to get the child from
+     * @return {PIXI.DisplayObject} The child that was removed.
+     */
+
+
+    Container.prototype.removeChildAt = function removeChildAt(index) {
+        var child = this.getChildAt(index);
+
+        // ensure child transform will be recalculated..
+        child.parent = null;
+        child.transform._parentID = -1;
+        (0, _utils.removeItems)(this.children, index, 1);
+
+        // ensure bounds will be recalculated
+        this._boundsID++;
+
+        // TODO - lets either do all callbacks or all events.. not both!
+        this.onChildrenChange(index);
+        child.emit('removed', this);
+
+        return child;
+    };
+
+    /**
+     * Removes all children from this container that are within the begin and end indexes.
+     *
+     * @param {number} [beginIndex=0] - The beginning position.
+     * @param {number} [endIndex=this.children.length] - The ending position. Default value is size of the container.
+     * @returns {DisplayObject[]} List of removed children
+     */
+
+
+    Container.prototype.removeChildren = function removeChildren() {
+        var beginIndex = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 0;
+        var endIndex = arguments[1];
+
+        var begin = beginIndex;
+        var end = typeof endIndex === 'number' ? endIndex : this.children.length;
+        var range = end - begin;
+        var removed = void 0;
+
+        if (range > 0 && range <= end) {
+            removed = this.children.splice(begin, range);
+
+            for (var i = 0; i < removed.length; ++i) {
+                removed[i].parent = null;
+                if (removed[i].transform) {
+                    removed[i].transform._parentID = -1;
+                }
+            }
+
+            this._boundsID++;
+
+            this.onChildrenChange(beginIndex);
+
+            for (var _i = 0; _i < removed.length; ++_i) {
+                removed[_i].emit('removed', this);
+            }
+
+            return removed;
+        } else if (range === 0 && this.children.length === 0) {
+            return [];
+        }
+
+        throw new RangeError('removeChildren: numeric values are outside the acceptable range.');
+    };
+
+    /**
+     * Updates the transform on all children of this container for rendering
+     */
+
+
+    Container.prototype.updateTransform = function updateTransform() {
+        this._boundsID++;
+
+        this.transform.updateTransform(this.parent.transform);
+
+        // TODO: check render flags, how to process stuff here
+        this.worldAlpha = this.alpha * this.parent.worldAlpha;
+
+        for (var i = 0, j = this.children.length; i < j; ++i) {
+            var child = this.children[i];
+
+            if (child.visible) {
+                child.updateTransform();
+            }
+        }
+    };
+
+    /**
+     * Recalculates the bounds of the container.
+     *
+     */
+
+
+    Container.prototype.calculateBounds = function calculateBounds() {
+        this._bounds.clear();
+
+        this._calculateBounds();
+
+        for (var i = 0; i < this.children.length; i++) {
+            var child = this.children[i];
+
+            if (!child.visible || !child.renderable) {
+                continue;
+            }
+
+            child.calculateBounds();
+
+            // TODO: filter+mask, need to mask both somehow
+            if (child._mask) {
+                child._mask.calculateBounds();
+                this._bounds.addBoundsMask(child._bounds, child._mask._bounds);
+            } else if (child.filterArea) {
+                this._bounds.addBoundsArea(child._bounds, child.filterArea);
+            } else {
+                this._bounds.addBounds(child._bounds);
+            }
+        }
+
+        this._lastBoundsID = this._boundsID;
+    };
+
+    /**
+     * Recalculates the bounds of the object. Override this to
+     * calculate the bounds of the specific object (not including children).
+     *
+     */
+
+
+    Container.prototype._calculateBounds = function _calculateBounds() {}
+    // FILL IN//
+
+
+    /**
+     * Renders the object using the WebGL renderer
+     *
+     * @param {PIXI.WebGLRenderer} renderer - The renderer
+     */
+    ;
+
+    Container.prototype.renderWebGL = function renderWebGL(renderer) {
+        // if the object is not visible or the alpha is 0 then no need to render this element
+        if (!this.visible || this.worldAlpha <= 0 || !this.renderable) {
+            return;
+        }
+
+        // do a quick check to see if this element has a mask or a filter.
+        if (this._mask || this._filters) {
+            this.renderAdvancedWebGL(renderer);
+        } else {
+            this._renderWebGL(renderer);
+
+            // simple render children!
+            for (var i = 0, j = this.children.length; i < j; ++i) {
+                this.children[i].renderWebGL(renderer);
+            }
+        }
+    };
+
+    /**
+     * Render the object using the WebGL renderer and advanced features.
+     *
+     * @private
+     * @param {PIXI.WebGLRenderer} renderer - The renderer
+     */
+
+
+    Container.prototype.renderAdvancedWebGL = function renderAdvancedWebGL(renderer) {
+        renderer.flush();
+
+        var filters = this._filters;
+        var mask = this._mask;
+
+        // push filter first as we need to ensure the stencil buffer is correct for any masking
+        if (filters) {
+            if (!this._enabledFilters) {
+                this._enabledFilters = [];
+            }
+
+            this._enabledFilters.length = 0;
+
+            for (var i = 0; i < filters.length; i++) {
+                if (filters[i].enabled) {
+                    this._enabledFilters.push(filters[i]);
+                }
+            }
+
+            if (this._enabledFilters.length) {
+                renderer.filterManager.pushFilter(this, this._enabledFilters);
+            }
+        }
+
+        if (mask) {
+            renderer.maskManager.pushMask(this, this._mask);
+        }
+
+        // add this object to the batch, only rendered if it has a texture.
+        this._renderWebGL(renderer);
+
+        // now loop through the children and make sure they get rendered
+        for (var _i2 = 0, j = this.children.length; _i2 < j; _i2++) {
+            this.children[_i2].renderWebGL(renderer);
+        }
+
+        renderer.flush();
+
+        if (mask) {
+            renderer.maskManager.popMask(this, this._mask);
+        }
+
+        if (filters && this._enabledFilters && this._enabledFilters.length) {
+            renderer.filterManager.popFilter();
+        }
+    };
+
+    /**
+     * To be overridden by the subclasses.
+     *
+     * @private
+     * @param {PIXI.WebGLRenderer} renderer - The renderer
+     */
+
+
+    Container.prototype._renderWebGL = function _renderWebGL(renderer) // eslint-disable-line no-unused-vars
+    {}
+    // this is where content itself gets rendered...
+
+
+    /**
+     * To be overridden by the subclass
+     *
+     * @private
+     * @param {PIXI.CanvasRenderer} renderer - The renderer
+     */
+    ;
+
+    Container.prototype._renderCanvas = function _renderCanvas(renderer) // eslint-disable-line no-unused-vars
+    {}
+    // this is where content itself gets rendered...
+
+
+    /**
+     * Renders the object using the Canvas renderer
+     *
+     * @param {PIXI.CanvasRenderer} renderer - The renderer
+     */
+    ;
+
+    Container.prototype.renderCanvas = function renderCanvas(renderer) {
+        // if not visible or the alpha is 0 then no need to render this
+        if (!this.visible || this.worldAlpha <= 0 || !this.renderable) {
+            return;
+        }
+
+        if (this._mask) {
+            renderer.maskManager.pushMask(this._mask);
+        }
+
+        this._renderCanvas(renderer);
+        for (var i = 0, j = this.children.length; i < j; ++i) {
+            this.children[i].renderCanvas(renderer);
+        }
+
+        if (this._mask) {
+            renderer.maskManager.popMask(renderer);
+        }
+    };
+
+    /**
+     * Removes all internal references and listeners as well as removes children from the display list.
+     * Do not use a Container after calling `destroy`.
+     *
+     * @param {object|boolean} [options] - Options parameter. A boolean will act as if all options
+     *  have been set to that value
+     * @param {boolean} [options.children=false] - if set to true, all the children will have their destroy
+     *  method called as well. 'options' will be passed on to those calls.
+     * @param {boolean} [options.texture=false] - Only used for child Sprites if options.children is set to true
+     *  Should it destroy the texture of the child sprite
+     * @param {boolean} [options.baseTexture=false] - Only used for child Sprites if options.children is set to true
+     *  Should it destroy the base texture of the child sprite
+     */
+
+
+    Container.prototype.destroy = function destroy(options) {
+        _DisplayObject.prototype.destroy.call(this);
+
+        var destroyChildren = typeof options === 'boolean' ? options : options && options.children;
+
+        var oldChildren = this.removeChildren(0, this.children.length);
+
+        if (destroyChildren) {
+            for (var i = 0; i < oldChildren.length; ++i) {
+                oldChildren[i].destroy(options);
+            }
+        }
+    };
+
+    /**
+     * The width of the Container, setting this will actually modify the scale to achieve the value set
+     *
+     * @member {number}
+     */
+
+
+    _createClass(Container, [{
+        key: 'width',
+        get: function get() {
+            return this.scale.x * this.getLocalBounds().width;
+        },
+        set: function set(value) // eslint-disable-line require-jsdoc
+        {
+            var width = this.getLocalBounds().width;
+
+            if (width !== 0) {
+                this.scale.x = value / width;
+            } else {
+                this.scale.x = 1;
+            }
+
+            this._width = value;
+        }
+
+        /**
+         * The height of the Container, setting this will actually modify the scale to achieve the value set
+         *
+         * @member {number}
+         */
+
+    }, {
+        key: 'height',
+        get: function get() {
+            return this.scale.y * this.getLocalBounds().height;
+        },
+        set: function set(value) // eslint-disable-line require-jsdoc
+        {
+            var height = this.getLocalBounds().height;
+
+            if (height !== 0) {
+                this.scale.y = value / height;
+            } else {
+                this.scale.y = 1;
+            }
+
+            this._height = value;
+        }
+    }]);
+
+    return Container;
+}(_DisplayObject3.default);
+
+// performance increase to avoid using call.. (10x faster)
+
+
+exports.default = Container;
+Container.prototype.containerUpdateTransform = Container.prototype.updateTransform;
+//# sourceMappingURL=Container.js.map
+
+/***/ }),
+/* 15 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+exports.__esModule = true;
+
+var _SystemRenderer2 = __webpack_require__(52);
+
+var _SystemRenderer3 = _interopRequireDefault(_SystemRenderer2);
+
+var _CanvasMaskManager = __webpack_require__(119);
+
+var _CanvasMaskManager2 = _interopRequireDefault(_CanvasMaskManager);
+
+var _CanvasRenderTarget = __webpack_require__(53);
+
+var _CanvasRenderTarget2 = _interopRequireDefault(_CanvasRenderTarget);
+
+var _mapCanvasBlendModesToPixi = __webpack_require__(120);
+
+var _mapCanvasBlendModesToPixi2 = _interopRequireDefault(_mapCanvasBlendModesToPixi);
+
+var _utils = __webpack_require__(2);
+
+var _const = __webpack_require__(0);
+
+var _settings = __webpack_require__(3);
+
+var _settings2 = _interopRequireDefault(_settings);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+/**
+ * The CanvasRenderer draws the scene and all its content onto a 2d canvas. This renderer should
+ * be used for browsers that do not support WebGL. Don't forget to add the CanvasRenderer.view to
+ * your DOM or you will not see anything :)
+ *
+ * @class
+ * @memberof PIXI
+ * @extends PIXI.SystemRenderer
+ */
+var CanvasRenderer = function (_SystemRenderer) {
+    _inherits(CanvasRenderer, _SystemRenderer);
+
+    // eslint-disable-next-line valid-jsdoc
+    /**
+     * @param {object} [options] - The optional renderer parameters
+     * @param {number} [options.width=800] - the width of the screen
+     * @param {number} [options.height=600] - the height of the screen
+     * @param {HTMLCanvasElement} [options.view] - the canvas to use as a view, optional
+     * @param {boolean} [options.transparent=false] - If the render view is transparent, default false
+     * @param {boolean} [options.autoResize=false] - If the render view is automatically resized, default false
+     * @param {boolean} [options.antialias=false] - sets antialias (only applicable in chrome at the moment)
+     * @param {number} [options.resolution=1] - The resolution / device pixel ratio of the renderer. The
+     *  resolution of the renderer retina would be 2.
+     * @param {boolean} [options.preserveDrawingBuffer=false] - enables drawing buffer preservation,
+     *  enable this if you need to call toDataUrl on the webgl context.
+     * @param {boolean} [options.clearBeforeRender=true] - This sets if the renderer will clear the canvas or
+     *      not before the new render pass.
+     * @param {number} [options.backgroundColor=0x000000] - The background color of the rendered area
+     *  (shown if not transparent).
+     * @param {boolean} [options.roundPixels=false] - If true Pixi will Math.floor() x/y values when rendering,
+     *  stopping pixel interpolation.
+     */
+    function CanvasRenderer(options, arg2, arg3) {
+        _classCallCheck(this, CanvasRenderer);
+
+        var _this = _possibleConstructorReturn(this, _SystemRenderer.call(this, 'Canvas', options, arg2, arg3));
+
+        _this.type = _const.RENDERER_TYPE.CANVAS;
+
+        /**
+         * The root canvas 2d context that everything is drawn with.
+         *
+         * @member {CanvasRenderingContext2D}
+         */
+        _this.rootContext = _this.view.getContext('2d', { alpha: _this.transparent });
+
+        /**
+         * The currently active canvas 2d context (could change with renderTextures)
+         *
+         * @member {CanvasRenderingContext2D}
+         */
+        _this.context = _this.rootContext;
+
+        /**
+         * Boolean flag controlling canvas refresh.
+         *
+         * @member {boolean}
+         */
+        _this.refresh = true;
+
+        /**
+         * Instance of a CanvasMaskManager, handles masking when using the canvas renderer.
+         *
+         * @member {PIXI.CanvasMaskManager}
+         */
+        _this.maskManager = new _CanvasMaskManager2.default(_this);
+
+        /**
+         * The canvas property used to set the canvas smoothing property.
+         *
+         * @member {string}
+         */
+        _this.smoothProperty = 'imageSmoothingEnabled';
+
+        if (!_this.rootContext.imageSmoothingEnabled) {
+            if (_this.rootContext.webkitImageSmoothingEnabled) {
+                _this.smoothProperty = 'webkitImageSmoothingEnabled';
+            } else if (_this.rootContext.mozImageSmoothingEnabled) {
+                _this.smoothProperty = 'mozImageSmoothingEnabled';
+            } else if (_this.rootContext.oImageSmoothingEnabled) {
+                _this.smoothProperty = 'oImageSmoothingEnabled';
+            } else if (_this.rootContext.msImageSmoothingEnabled) {
+                _this.smoothProperty = 'msImageSmoothingEnabled';
+            }
+        }
+
+        _this.initPlugins();
+
+        _this.blendModes = (0, _mapCanvasBlendModesToPixi2.default)();
+        _this._activeBlendMode = null;
+
+        _this.renderingToScreen = false;
+
+        _this.resize(_this.options.width, _this.options.height);
+
+        /**
+         * Fired after rendering finishes.
+         *
+         * @event PIXI.CanvasRenderer#postrender
+         */
+
+        /**
+         * Fired before rendering starts.
+         *
+         * @event PIXI.CanvasRenderer#prerender
+         */
+        return _this;
+    }
+
+    /**
+     * Renders the object to this canvas view
+     *
+     * @param {PIXI.DisplayObject} displayObject - The object to be rendered
+     * @param {PIXI.RenderTexture} [renderTexture] - A render texture to be rendered to.
+     *  If unset, it will render to the root context.
+     * @param {boolean} [clear=false] - Whether to clear the canvas before drawing
+     * @param {PIXI.Transform} [transform] - A transformation to be applied
+     * @param {boolean} [skipUpdateTransform=false] - Whether to skip the update transform
+     */
+
+
+    CanvasRenderer.prototype.render = function render(displayObject, renderTexture, clear, transform, skipUpdateTransform) {
+        if (!this.view) {
+            return;
+        }
+
+        // can be handy to know!
+        this.renderingToScreen = !renderTexture;
+
+        this.emit('prerender');
+
+        var rootResolution = this.resolution;
+
+        if (renderTexture) {
+            renderTexture = renderTexture.baseTexture || renderTexture;
+
+            if (!renderTexture._canvasRenderTarget) {
+                renderTexture._canvasRenderTarget = new _CanvasRenderTarget2.default(renderTexture.width, renderTexture.height, renderTexture.resolution);
+                renderTexture.source = renderTexture._canvasRenderTarget.canvas;
+                renderTexture.valid = true;
+            }
+
+            this.context = renderTexture._canvasRenderTarget.context;
+            this.resolution = renderTexture._canvasRenderTarget.resolution;
+        } else {
+            this.context = this.rootContext;
+        }
+
+        var context = this.context;
+
+        if (!renderTexture) {
+            this._lastObjectRendered = displayObject;
+        }
+
+        if (!skipUpdateTransform) {
+            // update the scene graph
+            var cacheParent = displayObject.parent;
+            var tempWt = this._tempDisplayObjectParent.transform.worldTransform;
+
+            if (transform) {
+                transform.copy(tempWt);
+
+                // lets not forget to flag the parent transform as dirty...
+                this._tempDisplayObjectParent.transform._worldID = -1;
+            } else {
+                tempWt.identity();
+            }
+
+            displayObject.parent = this._tempDisplayObjectParent;
+
+            displayObject.updateTransform();
+            displayObject.parent = cacheParent;
+            // displayObject.hitArea = //TODO add a temp hit area
+        }
+
+        context.setTransform(1, 0, 0, 1, 0, 0);
+        context.globalAlpha = 1;
+        context.globalCompositeOperation = this.blendModes[_const.BLEND_MODES.NORMAL];
+
+        if (navigator.isCocoonJS && this.view.screencanvas) {
+            context.fillStyle = 'black';
+            context.clear();
+        }
+
+        if (clear !== undefined ? clear : this.clearBeforeRender) {
+            if (this.renderingToScreen) {
+                if (this.transparent) {
+                    context.clearRect(0, 0, this.width, this.height);
+                } else {
+                    context.fillStyle = this._backgroundColorString;
+                    context.fillRect(0, 0, this.width, this.height);
+                }
+            } // else {
+            // TODO: implement background for CanvasRenderTarget or RenderTexture?
+            // }
+        }
+
+        // TODO RENDER TARGET STUFF HERE..
+        var tempContext = this.context;
+
+        this.context = context;
+        displayObject.renderCanvas(this);
+        this.context = tempContext;
+
+        this.resolution = rootResolution;
+
+        this.emit('postrender');
+    };
+
+    /**
+     * Clear the canvas of renderer.
+     *
+     * @param {string} [clearColor] - Clear the canvas with this color, except the canvas is transparent.
+     */
+
+
+    CanvasRenderer.prototype.clear = function clear(clearColor) {
+        var context = this.context;
+
+        clearColor = clearColor || this._backgroundColorString;
+
+        if (!this.transparent && clearColor) {
+            context.fillStyle = clearColor;
+            context.fillRect(0, 0, this.width, this.height);
+        } else {
+            context.clearRect(0, 0, this.width, this.height);
+        }
+    };
+
+    /**
+     * Sets the blend mode of the renderer.
+     *
+     * @param {number} blendMode - See {@link PIXI.BLEND_MODES} for valid values.
+     */
+
+
+    CanvasRenderer.prototype.setBlendMode = function setBlendMode(blendMode) {
+        if (this._activeBlendMode === blendMode) {
+            return;
+        }
+
+        this._activeBlendMode = blendMode;
+        this.context.globalCompositeOperation = this.blendModes[blendMode];
+    };
+
+    /**
+     * Removes everything from the renderer and optionally removes the Canvas DOM element.
+     *
+     * @param {boolean} [removeView=false] - Removes the Canvas element from the DOM.
+     */
+
+
+    CanvasRenderer.prototype.destroy = function destroy(removeView) {
+        this.destroyPlugins();
+
+        // call the base destroy
+        _SystemRenderer.prototype.destroy.call(this, removeView);
+
+        this.context = null;
+
+        this.refresh = true;
+
+        this.maskManager.destroy();
+        this.maskManager = null;
+
+        this.smoothProperty = null;
+    };
+
+    /**
+     * Resizes the canvas view to the specified width and height.
+     *
+     * @extends PIXI.SystemRenderer#resize
+     *
+     * @param {number} screenWidth - the new width of the screen
+     * @param {number} screenHeight - the new height of the screen
+     */
+
+
+    CanvasRenderer.prototype.resize = function resize(screenWidth, screenHeight) {
+        _SystemRenderer.prototype.resize.call(this, screenWidth, screenHeight);
+
+        // reset the scale mode.. oddly this seems to be reset when the canvas is resized.
+        // surely a browser bug?? Let pixi fix that for you..
+        if (this.smoothProperty) {
+            this.rootContext[this.smoothProperty] = _settings2.default.SCALE_MODE === _const.SCALE_MODES.LINEAR;
+        }
+    };
+
+    return CanvasRenderer;
+}(_SystemRenderer3.default);
+
+/**
+ * Collection of installed plugins. These are included by default in PIXI, but can be excluded
+ * by creating a custom build. Consult the README for more information about creating custom
+ * builds and excluding plugins.
+ * @name PIXI.CanvasRenderer#plugins
+ * @type {object}
+ * @readonly
+ * @property {PIXI.accessibility.AccessibilityManager} accessibility Support tabbing interactive elements.
+ * @property {PIXI.extract.CanvasExtract} extract Extract image data from renderer.
+ * @property {PIXI.interaction.InteractionManager} interaction Handles mouse, touch and pointer events.
+ * @property {PIXI.prepare.CanvasPrepare} prepare Pre-render display objects.
+ */
+
+/**
+ * Adds a plugin to the renderer.
+ *
+ * @method PIXI.CanvasRenderer#registerPlugin
+ * @param {string} pluginName - The name of the plugin.
+ * @param {Function} ctor - The constructor function or class for the plugin.
+ */
+
+exports.default = CanvasRenderer;
+_utils.pluginTarget.mixin(CanvasRenderer);
+//# sourceMappingURL=CanvasRenderer.js.map
+
+/***/ }),
+/* 16 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+exports.__esModule = true;
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+/**
+ * @class
+ * @memberof PIXI
+ */
+var WebGLManager = function () {
+  /**
+   * @param {PIXI.WebGLRenderer} renderer - The renderer this manager works for.
+   */
+  function WebGLManager(renderer) {
+    _classCallCheck(this, WebGLManager);
+
+    /**
+     * The renderer this manager works for.
+     *
+     * @member {PIXI.WebGLRenderer}
+     */
+    this.renderer = renderer;
+
+    this.renderer.on('context', this.onContextChange, this);
+  }
+
+  /**
+   * Generic method called when there is a WebGL context change.
+   *
+   */
+
+
+  WebGLManager.prototype.onContextChange = function onContextChange() {}
+  // do some codes init!
+
+
+  /**
+   * Generic destroy methods to be overridden by the subclass
+   *
+   */
+  ;
+
+  WebGLManager.prototype.destroy = function destroy() {
+    this.renderer.off('context', this.onContextChange, this);
+
+    this.renderer = null;
+  };
+
+  return WebGLManager;
+}();
+
+exports.default = WebGLManager;
+//# sourceMappingURL=WebGLManager.js.map
+
+/***/ }),
+/* 17 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+exports.__esModule = true;
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _core = __webpack_require__(1);
+
+var core = _interopRequireWildcard(_core);
+
+var _TextureTransform = __webpack_require__(34);
+
+var _TextureTransform2 = _interopRequireDefault(_TextureTransform);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var tempPoint = new core.Point();
+var tempPolygon = new core.Polygon();
+
+/**
+ * Base mesh class
+ * @class
+ * @extends PIXI.Container
+ * @memberof PIXI.mesh
+ */
+
+var Mesh = function (_core$Container) {
+  _inherits(Mesh, _core$Container);
+
+  /**
+   * @param {PIXI.Texture} texture - The texture to use
+   * @param {Float32Array} [vertices] - if you want to specify the vertices
+   * @param {Float32Array} [uvs] - if you want to specify the uvs
+   * @param {Uint16Array} [indices] - if you want to specify the indices
+   * @param {number} [drawMode] - the drawMode, can be any of the Mesh.DRAW_MODES consts
+   */
+  function Mesh(texture, vertices, uvs, indices, drawMode) {
+    _classCallCheck(this, Mesh);
+
+    /**
+     * The texture of the Mesh
+     *
+     * @member {PIXI.Texture}
+     * @private
+     */
+    var _this = _possibleConstructorReturn(this, _core$Container.call(this));
+
+    _this._texture = texture;
+
+    /**
+     * The Uvs of the Mesh
+     *
+     * @member {Float32Array}
+     */
+    _this.uvs = uvs || new Float32Array([0, 0, 1, 0, 1, 1, 0, 1]);
+
+    /**
+     * An array of vertices
+     *
+     * @member {Float32Array}
+     */
+    _this.vertices = vertices || new Float32Array([0, 0, 100, 0, 100, 100, 0, 100]);
+
+    /**
+     * An array containing the indices of the vertices
+     *
+     * @member {Uint16Array}
+     */
+    //  TODO auto generate this based on draw mode!
+    _this.indices = indices || new Uint16Array([0, 1, 3, 2]);
+
+    /**
+     * Version of mesh uvs are dirty or not
+     *
+     * @member {number}
+     */
+    _this.dirty = 0;
+
+    /**
+     * Version of mesh indices
+     *
+     * @member {number}
+     */
+    _this.indexDirty = 0;
+
+    /**
+     * The blend mode to be applied to the sprite. Set to `PIXI.BLEND_MODES.NORMAL` to remove
+     * any blend mode.
+     *
+     * @member {number}
+     * @default PIXI.BLEND_MODES.NORMAL
+     * @see PIXI.BLEND_MODES
+     */
+    _this.blendMode = core.BLEND_MODES.NORMAL;
+
+    /**
+     * Triangles in canvas mode are automatically antialiased, use this value to force triangles
+     * to overlap a bit with each other.
+     *
+     * @member {number}
+     */
+    _this.canvasPadding = 0;
+
+    /**
+     * The way the Mesh should be drawn, can be any of the {@link PIXI.mesh.Mesh.DRAW_MODES} consts
+     *
+     * @member {number}
+     * @see PIXI.mesh.Mesh.DRAW_MODES
+     */
+    _this.drawMode = drawMode || Mesh.DRAW_MODES.TRIANGLE_MESH;
+
+    /**
+     * The default shader that is used if a mesh doesn't have a more specific one.
+     *
+     * @member {PIXI.Shader}
+     */
+    _this.shader = null;
+
+    /**
+     * The tint applied to the mesh. This is a [r,g,b] value. A value of [1,1,1] will remove any
+     * tint effect.
+     *
+     * @member {number}
+     */
+    _this.tintRgb = new Float32Array([1, 1, 1]);
+
+    /**
+     * A map of renderer IDs to webgl render data
+     *
+     * @private
+     * @member {object<number, object>}
+     */
+    _this._glDatas = {};
+
+    /**
+     * transform that is applied to UV to get the texture coords
+     * its updated independently from texture uvTransform
+     * updates of uvs are tied to that thing
+     *
+     * @member {PIXI.extras.TextureTransform}
+     * @private
+     */
+    _this._uvTransform = new _TextureTransform2.default(texture);
+
+    /**
+     * whether or not upload uvTransform to shader
+     * if its false, then uvs should be pre-multiplied
+     * if you change it for generated mesh, please call 'refresh(true)'
+     * @member {boolean}
+     * @default false
+     */
+    _this.uploadUvTransform = false;
+
+    /**
+     * Plugin that is responsible for rendering this element.
+     * Allows to customize the rendering process without overriding '_renderWebGL' & '_renderCanvas' methods.
+     * @member {string}
+     * @default 'mesh'
+     */
+    _this.pluginName = 'mesh';
+    return _this;
+  }
+
+  /**
+   * Renders the object using the WebGL renderer
+   *
+   * @private
+   * @param {PIXI.WebGLRenderer} renderer - a reference to the WebGL renderer
+   */
+
+
+  Mesh.prototype._renderWebGL = function _renderWebGL(renderer) {
+    this.refresh();
+    renderer.setObjectRenderer(renderer.plugins[this.pluginName]);
+    renderer.plugins[this.pluginName].render(this);
+  };
+
+  /**
+   * Renders the object using the Canvas renderer
+   *
+   * @private
+   * @param {PIXI.CanvasRenderer} renderer - The canvas renderer.
+   */
+
+
+  Mesh.prototype._renderCanvas = function _renderCanvas(renderer) {
+    this.refresh();
+    renderer.plugins[this.pluginName].render(this);
+  };
+
+  /**
+   * When the texture is updated, this event will fire to update the scale and frame
+   *
+   * @private
+   */
+
+
+  Mesh.prototype._onTextureUpdate = function _onTextureUpdate() {
+    this._uvTransform.texture = this._texture;
+    this.refresh();
+  };
+
+  /**
+   * multiplies uvs only if uploadUvTransform is false
+   * call it after you change uvs manually
+   * make sure that texture is valid
+   */
+
+
+  Mesh.prototype.multiplyUvs = function multiplyUvs() {
+    if (!this.uploadUvTransform) {
+      this._uvTransform.multiplyUvs(this.uvs);
+    }
+  };
+
+  /**
+   * Refreshes uvs for generated meshes (rope, plane)
+   * sometimes refreshes vertices too
+   *
+   * @param {boolean} [forceUpdate=false] if true, matrices will be updated any case
+   */
+
+
+  Mesh.prototype.refresh = function refresh(forceUpdate) {
+    if (this._uvTransform.update(forceUpdate)) {
+      this._refresh();
+    }
+  };
+
+  /**
+   * re-calculates mesh coords
+   * @protected
+   */
+
+
+  Mesh.prototype._refresh = function _refresh() {}
+  /* empty */
+
+
+  /**
+   * Returns the bounds of the mesh as a rectangle. The bounds calculation takes the worldTransform into account.
+   *
+   */
+  ;
+
+  Mesh.prototype._calculateBounds = function _calculateBounds() {
+    // TODO - we can cache local bounds and use them if they are dirty (like graphics)
+    this._bounds.addVertices(this.transform, this.vertices, 0, this.vertices.length);
+  };
+
+  /**
+   * Tests if a point is inside this mesh. Works only for TRIANGLE_MESH
+   *
+   * @param {PIXI.Point} point - the point to test
+   * @return {boolean} the result of the test
+   */
+
+
+  Mesh.prototype.containsPoint = function containsPoint(point) {
+    if (!this.getBounds().contains(point.x, point.y)) {
+      return false;
+    }
+
+    this.worldTransform.applyInverse(point, tempPoint);
+
+    var vertices = this.vertices;
+    var points = tempPolygon.points;
+    var indices = this.indices;
+    var len = this.indices.length;
+    var step = this.drawMode === Mesh.DRAW_MODES.TRIANGLES ? 3 : 1;
+
+    for (var i = 0; i + 2 < len; i += step) {
+      var ind0 = indices[i] * 2;
+      var ind1 = indices[i + 1] * 2;
+      var ind2 = indices[i + 2] * 2;
+
+      points[0] = vertices[ind0];
+      points[1] = vertices[ind0 + 1];
+      points[2] = vertices[ind1];
+      points[3] = vertices[ind1 + 1];
+      points[4] = vertices[ind2];
+      points[5] = vertices[ind2 + 1];
+
+      if (tempPolygon.contains(tempPoint.x, tempPoint.y)) {
+        return true;
+      }
+    }
+
+    return false;
+  };
+
+  /**
+   * The texture that the mesh uses.
+   *
+   * @member {PIXI.Texture}
+   */
+
+
+  _createClass(Mesh, [{
+    key: 'texture',
+    get: function get() {
+      return this._texture;
+    },
+    set: function set(value) // eslint-disable-line require-jsdoc
+    {
+      if (this._texture === value) {
+        return;
+      }
+
+      this._texture = value;
+
+      if (value) {
+        // wait for the texture to load
+        if (value.baseTexture.hasLoaded) {
+          this._onTextureUpdate();
+        } else {
+          value.once('update', this._onTextureUpdate, this);
+        }
+      }
+    }
+
+    /**
+     * The tint applied to the mesh. This is a hex value. A value of 0xFFFFFF will remove any tint effect.
+     *
+     * @member {number}
+     * @default 0xFFFFFF
+     */
+
+  }, {
+    key: 'tint',
+    get: function get() {
+      return core.utils.rgb2hex(this.tintRgb);
+    },
+    set: function set(value) // eslint-disable-line require-jsdoc
+    {
+      this.tintRgb = core.utils.hex2rgb(value, this.tintRgb);
+    }
+  }]);
+
+  return Mesh;
+}(core.Container);
+
+/**
+ * Different drawing buffer modes supported
+ *
+ * @static
+ * @constant
+ * @type {object}
+ * @property {number} TRIANGLE_MESH
+ * @property {number} TRIANGLES
+ */
+
+
+exports.default = Mesh;
+Mesh.DRAW_MODES = {
+  TRIANGLE_MESH: 0,
+  TRIANGLES: 1
+};
+//# sourceMappingURL=Mesh.js.map
+
+/***/ }),
+/* 18 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+// import Loader from './Loader';
+// import Resource from './Resource';
+// import * as async from './async';
+// import * as b64 from './b64';
+
+/* eslint-disable no-undef */
+
+var Loader = __webpack_require__(198).default;
+var Resource = __webpack_require__(39).default;
+var async = __webpack_require__(86);
+var b64 = __webpack_require__(87);
+
+Loader.Resource = Resource;
+Loader.async = async;
+Loader.base64 = b64;
+
+// export manually, and also as default
+module.exports = Loader;
+// export default Loader;
+module.exports.default = Loader;
+//# sourceMappingURL=index.js.map
+
+/***/ }),
 /* 19 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var Assets = __webpack_require__(10);
+
+var Helper = function () {};
+module.exports = exports = Helper;
+
+Helper.debugDraw = function (container) {
+    window.debugSprite = new PIXI.Sprite(Assets.textures.circleTexture);
+    debugSprite.anchor.x = 0.5;
+    debugSprite.anchor.y = 0.5;
+    debugSprite.scale.set(20 / debugSprite.width);
+    debugSprite.tint = 0xFF0000;
+    container.addChild(debugSprite);
+
+    window.debugSprite2 = new PIXI.Sprite(Assets.textures.circleTexture);
+    debugSprite2.anchor.x = 0.5;
+    debugSprite2.anchor.y = 0.5;
+    debugSprite2.scale.set(20 / debugSprite2.width);
+    debugSprite2.tint = 0x00FF00;
+    container.addChild(debugSprite2);
+
+    window.debugSprite3 = new PIXI.Sprite(Assets.textures.circleTexture);
+    debugSprite3.anchor.x = 0.5;
+    debugSprite3.anchor.y = 0.5;
+    debugSprite3.scale.set(20 / debugSprite3.width);
+    debugSprite3.tint = 0x0000FF;
+    container.addChild(debugSprite3);
+};
+
+Helper.buttonCreate = function (texture, x, y, width) {
+    var button = new PIXI.Sprite(texture);
+    button.anchor.x = 0.5;
+    button.anchor.y = 0.5;
+    button.position.x = x;
+    button.position.y = y;
+    //console.log(button.width)
+    button.scale.set(width / button.width);
+    return button;
+};
+
+Helper.spriteListener = function (sprite, touchdown, touchmove, touchup, touchupoutside, releaseoutside) {
+    //console.log('sprite_listener')
+    sprite.interactive = true;
+    if (touchdown != null || touchdown != undefined) {
+        sprite.on('mousedown', touchdown.bind(this));
+    }
+    if (touchdown != null || touchdown != undefined) sprite.on('touchstart', touchdown.bind(this));
+    if (touchmove != null || touchmove != undefined) sprite.on('mousemove', touchmove.bind(this));
+    if (touchmove != null || touchmove != undefined) sprite.on('touchmove', touchmove.bind(this));
+    if (touchup != null || touchup != undefined) sprite.on('mouseup', touchup.bind(this));
+    if (touchup != null || touchup != undefined) sprite.on('touchend', touchup.bind(this));
+    if (touchupoutside != null || touchupoutside != undefined) sprite.on('mouseupoutside', touchup.bind(this));
+    if (touchupoutside != null || touchupoutside != undefined) sprite.on('touchendoutside', touchup.bind(this));
+}; // end spriteListener
+
+Helper.spriteListenerRemove = function (sprite) {
+    sprite.interactive = false;
+    if (sprite._events == undefined) return;
+    if (sprite._events.mousedown) {
+        sprite._events.mousedown.length = 0;
+        sprite._events.mousedown = null;
+    }
+    if (sprite._events.touchstart) {
+        sprite._events.touchstart.length = 0;
+        sprite._events.touchstart = null;
+    }
+    if (sprite._events.mousemove) {
+        sprite._events.mousemove.length = 0;
+        sprite._events.mousemove = null;
+    }
+    if (sprite._events.touchmove) {
+        sprite._events.touchmove.length = 0;
+        sprite._events.touchmove = null;
+    }
+    if (sprite._events.mouseup) {
+        sprite._events.mouseup.length = 0;
+        sprite._events.mouseup = null;
+    }
+    if (sprite._events.touchend) {
+        sprite._events.touchend.length = 0;
+        sprite._events.touchend = null;
+    }
+    if (sprite._events.mouseupoutside) {
+        sprite._events.mouseupoutside.length = 0;
+        sprite._events.mouseupoutside = null;
+    }
+    if (sprite._events.touchendoutside) {
+        sprite._events.touchendoutside.length = 0;
+        sprite._events.touchendoutside = null;
+    }
+}; // end spriteListenerRemove
+
+/***/ }),
+/* 20 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6324,7 +6436,7 @@ function buildNativeLine(graphicsData, webGLData) {
 //# sourceMappingURL=buildLine.js.map
 
 /***/ }),
-/* 20 */
+/* 21 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6336,27 +6448,27 @@ var _SystemRenderer2 = __webpack_require__(52);
 
 var _SystemRenderer3 = _interopRequireDefault(_SystemRenderer2);
 
-var _MaskManager = __webpack_require__(126);
+var _MaskManager = __webpack_require__(127);
 
 var _MaskManager2 = _interopRequireDefault(_MaskManager);
 
-var _StencilManager = __webpack_require__(127);
+var _StencilManager = __webpack_require__(128);
 
 var _StencilManager2 = _interopRequireDefault(_StencilManager);
 
-var _FilterManager = __webpack_require__(125);
+var _FilterManager = __webpack_require__(126);
 
 var _FilterManager2 = _interopRequireDefault(_FilterManager);
 
-var _RenderTarget = __webpack_require__(22);
+var _RenderTarget = __webpack_require__(23);
 
 var _RenderTarget2 = _interopRequireDefault(_RenderTarget);
 
-var _ObjectRenderer = __webpack_require__(21);
+var _ObjectRenderer = __webpack_require__(22);
 
 var _ObjectRenderer2 = _interopRequireDefault(_ObjectRenderer);
 
-var _TextureManager = __webpack_require__(121);
+var _TextureManager = __webpack_require__(122);
 
 var _TextureManager2 = _interopRequireDefault(_TextureManager);
 
@@ -6364,19 +6476,19 @@ var _BaseTexture = __webpack_require__(9);
 
 var _BaseTexture2 = _interopRequireDefault(_BaseTexture);
 
-var _TextureGarbageCollector = __webpack_require__(120);
+var _TextureGarbageCollector = __webpack_require__(121);
 
 var _TextureGarbageCollector2 = _interopRequireDefault(_TextureGarbageCollector);
 
-var _WebGLState = __webpack_require__(122);
+var _WebGLState = __webpack_require__(123);
 
 var _WebGLState2 = _interopRequireDefault(_WebGLState);
 
-var _mapWebGLDrawModesToPixi = __webpack_require__(130);
+var _mapWebGLDrawModesToPixi = __webpack_require__(131);
 
 var _mapWebGLDrawModesToPixi2 = _interopRequireDefault(_mapWebGLDrawModesToPixi);
 
-var _validateContext = __webpack_require__(131);
+var _validateContext = __webpack_require__(132);
 
 var _validateContext2 = _interopRequireDefault(_validateContext);
 
@@ -7129,7 +7241,7 @@ _utils.pluginTarget.mixin(WebGLRenderer);
 //# sourceMappingURL=WebGLRenderer.js.map
 
 /***/ }),
-/* 21 */
+/* 22 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7137,7 +7249,7 @@ _utils.pluginTarget.mixin(WebGLRenderer);
 
 exports.__esModule = true;
 
-var _WebGLManager2 = __webpack_require__(13);
+var _WebGLManager2 = __webpack_require__(16);
 
 var _WebGLManager3 = _interopRequireDefault(_WebGLManager2);
 
@@ -7212,7 +7324,7 @@ exports.default = ObjectRenderer;
 //# sourceMappingURL=ObjectRenderer.js.map
 
 /***/ }),
-/* 22 */
+/* 23 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7542,101 +7654,6 @@ var RenderTarget = function () {
 
 exports.default = RenderTarget;
 //# sourceMappingURL=RenderTarget.js.map
-
-/***/ }),
-/* 23 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var Assets = __webpack_require__(16);
-
-var Helper = function () {};
-module.exports = exports = Helper;
-
-Helper.debugDraw = function (container) {
-    window.debugSprite = new PIXI.Sprite(Assets.textures.circleTexture);
-    debugSprite.anchor.x = 0.5;
-    debugSprite.anchor.y = 0.5;
-    debugSprite.scale.set(20 / debugSprite.width);
-    debugSprite.tint = 0xFF0000;
-    container.addChild(debugSprite);
-
-    window.debugSprite2 = new PIXI.Sprite(Assets.textures.circleTexture);
-    debugSprite2.anchor.x = 0.5;
-    debugSprite2.anchor.y = 0.5;
-    debugSprite2.scale.set(20 / debugSprite2.width);
-    debugSprite2.tint = 0x00FF00;
-    container.addChild(debugSprite2);
-
-    window.debugSprite3 = new PIXI.Sprite(Assets.textures.circleTexture);
-    debugSprite3.anchor.x = 0.5;
-    debugSprite3.anchor.y = 0.5;
-    debugSprite3.scale.set(20 / debugSprite3.width);
-    debugSprite3.tint = 0x0000FF;
-    container.addChild(debugSprite3);
-};
-
-Helper.buttonCreate = function (texture, x, y, width) {
-    var button = new PIXI.Sprite(texture);
-    button.anchor.x = 0.5;
-    button.anchor.y = 0.5;
-    button.position.x = x;
-    button.position.y = y;
-    //console.log(button.width)
-    button.scale.set(width / button.width);
-    return button;
-};
-
-Helper.spriteListener = function (sprite, touchdown, touchmove, touchup, touchupoutside, releaseoutside) {
-    //console.log('sprite_listener')
-    sprite.interactive = true;
-    if (touchdown != null || touchdown != undefined) {
-        sprite.on('mousedown', touchdown.bind(this));
-    }
-    if (touchdown != null || touchdown != undefined) sprite.on('touchstart', touchdown.bind(this));
-    if (touchmove != null || touchmove != undefined) sprite.on('mousemove', touchmove.bind(this));
-    if (touchmove != null || touchmove != undefined) sprite.on('touchmove', touchmove.bind(this));
-    if (touchup != null || touchup != undefined) sprite.on('mouseup', touchup.bind(this));
-    if (touchup != null || touchup != undefined) sprite.on('touchend', touchup.bind(this));
-    if (touchupoutside != null || touchupoutside != undefined) sprite.on('mouseupoutside', touchup.bind(this));
-    if (touchupoutside != null || touchupoutside != undefined) sprite.on('touchendoutside', touchup.bind(this));
-}; // end spriteListener
-
-Helper.spriteListenerRemove = function (sprite) {
-    sprite.interactive = false;
-    if (sprite._events == undefined) return;
-    if (sprite._events.mousedown) {
-        sprite._events.mousedown.length = 0;
-        sprite._events.mousedown = null;
-    }
-    if (sprite._events.touchstart) {
-        sprite._events.touchstart.length = 0;
-        sprite._events.touchstart = null;
-    }
-    if (sprite._events.mousemove) {
-        sprite._events.mousemove.length = 0;
-        sprite._events.mousemove = null;
-    }
-    if (sprite._events.touchmove) {
-        sprite._events.touchmove.length = 0;
-        sprite._events.touchmove = null;
-    }
-    if (sprite._events.mouseup) {
-        sprite._events.mouseup.length = 0;
-        sprite._events.mouseup = null;
-    }
-    if (sprite._events.touchend) {
-        sprite._events.touchend.length = 0;
-        sprite._events.touchend = null;
-    }
-    if (sprite._events.mouseupoutside) {
-        sprite._events.mouseupoutside.length = 0;
-        sprite._events.mouseupoutside = null;
-    }
-    if (sprite._events.touchendoutside) {
-        sprite._events.touchendoutside.length = 0;
-        sprite._events.touchendoutside = null;
-    }
-}; // end spriteListenerRemove
 
 /***/ }),
 /* 24 */
@@ -8999,7 +9016,7 @@ var _Texture = __webpack_require__(7);
 
 var _Texture2 = _interopRequireDefault(_Texture);
 
-var _Container2 = __webpack_require__(11);
+var _Container2 = __webpack_require__(14);
 
 var _Container3 = _interopRequireDefault(_Container2);
 
@@ -10021,7 +10038,7 @@ exports.default = RenderTexture;
 exports.__esModule = true;
 exports.Ticker = exports.shared = undefined;
 
-var _Ticker = __webpack_require__(138);
+var _Ticker = __webpack_require__(139);
 
 var _Ticker2 = _interopRequireDefault(_Ticker);
 
@@ -12409,7 +12426,7 @@ module.exports = g;
 exports.__esModule = true;
 exports.loader = exports.prepare = exports.particles = exports.mesh = exports.loaders = exports.interaction = exports.filters = exports.extras = exports.extract = exports.accessibility = undefined;
 
-var _polyfill = __webpack_require__(183);
+var _polyfill = __webpack_require__(184);
 
 Object.keys(_polyfill).forEach(function (key) {
     if (key === "default" || key === "__esModule") return;
@@ -12433,15 +12450,15 @@ Object.keys(_core).forEach(function (key) {
     });
 });
 
-var _deprecation = __webpack_require__(147);
+var _deprecation = __webpack_require__(148);
 
 var _deprecation2 = _interopRequireDefault(_deprecation);
 
-var _accessibility = __webpack_require__(103);
+var _accessibility = __webpack_require__(104);
 
 var accessibility = _interopRequireWildcard(_accessibility);
 
-var _extract = __webpack_require__(149);
+var _extract = __webpack_require__(150);
 
 var extract = _interopRequireWildcard(_extract);
 
@@ -12449,27 +12466,27 @@ var _extras = __webpack_require__(63);
 
 var extras = _interopRequireWildcard(_extras);
 
-var _filters = __webpack_require__(162);
+var _filters = __webpack_require__(163);
 
 var filters = _interopRequireWildcard(_filters);
 
-var _interaction = __webpack_require__(168);
+var _interaction = __webpack_require__(169);
 
 var interaction = _interopRequireWildcard(_interaction);
 
-var _loaders = __webpack_require__(169);
+var _loaders = __webpack_require__(170);
 
 var loaders = _interopRequireWildcard(_loaders);
 
-var _mesh = __webpack_require__(174);
+var _mesh = __webpack_require__(175);
 
 var mesh = _interopRequireWildcard(_mesh);
 
-var _particles = __webpack_require__(177);
+var _particles = __webpack_require__(178);
 
 var particles = _interopRequireWildcard(_particles);
 
-var _prepare = __webpack_require__(186);
+var _prepare = __webpack_require__(187);
 
 var prepare = _interopRequireWildcard(_prepare);
 
@@ -12593,7 +12610,7 @@ var _createClass = function () { function defineProperties(target, props) { for 
 
 var _autoDetectRenderer = __webpack_require__(45);
 
-var _Container = __webpack_require__(11);
+var _Container = __webpack_require__(14);
 
 var _Container2 = _interopRequireDefault(_Container);
 
@@ -12814,11 +12831,11 @@ var _utils = __webpack_require__(2);
 
 var utils = _interopRequireWildcard(_utils);
 
-var _CanvasRenderer = __webpack_require__(12);
+var _CanvasRenderer = __webpack_require__(15);
 
 var _CanvasRenderer2 = _interopRequireDefault(_CanvasRenderer);
 
-var _WebGLRenderer = __webpack_require__(20);
+var _WebGLRenderer = __webpack_require__(21);
 
 var _WebGLRenderer2 = _interopRequireDefault(_WebGLRenderer);
 
@@ -14437,7 +14454,7 @@ var _settings = __webpack_require__(3);
 
 var _settings2 = _interopRequireDefault(_settings);
 
-var _Container = __webpack_require__(11);
+var _Container = __webpack_require__(14);
 
 var _Container2 = _interopRequireDefault(_Container);
 
@@ -14990,7 +15007,7 @@ exports.__esModule = true;
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _extractUniformsFromSrc = __webpack_require__(123);
+var _extractUniformsFromSrc = __webpack_require__(124);
 
 var _extractUniformsFromSrc2 = _interopRequireDefault(_extractUniformsFromSrc);
 
@@ -16883,7 +16900,7 @@ function createSource(path, type) {
 exports.__esModule = true;
 exports.BitmapText = exports.TilingSpriteRenderer = exports.TilingSprite = exports.TextureTransform = exports.AnimatedSprite = undefined;
 
-var _AnimatedSprite = __webpack_require__(151);
+var _AnimatedSprite = __webpack_require__(152);
 
 Object.defineProperty(exports, 'AnimatedSprite', {
   enumerable: true,
@@ -16901,7 +16918,7 @@ Object.defineProperty(exports, 'TextureTransform', {
   }
 });
 
-var _TilingSprite = __webpack_require__(153);
+var _TilingSprite = __webpack_require__(154);
 
 Object.defineProperty(exports, 'TilingSprite', {
   enumerable: true,
@@ -16910,7 +16927,7 @@ Object.defineProperty(exports, 'TilingSprite', {
   }
 });
 
-var _TilingSpriteRenderer = __webpack_require__(157);
+var _TilingSpriteRenderer = __webpack_require__(158);
 
 Object.defineProperty(exports, 'TilingSpriteRenderer', {
   enumerable: true,
@@ -16919,7 +16936,7 @@ Object.defineProperty(exports, 'TilingSpriteRenderer', {
   }
 });
 
-var _BitmapText = __webpack_require__(152);
+var _BitmapText = __webpack_require__(153);
 
 Object.defineProperty(exports, 'BitmapText', {
   enumerable: true,
@@ -16928,11 +16945,11 @@ Object.defineProperty(exports, 'BitmapText', {
   }
 });
 
-__webpack_require__(154);
-
 __webpack_require__(155);
 
 __webpack_require__(156);
+
+__webpack_require__(157);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -17831,7 +17848,7 @@ var path = _interopRequireWildcard(_path);
 
 var _core = __webpack_require__(1);
 
-var _resourceLoader = __webpack_require__(15);
+var _resourceLoader = __webpack_require__(18);
 
 var _extras = __webpack_require__(63);
 
@@ -17894,7 +17911,7 @@ exports.default = function () {
 
 exports.getResourcePath = getResourcePath;
 
-var _resourceLoader = __webpack_require__(15);
+var _resourceLoader = __webpack_require__(18);
 
 var _url = __webpack_require__(90);
 
@@ -17933,7 +17950,7 @@ exports.default = function () {
     };
 };
 
-var _resourceLoader = __webpack_require__(15);
+var _resourceLoader = __webpack_require__(18);
 
 var _Texture = __webpack_require__(7);
 
@@ -17951,7 +17968,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 exports.__esModule = true;
 
-var _Mesh2 = __webpack_require__(14);
+var _Mesh2 = __webpack_require__(17);
 
 var _Mesh3 = _interopRequireDefault(_Mesh2);
 
@@ -20195,8 +20212,8 @@ module.exports = function parseURI (str, opts) {
 
 
 
-var punycode = __webpack_require__(206);
-var util = __webpack_require__(210);
+var punycode = __webpack_require__(207);
+var util = __webpack_require__(211);
 
 exports.parse = urlParse;
 exports.resolve = urlResolve;
@@ -20271,7 +20288,7 @@ var protocolPattern = /^([a-z0-9.+-]+:)/i,
       'gopher:': true,
       'file:': true
     },
-    querystring = __webpack_require__(209);
+    querystring = __webpack_require__(210);
 
 function urlParse(url, parseQueryString, slashesDenoteHost) {
   if (url && util.isObject(url) && url instanceof Url) return url;
@@ -20910,7 +20927,7 @@ Url.prototype.parseHost = function() {
 /* 91 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var Utils = __webpack_require__(18);
+var Utils = __webpack_require__(12);
 module.exports = exports = Ball;
 var walldamp = 0.9;
 function Ball(x, y, r, draw, texture) {
@@ -21020,10 +21037,10 @@ Ball.prototype = {
 /* 92 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var Utils = __webpack_require__(18);
-var Helper = __webpack_require__(23);
-var constants = __webpack_require__(17);
-var Assets = __webpack_require__(16);
+var Utils = __webpack_require__(12);
+var Helper = __webpack_require__(19);
+var constants = __webpack_require__(11);
+var Assets = __webpack_require__(10);
 module.exports = exports = Character;
 
 function Character() {
@@ -21144,10 +21161,106 @@ Character.prototype = {
 /* 93 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var Utils = __webpack_require__(18);
-var Helper = __webpack_require__(23);
-var constants = __webpack_require__(17);
-var Assets = __webpack_require__(16);
+var Utils = __webpack_require__(12);
+var Helper = __webpack_require__(19);
+var constants = __webpack_require__(11);
+var Assets = __webpack_require__(10);
+module.exports = exports = Woman;
+
+function Woman() {
+  this.create();
+}
+Woman.prototype = {
+  create: function () {
+    this.bodySprite = Helper.buttonCreate(Assets.characterTextures.womanBodyTexture, width / 2, height / 2, width / 8);
+    this.scale = this.bodySprite.scale.x;
+    this.bodySprite.scale.set(this.scale);
+
+    this.hairBackSprite = Helper.buttonCreate(Assets.characterTextures.womanHairBackTexture, width / 2, height / 2, width / 8);
+    this.hairBackSprite.scale.set(this.scale);
+
+    this.talkSprite = new PIXI.extras.AnimatedSprite(Assets.mouthTextures.womanTalkTexture);
+    this.talkSprite.anchor.x = 0.5;
+    this.talkSprite.anchor.y = 0.5;
+    this.talkSprite.scale.set(this.scale * 1.0);
+    this.talkSprite.animationSpeed = 0.4;
+    //this.talkSprite.loop = false;
+
+    this.mouthSprite = Helper.buttonCreate(Assets.mouthTextures.womanMouth1Texture, width / 2, height / 2, width);
+    this.mouthSprite.scale.set(this.scale * 1.0);
+
+    this.lArmSprite = Helper.buttonCreate(Assets.characterTextures.womanLeftTexture, width / 2, height / 2, width);
+    this.lArmSprite.scale.set(this.scale);
+    this.rArmSprite = Helper.buttonCreate(Assets.characterTextures.womanLeftTexture, width / 2, height / 2, width);
+    this.rArmSprite.scale.set(this.scale);
+    this.rArmSprite.scale.x = -this.rArmSprite.scale.x;
+  },
+  init: function (container, x, y) {
+    this.container = container;
+
+    container.addChild(this.hairBackSprite);
+    container.addChild(this.lArmSprite);
+    container.addChild(this.rArmSprite);
+
+    container.addChild(this.bodySprite);
+
+    container.addChild(this.talkSprite);
+
+    //debugger;
+    this.bodySprite.x = x;
+    this.bodySprite.y = y;
+
+    this.lArmSprite.anchor.x = 1;
+    this.lArmSprite.anchor.y = 0.95;
+    this.lArmSprite.rotation = -PI * 0.40;
+    this.rArmSprite.anchor.x = 1;
+    this.rArmSprite.anchor.y = 0.95;
+    this.rArmSprite.rotation = PI * 0.2;
+
+    this.lArmRotation = PI / 720;
+    this.rArmRotation = PI / 720;
+
+    this.talkSprite.play();
+  },
+  update: function () {
+
+    this.hairBackSprite.x = this.bodySprite.x - this.bodySprite.width * 0.095;
+    this.hairBackSprite.y = this.bodySprite.y - this.bodySprite.height * 0.275;
+
+    this.lArmSprite.x = this.bodySprite.x - this.bodySprite.width * 0.25;
+    this.lArmSprite.y = this.bodySprite.y - this.bodySprite.height * 0.20;
+    this.rArmSprite.x = this.bodySprite.x + this.bodySprite.width * 0.14;
+    this.rArmSprite.y = this.bodySprite.y - this.bodySprite.height * 0.20;
+
+    this.talkSprite.x = this.bodySprite.x - this.bodySprite.width * 0.045;
+    this.talkSprite.y = this.bodySprite.y - this.bodySprite.height * 0.275;
+
+    this.mouthSprite.x = this.bodySprite.x - this.bodySprite.width * 0.045;
+    this.mouthSprite.y = this.bodySprite.y - this.bodySprite.height * 0.275;
+
+    this.rArmSprite.rotation += this.rArmRotation;
+    if (this.rArmSprite.rotation > PI * 0.25) this.rArmRotation = -this.rArmRotation;
+    if (this.rArmSprite.rotation < PI * 0.0) this.rArmRotation = -this.rArmRotation;
+
+    //this.lArmSprite.rotation += this.lArmRotation;
+    //if(this.lArmSprite.rotation > -PI*0.1) this.lArmRotation = -this.lArmRotation;
+    //if(this.lArmSprite.rotation < -PI*0.35) this.lArmRotation = -this.lArmRotation;
+  },
+  smile: function () {
+    this.talkSprite.stop();
+    this.container.removeChild(this.talkSprite);
+    this.container.addChild(this.mouthSprite);
+  }
+};
+
+/***/ }),
+/* 94 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var Utils = __webpack_require__(12);
+var Helper = __webpack_require__(19);
+var constants = __webpack_require__(11);
+var Assets = __webpack_require__(10);
 module.exports = exports = Slip;
 
 function Slip() {
@@ -21195,7 +21308,7 @@ Slip.prototype = {
 };
 
 /***/ }),
-/* 94 */
+/* 95 */
 /***/ (function(module, exports) {
 
 module.exports = exports = UpdateQueue;
@@ -21239,12 +21352,6 @@ UpdateQueue.prototype = {
 };
 
 /***/ }),
-/* 95 */
-/***/ (function(module, exports, __webpack_require__) {
-
-__webpack_require__(40)(__webpack_require__(199))
-
-/***/ }),
 /* 96 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21260,10 +21367,16 @@ __webpack_require__(40)(__webpack_require__(201))
 /* 98 */
 /***/ (function(module, exports, __webpack_require__) {
 
+__webpack_require__(40)(__webpack_require__(202))
+
+/***/ }),
+/* 99 */
+/***/ (function(module, exports, __webpack_require__) {
+
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(100);
+var content = __webpack_require__(101);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -21271,7 +21384,7 @@ var transform;
 var options = {}
 options.transform = transform
 // add the styles to the DOM
-var update = __webpack_require__(202)(content, options);
+var update = __webpack_require__(203)(content, options);
 if(content.locals) module.exports = content.locals;
 // Hot Module Replacement
 if(false) {
@@ -21288,27 +21401,28 @@ if(false) {
 }
 
 /***/ }),
-/* 99 */
+/* 100 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_script_loader_Global_js__ = __webpack_require__(95);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_script_loader_Global_js__ = __webpack_require__(96);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_script_loader_Global_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_script_loader_Global_js__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_script_loader_Lib_createjs_2015_11_26_min_js__ = __webpack_require__(96);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_script_loader_Lib_createjs_2015_11_26_min_js__ = __webpack_require__(97);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_script_loader_Lib_createjs_2015_11_26_min_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_script_loader_Lib_createjs_2015_11_26_min_js__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_script_loader_Lib_pvector_js__ = __webpack_require__(97);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_script_loader_Lib_pvector_js__ = __webpack_require__(98);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_script_loader_Lib_pvector_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_script_loader_Lib_pvector_js__);
 var PIXI = __webpack_require__(42);
-var Assets = __webpack_require__(16);
+var Assets = __webpack_require__(10);
 var Ball = __webpack_require__(91);
 var Character = __webpack_require__(92);
-var Helper = __webpack_require__(23);
-var Slip = __webpack_require__(93);
-var Utils = __webpack_require__(18);
-var constants = __webpack_require__(17);
-var UpdateQueue = __webpack_require__(94);
-__webpack_require__(98);
+var Woman = __webpack_require__(93);
+var Helper = __webpack_require__(19);
+var Slip = __webpack_require__(94);
+var Utils = __webpack_require__(12);
+var constants = __webpack_require__(11);
+var UpdateQueue = __webpack_require__(95);
+__webpack_require__(99);
 // /////////////
 // Script-loader
 // /////////////
@@ -21336,12 +21450,13 @@ __webpack_require__(98);
 		// 1920 x 1080
 		stageWidth = width;
 		stageHeight = height;
-		var app = new PIXI.Application(width, height, { backgroundColor: 0x82cd3c,
+		var app = new PIXI.Application(width, height, { backgroundColor: 0xFCF4e6, //0x82cd3c,
 				transparent: false, antialias: true
 		});
 		worldRenderer = app.renderer;
 		document.body.appendChild(app.view);
 
+		var titleText;
 		var initialize = function (load, res) {
 				loader = load;
 				resources = res;
@@ -21349,7 +21464,7 @@ __webpack_require__(98);
 
 				updateQueue = new UpdateQueue();
 
-				var bg = Helper.buttonCreate(Assets.textures.schoolTexture, //Assets.textures.rectTexture,
+				var bg = Helper.buttonCreate(Assets.textures.classTexture, //Assets.textures.rectTexture,
 				width / 2, height / 2, width);
 
 				/*new PIXI.Sprite(Assets.textures.schoolTexture);
@@ -21370,9 +21485,19 @@ __webpack_require__(98);
 				//var ball = new Ball(0, 0, width/20, true, Assets.textures.bunnyTexture);
 				//updateQueue.add(ball);
 
-				var character = new Character();
-				character.init(stage, width / 4, height * 0.78);
+				var desk = Helper.buttonCreate(Assets.textures.deskTexture, width * 0.2, height * 0.765, width);
+				desk.scale.set(1.75);
+				var deskShadow = Helper.buttonCreate(Assets.textures.deskShadowTexture, desk.x, desk.y + desk.height / 2, width);
+				deskShadow.scale.set(1.75);
+
+				stage.addChild(deskShadow);
+
+				var character = new Woman(); //Character();
+				//character.init(stage, width/4, height*0.78);
+				character.init(stage, width * 0.2, height * 0.5);
 				updateQueue.add(character);
+
+				stage.addChild(desk);
 
 				var slip = new Slip();
 				slip.init(stage, -slip.sprite.width, 0, 0xAF4756);
@@ -21380,22 +21505,40 @@ __webpack_require__(98);
 				var slip2 = new Slip();
 				slip2.init(stage, -slip.sprite.width, 0, 0x507BC4);
 
-				var cb = slip2.slide.bind(slip2, width + slip.sprite.width / 2, height * 0.2, width - slip.sprite.width * 0.4, height * 0.2, 4000);
+				var TextOptions = {
+						fontFamily: 'Courier', //'Mario'
+						fontSize: (width >> 4) + (width >> 6) + 'px',
+						fill: '#000000', // Set fill color
+						align: 'left', // Center align the text, since it's multiline
+						stroke: '#34495e', // Set stroke color
+						strokeThickness: Math.floor(width / 256), // Set stroke thickness
+						lineJoin: 'round' // Set the lineJoin to round instead of 'miter'
+				};
+				titleText = new PIXI.Text('F', TextOptions);
+				titleText.anchor.x = 0.5;
+				titleText.anchor.y = 0.5;
+				titleText.x = width * 0.675;
+				titleText.y = height * 0.35;
 
-				slip.slide(-slip.sprite.width / 2, height * 0.2, slip.sprite.width * 0.4, height * 0.2, 4000, cb);
+				stage.addChild(titleText
 
-				//slip2.slide(width + slip.sprite.width/2, height*0.2,
-				//				width - slip.sprite.width*0.4, height*0.2, 3000);
+				/*var cb = slip2.slide.bind(slip2, width + slip.sprite.width/2, height*0.2,
+    				width - slip.sprite.width*0.4, height*0.2, 4000);
+    		slip.slide(-slip.sprite.width/2, height*0.2,
+    				slip.sprite.width*0.4, height*0.2, 4000, cb);
+    */
+
 				//talk = "You know the area of a rectangle if the length of the width of the rectangle times the height of the rectangle.";
 				//var talk = "Click on the microphone and then speak as long as you want"
 
-				var talk = "What is Friction? Today we are going to put Friction into practice by showing you a racing game that we have developed. Have you ever wondered how a game simulate the real life scenario when a race car has a much harder time to steer on the road when it moves through a puddle of water or have a hard time accelerating when you are off track. Game developers simulate these scenarios by putting the force of friction into practice. ";
+				);var talk = "What is Friction? Today we are going to put Friction into practice";
+				// by showing you a racing game that we have developed. Have you ever wondered how a game simulate the real life scenario when a race car has a much harder time to steer on the road when it moves through a puddle of water or have a hard time accelerating when you are off track. Game developers simulate these scenarios by putting the force of friction into practice. "
 
 				message = new SpeechSynthesisUtterance(talk);
-				message["rate"] = 1;
-				message["volume"] = 3;
-				message["pitch"] = 3;
-				speechSynthesis.speak(message);
+				message["rate"] = 0.8;
+				message["volume"] = 1;
+				message["pitch"] = 1.2;
+
 				//debugger;
 				//http://jsfiddle.net/aybalasubramanian/y8c38b3k/
 				// SpeechSynthesisUtterance not tab audio, cannot capture
@@ -21406,8 +21549,9 @@ __webpack_require__(98);
 						for (var i = 0; i < voices.length; i++) {
 								//console.log(voices[i].name);
 						}
-						if (i == 20) {
-								message.voice = voices[0];
+						if (i == voices.length) {
+								message.voice = voices[2];
+								speechSynthesis.speak(message);
 								//console.log(message.voice.name)
 
 								message.onend = function () {
@@ -21420,7 +21564,7 @@ __webpack_require__(98);
 		}; // end initialize
 
 		Assets.loadAssets(initialize);
-
+		var textCount = 0;
 		var update = function () {
 				var now = Date.now(),
 				    dt = now - lastTime,
@@ -21430,6 +21574,16 @@ __webpack_require__(98);
 				time.dt = dt;
 				time.count++;
 				lastTime = now;
+
+				if (time.count % 5 == 0) textCount++;
+				if (textCount == 0) titleText.text = "F       ";
+				if (textCount == 1) titleText.text = "Fr      ";
+				if (textCount == 2) titleText.text = "Fri     ";
+				if (textCount == 3) titleText.text = "Fric    ";
+				if (textCount == 4) titleText.text = "Frict   ";
+				if (textCount == 5) titleText.text = "Fricti  ";
+				if (textCount == 6) titleText.text = "Frictio ";
+				if (textCount == 7) titleText.text = "Friction";
 
 				if (updateQueue) updateQueue.update();
 		}; // end update
@@ -21442,10 +21596,10 @@ __webpack_require__(98);
 })(); // end main
 
 /***/ }),
-/* 100 */
+/* 101 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(101)(undefined);
+exports = module.exports = __webpack_require__(102)(undefined);
 // imports
 
 
@@ -21456,7 +21610,7 @@ exports.push([module.i, "/*@import './styles2.css';*/\r\n\r\ncanvas{\r\n    posi
 
 
 /***/ }),
-/* 101 */
+/* 102 */
 /***/ (function(module, exports) {
 
 /*
@@ -21538,7 +21692,7 @@ function toComment(sourceMap) {
 
 
 /***/ }),
-/* 102 */
+/* 103 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22037,7 +22191,7 @@ core.CanvasRenderer.registerPlugin('accessibility', AccessibilityManager);
 //# sourceMappingURL=AccessibilityManager.js.map
 
 /***/ }),
-/* 103 */
+/* 104 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22054,7 +22208,7 @@ Object.defineProperty(exports, 'accessibleTarget', {
   }
 });
 
-var _AccessibilityManager = __webpack_require__(102);
+var _AccessibilityManager = __webpack_require__(103);
 
 Object.defineProperty(exports, 'AccessibilityManager', {
   enumerable: true,
@@ -22067,7 +22221,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 //# sourceMappingURL=index.js.map
 
 /***/ }),
-/* 104 */
+/* 105 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22075,7 +22229,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 exports.__esModule = true;
 
-var _Container2 = __webpack_require__(11);
+var _Container2 = __webpack_require__(14);
 
 var _Container3 = _interopRequireDefault(_Container2);
 
@@ -22105,11 +22259,11 @@ var _Bounds = __webpack_require__(24);
 
 var _Bounds2 = _interopRequireDefault(_Bounds);
 
-var _bezierCurveTo2 = __webpack_require__(106);
+var _bezierCurveTo2 = __webpack_require__(107);
 
 var _bezierCurveTo3 = _interopRequireDefault(_bezierCurveTo2);
 
-var _CanvasRenderer = __webpack_require__(12);
+var _CanvasRenderer = __webpack_require__(15);
 
 var _CanvasRenderer2 = _interopRequireDefault(_CanvasRenderer);
 
@@ -23244,7 +23398,7 @@ Graphics._SPRITE_TEXTURE = null;
 //# sourceMappingURL=Graphics.js.map
 
 /***/ }),
-/* 105 */
+/* 106 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23252,7 +23406,7 @@ Graphics._SPRITE_TEXTURE = null;
 
 exports.__esModule = true;
 
-var _CanvasRenderer = __webpack_require__(12);
+var _CanvasRenderer = __webpack_require__(15);
 
 var _CanvasRenderer2 = _interopRequireDefault(_CanvasRenderer);
 
@@ -23518,7 +23672,7 @@ _CanvasRenderer2.default.registerPlugin('graphics', CanvasGraphicsRenderer);
 //# sourceMappingURL=CanvasGraphicsRenderer.js.map
 
 /***/ }),
-/* 106 */
+/* 107 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23573,7 +23727,7 @@ function bezierCurveTo(fromX, fromY, cpX, cpY, cpX2, cpY2, toX, toY) {
 //# sourceMappingURL=bezierCurveTo.js.map
 
 /***/ }),
-/* 107 */
+/* 108 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23585,35 +23739,35 @@ var _utils = __webpack_require__(2);
 
 var _const = __webpack_require__(0);
 
-var _ObjectRenderer2 = __webpack_require__(21);
+var _ObjectRenderer2 = __webpack_require__(22);
 
 var _ObjectRenderer3 = _interopRequireDefault(_ObjectRenderer2);
 
-var _WebGLRenderer = __webpack_require__(20);
+var _WebGLRenderer = __webpack_require__(21);
 
 var _WebGLRenderer2 = _interopRequireDefault(_WebGLRenderer);
 
-var _WebGLGraphicsData = __webpack_require__(108);
+var _WebGLGraphicsData = __webpack_require__(109);
 
 var _WebGLGraphicsData2 = _interopRequireDefault(_WebGLGraphicsData);
 
-var _PrimitiveShader = __webpack_require__(109);
+var _PrimitiveShader = __webpack_require__(110);
 
 var _PrimitiveShader2 = _interopRequireDefault(_PrimitiveShader);
 
-var _buildPoly = __webpack_require__(111);
+var _buildPoly = __webpack_require__(112);
 
 var _buildPoly2 = _interopRequireDefault(_buildPoly);
 
-var _buildRectangle = __webpack_require__(112);
+var _buildRectangle = __webpack_require__(113);
 
 var _buildRectangle2 = _interopRequireDefault(_buildRectangle);
 
-var _buildRoundedRectangle = __webpack_require__(113);
+var _buildRoundedRectangle = __webpack_require__(114);
 
 var _buildRoundedRectangle2 = _interopRequireDefault(_buildRoundedRectangle);
 
-var _buildCircle = __webpack_require__(110);
+var _buildCircle = __webpack_require__(111);
 
 var _buildCircle2 = _interopRequireDefault(_buildCircle);
 
@@ -23843,7 +23997,7 @@ _WebGLRenderer2.default.registerPlugin('graphics', GraphicsRenderer);
 //# sourceMappingURL=GraphicsRenderer.js.map
 
 /***/ }),
-/* 108 */
+/* 109 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23991,7 +24145,7 @@ exports.default = WebGLGraphicsData;
 //# sourceMappingURL=WebGLGraphicsData.js.map
 
 /***/ }),
-/* 109 */
+/* 110 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23999,7 +24153,7 @@ exports.default = WebGLGraphicsData;
 
 exports.__esModule = true;
 
-var _Shader2 = __webpack_require__(10);
+var _Shader2 = __webpack_require__(13);
 
 var _Shader3 = _interopRequireDefault(_Shader2);
 
@@ -24041,7 +24195,7 @@ exports.default = PrimitiveShader;
 //# sourceMappingURL=PrimitiveShader.js.map
 
 /***/ }),
-/* 110 */
+/* 111 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24050,7 +24204,7 @@ exports.default = PrimitiveShader;
 exports.__esModule = true;
 exports.default = buildCircle;
 
-var _buildLine = __webpack_require__(19);
+var _buildLine = __webpack_require__(20);
 
 var _buildLine2 = _interopRequireDefault(_buildLine);
 
@@ -24139,7 +24293,7 @@ function buildCircle(graphicsData, webGLData, webGLDataNativeLines) {
 //# sourceMappingURL=buildCircle.js.map
 
 /***/ }),
-/* 111 */
+/* 112 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24148,7 +24302,7 @@ function buildCircle(graphicsData, webGLData, webGLDataNativeLines) {
 exports.__esModule = true;
 exports.default = buildPoly;
 
-var _buildLine = __webpack_require__(19);
+var _buildLine = __webpack_require__(20);
 
 var _buildLine2 = _interopRequireDefault(_buildLine);
 
@@ -24230,7 +24384,7 @@ function buildPoly(graphicsData, webGLData, webGLDataNativeLines) {
 //# sourceMappingURL=buildPoly.js.map
 
 /***/ }),
-/* 112 */
+/* 113 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24239,7 +24393,7 @@ function buildPoly(graphicsData, webGLData, webGLDataNativeLines) {
 exports.__esModule = true;
 exports.default = buildRectangle;
 
-var _buildLine = __webpack_require__(19);
+var _buildLine = __webpack_require__(20);
 
 var _buildLine2 = _interopRequireDefault(_buildLine);
 
@@ -24311,7 +24465,7 @@ function buildRectangle(graphicsData, webGLData, webGLDataNativeLines) {
 //# sourceMappingURL=buildRectangle.js.map
 
 /***/ }),
-/* 113 */
+/* 114 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24324,7 +24478,7 @@ var _earcut = __webpack_require__(76);
 
 var _earcut2 = _interopRequireDefault(_earcut);
 
-var _buildLine = __webpack_require__(19);
+var _buildLine = __webpack_require__(20);
 
 var _buildLine2 = _interopRequireDefault(_buildLine);
 
@@ -24472,7 +24626,7 @@ function quadraticBezierCurve(fromX, fromY, cpX, cpY, toX, toY) {
 //# sourceMappingURL=buildRoundedRectangle.js.map
 
 /***/ }),
-/* 114 */
+/* 115 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24591,7 +24745,7 @@ exports.default = Circle;
 //# sourceMappingURL=Circle.js.map
 
 /***/ }),
-/* 115 */
+/* 116 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24718,7 +24872,7 @@ exports.default = Ellipse;
 //# sourceMappingURL=Ellipse.js.map
 
 /***/ }),
-/* 116 */
+/* 117 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24854,7 +25008,7 @@ exports.default = Polygon;
 //# sourceMappingURL=Polygon.js.map
 
 /***/ }),
-/* 117 */
+/* 118 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24992,7 +25146,7 @@ exports.default = RoundedRectangle;
 //# sourceMappingURL=RoundedRectangle.js.map
 
 /***/ }),
-/* 118 */
+/* 119 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25165,7 +25319,7 @@ exports.default = CanvasMaskManager;
 //# sourceMappingURL=CanvasMaskManager.js.map
 
 /***/ }),
-/* 119 */
+/* 120 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25242,7 +25396,7 @@ function mapCanvasBlendModesToPixi() {
 //# sourceMappingURL=mapCanvasBlendModesToPixi.js.map
 
 /***/ }),
-/* 120 */
+/* 121 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25367,7 +25521,7 @@ exports.default = TextureGarbageCollector;
 //# sourceMappingURL=TextureGarbageCollector.js.map
 
 /***/ }),
-/* 121 */
+/* 122 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25379,7 +25533,7 @@ var _pixiGlCore = __webpack_require__(5);
 
 var _const = __webpack_require__(0);
 
-var _RenderTarget = __webpack_require__(22);
+var _RenderTarget = __webpack_require__(23);
 
 var _RenderTarget2 = _interopRequireDefault(_RenderTarget);
 
@@ -25619,7 +25773,7 @@ exports.default = TextureManager;
 //# sourceMappingURL=TextureManager.js.map
 
 /***/ }),
-/* 122 */
+/* 123 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25627,7 +25781,7 @@ exports.default = TextureManager;
 
 exports.__esModule = true;
 
-var _mapWebGLBlendModesToPixi = __webpack_require__(129);
+var _mapWebGLBlendModesToPixi = __webpack_require__(130);
 
 var _mapWebGLBlendModesToPixi2 = _interopRequireDefault(_mapWebGLBlendModesToPixi);
 
@@ -25904,7 +26058,7 @@ exports.default = WebGLState;
 //# sourceMappingURL=WebGLState.js.map
 
 /***/ }),
-/* 123 */
+/* 124 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25971,7 +26125,7 @@ function extractUniformsFromString(string) {
 //# sourceMappingURL=extractUniformsFromSrc.js.map
 
 /***/ }),
-/* 124 */
+/* 125 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -26058,7 +26212,7 @@ function calculateSpriteMatrix(outputMatrix, filterArea, textureSize, sprite) {
 //# sourceMappingURL=filterTransforms.js.map
 
 /***/ }),
-/* 125 */
+/* 126 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -26066,11 +26220,11 @@ function calculateSpriteMatrix(outputMatrix, filterArea, textureSize, sprite) {
 
 exports.__esModule = true;
 
-var _WebGLManager2 = __webpack_require__(13);
+var _WebGLManager2 = __webpack_require__(16);
 
 var _WebGLManager3 = _interopRequireDefault(_WebGLManager2);
 
-var _RenderTarget = __webpack_require__(22);
+var _RenderTarget = __webpack_require__(23);
 
 var _RenderTarget2 = _interopRequireDefault(_RenderTarget);
 
@@ -26080,11 +26234,11 @@ var _Quad2 = _interopRequireDefault(_Quad);
 
 var _math = __webpack_require__(4);
 
-var _Shader = __webpack_require__(10);
+var _Shader = __webpack_require__(13);
 
 var _Shader2 = _interopRequireDefault(_Shader);
 
-var _filterTransforms = __webpack_require__(124);
+var _filterTransforms = __webpack_require__(125);
 
 var filterTransforms = _interopRequireWildcard(_filterTransforms);
 
@@ -26633,7 +26787,7 @@ exports.default = FilterManager;
 //# sourceMappingURL=FilterManager.js.map
 
 /***/ }),
-/* 126 */
+/* 127 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -26641,7 +26795,7 @@ exports.default = FilterManager;
 
 exports.__esModule = true;
 
-var _WebGLManager2 = __webpack_require__(13);
+var _WebGLManager2 = __webpack_require__(16);
 
 var _WebGLManager3 = _interopRequireDefault(_WebGLManager2);
 
@@ -26848,7 +27002,7 @@ exports.default = MaskManager;
 //# sourceMappingURL=MaskManager.js.map
 
 /***/ }),
-/* 127 */
+/* 128 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -26856,7 +27010,7 @@ exports.default = MaskManager;
 
 exports.__esModule = true;
 
-var _WebGLManager2 = __webpack_require__(13);
+var _WebGLManager2 = __webpack_require__(16);
 
 var _WebGLManager3 = _interopRequireDefault(_WebGLManager2);
 
@@ -26987,7 +27141,7 @@ exports.default = StencilManager;
 //# sourceMappingURL=StencilManager.js.map
 
 /***/ }),
-/* 128 */
+/* 129 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27067,7 +27221,7 @@ function generateIfTestSrc(maxIfs) {
 //# sourceMappingURL=checkMaxIfStatmentsInShader.js.map
 
 /***/ }),
-/* 129 */
+/* 130 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27121,7 +27275,7 @@ function mapWebGLBlendModesToPixi(gl) {
 //# sourceMappingURL=mapWebGLBlendModesToPixi.js.map
 
 /***/ }),
-/* 130 */
+/* 131 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27158,7 +27312,7 @@ function mapWebGLDrawModesToPixi(gl) {
 //# sourceMappingURL=mapWebGLDrawModesToPixi.js.map
 
 /***/ }),
-/* 131 */
+/* 132 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27179,7 +27333,7 @@ function validateContext(gl) {
 //# sourceMappingURL=validateContext.js.map
 
 /***/ }),
-/* 132 */
+/* 133 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27187,7 +27341,7 @@ function validateContext(gl) {
 
 exports.__esModule = true;
 
-var _CanvasRenderer = __webpack_require__(12);
+var _CanvasRenderer = __webpack_require__(15);
 
 var _CanvasRenderer2 = _interopRequireDefault(_CanvasRenderer);
 
@@ -27337,7 +27491,7 @@ _CanvasRenderer2.default.registerPlugin('sprite', CanvasSpriteRenderer);
 //# sourceMappingURL=CanvasSpriteRenderer.js.map
 
 /***/ }),
-/* 133 */
+/* 134 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27395,7 +27549,7 @@ exports.default = Buffer;
 //# sourceMappingURL=BatchBuffer.js.map
 
 /***/ }),
-/* 134 */
+/* 135 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27403,11 +27557,11 @@ exports.default = Buffer;
 
 exports.__esModule = true;
 
-var _ObjectRenderer2 = __webpack_require__(21);
+var _ObjectRenderer2 = __webpack_require__(22);
 
 var _ObjectRenderer3 = _interopRequireDefault(_ObjectRenderer2);
 
-var _WebGLRenderer = __webpack_require__(20);
+var _WebGLRenderer = __webpack_require__(21);
 
 var _WebGLRenderer2 = _interopRequireDefault(_WebGLRenderer);
 
@@ -27415,15 +27569,15 @@ var _createIndicesForQuads = __webpack_require__(33);
 
 var _createIndicesForQuads2 = _interopRequireDefault(_createIndicesForQuads);
 
-var _generateMultiTextureShader = __webpack_require__(135);
+var _generateMultiTextureShader = __webpack_require__(136);
 
 var _generateMultiTextureShader2 = _interopRequireDefault(_generateMultiTextureShader);
 
-var _checkMaxIfStatmentsInShader = __webpack_require__(128);
+var _checkMaxIfStatmentsInShader = __webpack_require__(129);
 
 var _checkMaxIfStatmentsInShader2 = _interopRequireDefault(_checkMaxIfStatmentsInShader);
 
-var _BatchBuffer = __webpack_require__(133);
+var _BatchBuffer = __webpack_require__(134);
 
 var _BatchBuffer2 = _interopRequireDefault(_BatchBuffer);
 
@@ -27942,7 +28096,7 @@ _WebGLRenderer2.default.registerPlugin('sprite', SpriteRenderer);
 //# sourceMappingURL=SpriteRenderer.js.map
 
 /***/ }),
-/* 135 */
+/* 136 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27951,7 +28105,7 @@ _WebGLRenderer2.default.registerPlugin('sprite', SpriteRenderer);
 exports.__esModule = true;
 exports.default = generateMultiTextureShader;
 
-var _Shader = __webpack_require__(10);
+var _Shader = __webpack_require__(13);
 
 var _Shader2 = _interopRequireDefault(_Shader);
 
@@ -28010,7 +28164,7 @@ function generateSampleSrc(maxTextures) {
 //# sourceMappingURL=generateMultiTextureShader.js.map
 
 /***/ }),
-/* 136 */
+/* 137 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28046,7 +28200,7 @@ var _TextMetrics = __webpack_require__(58);
 
 var _TextMetrics2 = _interopRequireDefault(_TextMetrics);
 
-var _trimCanvas = __webpack_require__(146);
+var _trimCanvas = __webpack_require__(147);
 
 var _trimCanvas2 = _interopRequireDefault(_trimCanvas);
 
@@ -28670,7 +28824,7 @@ exports.default = Text;
 //# sourceMappingURL=Text.js.map
 
 /***/ }),
-/* 137 */
+/* 138 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28936,7 +29090,7 @@ exports.default = Spritesheet;
 //# sourceMappingURL=Spritesheet.js.map
 
 /***/ }),
-/* 138 */
+/* 139 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28952,7 +29106,7 @@ var _settings2 = _interopRequireDefault(_settings);
 
 var _const = __webpack_require__(0);
 
-var _TickerListener = __webpack_require__(139);
+var _TickerListener = __webpack_require__(140);
 
 var _TickerListener2 = _interopRequireDefault(_TickerListener);
 
@@ -29414,7 +29568,7 @@ exports.default = Ticker;
 //# sourceMappingURL=Ticker.js.map
 
 /***/ }),
-/* 139 */
+/* 140 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29593,7 +29747,7 @@ exports.default = TickerListener;
 //# sourceMappingURL=TickerListener.js.map
 
 /***/ }),
-/* 140 */
+/* 141 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29612,7 +29766,7 @@ function canUploadSameBuffer() {
 //# sourceMappingURL=canUploadSameBuffer.js.map
 
 /***/ }),
-/* 141 */
+/* 142 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29673,7 +29827,7 @@ function determineCrossOrigin(url) {
 //# sourceMappingURL=determineCrossOrigin.js.map
 
 /***/ }),
-/* 142 */
+/* 143 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29721,7 +29875,7 @@ function mapPremultipliedBlendModes() {
 //# sourceMappingURL=mapPremultipliedBlendModes.js.map
 
 /***/ }),
-/* 143 */
+/* 144 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29748,7 +29902,7 @@ function maxRecommendedTextures(max) {
 //# sourceMappingURL=maxRecommendedTextures.js.map
 
 /***/ }),
-/* 144 */
+/* 145 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29815,7 +29969,7 @@ function performMixins() {
 //# sourceMappingURL=mixin.js.map
 
 /***/ }),
-/* 145 */
+/* 146 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29886,7 +30040,7 @@ exports.default = {
 //# sourceMappingURL=pluginTarget.js.map
 
 /***/ }),
-/* 146 */
+/* 147 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29967,7 +30121,7 @@ function trimCanvas(canvas) {
 //# sourceMappingURL=trimCanvas.js.map
 
 /***/ }),
-/* 147 */
+/* 148 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -31068,7 +31222,7 @@ function deprecation(core) {
 //# sourceMappingURL=deprecation.js.map
 
 /***/ }),
-/* 148 */
+/* 149 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -31253,7 +31407,7 @@ core.CanvasRenderer.registerPlugin('extract', CanvasExtract);
 //# sourceMappingURL=CanvasExtract.js.map
 
 /***/ }),
-/* 149 */
+/* 150 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -31261,7 +31415,7 @@ core.CanvasRenderer.registerPlugin('extract', CanvasExtract);
 
 exports.__esModule = true;
 
-var _WebGLExtract = __webpack_require__(150);
+var _WebGLExtract = __webpack_require__(151);
 
 Object.defineProperty(exports, 'webgl', {
   enumerable: true,
@@ -31270,7 +31424,7 @@ Object.defineProperty(exports, 'webgl', {
   }
 });
 
-var _CanvasExtract = __webpack_require__(148);
+var _CanvasExtract = __webpack_require__(149);
 
 Object.defineProperty(exports, 'canvas', {
   enumerable: true,
@@ -31283,7 +31437,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 //# sourceMappingURL=index.js.map
 
 /***/ }),
-/* 150 */
+/* 151 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -31511,7 +31665,7 @@ core.WebGLRenderer.registerPlugin('extract', WebGLExtract);
 //# sourceMappingURL=WebGLExtract.js.map
 
 /***/ }),
-/* 151 */
+/* 152 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -31924,7 +32078,7 @@ exports.default = AnimatedSprite;
 //# sourceMappingURL=AnimatedSprite.js.map
 
 /***/ }),
-/* 152 */
+/* 153 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -32517,7 +32671,7 @@ BitmapText.fonts = {};
 //# sourceMappingURL=BitmapText.js.map
 
 /***/ }),
-/* 153 */
+/* 154 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -32974,7 +33128,7 @@ exports.default = TilingSprite;
 //# sourceMappingURL=TilingSprite.js.map
 
 /***/ }),
-/* 154 */
+/* 155 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -33383,7 +33537,7 @@ DisplayObject.prototype._cacheAsBitmapDestroy = function _cacheAsBitmapDestroy(o
 //# sourceMappingURL=cacheAsBitmap.js.map
 
 /***/ }),
-/* 155 */
+/* 156 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -33422,7 +33576,7 @@ core.Container.prototype.getChildByName = function getChildByName(name) {
 //# sourceMappingURL=getChildByName.js.map
 
 /***/ }),
-/* 156 */
+/* 157 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -33460,7 +33614,7 @@ core.DisplayObject.prototype.getGlobalPosition = function getGlobalPosition() {
 //# sourceMappingURL=getGlobalPosition.js.map
 
 /***/ }),
-/* 157 */
+/* 158 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -33627,7 +33781,7 @@ core.WebGLRenderer.registerPlugin('tilingSprite', TilingSpriteRenderer);
 //# sourceMappingURL=TilingSpriteRenderer.js.map
 
 /***/ }),
-/* 158 */
+/* 159 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -33789,7 +33943,7 @@ exports.default = BlurFilter;
 //# sourceMappingURL=BlurFilter.js.map
 
 /***/ }),
-/* 159 */
+/* 160 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -34345,7 +34499,7 @@ ColorMatrixFilter.prototype.grayscale = ColorMatrixFilter.prototype.greyscale;
 //# sourceMappingURL=ColorMatrixFilter.js.map
 
 /***/ }),
-/* 160 */
+/* 161 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -34460,7 +34614,7 @@ exports.default = DisplacementFilter;
 //# sourceMappingURL=DisplacementFilter.js.map
 
 /***/ }),
-/* 161 */
+/* 162 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -34519,7 +34673,7 @@ exports.default = FXAAFilter;
 //# sourceMappingURL=FXAAFilter.js.map
 
 /***/ }),
-/* 162 */
+/* 163 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -34527,7 +34681,7 @@ exports.default = FXAAFilter;
 
 exports.__esModule = true;
 
-var _FXAAFilter = __webpack_require__(161);
+var _FXAAFilter = __webpack_require__(162);
 
 Object.defineProperty(exports, 'FXAAFilter', {
   enumerable: true,
@@ -34536,7 +34690,7 @@ Object.defineProperty(exports, 'FXAAFilter', {
   }
 });
 
-var _NoiseFilter = __webpack_require__(163);
+var _NoiseFilter = __webpack_require__(164);
 
 Object.defineProperty(exports, 'NoiseFilter', {
   enumerable: true,
@@ -34545,7 +34699,7 @@ Object.defineProperty(exports, 'NoiseFilter', {
   }
 });
 
-var _DisplacementFilter = __webpack_require__(160);
+var _DisplacementFilter = __webpack_require__(161);
 
 Object.defineProperty(exports, 'DisplacementFilter', {
   enumerable: true,
@@ -34554,7 +34708,7 @@ Object.defineProperty(exports, 'DisplacementFilter', {
   }
 });
 
-var _BlurFilter = __webpack_require__(158);
+var _BlurFilter = __webpack_require__(159);
 
 Object.defineProperty(exports, 'BlurFilter', {
   enumerable: true,
@@ -34581,7 +34735,7 @@ Object.defineProperty(exports, 'BlurYFilter', {
   }
 });
 
-var _ColorMatrixFilter = __webpack_require__(159);
+var _ColorMatrixFilter = __webpack_require__(160);
 
 Object.defineProperty(exports, 'ColorMatrixFilter', {
   enumerable: true,
@@ -34590,7 +34744,7 @@ Object.defineProperty(exports, 'ColorMatrixFilter', {
   }
 });
 
-var _VoidFilter = __webpack_require__(164);
+var _VoidFilter = __webpack_require__(165);
 
 Object.defineProperty(exports, 'VoidFilter', {
   enumerable: true,
@@ -34603,7 +34757,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 //# sourceMappingURL=index.js.map
 
 /***/ }),
-/* 163 */
+/* 164 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -34705,7 +34859,7 @@ exports.default = NoiseFilter;
 //# sourceMappingURL=NoiseFilter.js.map
 
 /***/ }),
-/* 164 */
+/* 165 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -34760,7 +34914,7 @@ exports.default = VoidFilter;
 //# sourceMappingURL=VoidFilter.js.map
 
 /***/ }),
-/* 165 */
+/* 166 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -34850,7 +35004,7 @@ exports.default = InteractionEvent;
 //# sourceMappingURL=InteractionEvent.js.map
 
 /***/ }),
-/* 166 */
+/* 167 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -34868,11 +35022,11 @@ var _InteractionData = __webpack_require__(69);
 
 var _InteractionData2 = _interopRequireDefault(_InteractionData);
 
-var _InteractionEvent = __webpack_require__(165);
+var _InteractionEvent = __webpack_require__(166);
 
 var _InteractionEvent2 = _interopRequireDefault(_InteractionEvent);
 
-var _InteractionTrackingData = __webpack_require__(167);
+var _InteractionTrackingData = __webpack_require__(168);
 
 var _InteractionTrackingData2 = _interopRequireDefault(_InteractionTrackingData);
 
@@ -36615,7 +36769,7 @@ core.CanvasRenderer.registerPlugin('interaction', InteractionManager);
 //# sourceMappingURL=InteractionManager.js.map
 
 /***/ }),
-/* 167 */
+/* 168 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -36796,7 +36950,7 @@ InteractionTrackingData.FLAGS = Object.freeze({
 //# sourceMappingURL=InteractionTrackingData.js.map
 
 /***/ }),
-/* 168 */
+/* 169 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -36813,7 +36967,7 @@ Object.defineProperty(exports, 'InteractionData', {
   }
 });
 
-var _InteractionManager = __webpack_require__(166);
+var _InteractionManager = __webpack_require__(167);
 
 Object.defineProperty(exports, 'InteractionManager', {
   enumerable: true,
@@ -36835,7 +36989,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 //# sourceMappingURL=index.js.map
 
 /***/ }),
-/* 169 */
+/* 170 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -36883,7 +37037,7 @@ Object.defineProperty(exports, 'textureParser', {
     }
 });
 
-var _resourceLoader = __webpack_require__(15);
+var _resourceLoader = __webpack_require__(18);
 
 Object.defineProperty(exports, 'Resource', {
     enumerable: true,
@@ -36896,7 +37050,7 @@ var _Application = __webpack_require__(44);
 
 var _Application2 = _interopRequireDefault(_Application);
 
-var _loader = __webpack_require__(170);
+var _loader = __webpack_require__(171);
 
 var _loader2 = _interopRequireDefault(_loader);
 
@@ -36968,7 +37122,7 @@ AppPrototype.destroy = function destroy(removeView) {
 //# sourceMappingURL=index.js.map
 
 /***/ }),
-/* 170 */
+/* 171 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -36976,11 +37130,11 @@ AppPrototype.destroy = function destroy(removeView) {
 
 exports.__esModule = true;
 
-var _resourceLoader = __webpack_require__(15);
+var _resourceLoader = __webpack_require__(18);
 
 var _resourceLoader2 = _interopRequireDefault(_resourceLoader);
 
-var _blob = __webpack_require__(198);
+var _blob = __webpack_require__(199);
 
 var _eventemitter = __webpack_require__(8);
 
@@ -37144,7 +37298,7 @@ Resource.setExtensionXhrType('fnt', Resource.XHR_RESPONSE_TYPE.DOCUMENT);
 //# sourceMappingURL=loader.js.map
 
 /***/ }),
-/* 171 */
+/* 172 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -37535,7 +37689,7 @@ exports.default = NineSlicePlane;
 //# sourceMappingURL=NineSlicePlane.js.map
 
 /***/ }),
-/* 172 */
+/* 173 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -37543,7 +37697,7 @@ exports.default = NineSlicePlane;
 
 exports.__esModule = true;
 
-var _Mesh2 = __webpack_require__(14);
+var _Mesh2 = __webpack_require__(17);
 
 var _Mesh3 = _interopRequireDefault(_Mesh2);
 
@@ -37776,7 +37930,7 @@ exports.default = Rope;
 //# sourceMappingURL=Rope.js.map
 
 /***/ }),
-/* 173 */
+/* 174 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -37788,7 +37942,7 @@ var _core = __webpack_require__(1);
 
 var core = _interopRequireWildcard(_core);
 
-var _Mesh = __webpack_require__(14);
+var _Mesh = __webpack_require__(17);
 
 var _Mesh2 = _interopRequireDefault(_Mesh);
 
@@ -38063,7 +38217,7 @@ core.CanvasRenderer.registerPlugin('mesh', MeshSpriteRenderer);
 //# sourceMappingURL=CanvasMeshRenderer.js.map
 
 /***/ }),
-/* 174 */
+/* 175 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -38071,7 +38225,7 @@ core.CanvasRenderer.registerPlugin('mesh', MeshSpriteRenderer);
 
 exports.__esModule = true;
 
-var _Mesh = __webpack_require__(14);
+var _Mesh = __webpack_require__(17);
 
 Object.defineProperty(exports, 'Mesh', {
   enumerable: true,
@@ -38080,7 +38234,7 @@ Object.defineProperty(exports, 'Mesh', {
   }
 });
 
-var _MeshRenderer = __webpack_require__(175);
+var _MeshRenderer = __webpack_require__(176);
 
 Object.defineProperty(exports, 'MeshRenderer', {
   enumerable: true,
@@ -38089,7 +38243,7 @@ Object.defineProperty(exports, 'MeshRenderer', {
   }
 });
 
-var _CanvasMeshRenderer = __webpack_require__(173);
+var _CanvasMeshRenderer = __webpack_require__(174);
 
 Object.defineProperty(exports, 'CanvasMeshRenderer', {
   enumerable: true,
@@ -38107,7 +38261,7 @@ Object.defineProperty(exports, 'Plane', {
   }
 });
 
-var _NineSlicePlane = __webpack_require__(171);
+var _NineSlicePlane = __webpack_require__(172);
 
 Object.defineProperty(exports, 'NineSlicePlane', {
   enumerable: true,
@@ -38116,7 +38270,7 @@ Object.defineProperty(exports, 'NineSlicePlane', {
   }
 });
 
-var _Rope = __webpack_require__(172);
+var _Rope = __webpack_require__(173);
 
 Object.defineProperty(exports, 'Rope', {
   enumerable: true,
@@ -38129,7 +38283,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 //# sourceMappingURL=index.js.map
 
 /***/ }),
-/* 175 */
+/* 176 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -38145,7 +38299,7 @@ var _pixiGlCore = __webpack_require__(5);
 
 var _pixiGlCore2 = _interopRequireDefault(_pixiGlCore);
 
-var _Mesh = __webpack_require__(14);
+var _Mesh = __webpack_require__(17);
 
 var _Mesh2 = _interopRequireDefault(_Mesh);
 
@@ -38285,7 +38439,7 @@ core.WebGLRenderer.registerPlugin('mesh', MeshRenderer);
 //# sourceMappingURL=MeshRenderer.js.map
 
 /***/ }),
-/* 176 */
+/* 177 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -38661,7 +38815,7 @@ exports.default = ParticleContainer;
 //# sourceMappingURL=ParticleContainer.js.map
 
 /***/ }),
-/* 177 */
+/* 178 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -38669,7 +38823,7 @@ exports.default = ParticleContainer;
 
 exports.__esModule = true;
 
-var _ParticleContainer = __webpack_require__(176);
+var _ParticleContainer = __webpack_require__(177);
 
 Object.defineProperty(exports, 'ParticleContainer', {
   enumerable: true,
@@ -38678,7 +38832,7 @@ Object.defineProperty(exports, 'ParticleContainer', {
   }
 });
 
-var _ParticleRenderer = __webpack_require__(179);
+var _ParticleRenderer = __webpack_require__(180);
 
 Object.defineProperty(exports, 'ParticleRenderer', {
   enumerable: true,
@@ -38691,7 +38845,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 //# sourceMappingURL=index.js.map
 
 /***/ }),
-/* 178 */
+/* 179 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -38936,7 +39090,7 @@ exports.default = ParticleBuffer;
 //# sourceMappingURL=ParticleBuffer.js.map
 
 /***/ }),
-/* 179 */
+/* 180 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -38948,11 +39102,11 @@ var _core = __webpack_require__(1);
 
 var core = _interopRequireWildcard(_core);
 
-var _ParticleShader = __webpack_require__(180);
+var _ParticleShader = __webpack_require__(181);
 
 var _ParticleShader2 = _interopRequireDefault(_ParticleShader);
 
-var _ParticleBuffer = __webpack_require__(178);
+var _ParticleBuffer = __webpack_require__(179);
 
 var _ParticleBuffer2 = _interopRequireDefault(_ParticleBuffer);
 
@@ -39386,7 +39540,7 @@ core.WebGLRenderer.registerPlugin('particle', ParticleRenderer);
 //# sourceMappingURL=ParticleRenderer.js.map
 
 /***/ }),
-/* 180 */
+/* 181 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -39394,7 +39548,7 @@ core.WebGLRenderer.registerPlugin('particle', ParticleRenderer);
 
 exports.__esModule = true;
 
-var _Shader2 = __webpack_require__(10);
+var _Shader2 = __webpack_require__(13);
 
 var _Shader3 = _interopRequireDefault(_Shader2);
 
@@ -39434,7 +39588,7 @@ exports.default = ParticleShader;
 //# sourceMappingURL=ParticleShader.js.map
 
 /***/ }),
-/* 181 */
+/* 182 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -39457,13 +39611,13 @@ if (!Math.sign) {
 //# sourceMappingURL=Math.sign.js.map
 
 /***/ }),
-/* 182 */
+/* 183 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var _objectAssign = __webpack_require__(189);
+var _objectAssign = __webpack_require__(190);
 
 var _objectAssign2 = _interopRequireDefault(_objectAssign);
 
@@ -39477,17 +39631,17 @@ if (!Object.assign) {
 //# sourceMappingURL=Object.assign.js.map
 
 /***/ }),
-/* 183 */
+/* 184 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
+__webpack_require__(183);
+
+__webpack_require__(185);
+
 __webpack_require__(182);
-
-__webpack_require__(184);
-
-__webpack_require__(181);
 
 if (!window.ArrayBuffer) {
     window.ArrayBuffer = Array;
@@ -39507,7 +39661,7 @@ if (!window.Uint16Array) {
 //# sourceMappingURL=index.js.map
 
 /***/ }),
-/* 184 */
+/* 185 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -39588,7 +39742,7 @@ if (!global.cancelAnimationFrame) {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(41)))
 
 /***/ }),
-/* 185 */
+/* 186 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -39713,7 +39867,7 @@ core.CanvasRenderer.registerPlugin('prepare', CanvasPrepare);
 //# sourceMappingURL=CanvasPrepare.js.map
 
 /***/ }),
-/* 186 */
+/* 187 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -39721,7 +39875,7 @@ core.CanvasRenderer.registerPlugin('prepare', CanvasPrepare);
 
 exports.__esModule = true;
 
-var _WebGLPrepare = __webpack_require__(188);
+var _WebGLPrepare = __webpack_require__(189);
 
 Object.defineProperty(exports, 'webgl', {
   enumerable: true,
@@ -39730,7 +39884,7 @@ Object.defineProperty(exports, 'webgl', {
   }
 });
 
-var _CanvasPrepare = __webpack_require__(185);
+var _CanvasPrepare = __webpack_require__(186);
 
 Object.defineProperty(exports, 'canvas', {
   enumerable: true,
@@ -39757,7 +39911,7 @@ Object.defineProperty(exports, 'CountLimiter', {
   }
 });
 
-var _TimeLimiter = __webpack_require__(187);
+var _TimeLimiter = __webpack_require__(188);
 
 Object.defineProperty(exports, 'TimeLimiter', {
   enumerable: true,
@@ -39770,7 +39924,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 //# sourceMappingURL=index.js.map
 
 /***/ }),
-/* 187 */
+/* 188 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -39833,7 +39987,7 @@ exports.default = TimeLimiter;
 //# sourceMappingURL=TimeLimiter.js.map
 
 /***/ }),
-/* 188 */
+/* 189 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -39960,7 +40114,7 @@ core.WebGLRenderer.registerPlugin('prepare', WebGLPrepare);
 //# sourceMappingURL=WebGLPrepare.js.map
 
 /***/ }),
-/* 189 */
+/* 190 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -40057,7 +40211,7 @@ module.exports = shouldUseNative() ? Object.assign : function (target, source) {
 
 
 /***/ }),
-/* 190 */
+/* 191 */
 /***/ (function(module, exports) {
 
 var EMPTY_ARRAY_BUFFER = new ArrayBuffer(0);
@@ -40182,7 +40336,7 @@ module.exports = Buffer;
 
 
 /***/ }),
-/* 191 */
+/* 192 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
@@ -40413,7 +40567,7 @@ module.exports = Framebuffer;
 
 
 /***/ }),
-/* 192 */
+/* 193 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
@@ -40510,7 +40664,7 @@ module.exports = Shader;
 
 
 /***/ }),
-/* 193 */
+/* 194 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
@@ -40778,7 +40932,7 @@ VertexArrayObject.prototype.getSize = function()
 
 
 /***/ }),
-/* 194 */
+/* 195 */
 /***/ (function(module, exports) {
 
 
@@ -40810,7 +40964,7 @@ module.exports = createContext;
 
 
 /***/ }),
-/* 195 */
+/* 196 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = {
@@ -40825,7 +40979,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 196 */
+/* 197 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -40860,7 +41014,7 @@ module.exports = function removeItems(arr, startIdx, removeCount)
 
 
 /***/ }),
-/* 197 */
+/* 198 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -41483,7 +41637,7 @@ exports.default = Loader;
 //# sourceMappingURL=Loader.js.map
 
 /***/ }),
-/* 198 */
+/* 199 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -41576,25 +41730,25 @@ function blobMiddlewareFactory() {
 //# sourceMappingURL=blob.js.map
 
 /***/ }),
-/* 199 */
+/* 200 */
 /***/ (function(module, exports) {
 
 module.exports = "var width = 0;\nvar height = 0;\nvar dim = 0;\nvar stageWidth = 0;\nvar stageHeight = 0;\nvar time = { t: 0, dt: 0, count: 0 };\nvar lastTime = startTime = 0;\n\nvar worldRenderer = null;\nvar loader = null;\nvar resources = null;\nvar stage0 = null;\nvar stage = null;\n\n// Modules\nvar updateQueue = null;\n\n// Objects\n//var balls = [];\nvar message = null;\nvar voices = null;"
 
 /***/ }),
-/* 200 */
+/* 201 */
 /***/ (function(module, exports) {
 
 module.exports = "/*!\r\n* @license CreateJS\r\n* Visit http://createjs.com/ for documentation, updates and examples.\r\n*\r\n* Copyright (c) 2011-2015 gskinner.com, inc.\r\n*\r\n* Distributed under the terms of the MIT license.\r\n* http://www.opensource.org/licenses/mit-license.html\r\n*\r\n* This notice shall be included in all copies or substantial portions of the Software.\r\n*/\nthis.createjs = this.createjs || {}, createjs.extend = function (a, b) {\n  \"use strict\";\n  function c() {\n    this.constructor = a;\n  }return c.prototype = b.prototype, a.prototype = new c();\n}, this.createjs = this.createjs || {}, createjs.promote = function (a, b) {\n  \"use strict\";\n  var c = a.prototype,\n      d = Object.getPrototypeOf && Object.getPrototypeOf(c) || c.__proto__;if (d) {\n    c[(b += \"_\") + \"constructor\"] = d.constructor;for (var e in d) c.hasOwnProperty(e) && \"function\" == typeof d[e] && (c[b + e] = d[e]);\n  }return a;\n}, this.createjs = this.createjs || {}, createjs.indexOf = function (a, b) {\n  \"use strict\";\n  for (var c = 0, d = a.length; d > c; c++) if (b === a[c]) return c;return -1;\n}, this.createjs = this.createjs || {}, function () {\n  \"use strict\";\n  function a(a, b, c) {\n    this.type = a, this.target = null, this.currentTarget = null, this.eventPhase = 0, this.bubbles = !!b, this.cancelable = !!c, this.timeStamp = new Date().getTime(), this.defaultPrevented = !1, this.propagationStopped = !1, this.immediatePropagationStopped = !1, this.removed = !1;\n  }var b = a.prototype;b.preventDefault = function () {\n    this.defaultPrevented = this.cancelable && !0;\n  }, b.stopPropagation = function () {\n    this.propagationStopped = !0;\n  }, b.stopImmediatePropagation = function () {\n    this.immediatePropagationStopped = this.propagationStopped = !0;\n  }, b.remove = function () {\n    this.removed = !0;\n  }, b.clone = function () {\n    return new a(this.type, this.bubbles, this.cancelable);\n  }, b.set = function (a) {\n    for (var b in a) this[b] = a[b];return this;\n  }, b.toString = function () {\n    return \"[Event (type=\" + this.type + \")]\";\n  }, createjs.Event = a;\n}(), this.createjs = this.createjs || {}, function () {\n  \"use strict\";\n  function a() {\n    this._listeners = null, this._captureListeners = null;\n  }var b = a.prototype;a.initialize = function (a) {\n    a.addEventListener = b.addEventListener, a.on = b.on, a.removeEventListener = a.off = b.removeEventListener, a.removeAllEventListeners = b.removeAllEventListeners, a.hasEventListener = b.hasEventListener, a.dispatchEvent = b.dispatchEvent, a._dispatchEvent = b._dispatchEvent, a.willTrigger = b.willTrigger;\n  }, b.addEventListener = function (a, b, c) {\n    var d;d = c ? this._captureListeners = this._captureListeners || {} : this._listeners = this._listeners || {};var e = d[a];return e && this.removeEventListener(a, b, c), e = d[a], e ? e.push(b) : d[a] = [b], b;\n  }, b.on = function (a, b, c, d, e, f) {\n    return b.handleEvent && (c = c || b, b = b.handleEvent), c = c || this, this.addEventListener(a, function (a) {\n      b.call(c, a, e), d && a.remove();\n    }, f);\n  }, b.removeEventListener = function (a, b, c) {\n    var d = c ? this._captureListeners : this._listeners;if (d) {\n      var e = d[a];if (e) for (var f = 0, g = e.length; g > f; f++) if (e[f] == b) {\n        1 == g ? delete d[a] : e.splice(f, 1);break;\n      }\n    }\n  }, b.off = b.removeEventListener, b.removeAllEventListeners = function (a) {\n    a ? (this._listeners && delete this._listeners[a], this._captureListeners && delete this._captureListeners[a]) : this._listeners = this._captureListeners = null;\n  }, b.dispatchEvent = function (a, b, c) {\n    if (\"string\" == typeof a) {\n      var d = this._listeners;if (!(b || d && d[a])) return !0;a = new createjs.Event(a, b, c);\n    } else a.target && a.clone && (a = a.clone());try {\n      a.target = this;\n    } catch (e) {}if (a.bubbles && this.parent) {\n      for (var f = this, g = [f]; f.parent;) g.push(f = f.parent);var h,\n          i = g.length;for (h = i - 1; h >= 0 && !a.propagationStopped; h--) g[h]._dispatchEvent(a, 1 + (0 == h));for (h = 1; i > h && !a.propagationStopped; h++) g[h]._dispatchEvent(a, 3);\n    } else this._dispatchEvent(a, 2);return !a.defaultPrevented;\n  }, b.hasEventListener = function (a) {\n    var b = this._listeners,\n        c = this._captureListeners;return !!(b && b[a] || c && c[a]);\n  }, b.willTrigger = function (a) {\n    for (var b = this; b;) {\n      if (b.hasEventListener(a)) return !0;b = b.parent;\n    }return !1;\n  }, b.toString = function () {\n    return \"[EventDispatcher]\";\n  }, b._dispatchEvent = function (a, b) {\n    var c,\n        d = 1 == b ? this._captureListeners : this._listeners;if (a && d) {\n      var e = d[a.type];if (!e || !(c = e.length)) return;try {\n        a.currentTarget = this;\n      } catch (f) {}try {\n        a.eventPhase = b;\n      } catch (f) {}a.removed = !1, e = e.slice();for (var g = 0; c > g && !a.immediatePropagationStopped; g++) {\n        var h = e[g];h.handleEvent ? h.handleEvent(a) : h(a), a.removed && (this.off(a.type, h, 1 == b), a.removed = !1);\n      }\n    }\n  }, createjs.EventDispatcher = a;\n}(), this.createjs = this.createjs || {}, function () {\n  \"use strict\";\n  function a() {\n    throw \"Ticker cannot be instantiated.\";\n  }a.RAF_SYNCHED = \"synched\", a.RAF = \"raf\", a.TIMEOUT = \"timeout\", a.useRAF = !1, a.timingMode = null, a.maxDelta = 0, a.paused = !1, a.removeEventListener = null, a.removeAllEventListeners = null, a.dispatchEvent = null, a.hasEventListener = null, a._listeners = null, createjs.EventDispatcher.initialize(a), a._addEventListener = a.addEventListener, a.addEventListener = function () {\n    return !a._inited && a.init(), a._addEventListener.apply(a, arguments);\n  }, a._inited = !1, a._startTime = 0, a._pausedTime = 0, a._ticks = 0, a._pausedTicks = 0, a._interval = 50, a._lastTime = 0, a._times = null, a._tickTimes = null, a._timerId = null, a._raf = !0, a.setInterval = function (b) {\n    a._interval = b, a._inited && a._setupTick();\n  }, a.getInterval = function () {\n    return a._interval;\n  }, a.setFPS = function (b) {\n    a.setInterval(1e3 / b);\n  }, a.getFPS = function () {\n    return 1e3 / a._interval;\n  };try {\n    Object.defineProperties(a, { interval: { get: a.getInterval, set: a.setInterval }, framerate: { get: a.getFPS, set: a.setFPS } });\n  } catch (b) {\n    console.log(b);\n  }a.init = function () {\n    a._inited || (a._inited = !0, a._times = [], a._tickTimes = [], a._startTime = a._getTime(), a._times.push(a._lastTime = 0), a.interval = a._interval);\n  }, a.reset = function () {\n    if (a._raf) {\n      var b = window.cancelAnimationFrame || window.webkitCancelAnimationFrame || window.mozCancelAnimationFrame || window.oCancelAnimationFrame || window.msCancelAnimationFrame;b && b(a._timerId);\n    } else clearTimeout(a._timerId);a.removeAllEventListeners(\"tick\"), a._timerId = a._times = a._tickTimes = null, a._startTime = a._lastTime = a._ticks = 0, a._inited = !1;\n  }, a.getMeasuredTickTime = function (b) {\n    var c = 0,\n        d = a._tickTimes;if (!d || d.length < 1) return -1;b = Math.min(d.length, b || 0 | a.getFPS());for (var e = 0; b > e; e++) c += d[e];return c / b;\n  }, a.getMeasuredFPS = function (b) {\n    var c = a._times;return !c || c.length < 2 ? -1 : (b = Math.min(c.length - 1, b || 0 | a.getFPS()), 1e3 / ((c[0] - c[b]) / b));\n  }, a.setPaused = function (b) {\n    a.paused = b;\n  }, a.getPaused = function () {\n    return a.paused;\n  }, a.getTime = function (b) {\n    return a._startTime ? a._getTime() - (b ? a._pausedTime : 0) : -1;\n  }, a.getEventTime = function (b) {\n    return a._startTime ? (a._lastTime || a._startTime) - (b ? a._pausedTime : 0) : -1;\n  }, a.getTicks = function (b) {\n    return a._ticks - (b ? a._pausedTicks : 0);\n  }, a._handleSynch = function () {\n    a._timerId = null, a._setupTick(), a._getTime() - a._lastTime >= .97 * (a._interval - 1) && a._tick();\n  }, a._handleRAF = function () {\n    a._timerId = null, a._setupTick(), a._tick();\n  }, a._handleTimeout = function () {\n    a._timerId = null, a._setupTick(), a._tick();\n  }, a._setupTick = function () {\n    if (null == a._timerId) {\n      var b = a.timingMode || a.useRAF && a.RAF_SYNCHED;if (b == a.RAF_SYNCHED || b == a.RAF) {\n        var c = window.requestAnimationFrame || window.webkitRequestAnimationFrame || window.mozRequestAnimationFrame || window.oRequestAnimationFrame || window.msRequestAnimationFrame;if (c) return a._timerId = c(b == a.RAF ? a._handleRAF : a._handleSynch), void (a._raf = !0);\n      }a._raf = !1, a._timerId = setTimeout(a._handleTimeout, a._interval);\n    }\n  }, a._tick = function () {\n    var b = a.paused,\n        c = a._getTime(),\n        d = c - a._lastTime;if (a._lastTime = c, a._ticks++, b && (a._pausedTicks++, a._pausedTime += d), a.hasEventListener(\"tick\")) {\n      var e = new createjs.Event(\"tick\"),\n          f = a.maxDelta;e.delta = f && d > f ? f : d, e.paused = b, e.time = c, e.runTime = c - a._pausedTime, a.dispatchEvent(e);\n    }for (a._tickTimes.unshift(a._getTime() - c); a._tickTimes.length > 100;) a._tickTimes.pop();for (a._times.unshift(c); a._times.length > 100;) a._times.pop();\n  };var c = window.performance && (performance.now || performance.mozNow || performance.msNow || performance.oNow || performance.webkitNow);a._getTime = function () {\n    return (c && c.call(performance) || new Date().getTime()) - a._startTime;\n  }, createjs.Ticker = a;\n}(), this.createjs = this.createjs || {}, function () {\n  \"use strict\";\n  function a() {\n    throw \"UID cannot be instantiated\";\n  }a._nextID = 0, a.get = function () {\n    return a._nextID++;\n  }, createjs.UID = a;\n}(), this.createjs = this.createjs || {}, function () {\n  \"use strict\";\n  function a(a, b, c, d, e, f, g, h, i, j, k) {\n    this.Event_constructor(a, b, c), this.stageX = d, this.stageY = e, this.rawX = null == i ? d : i, this.rawY = null == j ? e : j, this.nativeEvent = f, this.pointerID = g, this.primary = !!h, this.relatedTarget = k;\n  }var b = createjs.extend(a, createjs.Event);b._get_localX = function () {\n    return this.currentTarget.globalToLocal(this.rawX, this.rawY).x;\n  }, b._get_localY = function () {\n    return this.currentTarget.globalToLocal(this.rawX, this.rawY).y;\n  }, b._get_isTouch = function () {\n    return -1 !== this.pointerID;\n  };try {\n    Object.defineProperties(b, { localX: { get: b._get_localX }, localY: { get: b._get_localY }, isTouch: { get: b._get_isTouch } });\n  } catch (c) {}b.clone = function () {\n    return new a(this.type, this.bubbles, this.cancelable, this.stageX, this.stageY, this.nativeEvent, this.pointerID, this.primary, this.rawX, this.rawY);\n  }, b.toString = function () {\n    return \"[MouseEvent (type=\" + this.type + \" stageX=\" + this.stageX + \" stageY=\" + this.stageY + \")]\";\n  }, createjs.MouseEvent = createjs.promote(a, \"Event\");\n}(), this.createjs = this.createjs || {}, function () {\n  \"use strict\";\n  function a(a, b, c, d, e, f) {\n    this.setValues(a, b, c, d, e, f);\n  }var b = a.prototype;a.DEG_TO_RAD = Math.PI / 180, a.identity = null, b.setValues = function (a, b, c, d, e, f) {\n    return this.a = null == a ? 1 : a, this.b = b || 0, this.c = c || 0, this.d = null == d ? 1 : d, this.tx = e || 0, this.ty = f || 0, this;\n  }, b.append = function (a, b, c, d, e, f) {\n    var g = this.a,\n        h = this.b,\n        i = this.c,\n        j = this.d;return (1 != a || 0 != b || 0 != c || 1 != d) && (this.a = g * a + i * b, this.b = h * a + j * b, this.c = g * c + i * d, this.d = h * c + j * d), this.tx = g * e + i * f + this.tx, this.ty = h * e + j * f + this.ty, this;\n  }, b.prepend = function (a, b, c, d, e, f) {\n    var g = this.a,\n        h = this.c,\n        i = this.tx;return this.a = a * g + c * this.b, this.b = b * g + d * this.b, this.c = a * h + c * this.d, this.d = b * h + d * this.d, this.tx = a * i + c * this.ty + e, this.ty = b * i + d * this.ty + f, this;\n  }, b.appendMatrix = function (a) {\n    return this.append(a.a, a.b, a.c, a.d, a.tx, a.ty);\n  }, b.prependMatrix = function (a) {\n    return this.prepend(a.a, a.b, a.c, a.d, a.tx, a.ty);\n  }, b.appendTransform = function (b, c, d, e, f, g, h, i, j) {\n    if (f % 360) var k = f * a.DEG_TO_RAD,\n        l = Math.cos(k),\n        m = Math.sin(k);else l = 1, m = 0;return g || h ? (g *= a.DEG_TO_RAD, h *= a.DEG_TO_RAD, this.append(Math.cos(h), Math.sin(h), -Math.sin(g), Math.cos(g), b, c), this.append(l * d, m * d, -m * e, l * e, 0, 0)) : this.append(l * d, m * d, -m * e, l * e, b, c), (i || j) && (this.tx -= i * this.a + j * this.c, this.ty -= i * this.b + j * this.d), this;\n  }, b.prependTransform = function (b, c, d, e, f, g, h, i, j) {\n    if (f % 360) var k = f * a.DEG_TO_RAD,\n        l = Math.cos(k),\n        m = Math.sin(k);else l = 1, m = 0;return (i || j) && (this.tx -= i, this.ty -= j), g || h ? (g *= a.DEG_TO_RAD, h *= a.DEG_TO_RAD, this.prepend(l * d, m * d, -m * e, l * e, 0, 0), this.prepend(Math.cos(h), Math.sin(h), -Math.sin(g), Math.cos(g), b, c)) : this.prepend(l * d, m * d, -m * e, l * e, b, c), this;\n  }, b.rotate = function (b) {\n    b *= a.DEG_TO_RAD;var c = Math.cos(b),\n        d = Math.sin(b),\n        e = this.a,\n        f = this.b;return this.a = e * c + this.c * d, this.b = f * c + this.d * d, this.c = -e * d + this.c * c, this.d = -f * d + this.d * c, this;\n  }, b.skew = function (b, c) {\n    return b *= a.DEG_TO_RAD, c *= a.DEG_TO_RAD, this.append(Math.cos(c), Math.sin(c), -Math.sin(b), Math.cos(b), 0, 0), this;\n  }, b.scale = function (a, b) {\n    return this.a *= a, this.b *= a, this.c *= b, this.d *= b, this;\n  }, b.translate = function (a, b) {\n    return this.tx += this.a * a + this.c * b, this.ty += this.b * a + this.d * b, this;\n  }, b.identity = function () {\n    return this.a = this.d = 1, this.b = this.c = this.tx = this.ty = 0, this;\n  }, b.invert = function () {\n    var a = this.a,\n        b = this.b,\n        c = this.c,\n        d = this.d,\n        e = this.tx,\n        f = a * d - b * c;return this.a = d / f, this.b = -b / f, this.c = -c / f, this.d = a / f, this.tx = (c * this.ty - d * e) / f, this.ty = -(a * this.ty - b * e) / f, this;\n  }, b.isIdentity = function () {\n    return 0 === this.tx && 0 === this.ty && 1 === this.a && 0 === this.b && 0 === this.c && 1 === this.d;\n  }, b.equals = function (a) {\n    return this.tx === a.tx && this.ty === a.ty && this.a === a.a && this.b === a.b && this.c === a.c && this.d === a.d;\n  }, b.transformPoint = function (a, b, c) {\n    return c = c || {}, c.x = a * this.a + b * this.c + this.tx, c.y = a * this.b + b * this.d + this.ty, c;\n  }, b.decompose = function (b) {\n    null == b && (b = {}), b.x = this.tx, b.y = this.ty, b.scaleX = Math.sqrt(this.a * this.a + this.b * this.b), b.scaleY = Math.sqrt(this.c * this.c + this.d * this.d);var c = Math.atan2(-this.c, this.d),\n        d = Math.atan2(this.b, this.a),\n        e = Math.abs(1 - c / d);return 1e-5 > e ? (b.rotation = d / a.DEG_TO_RAD, this.a < 0 && this.d >= 0 && (b.rotation += b.rotation <= 0 ? 180 : -180), b.skewX = b.skewY = 0) : (b.skewX = c / a.DEG_TO_RAD, b.skewY = d / a.DEG_TO_RAD), b;\n  }, b.copy = function (a) {\n    return this.setValues(a.a, a.b, a.c, a.d, a.tx, a.ty);\n  }, b.clone = function () {\n    return new a(this.a, this.b, this.c, this.d, this.tx, this.ty);\n  }, b.toString = function () {\n    return \"[Matrix2D (a=\" + this.a + \" b=\" + this.b + \" c=\" + this.c + \" d=\" + this.d + \" tx=\" + this.tx + \" ty=\" + this.ty + \")]\";\n  }, a.identity = new a(), createjs.Matrix2D = a;\n}(), this.createjs = this.createjs || {}, function () {\n  \"use strict\";\n  function a(a, b, c, d, e) {\n    this.setValues(a, b, c, d, e);\n  }var b = a.prototype;b.setValues = function (a, b, c, d, e) {\n    return this.visible = null == a ? !0 : !!a, this.alpha = null == b ? 1 : b, this.shadow = c, this.compositeOperation = d, this.matrix = e || this.matrix && this.matrix.identity() || new createjs.Matrix2D(), this;\n  }, b.append = function (a, b, c, d, e) {\n    return this.alpha *= b, this.shadow = c || this.shadow, this.compositeOperation = d || this.compositeOperation, this.visible = this.visible && a, e && this.matrix.appendMatrix(e), this;\n  }, b.prepend = function (a, b, c, d, e) {\n    return this.alpha *= b, this.shadow = this.shadow || c, this.compositeOperation = this.compositeOperation || d, this.visible = this.visible && a, e && this.matrix.prependMatrix(e), this;\n  }, b.identity = function () {\n    return this.visible = !0, this.alpha = 1, this.shadow = this.compositeOperation = null, this.matrix.identity(), this;\n  }, b.clone = function () {\n    return new a(this.alpha, this.shadow, this.compositeOperation, this.visible, this.matrix.clone());\n  }, createjs.DisplayProps = a;\n}(), this.createjs = this.createjs || {}, function () {\n  \"use strict\";\n  function a(a, b) {\n    this.setValues(a, b);\n  }var b = a.prototype;b.setValues = function (a, b) {\n    return this.x = a || 0, this.y = b || 0, this;\n  }, b.copy = function (a) {\n    return this.x = a.x, this.y = a.y, this;\n  }, b.clone = function () {\n    return new a(this.x, this.y);\n  }, b.toString = function () {\n    return \"[Point (x=\" + this.x + \" y=\" + this.y + \")]\";\n  }, createjs.Point = a;\n}(), this.createjs = this.createjs || {}, function () {\n  \"use strict\";\n  function a(a, b, c, d) {\n    this.setValues(a, b, c, d);\n  }var b = a.prototype;b.setValues = function (a, b, c, d) {\n    return this.x = a || 0, this.y = b || 0, this.width = c || 0, this.height = d || 0, this;\n  }, b.extend = function (a, b, c, d) {\n    return c = c || 0, d = d || 0, a + c > this.x + this.width && (this.width = a + c - this.x), b + d > this.y + this.height && (this.height = b + d - this.y), a < this.x && (this.width += this.x - a, this.x = a), b < this.y && (this.height += this.y - b, this.y = b), this;\n  }, b.pad = function (a, b, c, d) {\n    return this.x -= b, this.y -= a, this.width += b + d, this.height += a + c, this;\n  }, b.copy = function (a) {\n    return this.setValues(a.x, a.y, a.width, a.height);\n  }, b.contains = function (a, b, c, d) {\n    return c = c || 0, d = d || 0, a >= this.x && a + c <= this.x + this.width && b >= this.y && b + d <= this.y + this.height;\n  }, b.union = function (a) {\n    return this.clone().extend(a.x, a.y, a.width, a.height);\n  }, b.intersection = function (b) {\n    var c = b.x,\n        d = b.y,\n        e = c + b.width,\n        f = d + b.height;return this.x > c && (c = this.x), this.y > d && (d = this.y), this.x + this.width < e && (e = this.x + this.width), this.y + this.height < f && (f = this.y + this.height), c >= e || d >= f ? null : new a(c, d, e - c, f - d);\n  }, b.intersects = function (a) {\n    return a.x <= this.x + this.width && this.x <= a.x + a.width && a.y <= this.y + this.height && this.y <= a.y + a.height;\n  }, b.isEmpty = function () {\n    return this.width <= 0 || this.height <= 0;\n  }, b.clone = function () {\n    return new a(this.x, this.y, this.width, this.height);\n  }, b.toString = function () {\n    return \"[Rectangle (x=\" + this.x + \" y=\" + this.y + \" width=\" + this.width + \" height=\" + this.height + \")]\";\n  }, createjs.Rectangle = a;\n}(), this.createjs = this.createjs || {}, function () {\n  \"use strict\";\n  function a(a, b, c, d, e, f, g) {\n    a.addEventListener && (this.target = a, this.overLabel = null == c ? \"over\" : c, this.outLabel = null == b ? \"out\" : b, this.downLabel = null == d ? \"down\" : d, this.play = e, this._isPressed = !1, this._isOver = !1, this._enabled = !1, a.mouseChildren = !1, this.enabled = !0, this.handleEvent({}), f && (g && (f.actionsEnabled = !1, f.gotoAndStop && f.gotoAndStop(g)), a.hitArea = f));\n  }var b = a.prototype;b.setEnabled = function (a) {\n    if (a != this._enabled) {\n      var b = this.target;this._enabled = a, a ? (b.cursor = \"pointer\", b.addEventListener(\"rollover\", this), b.addEventListener(\"rollout\", this), b.addEventListener(\"mousedown\", this), b.addEventListener(\"pressup\", this), b._reset && (b.__reset = b._reset, b._reset = this._reset)) : (b.cursor = null, b.removeEventListener(\"rollover\", this), b.removeEventListener(\"rollout\", this), b.removeEventListener(\"mousedown\", this), b.removeEventListener(\"pressup\", this), b.__reset && (b._reset = b.__reset, delete b.__reset));\n    }\n  }, b.getEnabled = function () {\n    return this._enabled;\n  };try {\n    Object.defineProperties(b, { enabled: { get: b.getEnabled, set: b.setEnabled } });\n  } catch (c) {}b.toString = function () {\n    return \"[ButtonHelper]\";\n  }, b.handleEvent = function (a) {\n    var b,\n        c = this.target,\n        d = a.type;\"mousedown\" == d ? (this._isPressed = !0, b = this.downLabel) : \"pressup\" == d ? (this._isPressed = !1, b = this._isOver ? this.overLabel : this.outLabel) : \"rollover\" == d ? (this._isOver = !0, b = this._isPressed ? this.downLabel : this.overLabel) : (this._isOver = !1, b = this._isPressed ? this.overLabel : this.outLabel), this.play ? c.gotoAndPlay && c.gotoAndPlay(b) : c.gotoAndStop && c.gotoAndStop(b);\n  }, b._reset = function () {\n    var a = this.paused;this.__reset(), this.paused = a;\n  }, createjs.ButtonHelper = a;\n}(), this.createjs = this.createjs || {}, function () {\n  \"use strict\";\n  function a(a, b, c, d) {\n    this.color = a || \"black\", this.offsetX = b || 0, this.offsetY = c || 0, this.blur = d || 0;\n  }var b = a.prototype;a.identity = new a(\"transparent\", 0, 0, 0), b.toString = function () {\n    return \"[Shadow]\";\n  }, b.clone = function () {\n    return new a(this.color, this.offsetX, this.offsetY, this.blur);\n  }, createjs.Shadow = a;\n}(), this.createjs = this.createjs || {}, function () {\n  \"use strict\";\n  function a(a) {\n    this.EventDispatcher_constructor(), this.complete = !0, this.framerate = 0, this._animations = null, this._frames = null, this._images = null, this._data = null, this._loadCount = 0, this._frameHeight = 0, this._frameWidth = 0, this._numFrames = 0, this._regX = 0, this._regY = 0, this._spacing = 0, this._margin = 0, this._parseData(a);\n  }var b = createjs.extend(a, createjs.EventDispatcher);b.getAnimations = function () {\n    return this._animations.slice();\n  };try {\n    Object.defineProperties(b, { animations: { get: b.getAnimations } });\n  } catch (c) {}b.getNumFrames = function (a) {\n    if (null == a) return this._frames ? this._frames.length : this._numFrames || 0;var b = this._data[a];return null == b ? 0 : b.frames.length;\n  }, b.getAnimation = function (a) {\n    return this._data[a];\n  }, b.getFrame = function (a) {\n    var b;return this._frames && (b = this._frames[a]) ? b : null;\n  }, b.getFrameBounds = function (a, b) {\n    var c = this.getFrame(a);return c ? (b || new createjs.Rectangle()).setValues(-c.regX, -c.regY, c.rect.width, c.rect.height) : null;\n  }, b.toString = function () {\n    return \"[SpriteSheet]\";\n  }, b.clone = function () {\n    throw \"SpriteSheet cannot be cloned.\";\n  }, b._parseData = function (a) {\n    var b, c, d, e;if (null != a) {\n      if (this.framerate = a.framerate || 0, a.images && (c = a.images.length) > 0) for (e = this._images = [], b = 0; c > b; b++) {\n        var f = a.images[b];if (\"string\" == typeof f) {\n          var g = f;f = document.createElement(\"img\"), f.src = g;\n        }e.push(f), f.getContext || f.naturalWidth || (this._loadCount++, this.complete = !1, function (a, b) {\n          f.onload = function () {\n            a._handleImageLoad(b);\n          };\n        }(this, g), function (a, b) {\n          f.onerror = function () {\n            a._handleImageError(b);\n          };\n        }(this, g));\n      }if (null == a.frames) ;else if (Array.isArray(a.frames)) for (this._frames = [], e = a.frames, b = 0, c = e.length; c > b; b++) {\n        var h = e[b];this._frames.push({ image: this._images[h[4] ? h[4] : 0], rect: new createjs.Rectangle(h[0], h[1], h[2], h[3]), regX: h[5] || 0, regY: h[6] || 0 });\n      } else d = a.frames, this._frameWidth = d.width, this._frameHeight = d.height, this._regX = d.regX || 0, this._regY = d.regY || 0, this._spacing = d.spacing || 0, this._margin = d.margin || 0, this._numFrames = d.count, 0 == this._loadCount && this._calculateFrames();if (this._animations = [], null != (d = a.animations)) {\n        this._data = {};var i;for (i in d) {\n          var j = { name: i },\n              k = d[i];if (\"number\" == typeof k) e = j.frames = [k];else if (Array.isArray(k)) {\n            if (1 == k.length) j.frames = [k[0]];else for (j.speed = k[3], j.next = k[2], e = j.frames = [], b = k[0]; b <= k[1]; b++) e.push(b);\n          } else {\n            j.speed = k.speed, j.next = k.next;var l = k.frames;e = j.frames = \"number\" == typeof l ? [l] : l.slice(0);\n          }(j.next === !0 || void 0 === j.next) && (j.next = i), (j.next === !1 || e.length < 2 && j.next == i) && (j.next = null), j.speed || (j.speed = 1), this._animations.push(i), this._data[i] = j;\n        }\n      }\n    }\n  }, b._handleImageLoad = function (a) {\n    0 == --this._loadCount && (this._calculateFrames(), this.complete = !0, this.dispatchEvent(\"complete\"));\n  }, b._handleImageError = function (a) {\n    var b = new createjs.Event(\"error\");b.src = a, this.dispatchEvent(b), 0 == --this._loadCount && this.dispatchEvent(\"complete\");\n  }, b._calculateFrames = function () {\n    if (!this._frames && 0 != this._frameWidth) {\n      this._frames = [];var a = this._numFrames || 1e5,\n          b = 0,\n          c = this._frameWidth,\n          d = this._frameHeight,\n          e = this._spacing,\n          f = this._margin;a: for (var g = 0, h = this._images; g < h.length; g++) for (var i = h[g], j = i.width, k = i.height, l = f; k - f - d >= l;) {\n        for (var m = f; j - f - c >= m;) {\n          if (b >= a) break a;b++, this._frames.push({ image: i, rect: new createjs.Rectangle(m, l, c, d), regX: this._regX, regY: this._regY }), m += c + e;\n        }l += d + e;\n      }this._numFrames = b;\n    }\n  }, createjs.SpriteSheet = createjs.promote(a, \"EventDispatcher\");\n}(), this.createjs = this.createjs || {}, function () {\n  \"use strict\";\n  function a() {\n    this.command = null, this._stroke = null, this._strokeStyle = null, this._oldStrokeStyle = null, this._strokeDash = null, this._oldStrokeDash = null, this._strokeIgnoreScale = !1, this._fill = null, this._instructions = [], this._commitIndex = 0, this._activeInstructions = [], this._dirty = !1, this._storeIndex = 0, this.clear();\n  }var b = a.prototype,\n      c = a;a.getRGB = function (a, b, c, d) {\n    return null != a && null == c && (d = b, c = 255 & a, b = a >> 8 & 255, a = a >> 16 & 255), null == d ? \"rgb(\" + a + \",\" + b + \",\" + c + \")\" : \"rgba(\" + a + \",\" + b + \",\" + c + \",\" + d + \")\";\n  }, a.getHSL = function (a, b, c, d) {\n    return null == d ? \"hsl(\" + a % 360 + \",\" + b + \"%,\" + c + \"%)\" : \"hsla(\" + a % 360 + \",\" + b + \"%,\" + c + \"%,\" + d + \")\";\n  }, a.BASE_64 = { A: 0, B: 1, C: 2, D: 3, E: 4, F: 5, G: 6, H: 7, I: 8, J: 9, K: 10, L: 11, M: 12, N: 13, O: 14, P: 15, Q: 16, R: 17, S: 18, T: 19, U: 20, V: 21, W: 22, X: 23, Y: 24, Z: 25, a: 26, b: 27, c: 28, d: 29, e: 30, f: 31, g: 32, h: 33, i: 34, j: 35, k: 36, l: 37, m: 38, n: 39, o: 40, p: 41, q: 42, r: 43, s: 44, t: 45, u: 46, v: 47, w: 48, x: 49, y: 50, z: 51, 0: 52, 1: 53, 2: 54, 3: 55, 4: 56, 5: 57, 6: 58, 7: 59, 8: 60, 9: 61, \"+\": 62, \"/\": 63 }, a.STROKE_CAPS_MAP = [\"butt\", \"round\", \"square\"], a.STROKE_JOINTS_MAP = [\"miter\", \"round\", \"bevel\"];var d = createjs.createCanvas ? createjs.createCanvas() : document.createElement(\"canvas\");d.getContext && (a._ctx = d.getContext(\"2d\"), d.width = d.height = 1), b.getInstructions = function () {\n    return this._updateInstructions(), this._instructions;\n  };try {\n    Object.defineProperties(b, { instructions: { get: b.getInstructions } });\n  } catch (e) {}b.isEmpty = function () {\n    return !(this._instructions.length || this._activeInstructions.length);\n  }, b.draw = function (a, b) {\n    this._updateInstructions();for (var c = this._instructions, d = this._storeIndex, e = c.length; e > d; d++) c[d].exec(a, b);\n  }, b.drawAsPath = function (a) {\n    this._updateInstructions();for (var b, c = this._instructions, d = this._storeIndex, e = c.length; e > d; d++) (b = c[d]).path !== !1 && b.exec(a);\n  }, b.moveTo = function (a, b) {\n    return this.append(new c.MoveTo(a, b), !0);\n  }, b.lineTo = function (a, b) {\n    return this.append(new c.LineTo(a, b));\n  }, b.arcTo = function (a, b, d, e, f) {\n    return this.append(new c.ArcTo(a, b, d, e, f));\n  }, b.arc = function (a, b, d, e, f, g) {\n    return this.append(new c.Arc(a, b, d, e, f, g));\n  }, b.quadraticCurveTo = function (a, b, d, e) {\n    return this.append(new c.QuadraticCurveTo(a, b, d, e));\n  }, b.bezierCurveTo = function (a, b, d, e, f, g) {\n    return this.append(new c.BezierCurveTo(a, b, d, e, f, g));\n  }, b.rect = function (a, b, d, e) {\n    return this.append(new c.Rect(a, b, d, e));\n  }, b.closePath = function () {\n    return this._activeInstructions.length ? this.append(new c.ClosePath()) : this;\n  }, b.clear = function () {\n    return this._instructions.length = this._activeInstructions.length = this._commitIndex = 0, this._strokeStyle = this._oldStrokeStyle = this._stroke = this._fill = this._strokeDash = this._oldStrokeDash = null, this._dirty = this._strokeIgnoreScale = !1, this;\n  }, b.beginFill = function (a) {\n    return this._setFill(a ? new c.Fill(a) : null);\n  }, b.beginLinearGradientFill = function (a, b, d, e, f, g) {\n    return this._setFill(new c.Fill().linearGradient(a, b, d, e, f, g));\n  }, b.beginRadialGradientFill = function (a, b, d, e, f, g, h, i) {\n    return this._setFill(new c.Fill().radialGradient(a, b, d, e, f, g, h, i));\n  }, b.beginBitmapFill = function (a, b, d) {\n    return this._setFill(new c.Fill(null, d).bitmap(a, b));\n  }, b.endFill = function () {\n    return this.beginFill();\n  }, b.setStrokeStyle = function (a, b, d, e, f) {\n    return this._updateInstructions(!0), this._strokeStyle = this.command = new c.StrokeStyle(a, b, d, e, f), this._stroke && (this._stroke.ignoreScale = f), this._strokeIgnoreScale = f, this;\n  }, b.setStrokeDash = function (a, b) {\n    return this._updateInstructions(!0), this._strokeDash = this.command = new c.StrokeDash(a, b), this;\n  }, b.beginStroke = function (a) {\n    return this._setStroke(a ? new c.Stroke(a) : null);\n  }, b.beginLinearGradientStroke = function (a, b, d, e, f, g) {\n    return this._setStroke(new c.Stroke().linearGradient(a, b, d, e, f, g));\n  }, b.beginRadialGradientStroke = function (a, b, d, e, f, g, h, i) {\n    return this._setStroke(new c.Stroke().radialGradient(a, b, d, e, f, g, h, i));\n  }, b.beginBitmapStroke = function (a, b) {\n    return this._setStroke(new c.Stroke().bitmap(a, b));\n  }, b.endStroke = function () {\n    return this.beginStroke();\n  }, b.curveTo = b.quadraticCurveTo, b.drawRect = b.rect, b.drawRoundRect = function (a, b, c, d, e) {\n    return this.drawRoundRectComplex(a, b, c, d, e, e, e, e);\n  }, b.drawRoundRectComplex = function (a, b, d, e, f, g, h, i) {\n    return this.append(new c.RoundRect(a, b, d, e, f, g, h, i));\n  }, b.drawCircle = function (a, b, d) {\n    return this.append(new c.Circle(a, b, d));\n  }, b.drawEllipse = function (a, b, d, e) {\n    return this.append(new c.Ellipse(a, b, d, e));\n  }, b.drawPolyStar = function (a, b, d, e, f, g) {\n    return this.append(new c.PolyStar(a, b, d, e, f, g));\n  }, b.append = function (a, b) {\n    return this._activeInstructions.push(a), this.command = a, b || (this._dirty = !0), this;\n  }, b.decodePath = function (b) {\n    for (var c = [this.moveTo, this.lineTo, this.quadraticCurveTo, this.bezierCurveTo, this.closePath], d = [2, 2, 4, 6, 0], e = 0, f = b.length, g = [], h = 0, i = 0, j = a.BASE_64; f > e;) {\n      var k = b.charAt(e),\n          l = j[k],\n          m = l >> 3,\n          n = c[m];if (!n || 3 & l) throw \"bad path data (@\" + e + \"): \" + k;var o = d[m];m || (h = i = 0), g.length = 0, e++;for (var p = (l >> 2 & 1) + 2, q = 0; o > q; q++) {\n        var r = j[b.charAt(e)],\n            s = r >> 5 ? -1 : 1;r = (31 & r) << 6 | j[b.charAt(e + 1)], 3 == p && (r = r << 6 | j[b.charAt(e + 2)]), r = s * r / 10, q % 2 ? h = r += h : i = r += i, g[q] = r, e += p;\n      }n.apply(this, g);\n    }return this;\n  }, b.store = function () {\n    return this._updateInstructions(!0), this._storeIndex = this._instructions.length, this;\n  }, b.unstore = function () {\n    return this._storeIndex = 0, this;\n  }, b.clone = function () {\n    var b = new a();return b.command = this.command, b._stroke = this._stroke, b._strokeStyle = this._strokeStyle, b._strokeDash = this._strokeDash, b._strokeIgnoreScale = this._strokeIgnoreScale, b._fill = this._fill, b._instructions = this._instructions.slice(), b._commitIndex = this._commitIndex, b._activeInstructions = this._activeInstructions.slice(), b._dirty = this._dirty, b._storeIndex = this._storeIndex, b;\n  }, b.toString = function () {\n    return \"[Graphics]\";\n  }, b.mt = b.moveTo, b.lt = b.lineTo, b.at = b.arcTo, b.bt = b.bezierCurveTo, b.qt = b.quadraticCurveTo, b.a = b.arc, b.r = b.rect, b.cp = b.closePath, b.c = b.clear, b.f = b.beginFill, b.lf = b.beginLinearGradientFill, b.rf = b.beginRadialGradientFill, b.bf = b.beginBitmapFill, b.ef = b.endFill, b.ss = b.setStrokeStyle, b.sd = b.setStrokeDash, b.s = b.beginStroke, b.ls = b.beginLinearGradientStroke, b.rs = b.beginRadialGradientStroke, b.bs = b.beginBitmapStroke, b.es = b.endStroke, b.dr = b.drawRect, b.rr = b.drawRoundRect, b.rc = b.drawRoundRectComplex, b.dc = b.drawCircle, b.de = b.drawEllipse, b.dp = b.drawPolyStar, b.p = b.decodePath, b._updateInstructions = function (b) {\n    var c = this._instructions,\n        d = this._activeInstructions,\n        e = this._commitIndex;if (this._dirty && d.length) {\n      c.length = e, c.push(a.beginCmd);var f = d.length,\n          g = c.length;c.length = g + f;for (var h = 0; f > h; h++) c[h + g] = d[h];this._fill && c.push(this._fill), this._stroke && (this._strokeDash !== this._oldStrokeDash && (this._oldStrokeDash = this._strokeDash, c.push(this._strokeDash)), this._strokeStyle !== this._oldStrokeStyle && (this._oldStrokeStyle = this._strokeStyle, c.push(this._strokeStyle)), c.push(this._stroke)), this._dirty = !1;\n    }b && (d.length = 0, this._commitIndex = c.length);\n  }, b._setFill = function (a) {\n    return this._updateInstructions(!0), this.command = this._fill = a, this;\n  }, b._setStroke = function (a) {\n    return this._updateInstructions(!0), (this.command = this._stroke = a) && (a.ignoreScale = this._strokeIgnoreScale), this;\n  }, (c.LineTo = function (a, b) {\n    this.x = a, this.y = b;\n  }).prototype.exec = function (a) {\n    a.lineTo(this.x, this.y);\n  }, (c.MoveTo = function (a, b) {\n    this.x = a, this.y = b;\n  }).prototype.exec = function (a) {\n    a.moveTo(this.x, this.y);\n  }, (c.ArcTo = function (a, b, c, d, e) {\n    this.x1 = a, this.y1 = b, this.x2 = c, this.y2 = d, this.radius = e;\n  }).prototype.exec = function (a) {\n    a.arcTo(this.x1, this.y1, this.x2, this.y2, this.radius);\n  }, (c.Arc = function (a, b, c, d, e, f) {\n    this.x = a, this.y = b, this.radius = c, this.startAngle = d, this.endAngle = e, this.anticlockwise = !!f;\n  }).prototype.exec = function (a) {\n    a.arc(this.x, this.y, this.radius, this.startAngle, this.endAngle, this.anticlockwise);\n  }, (c.QuadraticCurveTo = function (a, b, c, d) {\n    this.cpx = a, this.cpy = b, this.x = c, this.y = d;\n  }).prototype.exec = function (a) {\n    a.quadraticCurveTo(this.cpx, this.cpy, this.x, this.y);\n  }, (c.BezierCurveTo = function (a, b, c, d, e, f) {\n    this.cp1x = a, this.cp1y = b, this.cp2x = c, this.cp2y = d, this.x = e, this.y = f;\n  }).prototype.exec = function (a) {\n    a.bezierCurveTo(this.cp1x, this.cp1y, this.cp2x, this.cp2y, this.x, this.y);\n  }, (c.Rect = function (a, b, c, d) {\n    this.x = a, this.y = b, this.w = c, this.h = d;\n  }).prototype.exec = function (a) {\n    a.rect(this.x, this.y, this.w, this.h);\n  }, (c.ClosePath = function () {}).prototype.exec = function (a) {\n    a.closePath();\n  }, (c.BeginPath = function () {}).prototype.exec = function (a) {\n    a.beginPath();\n  }, b = (c.Fill = function (a, b) {\n    this.style = a, this.matrix = b;\n  }).prototype, b.exec = function (a) {\n    if (this.style) {\n      a.fillStyle = this.style;var b = this.matrix;b && (a.save(), a.transform(b.a, b.b, b.c, b.d, b.tx, b.ty)), a.fill(), b && a.restore();\n    }\n  }, b.linearGradient = function (b, c, d, e, f, g) {\n    for (var h = this.style = a._ctx.createLinearGradient(d, e, f, g), i = 0, j = b.length; j > i; i++) h.addColorStop(c[i], b[i]);return h.props = { colors: b, ratios: c, x0: d, y0: e, x1: f, y1: g, type: \"linear\" }, this;\n  }, b.radialGradient = function (b, c, d, e, f, g, h, i) {\n    for (var j = this.style = a._ctx.createRadialGradient(d, e, f, g, h, i), k = 0, l = b.length; l > k; k++) j.addColorStop(c[k], b[k]);return j.props = { colors: b, ratios: c, x0: d, y0: e, r0: f, x1: g, y1: h, r1: i, type: \"radial\" }, this;\n  }, b.bitmap = function (b, c) {\n    if (b.naturalWidth || b.getContext || b.readyState >= 2) {\n      var d = this.style = a._ctx.createPattern(b, c || \"\");d.props = { image: b, repetition: c, type: \"bitmap\" };\n    }return this;\n  }, b.path = !1, b = (c.Stroke = function (a, b) {\n    this.style = a, this.ignoreScale = b;\n  }).prototype, b.exec = function (a) {\n    this.style && (a.strokeStyle = this.style, this.ignoreScale && (a.save(), a.setTransform(1, 0, 0, 1, 0, 0)), a.stroke(), this.ignoreScale && a.restore());\n  }, b.linearGradient = c.Fill.prototype.linearGradient, b.radialGradient = c.Fill.prototype.radialGradient, b.bitmap = c.Fill.prototype.bitmap, b.path = !1, b = (c.StrokeStyle = function (a, b, c, d, e) {\n    this.width = a, this.caps = b, this.joints = c, this.miterLimit = d, this.ignoreScale = e;\n  }).prototype, b.exec = function (b) {\n    b.lineWidth = null == this.width ? \"1\" : this.width, b.lineCap = null == this.caps ? \"butt\" : isNaN(this.caps) ? this.caps : a.STROKE_CAPS_MAP[this.caps], b.lineJoin = null == this.joints ? \"miter\" : isNaN(this.joints) ? this.joints : a.STROKE_JOINTS_MAP[this.joints], b.miterLimit = null == this.miterLimit ? \"10\" : this.miterLimit, b.ignoreScale = null == this.ignoreScale ? !1 : this.ignoreScale;\n  }, b.path = !1, (c.StrokeDash = function (a, b) {\n    this.segments = a, this.offset = b || 0;\n  }).prototype.exec = function (a) {\n    a.setLineDash && (a.setLineDash(this.segments || c.StrokeDash.EMPTY_SEGMENTS), a.lineDashOffset = this.offset || 0);\n  }, c.StrokeDash.EMPTY_SEGMENTS = [], (c.RoundRect = function (a, b, c, d, e, f, g, h) {\n    this.x = a, this.y = b, this.w = c, this.h = d, this.radiusTL = e, this.radiusTR = f, this.radiusBR = g, this.radiusBL = h;\n  }).prototype.exec = function (a) {\n    var b = (j > i ? i : j) / 2,\n        c = 0,\n        d = 0,\n        e = 0,\n        f = 0,\n        g = this.x,\n        h = this.y,\n        i = this.w,\n        j = this.h,\n        k = this.radiusTL,\n        l = this.radiusTR,\n        m = this.radiusBR,\n        n = this.radiusBL;0 > k && (k *= c = -1), k > b && (k = b), 0 > l && (l *= d = -1), l > b && (l = b), 0 > m && (m *= e = -1), m > b && (m = b), 0 > n && (n *= f = -1), n > b && (n = b), a.moveTo(g + i - l, h), a.arcTo(g + i + l * d, h - l * d, g + i, h + l, l), a.lineTo(g + i, h + j - m), a.arcTo(g + i + m * e, h + j + m * e, g + i - m, h + j, m), a.lineTo(g + n, h + j), a.arcTo(g - n * f, h + j + n * f, g, h + j - n, n), a.lineTo(g, h + k), a.arcTo(g - k * c, h - k * c, g + k, h, k), a.closePath();\n  }, (c.Circle = function (a, b, c) {\n    this.x = a, this.y = b, this.radius = c;\n  }).prototype.exec = function (a) {\n    a.arc(this.x, this.y, this.radius, 0, 2 * Math.PI);\n  }, (c.Ellipse = function (a, b, c, d) {\n    this.x = a, this.y = b, this.w = c, this.h = d;\n  }).prototype.exec = function (a) {\n    var b = this.x,\n        c = this.y,\n        d = this.w,\n        e = this.h,\n        f = .5522848,\n        g = d / 2 * f,\n        h = e / 2 * f,\n        i = b + d,\n        j = c + e,\n        k = b + d / 2,\n        l = c + e / 2;a.moveTo(b, l), a.bezierCurveTo(b, l - h, k - g, c, k, c), a.bezierCurveTo(k + g, c, i, l - h, i, l), a.bezierCurveTo(i, l + h, k + g, j, k, j), a.bezierCurveTo(k - g, j, b, l + h, b, l);\n  }, (c.PolyStar = function (a, b, c, d, e, f) {\n    this.x = a, this.y = b, this.radius = c, this.sides = d, this.pointSize = e, this.angle = f;\n  }).prototype.exec = function (a) {\n    var b = this.x,\n        c = this.y,\n        d = this.radius,\n        e = (this.angle || 0) / 180 * Math.PI,\n        f = this.sides,\n        g = 1 - (this.pointSize || 0),\n        h = Math.PI / f;a.moveTo(b + Math.cos(e) * d, c + Math.sin(e) * d);for (var i = 0; f > i; i++) e += h, 1 != g && a.lineTo(b + Math.cos(e) * d * g, c + Math.sin(e) * d * g), e += h, a.lineTo(b + Math.cos(e) * d, c + Math.sin(e) * d);a.closePath();\n  }, a.beginCmd = new c.BeginPath(), createjs.Graphics = a;\n}(), this.createjs = this.createjs || {}, function () {\n  \"use strict\";\n  function a() {\n    this.EventDispatcher_constructor(), this.alpha = 1, this.cacheCanvas = null, this.cacheID = 0, this.id = createjs.UID.get(), this.mouseEnabled = !0, this.tickEnabled = !0, this.name = null, this.parent = null, this.regX = 0, this.regY = 0, this.rotation = 0, this.scaleX = 1, this.scaleY = 1, this.skewX = 0, this.skewY = 0, this.shadow = null, this.visible = !0, this.x = 0, this.y = 0, this.transformMatrix = null, this.compositeOperation = null, this.snapToPixel = !0, this.filters = null, this.mask = null, this.hitArea = null, this.cursor = null, this._cacheOffsetX = 0, this._cacheOffsetY = 0, this._filterOffsetX = 0, this._filterOffsetY = 0, this._cacheScale = 1, this._cacheDataURLID = 0, this._cacheDataURL = null, this._props = new createjs.DisplayProps(), this._rectangle = new createjs.Rectangle(), this._bounds = null;\n  }var b = createjs.extend(a, createjs.EventDispatcher);a._MOUSE_EVENTS = [\"click\", \"dblclick\", \"mousedown\", \"mouseout\", \"mouseover\", \"pressmove\", \"pressup\", \"rollout\", \"rollover\"], a.suppressCrossDomainErrors = !1, a._snapToPixelEnabled = !1;var c = createjs.createCanvas ? createjs.createCanvas() : document.createElement(\"canvas\");c.getContext && (a._hitTestCanvas = c, a._hitTestContext = c.getContext(\"2d\"), c.width = c.height = 1), a._nextCacheID = 1, b.getStage = function () {\n    for (var a = this, b = createjs.Stage; a.parent;) a = a.parent;return a instanceof b ? a : null;\n  };try {\n    Object.defineProperties(b, { stage: { get: b.getStage } });\n  } catch (d) {}b.isVisible = function () {\n    return !!(this.visible && this.alpha > 0 && 0 != this.scaleX && 0 != this.scaleY);\n  }, b.draw = function (a, b) {\n    var c = this.cacheCanvas;if (b || !c) return !1;var d = this._cacheScale;return a.drawImage(c, this._cacheOffsetX + this._filterOffsetX, this._cacheOffsetY + this._filterOffsetY, c.width / d, c.height / d), !0;\n  }, b.updateContext = function (b) {\n    var c = this,\n        d = c.mask,\n        e = c._props.matrix;d && d.graphics && !d.graphics.isEmpty() && (d.getMatrix(e), b.transform(e.a, e.b, e.c, e.d, e.tx, e.ty), d.graphics.drawAsPath(b), b.clip(), e.invert(), b.transform(e.a, e.b, e.c, e.d, e.tx, e.ty)), this.getMatrix(e);var f = e.tx,\n        g = e.ty;a._snapToPixelEnabled && c.snapToPixel && (f = f + (0 > f ? -.5 : .5) | 0, g = g + (0 > g ? -.5 : .5) | 0), b.transform(e.a, e.b, e.c, e.d, f, g), b.globalAlpha *= c.alpha, c.compositeOperation && (b.globalCompositeOperation = c.compositeOperation), c.shadow && this._applyShadow(b, c.shadow);\n  }, b.cache = function (a, b, c, d, e) {\n    e = e || 1, this.cacheCanvas || (this.cacheCanvas = createjs.createCanvas ? createjs.createCanvas() : document.createElement(\"canvas\")), this._cacheWidth = c, this._cacheHeight = d, this._cacheOffsetX = a, this._cacheOffsetY = b, this._cacheScale = e, this.updateCache();\n  }, b.updateCache = function (b) {\n    var c = this.cacheCanvas;if (!c) throw \"cache() must be called before updateCache()\";var d = this._cacheScale,\n        e = this._cacheOffsetX * d,\n        f = this._cacheOffsetY * d,\n        g = this._cacheWidth,\n        h = this._cacheHeight,\n        i = c.getContext(\"2d\"),\n        j = this._getFilterBounds();e += this._filterOffsetX = j.x, f += this._filterOffsetY = j.y, g = Math.ceil(g * d) + j.width, h = Math.ceil(h * d) + j.height, g != c.width || h != c.height ? (c.width = g, c.height = h) : b || i.clearRect(0, 0, g + 1, h + 1), i.save(), i.globalCompositeOperation = b, i.setTransform(d, 0, 0, d, -e, -f), this.draw(i, !0), this._applyFilters(), i.restore(), this.cacheID = a._nextCacheID++;\n  }, b.uncache = function () {\n    this._cacheDataURL = this.cacheCanvas = null, this.cacheID = this._cacheOffsetX = this._cacheOffsetY = this._filterOffsetX = this._filterOffsetY = 0, this._cacheScale = 1;\n  }, b.getCacheDataURL = function () {\n    return this.cacheCanvas ? (this.cacheID != this._cacheDataURLID && (this._cacheDataURL = this.cacheCanvas.toDataURL()), this._cacheDataURL) : null;\n  }, b.localToGlobal = function (a, b, c) {\n    return this.getConcatenatedMatrix(this._props.matrix).transformPoint(a, b, c || new createjs.Point());\n  }, b.globalToLocal = function (a, b, c) {\n    return this.getConcatenatedMatrix(this._props.matrix).invert().transformPoint(a, b, c || new createjs.Point());\n  }, b.localToLocal = function (a, b, c, d) {\n    return d = this.localToGlobal(a, b, d), c.globalToLocal(d.x, d.y, d);\n  }, b.setTransform = function (a, b, c, d, e, f, g, h, i) {\n    return this.x = a || 0, this.y = b || 0, this.scaleX = null == c ? 1 : c, this.scaleY = null == d ? 1 : d, this.rotation = e || 0, this.skewX = f || 0, this.skewY = g || 0, this.regX = h || 0, this.regY = i || 0, this;\n  }, b.getMatrix = function (a) {\n    var b = this,\n        c = a && a.identity() || new createjs.Matrix2D();return b.transformMatrix ? c.copy(b.transformMatrix) : c.appendTransform(b.x, b.y, b.scaleX, b.scaleY, b.rotation, b.skewX, b.skewY, b.regX, b.regY);\n  }, b.getConcatenatedMatrix = function (a) {\n    for (var b = this, c = this.getMatrix(a); b = b.parent;) c.prependMatrix(b.getMatrix(b._props.matrix));return c;\n  }, b.getConcatenatedDisplayProps = function (a) {\n    a = a ? a.identity() : new createjs.DisplayProps();var b = this,\n        c = b.getMatrix(a.matrix);do a.prepend(b.visible, b.alpha, b.shadow, b.compositeOperation), b != this && c.prependMatrix(b.getMatrix(b._props.matrix)); while (b = b.parent);return a;\n  }, b.hitTest = function (b, c) {\n    var d = a._hitTestContext;d.setTransform(1, 0, 0, 1, -b, -c), this.draw(d);var e = this._testHit(d);return d.setTransform(1, 0, 0, 1, 0, 0), d.clearRect(0, 0, 2, 2), e;\n  }, b.set = function (a) {\n    for (var b in a) this[b] = a[b];return this;\n  }, b.getBounds = function () {\n    if (this._bounds) return this._rectangle.copy(this._bounds);var a = this.cacheCanvas;if (a) {\n      var b = this._cacheScale;return this._rectangle.setValues(this._cacheOffsetX, this._cacheOffsetY, a.width / b, a.height / b);\n    }return null;\n  }, b.getTransformedBounds = function () {\n    return this._getBounds();\n  }, b.setBounds = function (a, b, c, d) {\n    null == a && (this._bounds = a), this._bounds = (this._bounds || new createjs.Rectangle()).setValues(a, b, c, d);\n  }, b.clone = function () {\n    return this._cloneProps(new a());\n  }, b.toString = function () {\n    return \"[DisplayObject (name=\" + this.name + \")]\";\n  }, b._cloneProps = function (a) {\n    return a.alpha = this.alpha, a.mouseEnabled = this.mouseEnabled, a.tickEnabled = this.tickEnabled, a.name = this.name, a.regX = this.regX, a.regY = this.regY, a.rotation = this.rotation, a.scaleX = this.scaleX, a.scaleY = this.scaleY, a.shadow = this.shadow, a.skewX = this.skewX, a.skewY = this.skewY, a.visible = this.visible, a.x = this.x, a.y = this.y, a.compositeOperation = this.compositeOperation, a.snapToPixel = this.snapToPixel, a.filters = null == this.filters ? null : this.filters.slice(0), a.mask = this.mask, a.hitArea = this.hitArea, a.cursor = this.cursor, a._bounds = this._bounds, a;\n  }, b._applyShadow = function (a, b) {\n    b = b || Shadow.identity, a.shadowColor = b.color, a.shadowOffsetX = b.offsetX, a.shadowOffsetY = b.offsetY, a.shadowBlur = b.blur;\n  }, b._tick = function (a) {\n    var b = this._listeners;b && b.tick && (a.target = null, a.propagationStopped = a.immediatePropagationStopped = !1, this.dispatchEvent(a));\n  }, b._testHit = function (b) {\n    try {\n      var c = b.getImageData(0, 0, 1, 1).data[3] > 1;\n    } catch (d) {\n      if (!a.suppressCrossDomainErrors) throw \"An error has occurred. This is most likely due to security restrictions on reading canvas pixel data with local or cross-domain images.\";\n    }return c;\n  }, b._applyFilters = function () {\n    if (this.filters && 0 != this.filters.length && this.cacheCanvas) for (var a = this.filters.length, b = this.cacheCanvas.getContext(\"2d\"), c = this.cacheCanvas.width, d = this.cacheCanvas.height, e = 0; a > e; e++) this.filters[e].applyFilter(b, 0, 0, c, d);\n  }, b._getFilterBounds = function (a) {\n    var b,\n        c = this.filters,\n        d = this._rectangle.setValues(0, 0, 0, 0);if (!c || !(b = c.length)) return d;for (var e = 0; b > e; e++) {\n      var f = this.filters[e];f.getBounds && f.getBounds(d);\n    }return d;\n  }, b._getBounds = function (a, b) {\n    return this._transformBounds(this.getBounds(), a, b);\n  }, b._transformBounds = function (a, b, c) {\n    if (!a) return a;var d = a.x,\n        e = a.y,\n        f = a.width,\n        g = a.height,\n        h = this._props.matrix;h = c ? h.identity() : this.getMatrix(h), (d || e) && h.appendTransform(0, 0, 1, 1, 0, 0, 0, -d, -e), b && h.prependMatrix(b);var i = f * h.a,\n        j = f * h.b,\n        k = g * h.c,\n        l = g * h.d,\n        m = h.tx,\n        n = h.ty,\n        o = m,\n        p = m,\n        q = n,\n        r = n;return (d = i + m) < o ? o = d : d > p && (p = d), (d = i + k + m) < o ? o = d : d > p && (p = d), (d = k + m) < o ? o = d : d > p && (p = d), (e = j + n) < q ? q = e : e > r && (r = e), (e = j + l + n) < q ? q = e : e > r && (r = e), (e = l + n) < q ? q = e : e > r && (r = e), a.setValues(o, q, p - o, r - q);\n  }, b._hasMouseEventListener = function () {\n    for (var b = a._MOUSE_EVENTS, c = 0, d = b.length; d > c; c++) if (this.hasEventListener(b[c])) return !0;return !!this.cursor;\n  }, createjs.DisplayObject = createjs.promote(a, \"EventDispatcher\");\n}(), this.createjs = this.createjs || {}, function () {\n  \"use strict\";\n  function a() {\n    this.DisplayObject_constructor(), this.children = [], this.mouseChildren = !0, this.tickChildren = !0;\n  }var b = createjs.extend(a, createjs.DisplayObject);b.getNumChildren = function () {\n    return this.children.length;\n  };try {\n    Object.defineProperties(b, { numChildren: { get: b.getNumChildren } });\n  } catch (c) {}b.initialize = a, b.isVisible = function () {\n    var a = this.cacheCanvas || this.children.length;return !!(this.visible && this.alpha > 0 && 0 != this.scaleX && 0 != this.scaleY && a);\n  }, b.draw = function (a, b) {\n    if (this.DisplayObject_draw(a, b)) return !0;for (var c = this.children.slice(), d = 0, e = c.length; e > d; d++) {\n      var f = c[d];f.isVisible() && (a.save(), f.updateContext(a), f.draw(a), a.restore());\n    }return !0;\n  }, b.addChild = function (a) {\n    if (null == a) return a;var b = arguments.length;if (b > 1) {\n      for (var c = 0; b > c; c++) this.addChild(arguments[c]);return arguments[b - 1];\n    }return a.parent && a.parent.removeChild(a), a.parent = this, this.children.push(a), a.dispatchEvent(\"added\"), a;\n  }, b.addChildAt = function (a, b) {\n    var c = arguments.length,\n        d = arguments[c - 1];if (0 > d || d > this.children.length) return arguments[c - 2];if (c > 2) {\n      for (var e = 0; c - 1 > e; e++) this.addChildAt(arguments[e], d + e);return arguments[c - 2];\n    }return a.parent && a.parent.removeChild(a), a.parent = this, this.children.splice(b, 0, a), a.dispatchEvent(\"added\"), a;\n  }, b.removeChild = function (a) {\n    var b = arguments.length;if (b > 1) {\n      for (var c = !0, d = 0; b > d; d++) c = c && this.removeChild(arguments[d]);return c;\n    }return this.removeChildAt(createjs.indexOf(this.children, a));\n  }, b.removeChildAt = function (a) {\n    var b = arguments.length;if (b > 1) {\n      for (var c = [], d = 0; b > d; d++) c[d] = arguments[d];c.sort(function (a, b) {\n        return b - a;\n      });for (var e = !0, d = 0; b > d; d++) e = e && this.removeChildAt(c[d]);return e;\n    }if (0 > a || a > this.children.length - 1) return !1;var f = this.children[a];return f && (f.parent = null), this.children.splice(a, 1), f.dispatchEvent(\"removed\"), !0;\n  }, b.removeAllChildren = function () {\n    for (var a = this.children; a.length;) this.removeChildAt(0);\n  }, b.getChildAt = function (a) {\n    return this.children[a];\n  }, b.getChildByName = function (a) {\n    for (var b = this.children, c = 0, d = b.length; d > c; c++) if (b[c].name == a) return b[c];return null;\n  }, b.sortChildren = function (a) {\n    this.children.sort(a);\n  }, b.getChildIndex = function (a) {\n    return createjs.indexOf(this.children, a);\n  }, b.swapChildrenAt = function (a, b) {\n    var c = this.children,\n        d = c[a],\n        e = c[b];d && e && (c[a] = e, c[b] = d);\n  }, b.swapChildren = function (a, b) {\n    for (var c, d, e = this.children, f = 0, g = e.length; g > f && (e[f] == a && (c = f), e[f] == b && (d = f), null == c || null == d); f++);f != g && (e[c] = b, e[d] = a);\n  }, b.setChildIndex = function (a, b) {\n    var c = this.children,\n        d = c.length;if (!(a.parent != this || 0 > b || b >= d)) {\n      for (var e = 0; d > e && c[e] != a; e++);e != d && e != b && (c.splice(e, 1), c.splice(b, 0, a));\n    }\n  }, b.contains = function (a) {\n    for (; a;) {\n      if (a == this) return !0;a = a.parent;\n    }return !1;\n  }, b.hitTest = function (a, b) {\n    return null != this.getObjectUnderPoint(a, b);\n  }, b.getObjectsUnderPoint = function (a, b, c) {\n    var d = [],\n        e = this.localToGlobal(a, b);return this._getObjectsUnderPoint(e.x, e.y, d, c > 0, 1 == c), d;\n  }, b.getObjectUnderPoint = function (a, b, c) {\n    var d = this.localToGlobal(a, b);return this._getObjectsUnderPoint(d.x, d.y, null, c > 0, 1 == c);\n  }, b.getBounds = function () {\n    return this._getBounds(null, !0);\n  }, b.getTransformedBounds = function () {\n    return this._getBounds();\n  }, b.clone = function (b) {\n    var c = this._cloneProps(new a());return b && this._cloneChildren(c), c;\n  }, b.toString = function () {\n    return \"[Container (name=\" + this.name + \")]\";\n  }, b._tick = function (a) {\n    if (this.tickChildren) for (var b = this.children.length - 1; b >= 0; b--) {\n      var c = this.children[b];c.tickEnabled && c._tick && c._tick(a);\n    }this.DisplayObject__tick(a);\n  }, b._cloneChildren = function (a) {\n    a.children.length && a.removeAllChildren();for (var b = a.children, c = 0, d = this.children.length; d > c; c++) {\n      var e = this.children[c].clone(!0);e.parent = a, b.push(e);\n    }\n  }, b._getObjectsUnderPoint = function (b, c, d, e, f, g) {\n    if (g = g || 0, !g && !this._testMask(this, b, c)) return null;var h,\n        i = createjs.DisplayObject._hitTestContext;f = f || e && this._hasMouseEventListener();for (var j = this.children, k = j.length, l = k - 1; l >= 0; l--) {\n      var m = j[l],\n          n = m.hitArea;if (m.visible && (n || m.isVisible()) && (!e || m.mouseEnabled) && (n || this._testMask(m, b, c))) if (!n && m instanceof a) {\n        var o = m._getObjectsUnderPoint(b, c, d, e, f, g + 1);if (!d && o) return e && !this.mouseChildren ? this : o;\n      } else {\n        if (e && !f && !m._hasMouseEventListener()) continue;var p = m.getConcatenatedDisplayProps(m._props);if (h = p.matrix, n && (h.appendMatrix(n.getMatrix(n._props.matrix)), p.alpha = n.alpha), i.globalAlpha = p.alpha, i.setTransform(h.a, h.b, h.c, h.d, h.tx - b, h.ty - c), (n || m).draw(i), !this._testHit(i)) continue;if (i.setTransform(1, 0, 0, 1, 0, 0), i.clearRect(0, 0, 2, 2), !d) return e && !this.mouseChildren ? this : m;d.push(m);\n      }\n    }return null;\n  }, b._testMask = function (a, b, c) {\n    var d = a.mask;if (!d || !d.graphics || d.graphics.isEmpty()) return !0;var e = this._props.matrix,\n        f = a.parent;e = f ? f.getConcatenatedMatrix(e) : e.identity(), e = d.getMatrix(d._props.matrix).prependMatrix(e);var g = createjs.DisplayObject._hitTestContext;return g.setTransform(e.a, e.b, e.c, e.d, e.tx - b, e.ty - c), d.graphics.drawAsPath(g), g.fillStyle = \"#000\", g.fill(), this._testHit(g) ? (g.setTransform(1, 0, 0, 1, 0, 0), g.clearRect(0, 0, 2, 2), !0) : !1;\n  }, b._getBounds = function (a, b) {\n    var c = this.DisplayObject_getBounds();if (c) return this._transformBounds(c, a, b);var d = this._props.matrix;d = b ? d.identity() : this.getMatrix(d), a && d.prependMatrix(a);for (var e = this.children.length, f = null, g = 0; e > g; g++) {\n      var h = this.children[g];h.visible && (c = h._getBounds(d)) && (f ? f.extend(c.x, c.y, c.width, c.height) : f = c.clone());\n    }return f;\n  }, createjs.Container = createjs.promote(a, \"DisplayObject\");\n}(), this.createjs = this.createjs || {}, function () {\n  \"use strict\";\n  function a(a) {\n    this.Container_constructor(), this.autoClear = !0, this.canvas = \"string\" == typeof a ? document.getElementById(a) : a, this.mouseX = 0, this.mouseY = 0, this.drawRect = null, this.snapToPixelEnabled = !1, this.mouseInBounds = !1, this.tickOnUpdate = !0, this.mouseMoveOutside = !1, this.preventSelection = !0, this._pointerData = {}, this._pointerCount = 0, this._primaryPointerID = null, this._mouseOverIntervalID = null, this._nextStage = null, this._prevStage = null, this.enableDOMEvents(!0);\n  }var b = createjs.extend(a, createjs.Container);b._get_nextStage = function () {\n    return this._nextStage;\n  }, b._set_nextStage = function (a) {\n    this._nextStage && (this._nextStage._prevStage = null), a && (a._prevStage = this), this._nextStage = a;\n  };try {\n    Object.defineProperties(b, { nextStage: { get: b._get_nextStage, set: b._set_nextStage } });\n  } catch (c) {}b.update = function (a) {\n    if (this.canvas && (this.tickOnUpdate && this.tick(a), this.dispatchEvent(\"drawstart\", !1, !0) !== !1)) {\n      createjs.DisplayObject._snapToPixelEnabled = this.snapToPixelEnabled;var b = this.drawRect,\n          c = this.canvas.getContext(\"2d\");c.setTransform(1, 0, 0, 1, 0, 0), this.autoClear && (b ? c.clearRect(b.x, b.y, b.width, b.height) : c.clearRect(0, 0, this.canvas.width + 1, this.canvas.height + 1)), c.save(), this.drawRect && (c.beginPath(), c.rect(b.x, b.y, b.width, b.height), c.clip()), this.updateContext(c), this.draw(c, !1), c.restore(), this.dispatchEvent(\"drawend\");\n    }\n  }, b.tick = function (a) {\n    if (this.tickEnabled && this.dispatchEvent(\"tickstart\", !1, !0) !== !1) {\n      var b = new createjs.Event(\"tick\");if (a) for (var c in a) a.hasOwnProperty(c) && (b[c] = a[c]);this._tick(b), this.dispatchEvent(\"tickend\");\n    }\n  }, b.handleEvent = function (a) {\n    \"tick\" == a.type && this.update(a);\n  }, b.clear = function () {\n    if (this.canvas) {\n      var a = this.canvas.getContext(\"2d\");a.setTransform(1, 0, 0, 1, 0, 0), a.clearRect(0, 0, this.canvas.width + 1, this.canvas.height + 1);\n    }\n  }, b.toDataURL = function (a, b) {\n    var c,\n        d = this.canvas.getContext(\"2d\"),\n        e = this.canvas.width,\n        f = this.canvas.height;if (a) {\n      c = d.getImageData(0, 0, e, f);var g = d.globalCompositeOperation;d.globalCompositeOperation = \"destination-over\", d.fillStyle = a, d.fillRect(0, 0, e, f);\n    }var h = this.canvas.toDataURL(b || \"image/png\");return a && (d.putImageData(c, 0, 0), d.globalCompositeOperation = g), h;\n  }, b.enableMouseOver = function (a) {\n    if (this._mouseOverIntervalID && (clearInterval(this._mouseOverIntervalID), this._mouseOverIntervalID = null, 0 == a && this._testMouseOver(!0)), null == a) a = 20;else if (0 >= a) return;var b = this;this._mouseOverIntervalID = setInterval(function () {\n      b._testMouseOver();\n    }, 1e3 / Math.min(50, a));\n  }, b.enableDOMEvents = function (a) {\n    null == a && (a = !0);var b,\n        c,\n        d = this._eventListeners;if (!a && d) {\n      for (b in d) c = d[b], c.t.removeEventListener(b, c.f, !1);this._eventListeners = null;\n    } else if (a && !d && this.canvas) {\n      var e = window.addEventListener ? window : document,\n          f = this;d = this._eventListeners = {}, d.mouseup = { t: e, f: function (a) {\n          f._handleMouseUp(a);\n        } }, d.mousemove = { t: e, f: function (a) {\n          f._handleMouseMove(a);\n        } }, d.dblclick = { t: this.canvas, f: function (a) {\n          f._handleDoubleClick(a);\n        } }, d.mousedown = { t: this.canvas, f: function (a) {\n          f._handleMouseDown(a);\n        } };for (b in d) c = d[b], c.t.addEventListener(b, c.f, !1);\n    }\n  }, b.clone = function () {\n    throw \"Stage cannot be cloned.\";\n  }, b.toString = function () {\n    return \"[Stage (name=\" + this.name + \")]\";\n  }, b._getElementRect = function (a) {\n    var b;try {\n      b = a.getBoundingClientRect();\n    } catch (c) {\n      b = { top: a.offsetTop, left: a.offsetLeft, width: a.offsetWidth, height: a.offsetHeight };\n    }var d = (window.pageXOffset || document.scrollLeft || 0) - (document.clientLeft || document.body.clientLeft || 0),\n        e = (window.pageYOffset || document.scrollTop || 0) - (document.clientTop || document.body.clientTop || 0),\n        f = window.getComputedStyle ? getComputedStyle(a, null) : a.currentStyle,\n        g = parseInt(f.paddingLeft) + parseInt(f.borderLeftWidth),\n        h = parseInt(f.paddingTop) + parseInt(f.borderTopWidth),\n        i = parseInt(f.paddingRight) + parseInt(f.borderRightWidth),\n        j = parseInt(f.paddingBottom) + parseInt(f.borderBottomWidth);return { left: b.left + d + g, right: b.right + d - i, top: b.top + e + h, bottom: b.bottom + e - j };\n  }, b._getPointerData = function (a) {\n    var b = this._pointerData[a];return b || (b = this._pointerData[a] = { x: 0, y: 0 }), b;\n  }, b._handleMouseMove = function (a) {\n    a || (a = window.event), this._handlePointerMove(-1, a, a.pageX, a.pageY);\n  }, b._handlePointerMove = function (a, b, c, d, e) {\n    if ((!this._prevStage || void 0 !== e) && this.canvas) {\n      var f = this._nextStage,\n          g = this._getPointerData(a),\n          h = g.inBounds;this._updatePointerPosition(a, b, c, d), (h || g.inBounds || this.mouseMoveOutside) && (-1 === a && g.inBounds == !h && this._dispatchMouseEvent(this, h ? \"mouseleave\" : \"mouseenter\", !1, a, g, b), this._dispatchMouseEvent(this, \"stagemousemove\", !1, a, g, b), this._dispatchMouseEvent(g.target, \"pressmove\", !0, a, g, b)), f && f._handlePointerMove(a, b, c, d, null);\n    }\n  }, b._updatePointerPosition = function (a, b, c, d) {\n    var e = this._getElementRect(this.canvas);c -= e.left, d -= e.top;var f = this.canvas.width,\n        g = this.canvas.height;c /= (e.right - e.left) / f, d /= (e.bottom - e.top) / g;var h = this._getPointerData(a);(h.inBounds = c >= 0 && d >= 0 && f - 1 >= c && g - 1 >= d) ? (h.x = c, h.y = d) : this.mouseMoveOutside && (h.x = 0 > c ? 0 : c > f - 1 ? f - 1 : c, h.y = 0 > d ? 0 : d > g - 1 ? g - 1 : d), h.posEvtObj = b, h.rawX = c, h.rawY = d, (a === this._primaryPointerID || -1 === a) && (this.mouseX = h.x, this.mouseY = h.y, this.mouseInBounds = h.inBounds);\n  }, b._handleMouseUp = function (a) {\n    this._handlePointerUp(-1, a, !1);\n  }, b._handlePointerUp = function (a, b, c, d) {\n    var e = this._nextStage,\n        f = this._getPointerData(a);if (!this._prevStage || void 0 !== d) {\n      var g = null,\n          h = f.target;d || !h && !e || (g = this._getObjectsUnderPoint(f.x, f.y, null, !0)), f.down && (this._dispatchMouseEvent(this, \"stagemouseup\", !1, a, f, b, g), f.down = !1), g == h && this._dispatchMouseEvent(h, \"click\", !0, a, f, b), this._dispatchMouseEvent(h, \"pressup\", !0, a, f, b), c ? (a == this._primaryPointerID && (this._primaryPointerID = null), delete this._pointerData[a]) : f.target = null, e && e._handlePointerUp(a, b, c, d || g && this);\n    }\n  }, b._handleMouseDown = function (a) {\n    this._handlePointerDown(-1, a, a.pageX, a.pageY);\n  }, b._handlePointerDown = function (a, b, c, d, e) {\n    this.preventSelection && b.preventDefault(), (null == this._primaryPointerID || -1 === a) && (this._primaryPointerID = a), null != d && this._updatePointerPosition(a, b, c, d);var f = null,\n        g = this._nextStage,\n        h = this._getPointerData(a);e || (f = h.target = this._getObjectsUnderPoint(h.x, h.y, null, !0)), h.inBounds && (this._dispatchMouseEvent(this, \"stagemousedown\", !1, a, h, b, f), h.down = !0), this._dispatchMouseEvent(f, \"mousedown\", !0, a, h, b), g && g._handlePointerDown(a, b, c, d, e || f && this);\n  }, b._testMouseOver = function (a, b, c) {\n    if (!this._prevStage || void 0 !== b) {\n      var d = this._nextStage;if (!this._mouseOverIntervalID) return void (d && d._testMouseOver(a, b, c));var e = this._getPointerData(-1);if (e && (a || this.mouseX != this._mouseOverX || this.mouseY != this._mouseOverY || !this.mouseInBounds)) {\n        var f,\n            g,\n            h,\n            i = e.posEvtObj,\n            j = c || i && i.target == this.canvas,\n            k = null,\n            l = -1,\n            m = \"\";!b && (a || this.mouseInBounds && j) && (k = this._getObjectsUnderPoint(this.mouseX, this.mouseY, null, !0), this._mouseOverX = this.mouseX, this._mouseOverY = this.mouseY);var n = this._mouseOverTarget || [],\n            o = n[n.length - 1],\n            p = this._mouseOverTarget = [];for (f = k; f;) p.unshift(f), m || (m = f.cursor), f = f.parent;for (this.canvas.style.cursor = m, !b && c && (c.canvas.style.cursor = m), g = 0, h = p.length; h > g && p[g] == n[g]; g++) l = g;for (o != k && this._dispatchMouseEvent(o, \"mouseout\", !0, -1, e, i, k), g = n.length - 1; g > l; g--) this._dispatchMouseEvent(n[g], \"rollout\", !1, -1, e, i, k);for (g = p.length - 1; g > l; g--) this._dispatchMouseEvent(p[g], \"rollover\", !1, -1, e, i, o);o != k && this._dispatchMouseEvent(k, \"mouseover\", !0, -1, e, i, o), d && d._testMouseOver(a, b || k && this, c || j && this);\n      }\n    }\n  }, b._handleDoubleClick = function (a, b) {\n    var c = null,\n        d = this._nextStage,\n        e = this._getPointerData(-1);b || (c = this._getObjectsUnderPoint(e.x, e.y, null, !0), this._dispatchMouseEvent(c, \"dblclick\", !0, -1, e, a)), d && d._handleDoubleClick(a, b || c && this);\n  }, b._dispatchMouseEvent = function (a, b, c, d, e, f, g) {\n    if (a && (c || a.hasEventListener(b))) {\n      var h = new createjs.MouseEvent(b, c, !1, e.x, e.y, f, d, d === this._primaryPointerID || -1 === d, e.rawX, e.rawY, g);a.dispatchEvent(h);\n    }\n  }, createjs.Stage = createjs.promote(a, \"Container\");\n}(), this.createjs = this.createjs || {}, function () {\n  function a(a) {\n    this.DisplayObject_constructor(), \"string\" == typeof a ? (this.image = document.createElement(\"img\"), this.image.src = a) : this.image = a, this.sourceRect = null;\n  }var b = createjs.extend(a, createjs.DisplayObject);b.initialize = a, b.isVisible = function () {\n    var a = this.image,\n        b = this.cacheCanvas || a && (a.naturalWidth || a.getContext || a.readyState >= 2);return !!(this.visible && this.alpha > 0 && 0 != this.scaleX && 0 != this.scaleY && b);\n  }, b.draw = function (a, b) {\n    if (this.DisplayObject_draw(a, b) || !this.image) return !0;var c = this.image,\n        d = this.sourceRect;if (d) {\n      var e = d.x,\n          f = d.y,\n          g = e + d.width,\n          h = f + d.height,\n          i = 0,\n          j = 0,\n          k = c.width,\n          l = c.height;0 > e && (i -= e, e = 0), g > k && (g = k), 0 > f && (j -= f, f = 0), h > l && (h = l), a.drawImage(c, e, f, g - e, h - f, i, j, g - e, h - f);\n    } else a.drawImage(c, 0, 0);return !0;\n  }, b.getBounds = function () {\n    var a = this.DisplayObject_getBounds();if (a) return a;var b = this.image,\n        c = this.sourceRect || b,\n        d = b && (b.naturalWidth || b.getContext || b.readyState >= 2);return d ? this._rectangle.setValues(0, 0, c.width, c.height) : null;\n  }, b.clone = function () {\n    var b = new a(this.image);return this.sourceRect && (b.sourceRect = this.sourceRect.clone()), this._cloneProps(b), b;\n  }, b.toString = function () {\n    return \"[Bitmap (name=\" + this.name + \")]\";\n  }, createjs.Bitmap = createjs.promote(a, \"DisplayObject\");\n}(), this.createjs = this.createjs || {}, function () {\n  \"use strict\";\n  function a(a, b) {\n    this.DisplayObject_constructor(), this.currentFrame = 0, this.currentAnimation = null, this.paused = !0, this.spriteSheet = a, this.currentAnimationFrame = 0, this.framerate = 0, this._animation = null, this._currentFrame = null, this._skipAdvance = !1, null != b && this.gotoAndPlay(b);\n  }var b = createjs.extend(a, createjs.DisplayObject);b.initialize = a, b.isVisible = function () {\n    var a = this.cacheCanvas || this.spriteSheet.complete;return !!(this.visible && this.alpha > 0 && 0 != this.scaleX && 0 != this.scaleY && a);\n  }, b.draw = function (a, b) {\n    if (this.DisplayObject_draw(a, b)) return !0;this._normalizeFrame();var c = this.spriteSheet.getFrame(0 | this._currentFrame);if (!c) return !1;var d = c.rect;return d.width && d.height && a.drawImage(c.image, d.x, d.y, d.width, d.height, -c.regX, -c.regY, d.width, d.height), !0;\n  }, b.play = function () {\n    this.paused = !1;\n  }, b.stop = function () {\n    this.paused = !0;\n  }, b.gotoAndPlay = function (a) {\n    this.paused = !1, this._skipAdvance = !0, this._goto(a);\n  }, b.gotoAndStop = function (a) {\n    this.paused = !0, this._goto(a);\n  }, b.advance = function (a) {\n    var b = this.framerate || this.spriteSheet.framerate,\n        c = b && null != a ? a / (1e3 / b) : 1;this._normalizeFrame(c);\n  }, b.getBounds = function () {\n    return this.DisplayObject_getBounds() || this.spriteSheet.getFrameBounds(this.currentFrame, this._rectangle);\n  }, b.clone = function () {\n    return this._cloneProps(new a(this.spriteSheet));\n  }, b.toString = function () {\n    return \"[Sprite (name=\" + this.name + \")]\";\n  }, b._cloneProps = function (a) {\n    return this.DisplayObject__cloneProps(a), a.currentFrame = this.currentFrame, a.currentAnimation = this.currentAnimation, a.paused = this.paused, a.currentAnimationFrame = this.currentAnimationFrame, a.framerate = this.framerate, a._animation = this._animation, a._currentFrame = this._currentFrame, a._skipAdvance = this._skipAdvance, a;\n  }, b._tick = function (a) {\n    this.paused || (this._skipAdvance || this.advance(a && a.delta), this._skipAdvance = !1), this.DisplayObject__tick(a);\n  }, b._normalizeFrame = function (a) {\n    a = a || 0;var b,\n        c = this._animation,\n        d = this.paused,\n        e = this._currentFrame;if (c) {\n      var f = c.speed || 1,\n          g = this.currentAnimationFrame;if (b = c.frames.length, g + a * f >= b) {\n        var h = c.next;if (this._dispatchAnimationEnd(c, e, d, h, b - 1)) return;if (h) return this._goto(h, a - (b - g) / f);this.paused = !0, g = c.frames.length - 1;\n      } else g += a * f;this.currentAnimationFrame = g, this._currentFrame = c.frames[0 | g];\n    } else if (e = this._currentFrame += a, b = this.spriteSheet.getNumFrames(), e >= b && b > 0 && !this._dispatchAnimationEnd(c, e, d, b - 1) && (this._currentFrame -= b) >= b) return this._normalizeFrame();e = 0 | this._currentFrame, this.currentFrame != e && (this.currentFrame = e, this.dispatchEvent(\"change\"));\n  }, b._dispatchAnimationEnd = function (a, b, c, d, e) {\n    var f = a ? a.name : null;if (this.hasEventListener(\"animationend\")) {\n      var g = new createjs.Event(\"animationend\");g.name = f, g.next = d, this.dispatchEvent(g);\n    }var h = this._animation != a || this._currentFrame != b;return h || c || !this.paused || (this.currentAnimationFrame = e, h = !0), h;\n  }, b._goto = function (a, b) {\n    if (this.currentAnimationFrame = 0, isNaN(a)) {\n      var c = this.spriteSheet.getAnimation(a);c && (this._animation = c, this.currentAnimation = a, this._normalizeFrame(b));\n    } else this.currentAnimation = this._animation = null, this._currentFrame = a, this._normalizeFrame();\n  }, createjs.Sprite = createjs.promote(a, \"DisplayObject\");\n}(), this.createjs = this.createjs || {}, function () {\n  \"use strict\";\n  function a(a) {\n    this.DisplayObject_constructor(), this.graphics = a ? a : new createjs.Graphics();\n  }var b = createjs.extend(a, createjs.DisplayObject);b.isVisible = function () {\n    var a = this.cacheCanvas || this.graphics && !this.graphics.isEmpty();return !!(this.visible && this.alpha > 0 && 0 != this.scaleX && 0 != this.scaleY && a);\n  }, b.draw = function (a, b) {\n    return this.DisplayObject_draw(a, b) ? !0 : (this.graphics.draw(a, this), !0);\n  }, b.clone = function (b) {\n    var c = b && this.graphics ? this.graphics.clone() : this.graphics;return this._cloneProps(new a(c));\n  }, b.toString = function () {\n    return \"[Shape (name=\" + this.name + \")]\";\n  }, createjs.Shape = createjs.promote(a, \"DisplayObject\");\n}(), this.createjs = this.createjs || {}, function () {\n  \"use strict\";\n  function a(a, b, c) {\n    this.DisplayObject_constructor(), this.text = a, this.font = b, this.color = c, this.textAlign = \"left\", this.textBaseline = \"top\", this.maxWidth = null, this.outline = 0, this.lineHeight = 0, this.lineWidth = null;\n  }var b = createjs.extend(a, createjs.DisplayObject),\n      c = createjs.createCanvas ? createjs.createCanvas() : document.createElement(\"canvas\");c.getContext && (a._workingContext = c.getContext(\"2d\"), c.width = c.height = 1), a.H_OFFSETS = { start: 0, left: 0, center: -.5, end: -1, right: -1 }, a.V_OFFSETS = { top: 0, hanging: -.01, middle: -.4, alphabetic: -.8, ideographic: -.85, bottom: -1 }, b.isVisible = function () {\n    var a = this.cacheCanvas || null != this.text && \"\" !== this.text;return !!(this.visible && this.alpha > 0 && 0 != this.scaleX && 0 != this.scaleY && a);\n  }, b.draw = function (a, b) {\n    if (this.DisplayObject_draw(a, b)) return !0;var c = this.color || \"#000\";return this.outline ? (a.strokeStyle = c, a.lineWidth = 1 * this.outline) : a.fillStyle = c, this._drawText(this._prepContext(a)), !0;\n  }, b.getMeasuredWidth = function () {\n    return this._getMeasuredWidth(this.text);\n  }, b.getMeasuredLineHeight = function () {\n    return 1.2 * this._getMeasuredWidth(\"M\");\n  }, b.getMeasuredHeight = function () {\n    return this._drawText(null, {}).height;\n  }, b.getBounds = function () {\n    var b = this.DisplayObject_getBounds();if (b) return b;if (null == this.text || \"\" === this.text) return null;var c = this._drawText(null, {}),\n        d = this.maxWidth && this.maxWidth < c.width ? this.maxWidth : c.width,\n        e = d * a.H_OFFSETS[this.textAlign || \"left\"],\n        f = this.lineHeight || this.getMeasuredLineHeight(),\n        g = f * a.V_OFFSETS[this.textBaseline || \"top\"];return this._rectangle.setValues(e, g, d, c.height);\n  }, b.getMetrics = function () {\n    var b = { lines: [] };return b.lineHeight = this.lineHeight || this.getMeasuredLineHeight(), b.vOffset = b.lineHeight * a.V_OFFSETS[this.textBaseline || \"top\"], this._drawText(null, b, b.lines);\n  }, b.clone = function () {\n    return this._cloneProps(new a(this.text, this.font, this.color));\n  }, b.toString = function () {\n    return \"[Text (text=\" + (this.text.length > 20 ? this.text.substr(0, 17) + \"...\" : this.text) + \")]\";\n  }, b._cloneProps = function (a) {\n    return this.DisplayObject__cloneProps(a), a.textAlign = this.textAlign, a.textBaseline = this.textBaseline, a.maxWidth = this.maxWidth, a.outline = this.outline, a.lineHeight = this.lineHeight, a.lineWidth = this.lineWidth, a;\n  }, b._prepContext = function (a) {\n    return a.font = this.font || \"10px sans-serif\", a.textAlign = this.textAlign || \"left\", a.textBaseline = this.textBaseline || \"top\", a;\n  }, b._drawText = function (b, c, d) {\n    var e = !!b;e || (b = a._workingContext, b.save(), this._prepContext(b));for (var f = this.lineHeight || this.getMeasuredLineHeight(), g = 0, h = 0, i = String(this.text).split(/(?:\\r\\n|\\r|\\n)/), j = 0, k = i.length; k > j; j++) {\n      var l = i[j],\n          m = null;if (null != this.lineWidth && (m = b.measureText(l).width) > this.lineWidth) {\n        var n = l.split(/(\\s)/);l = n[0], m = b.measureText(l).width;for (var o = 1, p = n.length; p > o; o += 2) {\n          var q = b.measureText(n[o] + n[o + 1]).width;m + q > this.lineWidth ? (e && this._drawTextLine(b, l, h * f), d && d.push(l), m > g && (g = m), l = n[o + 1], m = b.measureText(l).width, h++) : (l += n[o] + n[o + 1], m += q);\n        }\n      }e && this._drawTextLine(b, l, h * f), d && d.push(l), c && null == m && (m = b.measureText(l).width), m > g && (g = m), h++;\n    }return c && (c.width = g, c.height = h * f), e || b.restore(), c;\n  }, b._drawTextLine = function (a, b, c) {\n    this.outline ? a.strokeText(b, 0, c, this.maxWidth || 65535) : a.fillText(b, 0, c, this.maxWidth || 65535);\n  }, b._getMeasuredWidth = function (b) {\n    var c = a._workingContext;c.save();var d = this._prepContext(c).measureText(b).width;return c.restore(), d;\n  }, createjs.Text = createjs.promote(a, \"DisplayObject\");\n}(), this.createjs = this.createjs || {}, function () {\n  \"use strict\";\n  function a(a, b) {\n    this.Container_constructor(), this.text = a || \"\", this.spriteSheet = b, this.lineHeight = 0, this.letterSpacing = 0, this.spaceWidth = 0, this._oldProps = { text: 0, spriteSheet: 0, lineHeight: 0, letterSpacing: 0, spaceWidth: 0 };\n  }var b = createjs.extend(a, createjs.Container);a.maxPoolSize = 100, a._spritePool = [], b.draw = function (a, b) {\n    this.DisplayObject_draw(a, b) || (this._updateText(), this.Container_draw(a, b));\n  }, b.getBounds = function () {\n    return this._updateText(), this.Container_getBounds();\n  }, b.isVisible = function () {\n    var a = this.cacheCanvas || this.spriteSheet && this.spriteSheet.complete && this.text;return !!(this.visible && this.alpha > 0 && 0 !== this.scaleX && 0 !== this.scaleY && a);\n  }, b.clone = function () {\n    return this._cloneProps(new a(this.text, this.spriteSheet));\n  }, b.addChild = b.addChildAt = b.removeChild = b.removeChildAt = b.removeAllChildren = function () {}, b._cloneProps = function (a) {\n    return this.Container__cloneProps(a), a.lineHeight = this.lineHeight, a.letterSpacing = this.letterSpacing, a.spaceWidth = this.spaceWidth, a;\n  }, b._getFrameIndex = function (a, b) {\n    var c,\n        d = b.getAnimation(a);return d || (a != (c = a.toUpperCase()) || a != (c = a.toLowerCase()) || (c = null), c && (d = b.getAnimation(c))), d && d.frames[0];\n  }, b._getFrame = function (a, b) {\n    var c = this._getFrameIndex(a, b);return null == c ? c : b.getFrame(c);\n  }, b._getLineHeight = function (a) {\n    var b = this._getFrame(\"1\", a) || this._getFrame(\"T\", a) || this._getFrame(\"L\", a) || a.getFrame(0);return b ? b.rect.height : 1;\n  }, b._getSpaceWidth = function (a) {\n    var b = this._getFrame(\"1\", a) || this._getFrame(\"l\", a) || this._getFrame(\"e\", a) || this._getFrame(\"a\", a) || a.getFrame(0);return b ? b.rect.width : 1;\n  }, b._updateText = function () {\n    var b,\n        c = 0,\n        d = 0,\n        e = this._oldProps,\n        f = !1,\n        g = this.spaceWidth,\n        h = this.lineHeight,\n        i = this.spriteSheet,\n        j = a._spritePool,\n        k = this.children,\n        l = 0,\n        m = k.length;for (var n in e) e[n] != this[n] && (e[n] = this[n], f = !0);if (f) {\n      var o = !!this._getFrame(\" \", i);o || g || (g = this._getSpaceWidth(i)), h || (h = this._getLineHeight(i));for (var p = 0, q = this.text.length; q > p; p++) {\n        var r = this.text.charAt(p);if (\" \" != r || o) {\n          if (\"\\n\" != r && \"\\r\" != r) {\n            var s = this._getFrameIndex(r, i);null != s && (m > l ? b = k[l] : (k.push(b = j.length ? j.pop() : new createjs.Sprite()), b.parent = this, m++), b.spriteSheet = i, b.gotoAndStop(s), b.x = c, b.y = d, l++, c += b.getBounds().width + this.letterSpacing);\n          } else \"\\r\" == r && \"\\n\" == this.text.charAt(p + 1) && p++, c = 0, d += h;\n        } else c += g;\n      }for (; m > l;) j.push(b = k.pop()), b.parent = null, m--;j.length > a.maxPoolSize && (j.length = a.maxPoolSize);\n    }\n  }, createjs.BitmapText = createjs.promote(a, \"Container\");\n}(), this.createjs = this.createjs || {}, function () {\n  \"use strict\";\n  function a(b, c, d, e) {\n    this.Container_constructor(), !a.inited && a.init(), this.mode = b || a.INDEPENDENT, this.startPosition = c || 0, this.loop = d, this.currentFrame = 0, this.timeline = new createjs.Timeline(null, e, { paused: !0, position: c, useTicks: !0 }), this.paused = !1, this.actionsEnabled = !0, this.autoReset = !0, this.frameBounds = this.frameBounds || null, this.framerate = null, this._synchOffset = 0, this._prevPos = -1, this._prevPosition = 0, this._t = 0, this._managed = {};\n  }function b() {\n    throw \"MovieClipPlugin cannot be instantiated.\";\n  }var c = createjs.extend(a, createjs.Container);a.INDEPENDENT = \"independent\", a.SINGLE_FRAME = \"single\", a.SYNCHED = \"synched\", a.inited = !1, a.init = function () {\n    a.inited || (b.install(), a.inited = !0);\n  }, c.getLabels = function () {\n    return this.timeline.getLabels();\n  }, c.getCurrentLabel = function () {\n    return this._updateTimeline(), this.timeline.getCurrentLabel();\n  }, c.getDuration = function () {\n    return this.timeline.duration;\n  };try {\n    Object.defineProperties(c, { labels: { get: c.getLabels }, currentLabel: { get: c.getCurrentLabel }, totalFrames: { get: c.getDuration }, duration: { get: c.getDuration } });\n  } catch (d) {}c.initialize = a, c.isVisible = function () {\n    return !!(this.visible && this.alpha > 0 && 0 != this.scaleX && 0 != this.scaleY);\n  }, c.draw = function (a, b) {\n    return this.DisplayObject_draw(a, b) ? !0 : (this._updateTimeline(), this.Container_draw(a, b), !0);\n  }, c.play = function () {\n    this.paused = !1;\n  }, c.stop = function () {\n    this.paused = !0;\n  }, c.gotoAndPlay = function (a) {\n    this.paused = !1, this._goto(a);\n  }, c.gotoAndStop = function (a) {\n    this.paused = !0, this._goto(a);\n  }, c.advance = function (b) {\n    var c = a.INDEPENDENT;if (this.mode == c) {\n      for (var d = this, e = d.framerate; (d = d.parent) && null == e;) d.mode == c && (e = d._framerate);this._framerate = e;var f = null != e && -1 != e && null != b ? b / (1e3 / e) + this._t : 1,\n          g = 0 | f;for (this._t = f - g; !this.paused && g--;) this._prevPosition = this._prevPos < 0 ? 0 : this._prevPosition + 1, this._updateTimeline();\n    }\n  }, c.clone = function () {\n    throw \"MovieClip cannot be cloned.\";\n  }, c.toString = function () {\n    return \"[MovieClip (name=\" + this.name + \")]\";\n  }, c._tick = function (a) {\n    this.advance(a && a.delta), this.Container__tick(a);\n  }, c._goto = function (a) {\n    var b = this.timeline.resolve(a);null != b && (-1 == this._prevPos && (this._prevPos = NaN), this._prevPosition = b, this._t = 0, this._updateTimeline());\n  }, c._reset = function () {\n    this._prevPos = -1, this._t = this.currentFrame = 0, this.paused = !1;\n  }, c._updateTimeline = function () {\n    var b = this.timeline,\n        c = this.mode != a.INDEPENDENT;b.loop = null == this.loop ? !0 : this.loop;var d = c ? this.startPosition + (this.mode == a.SINGLE_FRAME ? 0 : this._synchOffset) : this._prevPos < 0 ? 0 : this._prevPosition,\n        e = c || !this.actionsEnabled ? createjs.Tween.NONE : null;if (this.currentFrame = b._calcPosition(d), b.setPosition(d, e), this._prevPosition = b._prevPosition, this._prevPos != b._prevPos) {\n      this.currentFrame = this._prevPos = b._prevPos;for (var f in this._managed) this._managed[f] = 1;for (var g = b._tweens, h = 0, i = g.length; i > h; h++) {\n        var j = g[h],\n            k = j._target;if (k != this && !j.passive) {\n          var l = j._stepPosition;k instanceof createjs.DisplayObject ? this._addManagedChild(k, l) : this._setState(k.state, l);\n        }\n      }var m = this.children;for (h = m.length - 1; h >= 0; h--) {\n        var n = m[h].id;1 == this._managed[n] && (this.removeChildAt(h), delete this._managed[n]);\n      }\n    }\n  }, c._setState = function (a, b) {\n    if (a) for (var c = a.length - 1; c >= 0; c--) {\n      var d = a[c],\n          e = d.t,\n          f = d.p;for (var g in f) e[g] = f[g];this._addManagedChild(e, b);\n    }\n  }, c._addManagedChild = function (b, c) {\n    b._off || (this.addChildAt(b, 0), b instanceof a && (b._synchOffset = c, b.mode == a.INDEPENDENT && b.autoReset && !this._managed[b.id] && b._reset()), this._managed[b.id] = 2);\n  }, c._getBounds = function (a, b) {\n    var c = this.DisplayObject_getBounds();return c || (this._updateTimeline(), this.frameBounds && (c = this._rectangle.copy(this.frameBounds[this.currentFrame]))), c ? this._transformBounds(c, a, b) : this.Container__getBounds(a, b);\n  }, createjs.MovieClip = createjs.promote(a, \"Container\"), b.priority = 100, b.install = function () {\n    createjs.Tween.installPlugin(b, [\"startPosition\"]);\n  }, b.init = function (a, b, c) {\n    return c;\n  }, b.step = function () {}, b.tween = function (b, c, d, e, f, g, h, i) {\n    return b.target instanceof a ? 1 == g ? f[c] : e[c] : d;\n  };\n}(), this.createjs = this.createjs || {}, function () {\n  \"use strict\";\n  function a() {\n    throw \"SpriteSheetUtils cannot be instantiated\";\n  }var b = createjs.createCanvas ? createjs.createCanvas() : document.createElement(\"canvas\");b.getContext && (a._workingCanvas = b, a._workingContext = b.getContext(\"2d\"), b.width = b.height = 1), a.addFlippedFrames = function (b, c, d, e) {\n    if (c || d || e) {\n      var f = 0;c && a._flip(b, ++f, !0, !1), d && a._flip(b, ++f, !1, !0), e && a._flip(b, ++f, !0, !0);\n    }\n  }, a.extractFrame = function (b, c) {\n    isNaN(c) && (c = b.getAnimation(c).frames[0]);var d = b.getFrame(c);if (!d) return null;var e = d.rect,\n        f = a._workingCanvas;f.width = e.width, f.height = e.height, a._workingContext.drawImage(d.image, e.x, e.y, e.width, e.height, 0, 0, e.width, e.height);var g = document.createElement(\"img\");return g.src = f.toDataURL(\"image/png\"), g;\n  }, a.mergeAlpha = function (a, b, c) {\n    c || (c = createjs.createCanvas ? createjs.createCanvas() : document.createElement(\"canvas\")), c.width = Math.max(b.width, a.width), c.height = Math.max(b.height, a.height);var d = c.getContext(\"2d\");return d.save(), d.drawImage(a, 0, 0), d.globalCompositeOperation = \"destination-in\", d.drawImage(b, 0, 0), d.restore(), c;\n  }, a._flip = function (b, c, d, e) {\n    for (var f = b._images, g = a._workingCanvas, h = a._workingContext, i = f.length / c, j = 0; i > j; j++) {\n      var k = f[j];k.__tmp = j, h.setTransform(1, 0, 0, 1, 0, 0), h.clearRect(0, 0, g.width + 1, g.height + 1), g.width = k.width, g.height = k.height, h.setTransform(d ? -1 : 1, 0, 0, e ? -1 : 1, d ? k.width : 0, e ? k.height : 0), h.drawImage(k, 0, 0);var l = document.createElement(\"img\");l.src = g.toDataURL(\"image/png\"), l.width = k.width, l.height = k.height, f.push(l);\n    }var m = b._frames,\n        n = m.length / c;for (j = 0; n > j; j++) {\n      k = m[j];var o = k.rect.clone();l = f[k.image.__tmp + i * c];var p = { image: l, rect: o, regX: k.regX, regY: k.regY };d && (o.x = l.width - o.x - o.width, p.regX = o.width - k.regX), e && (o.y = l.height - o.y - o.height, p.regY = o.height - k.regY), m.push(p);\n    }var q = \"_\" + (d ? \"h\" : \"\") + (e ? \"v\" : \"\"),\n        r = b._animations,\n        s = b._data,\n        t = r.length / c;for (j = 0; t > j; j++) {\n      var u = r[j];k = s[u];var v = { name: u + q, speed: k.speed, next: k.next, frames: [] };k.next && (v.next += q), m = k.frames;for (var w = 0, x = m.length; x > w; w++) v.frames.push(m[w] + n * c);s[v.name] = v, r.push(v.name);\n    }\n  }, createjs.SpriteSheetUtils = a;\n}(), this.createjs = this.createjs || {}, function () {\n  \"use strict\";\n  function a(a) {\n    this.EventDispatcher_constructor(), this.maxWidth = 2048, this.maxHeight = 2048, this.spriteSheet = null, this.scale = 1, this.padding = 1, this.timeSlice = .3, this.progress = -1, this.framerate = a || 0, this._frames = [], this._animations = {}, this._data = null, this._nextFrameIndex = 0, this._index = 0, this._timerID = null, this._scale = 1;\n  }var b = createjs.extend(a, createjs.EventDispatcher);a.ERR_DIMENSIONS = \"frame dimensions exceed max spritesheet dimensions\", a.ERR_RUNNING = \"a build is already running\", b.addFrame = function (b, c, d, e, f) {\n    if (this._data) throw a.ERR_RUNNING;var g = c || b.bounds || b.nominalBounds;return !g && b.getBounds && (g = b.getBounds()), g ? (d = d || 1, this._frames.push({ source: b, sourceRect: g, scale: d, funct: e, data: f, index: this._frames.length, height: g.height * d }) - 1) : null;\n  }, b.addAnimation = function (b, c, d, e) {\n    if (this._data) throw a.ERR_RUNNING;this._animations[b] = { frames: c, next: d, speed: e };\n  }, b.addMovieClip = function (b, c, d, e, f, g) {\n    if (this._data) throw a.ERR_RUNNING;var h = b.frameBounds,\n        i = c || b.bounds || b.nominalBounds;if (!i && b.getBounds && (i = b.getBounds()), i || h) {\n      var j,\n          k,\n          l = this._frames.length,\n          m = b.timeline.duration;for (j = 0; m > j; j++) {\n        var n = h && h[j] ? h[j] : i;this.addFrame(b, n, d, this._setupMovieClipFrame, { i: j, f: e, d: f });\n      }var o = b.timeline._labels,\n          p = [];for (var q in o) p.push({ index: o[q], label: q });if (p.length) for (p.sort(function (a, b) {\n        return a.index - b.index;\n      }), j = 0, k = p.length; k > j; j++) {\n        for (var r = p[j].label, s = l + p[j].index, t = l + (j == k - 1 ? m : p[j + 1].index), u = [], v = s; t > v; v++) u.push(v);(!g || (r = g(r, b, s, t))) && this.addAnimation(r, u, !0);\n      }\n    }\n  }, b.build = function () {\n    if (this._data) throw a.ERR_RUNNING;for (this._startBuild(); this._drawNext(););return this._endBuild(), this.spriteSheet;\n  }, b.buildAsync = function (b) {\n    if (this._data) throw a.ERR_RUNNING;this.timeSlice = b, this._startBuild();var c = this;this._timerID = setTimeout(function () {\n      c._run();\n    }, 50 - 50 * Math.max(.01, Math.min(.99, this.timeSlice || .3)));\n  }, b.stopAsync = function () {\n    clearTimeout(this._timerID), this._data = null;\n  }, b.clone = function () {\n    throw \"SpriteSheetBuilder cannot be cloned.\";\n  }, b.toString = function () {\n    return \"[SpriteSheetBuilder]\";\n  }, b._startBuild = function () {\n    var b = this.padding || 0;this.progress = 0, this.spriteSheet = null, this._index = 0, this._scale = this.scale;var c = [];this._data = { images: [], frames: c, framerate: this.framerate, animations: this._animations };var d = this._frames.slice();if (d.sort(function (a, b) {\n      return a.height <= b.height ? -1 : 1;\n    }), d[d.length - 1].height + 2 * b > this.maxHeight) throw a.ERR_DIMENSIONS;for (var e = 0, f = 0, g = 0; d.length;) {\n      var h = this._fillRow(d, e, g, c, b);if (h.w > f && (f = h.w), e += h.h, !h.h || !d.length) {\n        var i = createjs.createCanvas ? createjs.createCanvas() : document.createElement(\"canvas\");i.width = this._getSize(f, this.maxWidth), i.height = this._getSize(e, this.maxHeight), this._data.images[g] = i, h.h || (f = e = 0, g++);\n      }\n    }\n  }, b._setupMovieClipFrame = function (a, b) {\n    var c = a.actionsEnabled;a.actionsEnabled = !1, a.gotoAndStop(b.i), a.actionsEnabled = c, b.f && b.f(a, b.d, b.i);\n  }, b._getSize = function (a, b) {\n    for (var c = 4; Math.pow(2, ++c) < a;);return Math.min(b, Math.pow(2, c));\n  }, b._fillRow = function (b, c, d, e, f) {\n    var g = this.maxWidth,\n        h = this.maxHeight;c += f;for (var i = h - c, j = f, k = 0, l = b.length - 1; l >= 0; l--) {\n      var m = b[l],\n          n = this._scale * m.scale,\n          o = m.sourceRect,\n          p = m.source,\n          q = Math.floor(n * o.x - f),\n          r = Math.floor(n * o.y - f),\n          s = Math.ceil(n * o.height + 2 * f),\n          t = Math.ceil(n * o.width + 2 * f);if (t > g) throw a.ERR_DIMENSIONS;s > i || j + t > g || (m.img = d, m.rect = new createjs.Rectangle(j, c, t, s), k = k || s, b.splice(l, 1), e[m.index] = [j, c, t, s, d, Math.round(-q + n * p.regX - f), Math.round(-r + n * p.regY - f)], j += t);\n    }return { w: j, h: k };\n  }, b._endBuild = function () {\n    this.spriteSheet = new createjs.SpriteSheet(this._data), this._data = null, this.progress = 1, this.dispatchEvent(\"complete\");\n  }, b._run = function () {\n    for (var a = 50 * Math.max(.01, Math.min(.99, this.timeSlice || .3)), b = new Date().getTime() + a, c = !1; b > new Date().getTime();) if (!this._drawNext()) {\n      c = !0;break;\n    }if (c) this._endBuild();else {\n      var d = this;this._timerID = setTimeout(function () {\n        d._run();\n      }, 50 - a);\n    }var e = this.progress = this._index / this._frames.length;if (this.hasEventListener(\"progress\")) {\n      var f = new createjs.Event(\"progress\");f.progress = e, this.dispatchEvent(f);\n    }\n  }, b._drawNext = function () {\n    var a = this._frames[this._index],\n        b = a.scale * this._scale,\n        c = a.rect,\n        d = a.sourceRect,\n        e = this._data.images[a.img],\n        f = e.getContext(\"2d\");return a.funct && a.funct(a.source, a.data), f.save(), f.beginPath(), f.rect(c.x, c.y, c.width, c.height), f.clip(), f.translate(Math.ceil(c.x - d.x * b), Math.ceil(c.y - d.y * b)), f.scale(b, b), a.source.draw(f), f.restore(), ++this._index < this._frames.length;\n  }, createjs.SpriteSheetBuilder = createjs.promote(a, \"EventDispatcher\");\n}(), this.createjs = this.createjs || {}, function () {\n  \"use strict\";\n  function a(a) {\n    this.DisplayObject_constructor(), \"string\" == typeof a && (a = document.getElementById(a)), this.mouseEnabled = !1;var b = a.style;b.position = \"absolute\", b.transformOrigin = b.WebkitTransformOrigin = b.msTransformOrigin = b.MozTransformOrigin = b.OTransformOrigin = \"0% 0%\", this.htmlElement = a, this._oldProps = null;\n  }var b = createjs.extend(a, createjs.DisplayObject);b.isVisible = function () {\n    return null != this.htmlElement;\n  }, b.draw = function (a, b) {\n    return !0;\n  }, b.cache = function () {}, b.uncache = function () {}, b.updateCache = function () {}, b.hitTest = function () {}, b.localToGlobal = function () {}, b.globalToLocal = function () {}, b.localToLocal = function () {}, b.clone = function () {\n    throw \"DOMElement cannot be cloned.\";\n  }, b.toString = function () {\n    return \"[DOMElement (name=\" + this.name + \")]\";\n  }, b._tick = function (a) {\n    var b = this.getStage();b && b.on(\"drawend\", this._handleDrawEnd, this, !0), this.DisplayObject__tick(a);\n  }, b._handleDrawEnd = function (a) {\n    var b = this.htmlElement;if (b) {\n      var c = b.style,\n          d = this.getConcatenatedDisplayProps(this._props),\n          e = d.matrix,\n          f = d.visible ? \"visible\" : \"hidden\";if (f != c.visibility && (c.visibility = f), d.visible) {\n        var g = this._oldProps,\n            h = g && g.matrix,\n            i = 1e4;if (!h || !h.equals(e)) {\n          var j = \"matrix(\" + (e.a * i | 0) / i + \",\" + (e.b * i | 0) / i + \",\" + (e.c * i | 0) / i + \",\" + (e.d * i | 0) / i + \",\" + (e.tx + .5 | 0);c.transform = c.WebkitTransform = c.OTransform = c.msTransform = j + \",\" + (e.ty + .5 | 0) + \")\", c.MozTransform = j + \"px,\" + (e.ty + .5 | 0) + \"px)\", g || (g = this._oldProps = new createjs.DisplayProps(!0, NaN)), g.matrix.copy(e);\n        }g.alpha != d.alpha && (c.opacity = \"\" + (d.alpha * i | 0) / i, g.alpha = d.alpha);\n      }\n    }\n  }, createjs.DOMElement = createjs.promote(a, \"DisplayObject\");\n}(), this.createjs = this.createjs || {}, function () {\n  \"use strict\";\n  function a() {}var b = a.prototype;b.getBounds = function (a) {\n    return a;\n  }, b.applyFilter = function (a, b, c, d, e, f, g, h) {\n    f = f || a, null == g && (g = b), null == h && (h = c);try {\n      var i = a.getImageData(b, c, d, e);\n    } catch (j) {\n      return !1;\n    }return this._applyFilter(i) ? (f.putImageData(i, g, h), !0) : !1;\n  }, b.toString = function () {\n    return \"[Filter]\";\n  }, b.clone = function () {\n    return new a();\n  }, b._applyFilter = function (a) {\n    return !0;\n  }, createjs.Filter = a;\n}(), this.createjs = this.createjs || {}, function () {\n  \"use strict\";\n  function a(a, b, c) {\n    (isNaN(a) || 0 > a) && (a = 0), (isNaN(b) || 0 > b) && (b = 0), (isNaN(c) || 1 > c) && (c = 1), this.blurX = 0 | a, this.blurY = 0 | b, this.quality = 0 | c;\n  }var b = createjs.extend(a, createjs.Filter);a.MUL_TABLE = [1, 171, 205, 293, 57, 373, 79, 137, 241, 27, 391, 357, 41, 19, 283, 265, 497, 469, 443, 421, 25, 191, 365, 349, 335, 161, 155, 149, 9, 278, 269, 261, 505, 245, 475, 231, 449, 437, 213, 415, 405, 395, 193, 377, 369, 361, 353, 345, 169, 331, 325, 319, 313, 307, 301, 37, 145, 285, 281, 69, 271, 267, 263, 259, 509, 501, 493, 243, 479, 118, 465, 459, 113, 446, 55, 435, 429, 423, 209, 413, 51, 403, 199, 393, 97, 3, 379, 375, 371, 367, 363, 359, 355, 351, 347, 43, 85, 337, 333, 165, 327, 323, 5, 317, 157, 311, 77, 305, 303, 75, 297, 294, 73, 289, 287, 71, 141, 279, 277, 275, 68, 135, 67, 133, 33, 262, 260, 129, 511, 507, 503, 499, 495, 491, 61, 121, 481, 477, 237, 235, 467, 232, 115, 457, 227, 451, 7, 445, 221, 439, 218, 433, 215, 427, 425, 211, 419, 417, 207, 411, 409, 203, 202, 401, 399, 396, 197, 49, 389, 387, 385, 383, 95, 189, 47, 187, 93, 185, 23, 183, 91, 181, 45, 179, 89, 177, 11, 175, 87, 173, 345, 343, 341, 339, 337, 21, 167, 83, 331, 329, 327, 163, 81, 323, 321, 319, 159, 79, 315, 313, 39, 155, 309, 307, 153, 305, 303, 151, 75, 299, 149, 37, 295, 147, 73, 291, 145, 289, 287, 143, 285, 71, 141, 281, 35, 279, 139, 69, 275, 137, 273, 17, 271, 135, 269, 267, 133, 265, 33, 263, 131, 261, 130, 259, 129, 257, 1], a.SHG_TABLE = [0, 9, 10, 11, 9, 12, 10, 11, 12, 9, 13, 13, 10, 9, 13, 13, 14, 14, 14, 14, 10, 13, 14, 14, 14, 13, 13, 13, 9, 14, 14, 14, 15, 14, 15, 14, 15, 15, 14, 15, 15, 15, 14, 15, 15, 15, 15, 15, 14, 15, 15, 15, 15, 15, 15, 12, 14, 15, 15, 13, 15, 15, 15, 15, 16, 16, 16, 15, 16, 14, 16, 16, 14, 16, 13, 16, 16, 16, 15, 16, 13, 16, 15, 16, 14, 9, 16, 16, 16, 16, 16, 16, 16, 16, 16, 13, 14, 16, 16, 15, 16, 16, 10, 16, 15, 16, 14, 16, 16, 14, 16, 16, 14, 16, 16, 14, 15, 16, 16, 16, 14, 15, 14, 15, 13, 16, 16, 15, 17, 17, 17, 17, 17, 17, 14, 15, 17, 17, 16, 16, 17, 16, 15, 17, 16, 17, 11, 17, 16, 17, 16, 17, 16, 17, 17, 16, 17, 17, 16, 17, 17, 16, 16, 17, 17, 17, 16, 14, 17, 17, 17, 17, 15, 16, 14, 16, 15, 16, 13, 16, 15, 16, 14, 16, 15, 16, 12, 16, 15, 16, 17, 17, 17, 17, 17, 13, 16, 15, 17, 17, 17, 16, 15, 17, 17, 17, 16, 15, 17, 17, 14, 16, 17, 17, 16, 17, 17, 16, 15, 17, 16, 14, 17, 16, 15, 17, 16, 17, 17, 16, 17, 15, 16, 17, 14, 17, 16, 15, 17, 16, 17, 13, 17, 16, 17, 17, 16, 17, 14, 17, 16, 17, 16, 17, 16, 17, 9], b.getBounds = function (a) {\n    var b = 0 | this.blurX,\n        c = 0 | this.blurY;if (0 >= b && 0 >= c) return a;var d = Math.pow(this.quality, .2);return (a || new createjs.Rectangle()).pad(b * d + 1, c * d + 1, b * d + 1, c * d + 1);\n  }, b.clone = function () {\n    return new a(this.blurX, this.blurY, this.quality);\n  }, b.toString = function () {\n    return \"[BlurFilter]\";\n  }, b._applyFilter = function (b) {\n    var c = this.blurX >> 1;if (isNaN(c) || 0 > c) return !1;var d = this.blurY >> 1;if (isNaN(d) || 0 > d) return !1;if (0 == c && 0 == d) return !1;var e = this.quality;(isNaN(e) || 1 > e) && (e = 1), e |= 0, e > 3 && (e = 3), 1 > e && (e = 1);var f = b.data,\n        g = 0,\n        h = 0,\n        i = 0,\n        j = 0,\n        k = 0,\n        l = 0,\n        m = 0,\n        n = 0,\n        o = 0,\n        p = 0,\n        q = 0,\n        r = 0,\n        s = 0,\n        t = 0,\n        u = 0,\n        v = c + c + 1 | 0,\n        w = d + d + 1 | 0,\n        x = 0 | b.width,\n        y = 0 | b.height,\n        z = x - 1 | 0,\n        A = y - 1 | 0,\n        B = c + 1 | 0,\n        C = d + 1 | 0,\n        D = { r: 0, b: 0, g: 0, a: 0 },\n        E = D;for (i = 1; v > i; i++) E = E.n = { r: 0, b: 0, g: 0, a: 0 };E.n = D;var F = { r: 0, b: 0, g: 0, a: 0 },\n        G = F;for (i = 1; w > i; i++) G = G.n = { r: 0, b: 0, g: 0, a: 0 };G.n = F;for (var H = null, I = 0 | a.MUL_TABLE[c], J = 0 | a.SHG_TABLE[c], K = 0 | a.MUL_TABLE[d], L = 0 | a.SHG_TABLE[d]; e-- > 0;) {\n      m = l = 0;var M = I,\n          N = J;for (h = y; --h > -1;) {\n        for (n = B * (r = f[0 | l]), o = B * (s = f[l + 1 | 0]), p = B * (t = f[l + 2 | 0]), q = B * (u = f[l + 3 | 0]), E = D, i = B; --i > -1;) E.r = r, E.g = s, E.b = t, E.a = u, E = E.n;for (i = 1; B > i; i++) j = l + ((i > z ? z : i) << 2) | 0, n += E.r = f[j], o += E.g = f[j + 1], p += E.b = f[j + 2], q += E.a = f[j + 3], E = E.n;for (H = D, g = 0; x > g; g++) f[l++] = n * M >>> N, f[l++] = o * M >>> N, f[l++] = p * M >>> N, f[l++] = q * M >>> N, j = m + ((j = g + c + 1) < z ? j : z) << 2, n -= H.r - (H.r = f[j]), o -= H.g - (H.g = f[j + 1]), p -= H.b - (H.b = f[j + 2]), q -= H.a - (H.a = f[j + 3]), H = H.n;m += x;\n      }for (M = K, N = L, g = 0; x > g; g++) {\n        for (l = g << 2 | 0, n = C * (r = f[l]) | 0, o = C * (s = f[l + 1 | 0]) | 0, p = C * (t = f[l + 2 | 0]) | 0, q = C * (u = f[l + 3 | 0]) | 0, G = F, i = 0; C > i; i++) G.r = r, G.g = s, G.b = t, G.a = u, G = G.n;for (k = x, i = 1; d >= i; i++) l = k + g << 2, n += G.r = f[l], o += G.g = f[l + 1], p += G.b = f[l + 2], q += G.a = f[l + 3], G = G.n, A > i && (k += x);if (l = g, H = F, e > 0) for (h = 0; y > h; h++) j = l << 2, f[j + 3] = u = q * M >>> N, u > 0 ? (f[j] = n * M >>> N, f[j + 1] = o * M >>> N, f[j + 2] = p * M >>> N) : f[j] = f[j + 1] = f[j + 2] = 0, j = g + ((j = h + C) < A ? j : A) * x << 2, n -= H.r - (H.r = f[j]), o -= H.g - (H.g = f[j + 1]), p -= H.b - (H.b = f[j + 2]), q -= H.a - (H.a = f[j + 3]), H = H.n, l += x;else for (h = 0; y > h; h++) j = l << 2, f[j + 3] = u = q * M >>> N, u > 0 ? (u = 255 / u, f[j] = (n * M >>> N) * u, f[j + 1] = (o * M >>> N) * u, f[j + 2] = (p * M >>> N) * u) : f[j] = f[j + 1] = f[j + 2] = 0, j = g + ((j = h + C) < A ? j : A) * x << 2, n -= H.r - (H.r = f[j]), o -= H.g - (H.g = f[j + 1]), p -= H.b - (H.b = f[j + 2]), q -= H.a - (H.a = f[j + 3]), H = H.n, l += x;\n      }\n    }return !0;\n  }, createjs.BlurFilter = createjs.promote(a, \"Filter\");\n}(), this.createjs = this.createjs || {}, function () {\n  \"use strict\";\n  function a(a) {\n    this.alphaMap = a, this._alphaMap = null, this._mapData = null;\n  }var b = createjs.extend(a, createjs.Filter);b.clone = function () {\n    var b = new a(this.alphaMap);return b._alphaMap = this._alphaMap, b._mapData = this._mapData, b;\n  }, b.toString = function () {\n    return \"[AlphaMapFilter]\";\n  }, b._applyFilter = function (a) {\n    if (!this.alphaMap) return !0;if (!this._prepAlphaMap()) return !1;for (var b = a.data, c = this._mapData, d = 0, e = b.length; e > d; d += 4) b[d + 3] = c[d] || 0;return !0;\n  }, b._prepAlphaMap = function () {\n    if (!this.alphaMap) return !1;if (this.alphaMap == this._alphaMap && this._mapData) return !0;this._mapData = null;var a,\n        b = this._alphaMap = this.alphaMap,\n        c = b;b instanceof HTMLCanvasElement ? a = c.getContext(\"2d\") : (c = createjs.createCanvas ? createjs.createCanvas() : document.createElement(\"canvas\"), c.width = b.width, c.height = b.height, a = c.getContext(\"2d\"), a.drawImage(b, 0, 0));try {\n      var d = a.getImageData(0, 0, b.width, b.height);\n    } catch (e) {\n      return !1;\n    }return this._mapData = d.data, !0;\n  }, createjs.AlphaMapFilter = createjs.promote(a, \"Filter\");\n}(), this.createjs = this.createjs || {}, function () {\n  \"use strict\";\n  function a(a) {\n    this.mask = a;\n  }var b = createjs.extend(a, createjs.Filter);b.applyFilter = function (a, b, c, d, e, f, g, h) {\n    return this.mask ? (f = f || a, null == g && (g = b), null == h && (h = c), f.save(), a != f ? !1 : (f.globalCompositeOperation = \"destination-in\", f.drawImage(this.mask, g, h), f.restore(), !0)) : !0;\n  }, b.clone = function () {\n    return new a(this.mask);\n  }, b.toString = function () {\n    return \"[AlphaMaskFilter]\";\n  }, createjs.AlphaMaskFilter = createjs.promote(a, \"Filter\");\n}(), this.createjs = this.createjs || {}, function () {\n  \"use strict\";\n  function a(a, b, c, d, e, f, g, h) {\n    this.redMultiplier = null != a ? a : 1, this.greenMultiplier = null != b ? b : 1, this.blueMultiplier = null != c ? c : 1, this.alphaMultiplier = null != d ? d : 1, this.redOffset = e || 0, this.greenOffset = f || 0, this.blueOffset = g || 0, this.alphaOffset = h || 0;\n  }var b = createjs.extend(a, createjs.Filter);b.toString = function () {\n    return \"[ColorFilter]\";\n  }, b.clone = function () {\n    return new a(this.redMultiplier, this.greenMultiplier, this.blueMultiplier, this.alphaMultiplier, this.redOffset, this.greenOffset, this.blueOffset, this.alphaOffset);\n  }, b._applyFilter = function (a) {\n    for (var b = a.data, c = b.length, d = 0; c > d; d += 4) b[d] = b[d] * this.redMultiplier + this.redOffset, b[d + 1] = b[d + 1] * this.greenMultiplier + this.greenOffset, b[d + 2] = b[d + 2] * this.blueMultiplier + this.blueOffset, b[d + 3] = b[d + 3] * this.alphaMultiplier + this.alphaOffset;return !0;\n  }, createjs.ColorFilter = createjs.promote(a, \"Filter\");\n}(), this.createjs = this.createjs || {}, function () {\n  \"use strict\";\n  function a(a, b, c, d) {\n    this.setColor(a, b, c, d);\n  }var b = a.prototype;a.DELTA_INDEX = [0, .01, .02, .04, .05, .06, .07, .08, .1, .11, .12, .14, .15, .16, .17, .18, .2, .21, .22, .24, .25, .27, .28, .3, .32, .34, .36, .38, .4, .42, .44, .46, .48, .5, .53, .56, .59, .62, .65, .68, .71, .74, .77, .8, .83, .86, .89, .92, .95, .98, 1, 1.06, 1.12, 1.18, 1.24, 1.3, 1.36, 1.42, 1.48, 1.54, 1.6, 1.66, 1.72, 1.78, 1.84, 1.9, 1.96, 2, 2.12, 2.25, 2.37, 2.5, 2.62, 2.75, 2.87, 3, 3.2, 3.4, 3.6, 3.8, 4, 4.3, 4.7, 4.9, 5, 5.5, 6, 6.5, 6.8, 7, 7.3, 7.5, 7.8, 8, 8.4, 8.7, 9, 9.4, 9.6, 9.8, 10], a.IDENTITY_MATRIX = [1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1], a.LENGTH = a.IDENTITY_MATRIX.length, b.setColor = function (a, b, c, d) {\n    return this.reset().adjustColor(a, b, c, d);\n  }, b.reset = function () {\n    return this.copy(a.IDENTITY_MATRIX);\n  }, b.adjustColor = function (a, b, c, d) {\n    return this.adjustHue(d), this.adjustContrast(b), this.adjustBrightness(a), this.adjustSaturation(c);\n  }, b.adjustBrightness = function (a) {\n    return 0 == a || isNaN(a) ? this : (a = this._cleanValue(a, 255), this._multiplyMatrix([1, 0, 0, 0, a, 0, 1, 0, 0, a, 0, 0, 1, 0, a, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1]), this);\n  }, b.adjustContrast = function (b) {\n    if (0 == b || isNaN(b)) return this;b = this._cleanValue(b, 100);var c;return 0 > b ? c = 127 + b / 100 * 127 : (c = b % 1, c = 0 == c ? a.DELTA_INDEX[b] : a.DELTA_INDEX[b << 0] * (1 - c) + a.DELTA_INDEX[(b << 0) + 1] * c, c = 127 * c + 127), this._multiplyMatrix([c / 127, 0, 0, 0, .5 * (127 - c), 0, c / 127, 0, 0, .5 * (127 - c), 0, 0, c / 127, 0, .5 * (127 - c), 0, 0, 0, 1, 0, 0, 0, 0, 0, 1]), this;\n  }, b.adjustSaturation = function (a) {\n    if (0 == a || isNaN(a)) return this;a = this._cleanValue(a, 100);var b = 1 + (a > 0 ? 3 * a / 100 : a / 100),\n        c = .3086,\n        d = .6094,\n        e = .082;return this._multiplyMatrix([c * (1 - b) + b, d * (1 - b), e * (1 - b), 0, 0, c * (1 - b), d * (1 - b) + b, e * (1 - b), 0, 0, c * (1 - b), d * (1 - b), e * (1 - b) + b, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1]), this;\n  }, b.adjustHue = function (a) {\n    if (0 == a || isNaN(a)) return this;a = this._cleanValue(a, 180) / 180 * Math.PI;var b = Math.cos(a),\n        c = Math.sin(a),\n        d = .213,\n        e = .715,\n        f = .072;return this._multiplyMatrix([d + b * (1 - d) + c * -d, e + b * -e + c * -e, f + b * -f + c * (1 - f), 0, 0, d + b * -d + .143 * c, e + b * (1 - e) + .14 * c, f + b * -f + c * -.283, 0, 0, d + b * -d + c * -(1 - d), e + b * -e + c * e, f + b * (1 - f) + c * f, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1]), this;\n  }, b.concat = function (b) {\n    return b = this._fixMatrix(b), b.length != a.LENGTH ? this : (this._multiplyMatrix(b), this);\n  }, b.clone = function () {\n    return new a().copy(this);\n  }, b.toArray = function () {\n    for (var b = [], c = 0, d = a.LENGTH; d > c; c++) b[c] = this[c];return b;\n  }, b.copy = function (b) {\n    for (var c = a.LENGTH, d = 0; c > d; d++) this[d] = b[d];return this;\n  }, b.toString = function () {\n    return \"[ColorMatrix]\";\n  }, b._multiplyMatrix = function (a) {\n    var b,\n        c,\n        d,\n        e = [];for (b = 0; 5 > b; b++) {\n      for (c = 0; 5 > c; c++) e[c] = this[c + 5 * b];for (c = 0; 5 > c; c++) {\n        var f = 0;for (d = 0; 5 > d; d++) f += a[c + 5 * d] * e[d];this[c + 5 * b] = f;\n      }\n    }\n  }, b._cleanValue = function (a, b) {\n    return Math.min(b, Math.max(-b, a));\n  }, b._fixMatrix = function (b) {\n    return b instanceof a && (b = b.toArray()), b.length < a.LENGTH ? b = b.slice(0, b.length).concat(a.IDENTITY_MATRIX.slice(b.length, a.LENGTH)) : b.length > a.LENGTH && (b = b.slice(0, a.LENGTH)), b;\n  }, createjs.ColorMatrix = a;\n}(), this.createjs = this.createjs || {}, function () {\n  \"use strict\";\n  function a(a) {\n    this.matrix = a;\n  }var b = createjs.extend(a, createjs.Filter);b.toString = function () {\n    return \"[ColorMatrixFilter]\";\n  }, b.clone = function () {\n    return new a(this.matrix);\n  }, b._applyFilter = function (a) {\n    for (var b, c, d, e, f = a.data, g = f.length, h = this.matrix, i = h[0], j = h[1], k = h[2], l = h[3], m = h[4], n = h[5], o = h[6], p = h[7], q = h[8], r = h[9], s = h[10], t = h[11], u = h[12], v = h[13], w = h[14], x = h[15], y = h[16], z = h[17], A = h[18], B = h[19], C = 0; g > C; C += 4) b = f[C], c = f[C + 1], d = f[C + 2], e = f[C + 3], f[C] = b * i + c * j + d * k + e * l + m, f[C + 1] = b * n + c * o + d * p + e * q + r, f[C + 2] = b * s + c * t + d * u + e * v + w, f[C + 3] = b * x + c * y + d * z + e * A + B;return !0;\n  }, createjs.ColorMatrixFilter = createjs.promote(a, \"Filter\");\n}(), this.createjs = this.createjs || {}, function () {\n  \"use strict\";\n  function a() {\n    throw \"Touch cannot be instantiated\";\n  }a.isSupported = function () {\n    return !!(\"ontouchstart\" in window || window.navigator.msPointerEnabled && window.navigator.msMaxTouchPoints > 0 || window.navigator.pointerEnabled && window.navigator.maxTouchPoints > 0);\n  }, a.enable = function (b, c, d) {\n    return b && b.canvas && a.isSupported() ? b.__touch ? !0 : (b.__touch = { pointers: {}, multitouch: !c, preventDefault: !d, count: 0 }, \"ontouchstart\" in window ? a._IOS_enable(b) : (window.navigator.msPointerEnabled || window.navigator.pointerEnabled) && a._IE_enable(b), !0) : !1;\n  }, a.disable = function (b) {\n    b && (\"ontouchstart\" in window ? a._IOS_disable(b) : (window.navigator.msPointerEnabled || window.navigator.pointerEnabled) && a._IE_disable(b), delete b.__touch);\n  }, a._IOS_enable = function (b) {\n    var c = b.canvas,\n        d = b.__touch.f = function (c) {\n      a._IOS_handleEvent(b, c);\n    };c.addEventListener(\"touchstart\", d, !1), c.addEventListener(\"touchmove\", d, !1), c.addEventListener(\"touchend\", d, !1), c.addEventListener(\"touchcancel\", d, !1);\n  }, a._IOS_disable = function (a) {\n    var b = a.canvas;if (b) {\n      var c = a.__touch.f;b.removeEventListener(\"touchstart\", c, !1), b.removeEventListener(\"touchmove\", c, !1), b.removeEventListener(\"touchend\", c, !1), b.removeEventListener(\"touchcancel\", c, !1);\n    }\n  }, a._IOS_handleEvent = function (a, b) {\n    if (a) {\n      a.__touch.preventDefault && b.preventDefault && b.preventDefault();for (var c = b.changedTouches, d = b.type, e = 0, f = c.length; f > e; e++) {\n        var g = c[e],\n            h = g.identifier;g.target == a.canvas && (\"touchstart\" == d ? this._handleStart(a, h, b, g.pageX, g.pageY) : \"touchmove\" == d ? this._handleMove(a, h, b, g.pageX, g.pageY) : (\"touchend\" == d || \"touchcancel\" == d) && this._handleEnd(a, h, b));\n      }\n    }\n  }, a._IE_enable = function (b) {\n    var c = b.canvas,\n        d = b.__touch.f = function (c) {\n      a._IE_handleEvent(b, c);\n    };void 0 === window.navigator.pointerEnabled ? (c.addEventListener(\"MSPointerDown\", d, !1), window.addEventListener(\"MSPointerMove\", d, !1), window.addEventListener(\"MSPointerUp\", d, !1), window.addEventListener(\"MSPointerCancel\", d, !1), b.__touch.preventDefault && (c.style.msTouchAction = \"none\")) : (c.addEventListener(\"pointerdown\", d, !1), window.addEventListener(\"pointermove\", d, !1), window.addEventListener(\"pointerup\", d, !1), window.addEventListener(\"pointercancel\", d, !1), b.__touch.preventDefault && (c.style.touchAction = \"none\")), b.__touch.activeIDs = {};\n  }, a._IE_disable = function (a) {\n    var b = a.__touch.f;void 0 === window.navigator.pointerEnabled ? (window.removeEventListener(\"MSPointerMove\", b, !1), window.removeEventListener(\"MSPointerUp\", b, !1), window.removeEventListener(\"MSPointerCancel\", b, !1), a.canvas && a.canvas.removeEventListener(\"MSPointerDown\", b, !1)) : (window.removeEventListener(\"pointermove\", b, !1), window.removeEventListener(\"pointerup\", b, !1), window.removeEventListener(\"pointercancel\", b, !1), a.canvas && a.canvas.removeEventListener(\"pointerdown\", b, !1));\n  }, a._IE_handleEvent = function (a, b) {\n    if (a) {\n      a.__touch.preventDefault && b.preventDefault && b.preventDefault();var c = b.type,\n          d = b.pointerId,\n          e = a.__touch.activeIDs;if (\"MSPointerDown\" == c || \"pointerdown\" == c) {\n        if (b.srcElement != a.canvas) return;e[d] = !0, this._handleStart(a, d, b, b.pageX, b.pageY);\n      } else e[d] && (\"MSPointerMove\" == c || \"pointermove\" == c ? this._handleMove(a, d, b, b.pageX, b.pageY) : (\"MSPointerUp\" == c || \"MSPointerCancel\" == c || \"pointerup\" == c || \"pointercancel\" == c) && (delete e[d], this._handleEnd(a, d, b)));\n    }\n  }, a._handleStart = function (a, b, c, d, e) {\n    var f = a.__touch;if (f.multitouch || !f.count) {\n      var g = f.pointers;g[b] || (g[b] = !0, f.count++, a._handlePointerDown(b, c, d, e));\n    }\n  }, a._handleMove = function (a, b, c, d, e) {\n    a.__touch.pointers[b] && a._handlePointerMove(b, c, d, e);\n  }, a._handleEnd = function (a, b, c) {\n    var d = a.__touch,\n        e = d.pointers;e[b] && (d.count--, a._handlePointerUp(b, c, !0), delete e[b]);\n  }, createjs.Touch = a;\n}(), this.createjs = this.createjs || {}, function () {\n  \"use strict\";\n  var a = createjs.EaselJS = createjs.EaselJS || {};a.version = \"0.8.2\", a.buildDate = \"Thu, 26 Nov 2015 20:44:34 GMT\";\n}(), this.createjs = this.createjs || {}, function () {\n  \"use strict\";\n  var a = createjs.PreloadJS = createjs.PreloadJS || {};a.version = \"0.6.2\", a.buildDate = \"Thu, 26 Nov 2015 20:44:31 GMT\";\n}(), this.createjs = this.createjs || {}, function () {\n  \"use strict\";\n  createjs.proxy = function (a, b) {\n    var c = Array.prototype.slice.call(arguments, 2);return function () {\n      return a.apply(b, Array.prototype.slice.call(arguments, 0).concat(c));\n    };\n  };\n}(), this.createjs = this.createjs || {}, function () {\n  \"use strict\";\n  function a(a, b, c) {\n    this.Event_constructor(\"error\"), this.title = a, this.message = b, this.data = c;\n  }var b = createjs.extend(a, createjs.Event);b.clone = function () {\n    return new createjs.ErrorEvent(this.title, this.message, this.data);\n  }, createjs.ErrorEvent = createjs.promote(a, \"Event\");\n}(), this.createjs = this.createjs || {}, function (a) {\n  \"use strict\";\n  function b(a, b) {\n    this.Event_constructor(\"progress\"), this.loaded = a, this.total = null == b ? 1 : b, this.progress = 0 == b ? 0 : this.loaded / this.total;\n  }var c = createjs.extend(b, createjs.Event);c.clone = function () {\n    return new createjs.ProgressEvent(this.loaded, this.total);\n  }, createjs.ProgressEvent = createjs.promote(b, \"Event\");\n}(window), function () {\n  function a(b, d) {\n    function f(a) {\n      if (f[a] !== q) return f[a];var b;if (\"bug-string-char-index\" == a) b = \"a\" != \"a\"[0];else if (\"json\" == a) b = f(\"json-stringify\") && f(\"json-parse\");else {\n        var c,\n            e = '{\"a\":[1,true,false,null,\"\\\\u0000\\\\b\\\\n\\\\f\\\\r\\\\t\"]}';if (\"json-stringify\" == a) {\n          var i = d.stringify,\n              k = \"function\" == typeof i && t;if (k) {\n            (c = function () {\n              return 1;\n            }).toJSON = c;try {\n              k = \"0\" === i(0) && \"0\" === i(new g()) && '\"\"' == i(new h()) && i(s) === q && i(q) === q && i() === q && \"1\" === i(c) && \"[1]\" == i([c]) && \"[null]\" == i([q]) && \"null\" == i(null) && \"[null,null,null]\" == i([q, s, null]) && i({ a: [c, !0, !1, null, \"\\x00\\b\\n\\f\\r\t\"] }) == e && \"1\" === i(null, c) && \"[\\n 1,\\n 2\\n]\" == i([1, 2], null, 1) && '\"-271821-04-20T00:00:00.000Z\"' == i(new j(-864e13)) && '\"+275760-09-13T00:00:00.000Z\"' == i(new j(864e13)) && '\"-000001-01-01T00:00:00.000Z\"' == i(new j(-621987552e5)) && '\"1969-12-31T23:59:59.999Z\"' == i(new j(-1));\n            } catch (l) {\n              k = !1;\n            }\n          }b = k;\n        }if (\"json-parse\" == a) {\n          var m = d.parse;if (\"function\" == typeof m) try {\n            if (0 === m(\"0\") && !m(!1)) {\n              c = m(e);var n = 5 == c.a.length && 1 === c.a[0];if (n) {\n                try {\n                  n = !m('\"\t\"');\n                } catch (l) {}if (n) try {\n                  n = 1 !== m(\"01\");\n                } catch (l) {}if (n) try {\n                  n = 1 !== m(\"1.\");\n                } catch (l) {}\n              }\n            }\n          } catch (l) {\n            n = !1;\n          }b = n;\n        }\n      }return f[a] = !!b;\n    }b || (b = e.Object()), d || (d = e.Object());var g = b.Number || e.Number,\n        h = b.String || e.String,\n        i = b.Object || e.Object,\n        j = b.Date || e.Date,\n        k = b.SyntaxError || e.SyntaxError,\n        l = b.TypeError || e.TypeError,\n        m = b.Math || e.Math,\n        n = b.JSON || e.JSON;\"object\" == typeof n && n && (d.stringify = n.stringify, d.parse = n.parse);var o,\n        p,\n        q,\n        r = i.prototype,\n        s = r.toString,\n        t = new j(-0xc782b5b800cec);try {\n      t = -109252 == t.getUTCFullYear() && 0 === t.getUTCMonth() && 1 === t.getUTCDate() && 10 == t.getUTCHours() && 37 == t.getUTCMinutes() && 6 == t.getUTCSeconds() && 708 == t.getUTCMilliseconds();\n    } catch (u) {}if (!f(\"json\")) {\n      var v = \"[object Function]\",\n          w = \"[object Date]\",\n          x = \"[object Number]\",\n          y = \"[object String]\",\n          z = \"[object Array]\",\n          A = \"[object Boolean]\",\n          B = f(\"bug-string-char-index\");if (!t) var C = m.floor,\n          D = [0, 31, 59, 90, 120, 151, 181, 212, 243, 273, 304, 334],\n          E = function (a, b) {\n        return D[b] + 365 * (a - 1970) + C((a - 1969 + (b = +(b > 1))) / 4) - C((a - 1901 + b) / 100) + C((a - 1601 + b) / 400);\n      };if ((o = r.hasOwnProperty) || (o = function (a) {\n        var b,\n            c = {};return (c.__proto__ = null, c.__proto__ = { toString: 1 }, c).toString != s ? o = function (a) {\n          var b = this.__proto__,\n              c = a in (this.__proto__ = null, this);return this.__proto__ = b, c;\n        } : (b = c.constructor, o = function (a) {\n          var c = (this.constructor || b).prototype;return a in this && !(a in c && this[a] === c[a]);\n        }), c = null, o.call(this, a);\n      }), p = function (a, b) {\n        var d,\n            e,\n            f,\n            g = 0;(d = function () {\n          this.valueOf = 0;\n        }).prototype.valueOf = 0, e = new d();for (f in e) o.call(e, f) && g++;return d = e = null, g ? p = 2 == g ? function (a, b) {\n          var c,\n              d = {},\n              e = s.call(a) == v;for (c in a) e && \"prototype\" == c || o.call(d, c) || !(d[c] = 1) || !o.call(a, c) || b(c);\n        } : function (a, b) {\n          var c,\n              d,\n              e = s.call(a) == v;for (c in a) e && \"prototype\" == c || !o.call(a, c) || (d = \"constructor\" === c) || b(c);(d || o.call(a, c = \"constructor\")) && b(c);\n        } : (e = [\"valueOf\", \"toString\", \"toLocaleString\", \"propertyIsEnumerable\", \"isPrototypeOf\", \"hasOwnProperty\", \"constructor\"], p = function (a, b) {\n          var d,\n              f,\n              g = s.call(a) == v,\n              h = !g && \"function\" != typeof a.constructor && c[typeof a.hasOwnProperty] && a.hasOwnProperty || o;for (d in a) g && \"prototype\" == d || !h.call(a, d) || b(d);for (f = e.length; d = e[--f]; h.call(a, d) && b(d));\n        }), p(a, b);\n      }, !f(\"json-stringify\")) {\n        var F = { 92: \"\\\\\\\\\", 34: '\\\\\"', 8: \"\\\\b\", 12: \"\\\\f\", 10: \"\\\\n\", 13: \"\\\\r\", 9: \"\\\\t\" },\n            G = \"000000\",\n            H = function (a, b) {\n          return (G + (b || 0)).slice(-a);\n        },\n            I = \"\\\\u00\",\n            J = function (a) {\n          for (var b = '\"', c = 0, d = a.length, e = !B || d > 10, f = e && (B ? a.split(\"\") : a); d > c; c++) {\n            var g = a.charCodeAt(c);switch (g) {case 8:case 9:case 10:case 12:case 13:case 34:case 92:\n                b += F[g];break;default:\n                if (32 > g) {\n                  b += I + H(2, g.toString(16));break;\n                }b += e ? f[c] : a.charAt(c);}\n          }return b + '\"';\n        },\n            K = function (a, b, c, d, e, f, g) {\n          var h, i, j, k, m, n, r, t, u, v, B, D, F, G, I, L;try {\n            h = b[a];\n          } catch (M) {}if (\"object\" == typeof h && h) if (i = s.call(h), i != w || o.call(h, \"toJSON\")) \"function\" == typeof h.toJSON && (i != x && i != y && i != z || o.call(h, \"toJSON\")) && (h = h.toJSON(a));else if (h > -1 / 0 && 1 / 0 > h) {\n            if (E) {\n              for (m = C(h / 864e5), j = C(m / 365.2425) + 1970 - 1; E(j + 1, 0) <= m; j++);for (k = C((m - E(j, 0)) / 30.42); E(j, k + 1) <= m; k++);m = 1 + m - E(j, k), n = (h % 864e5 + 864e5) % 864e5, r = C(n / 36e5) % 24, t = C(n / 6e4) % 60, u = C(n / 1e3) % 60, v = n % 1e3;\n            } else j = h.getUTCFullYear(), k = h.getUTCMonth(), m = h.getUTCDate(), r = h.getUTCHours(), t = h.getUTCMinutes(), u = h.getUTCSeconds(), v = h.getUTCMilliseconds();h = (0 >= j || j >= 1e4 ? (0 > j ? \"-\" : \"+\") + H(6, 0 > j ? -j : j) : H(4, j)) + \"-\" + H(2, k + 1) + \"-\" + H(2, m) + \"T\" + H(2, r) + \":\" + H(2, t) + \":\" + H(2, u) + \".\" + H(3, v) + \"Z\";\n          } else h = null;if (c && (h = c.call(b, a, h)), null === h) return \"null\";if (i = s.call(h), i == A) return \"\" + h;if (i == x) return h > -1 / 0 && 1 / 0 > h ? \"\" + h : \"null\";if (i == y) return J(\"\" + h);if (\"object\" == typeof h) {\n            for (G = g.length; G--;) if (g[G] === h) throw l();if (g.push(h), B = [], I = f, f += e, i == z) {\n              for (F = 0, G = h.length; G > F; F++) D = K(F, h, c, d, e, f, g), B.push(D === q ? \"null\" : D);L = B.length ? e ? \"[\\n\" + f + B.join(\",\\n\" + f) + \"\\n\" + I + \"]\" : \"[\" + B.join(\",\") + \"]\" : \"[]\";\n            } else p(d || h, function (a) {\n              var b = K(a, h, c, d, e, f, g);b !== q && B.push(J(a) + \":\" + (e ? \" \" : \"\") + b);\n            }), L = B.length ? e ? \"{\\n\" + f + B.join(\",\\n\" + f) + \"\\n\" + I + \"}\" : \"{\" + B.join(\",\") + \"}\" : \"{}\";return g.pop(), L;\n          }\n        };d.stringify = function (a, b, d) {\n          var e, f, g, h;if (c[typeof b] && b) if ((h = s.call(b)) == v) f = b;else if (h == z) {\n            g = {};for (var i, j = 0, k = b.length; k > j; i = b[j++], h = s.call(i), (h == y || h == x) && (g[i] = 1));\n          }if (d) if ((h = s.call(d)) == x) {\n            if ((d -= d % 1) > 0) for (e = \"\", d > 10 && (d = 10); e.length < d; e += \" \");\n          } else h == y && (e = d.length <= 10 ? d : d.slice(0, 10));return K(\"\", (i = {}, i[\"\"] = a, i), f, g, e, \"\", []);\n        };\n      }if (!f(\"json-parse\")) {\n        var L,\n            M,\n            N = h.fromCharCode,\n            O = { 92: \"\\\\\", 34: '\"', 47: \"/\", 98: \"\\b\", 116: \"\t\", 110: \"\\n\", 102: \"\\f\", 114: \"\\r\" },\n            P = function () {\n          throw L = M = null, k();\n        },\n            Q = function () {\n          for (var a, b, c, d, e, f = M, g = f.length; g > L;) switch (e = f.charCodeAt(L)) {case 9:case 10:case 13:case 32:\n              L++;break;case 123:case 125:case 91:case 93:case 58:case 44:\n              return a = B ? f.charAt(L) : f[L], L++, a;case 34:\n              for (a = \"@\", L++; g > L;) if (e = f.charCodeAt(L), 32 > e) P();else if (92 == e) switch (e = f.charCodeAt(++L)) {case 92:case 34:\n                case 47:case 98:case 116:case 110:case 102:case 114:\n                  a += O[e], L++;break;case 117:\n                  for (b = ++L, c = L + 4; c > L; L++) e = f.charCodeAt(L), e >= 48 && 57 >= e || e >= 97 && 102 >= e || e >= 65 && 70 >= e || P();a += N(\"0x\" + f.slice(b, L));break;default:\n                  P();} else {\n                if (34 == e) break;for (e = f.charCodeAt(L), b = L; e >= 32 && 92 != e && 34 != e;) e = f.charCodeAt(++L);a += f.slice(b, L);\n              }if (34 == f.charCodeAt(L)) return L++, a;P();default:\n              if (b = L, 45 == e && (d = !0, e = f.charCodeAt(++L)), e >= 48 && 57 >= e) {\n                for (48 == e && (e = f.charCodeAt(L + 1), e >= 48 && 57 >= e) && P(), d = !1; g > L && (e = f.charCodeAt(L), e >= 48 && 57 >= e); L++);if (46 == f.charCodeAt(L)) {\n                  for (c = ++L; g > c && (e = f.charCodeAt(c), e >= 48 && 57 >= e); c++);c == L && P(), L = c;\n                }if (e = f.charCodeAt(L), 101 == e || 69 == e) {\n                  for (e = f.charCodeAt(++L), (43 == e || 45 == e) && L++, c = L; g > c && (e = f.charCodeAt(c), e >= 48 && 57 >= e); c++);c == L && P(), L = c;\n                }return +f.slice(b, L);\n              }if (d && P(), \"true\" == f.slice(L, L + 4)) return L += 4, !0;if (\"false\" == f.slice(L, L + 5)) return L += 5, !1;if (\"null\" == f.slice(L, L + 4)) return L += 4, null;P();}return \"$\";\n        },\n            R = function (a) {\n          var b, c;if (\"$\" == a && P(), \"string\" == typeof a) {\n            if (\"@\" == (B ? a.charAt(0) : a[0])) return a.slice(1);if (\"[\" == a) {\n              for (b = []; a = Q(), \"]\" != a; c || (c = !0)) c && (\",\" == a ? (a = Q(), \"]\" == a && P()) : P()), \",\" == a && P(), b.push(R(a));return b;\n            }if (\"{\" == a) {\n              for (b = {}; a = Q(), \"}\" != a; c || (c = !0)) c && (\",\" == a ? (a = Q(), \"}\" == a && P()) : P()), (\",\" == a || \"string\" != typeof a || \"@\" != (B ? a.charAt(0) : a[0]) || \":\" != Q()) && P(), b[a.slice(1)] = R(Q());return b;\n            }P();\n          }return a;\n        },\n            S = function (a, b, c) {\n          var d = T(a, b, c);d === q ? delete a[b] : a[b] = d;\n        },\n            T = function (a, b, c) {\n          var d,\n              e = a[b];if (\"object\" == typeof e && e) if (s.call(e) == z) for (d = e.length; d--;) S(e, d, c);else p(e, function (a) {\n            S(e, a, c);\n          });return c.call(a, b, e);\n        };d.parse = function (a, b) {\n          var c, d;return L = 0, M = \"\" + a, c = R(Q()), \"$\" != Q() && P(), L = M = null, b && s.call(b) == v ? T((d = {}, d[\"\"] = c, d), \"\", b) : c;\n        };\n      }\n    }return d.runInContext = a, d;\n  }var b = \"function\" == typeof define && define.amd,\n      c = { \"function\": !0, object: !0 },\n      d = c[typeof exports] && exports && !exports.nodeType && exports,\n      e = c[typeof window] && window || this,\n      f = d && c[typeof module] && module && !module.nodeType && \"object\" == typeof global && global;if (!f || f.global !== f && f.window !== f && f.self !== f || (e = f), d && !b) a(e, d);else {\n    var g = e.JSON,\n        h = e.JSON3,\n        i = !1,\n        j = a(e, e.JSON3 = { noConflict: function () {\n        return i || (i = !0, e.JSON = g, e.JSON3 = h, g = h = null), j;\n      } });e.JSON = { parse: j.parse, stringify: j.stringify };\n  }b && define(function () {\n    return j;\n  });\n}.call(this), function () {\n  var a = {};a.appendToHead = function (b) {\n    a.getHead().appendChild(b);\n  }, a.getHead = function () {\n    return document.head || document.getElementsByTagName(\"head\")[0];\n  }, a.getBody = function () {\n    return document.body || document.getElementsByTagName(\"body\")[0];\n  }, createjs.DomUtils = a;\n}(), function () {\n  var a = {};a.parseXML = function (a, b) {\n    var c = null;try {\n      if (window.DOMParser) {\n        var d = new DOMParser();c = d.parseFromString(a, b);\n      }\n    } catch (e) {}if (!c) try {\n      c = new ActiveXObject(\"Microsoft.XMLDOM\"), c.async = !1, c.loadXML(a);\n    } catch (e) {\n      c = null;\n    }return c;\n  }, a.parseJSON = function (a) {\n    if (null == a) return null;try {\n      return JSON.parse(a);\n    } catch (b) {\n      throw b;\n    }\n  }, createjs.DataUtils = a;\n}(), this.createjs = this.createjs || {}, function () {\n  \"use strict\";\n  function a() {\n    this.src = null, this.type = null, this.id = null, this.maintainOrder = !1, this.callback = null, this.data = null, this.method = createjs.LoadItem.GET, this.values = null, this.headers = null, this.withCredentials = !1, this.mimeType = null, this.crossOrigin = null, this.loadTimeout = c.LOAD_TIMEOUT_DEFAULT;\n  }var b = a.prototype = {},\n      c = a;c.LOAD_TIMEOUT_DEFAULT = 8e3, c.create = function (b) {\n    if (\"string\" == typeof b) {\n      var d = new a();return d.src = b, d;\n    }if (b instanceof c) return b;if (b instanceof Object && b.src) return null == b.loadTimeout && (b.loadTimeout = c.LOAD_TIMEOUT_DEFAULT), b;throw new Error(\"Type not recognized.\");\n  }, b.set = function (a) {\n    for (var b in a) this[b] = a[b];return this;\n  }, createjs.LoadItem = c;\n}(), function () {\n  var a = {};a.ABSOLUTE_PATT = /^(?:\\w+:)?\\/{2}/i, a.RELATIVE_PATT = /^[.\\/]*?\\//i, a.EXTENSION_PATT = /\\/?[^\\/]+\\.(\\w{1,5})$/i, a.parseURI = function (b) {\n    var c = { absolute: !1, relative: !1 };if (null == b) return c;var d = b.indexOf(\"?\");d > -1 && (b = b.substr(0, d));var e;return a.ABSOLUTE_PATT.test(b) ? c.absolute = !0 : a.RELATIVE_PATT.test(b) && (c.relative = !0), (e = b.match(a.EXTENSION_PATT)) && (c.extension = e[1].toLowerCase()), c;\n  }, a.formatQueryString = function (a, b) {\n    if (null == a) throw new Error(\"You must specify data.\");var c = [];for (var d in a) c.push(d + \"=\" + escape(a[d]));return b && (c = c.concat(b)), c.join(\"&\");\n  }, a.buildPath = function (a, b) {\n    if (null == b) return a;var c = [],\n        d = a.indexOf(\"?\");if (-1 != d) {\n      var e = a.slice(d + 1);c = c.concat(e.split(\"&\"));\n    }return -1 != d ? a.slice(0, d) + \"?\" + this.formatQueryString(b, c) : a + \"?\" + this.formatQueryString(b, c);\n  }, a.isCrossDomain = function (a) {\n    var b = document.createElement(\"a\");b.href = a.src;var c = document.createElement(\"a\");c.href = location.href;var d = \"\" != b.hostname && (b.port != c.port || b.protocol != c.protocol || b.hostname != c.hostname);return d;\n  }, a.isLocal = function (a) {\n    var b = document.createElement(\"a\");return b.href = a.src, \"\" == b.hostname && \"file:\" == b.protocol;\n  }, a.isBinary = function (a) {\n    switch (a) {case createjs.AbstractLoader.IMAGE:case createjs.AbstractLoader.BINARY:\n        return !0;default:\n        return !1;}\n  }, a.isImageTag = function (a) {\n    return a instanceof HTMLImageElement;\n  }, a.isAudioTag = function (a) {\n    return window.HTMLAudioElement ? a instanceof HTMLAudioElement : !1;\n  }, a.isVideoTag = function (a) {\n    return window.HTMLVideoElement ? a instanceof HTMLVideoElement : !1;\n  }, a.isText = function (a) {\n    switch (a) {case createjs.AbstractLoader.TEXT:case createjs.AbstractLoader.JSON:case createjs.AbstractLoader.MANIFEST:case createjs.AbstractLoader.XML:case createjs.AbstractLoader.CSS:case createjs.AbstractLoader.SVG:case createjs.AbstractLoader.JAVASCRIPT:case createjs.AbstractLoader.SPRITESHEET:\n        return !0;default:\n        return !1;}\n  }, a.getTypeByExtension = function (a) {\n    if (null == a) return createjs.AbstractLoader.TEXT;switch (a.toLowerCase()) {case \"jpeg\":case \"jpg\":case \"gif\":case \"png\":case \"webp\":case \"bmp\":\n        return createjs.AbstractLoader.IMAGE;case \"ogg\":case \"mp3\":case \"webm\":\n        return createjs.AbstractLoader.SOUND;case \"mp4\":case \"webm\":case \"ts\":\n        return createjs.AbstractLoader.VIDEO;case \"json\":\n        return createjs.AbstractLoader.JSON;case \"xml\":\n        return createjs.AbstractLoader.XML;case \"css\":\n        return createjs.AbstractLoader.CSS;case \"js\":\n        return createjs.AbstractLoader.JAVASCRIPT;case \"svg\":\n        return createjs.AbstractLoader.SVG;default:\n        return createjs.AbstractLoader.TEXT;}\n  }, createjs.RequestUtils = a;\n}(), this.createjs = this.createjs || {}, function () {\n  \"use strict\";\n  function a(a, b, c) {\n    this.EventDispatcher_constructor(), this.loaded = !1, this.canceled = !1, this.progress = 0, this.type = c, this.resultFormatter = null, a ? this._item = createjs.LoadItem.create(a) : this._item = null, this._preferXHR = b, this._result = null, this._rawResult = null, this._loadedItems = null, this._tagSrcAttribute = null, this._tag = null;\n  }var b = createjs.extend(a, createjs.EventDispatcher),\n      c = a;c.POST = \"POST\", c.GET = \"GET\", c.BINARY = \"binary\", c.CSS = \"css\", c.IMAGE = \"image\", c.JAVASCRIPT = \"javascript\", c.JSON = \"json\", c.JSONP = \"jsonp\", c.MANIFEST = \"manifest\", c.SOUND = \"sound\", c.VIDEO = \"video\", c.SPRITESHEET = \"spritesheet\", c.SVG = \"svg\", c.TEXT = \"text\", c.XML = \"xml\", b.getItem = function () {\n    return this._item;\n  }, b.getResult = function (a) {\n    return a ? this._rawResult : this._result;\n  }, b.getTag = function () {\n    return this._tag;\n  }, b.setTag = function (a) {\n    this._tag = a;\n  }, b.load = function () {\n    this._createRequest(), this._request.on(\"complete\", this, this), this._request.on(\"progress\", this, this), this._request.on(\"loadStart\", this, this), this._request.on(\"abort\", this, this), this._request.on(\"timeout\", this, this), this._request.on(\"error\", this, this);var a = new createjs.Event(\"initialize\");a.loader = this._request, this.dispatchEvent(a), this._request.load();\n  }, b.cancel = function () {\n    this.canceled = !0, this.destroy();\n  }, b.destroy = function () {\n    this._request && (this._request.removeAllEventListeners(), this._request.destroy()), this._request = null, this._item = null, this._rawResult = null, this._result = null, this._loadItems = null, this.removeAllEventListeners();\n  }, b.getLoadedItems = function () {\n    return this._loadedItems;\n  }, b._createRequest = function () {\n    this._preferXHR ? this._request = new createjs.XHRRequest(this._item) : this._request = new createjs.TagRequest(this._item, this._tag || this._createTag(), this._tagSrcAttribute);\n  }, b._createTag = function (a) {\n    return null;\n  }, b._sendLoadStart = function () {\n    this._isCanceled() || this.dispatchEvent(\"loadstart\");\n  }, b._sendProgress = function (a) {\n    if (!this._isCanceled()) {\n      var b = null;\"number\" == typeof a ? (this.progress = a, b = new createjs.ProgressEvent(this.progress)) : (b = a, this.progress = a.loaded / a.total, b.progress = this.progress, (isNaN(this.progress) || this.progress == 1 / 0) && (this.progress = 0)), this.hasEventListener(\"progress\") && this.dispatchEvent(b);\n    }\n  }, b._sendComplete = function () {\n    if (!this._isCanceled()) {\n      this.loaded = !0;var a = new createjs.Event(\"complete\");a.rawResult = this._rawResult, null != this._result && (a.result = this._result), this.dispatchEvent(a);\n    }\n  }, b._sendError = function (a) {\n    !this._isCanceled() && this.hasEventListener(\"error\") && (null == a && (a = new createjs.ErrorEvent(\"PRELOAD_ERROR_EMPTY\")), this.dispatchEvent(a));\n  }, b._isCanceled = function () {\n    return null == window.createjs || this.canceled ? !0 : !1;\n  }, b.resultFormatter = null, b.handleEvent = function (a) {\n    switch (a.type) {case \"complete\":\n        this._rawResult = a.target._response;var b = this.resultFormatter && this.resultFormatter(this);b instanceof Function ? b.call(this, createjs.proxy(this._resultFormatSuccess, this), createjs.proxy(this._resultFormatFailed, this)) : (this._result = b || this._rawResult, this._sendComplete());break;case \"progress\":\n        this._sendProgress(a);break;case \"error\":\n        this._sendError(a);break;case \"loadstart\":\n        this._sendLoadStart();break;case \"abort\":case \"timeout\":\n        this._isCanceled() || this.dispatchEvent(new createjs.ErrorEvent(\"PRELOAD_\" + a.type.toUpperCase() + \"_ERROR\"));}\n  }, b._resultFormatSuccess = function (a) {\n    this._result = a, this._sendComplete();\n  }, b._resultFormatFailed = function (a) {\n    this._sendError(a);\n  }, b.buildPath = function (a, b) {\n    return createjs.RequestUtils.buildPath(a, b);\n  }, b.toString = function () {\n    return \"[PreloadJS AbstractLoader]\";\n  }, createjs.AbstractLoader = createjs.promote(a, \"EventDispatcher\");\n}(), this.createjs = this.createjs || {}, function () {\n  \"use strict\";\n  function a(a, b, c) {\n    this.AbstractLoader_constructor(a, b, c), this.resultFormatter = this._formatResult, this._tagSrcAttribute = \"src\", this.on(\"initialize\", this._updateXHR, this);\n  }var b = createjs.extend(a, createjs.AbstractLoader);b.load = function () {\n    this._tag || (this._tag = this._createTag(this._item.src)), this._tag.preload = \"auto\", this._tag.load(), this.AbstractLoader_load();\n  }, b._createTag = function () {}, b._createRequest = function () {\n    this._preferXHR ? this._request = new createjs.XHRRequest(this._item) : this._request = new createjs.MediaTagRequest(this._item, this._tag || this._createTag(), this._tagSrcAttribute);\n  }, b._updateXHR = function (a) {\n    a.loader.setResponseType && a.loader.setResponseType(\"blob\");\n  }, b._formatResult = function (a) {\n    if (this._tag.removeEventListener && this._tag.removeEventListener(\"canplaythrough\", this._loadedHandler), this._tag.onstalled = null, this._preferXHR) {\n      var b = window.URL || window.webkitURL,\n          c = a.getResult(!0);a.getTag().src = b.createObjectURL(c);\n    }return a.getTag();\n  }, createjs.AbstractMediaLoader = createjs.promote(a, \"AbstractLoader\");\n}(), this.createjs = this.createjs || {}, function () {\n  \"use strict\";\n  var a = function (a) {\n    this._item = a;\n  },\n      b = createjs.extend(a, createjs.EventDispatcher);b.load = function () {}, b.destroy = function () {}, b.cancel = function () {}, createjs.AbstractRequest = createjs.promote(a, \"EventDispatcher\");\n}(), this.createjs = this.createjs || {}, function () {\n  \"use strict\";\n  function a(a, b, c) {\n    this.AbstractRequest_constructor(a), this._tag = b, this._tagSrcAttribute = c, this._loadedHandler = createjs.proxy(this._handleTagComplete, this), this._addedToDOM = !1, this._startTagVisibility = null;\n  }var b = createjs.extend(a, createjs.AbstractRequest);b.load = function () {\n    this._tag.onload = createjs.proxy(this._handleTagComplete, this), this._tag.onreadystatechange = createjs.proxy(this._handleReadyStateChange, this), this._tag.onerror = createjs.proxy(this._handleError, this);var a = new createjs.Event(\"initialize\");a.loader = this._tag, this.dispatchEvent(a), this._hideTag(), this._loadTimeout = setTimeout(createjs.proxy(this._handleTimeout, this), this._item.loadTimeout), this._tag[this._tagSrcAttribute] = this._item.src, null == this._tag.parentNode && (window.document.body.appendChild(this._tag), this._addedToDOM = !0);\n  }, b.destroy = function () {\n    this._clean(), this._tag = null, this.AbstractRequest_destroy();\n  }, b._handleReadyStateChange = function () {\n    clearTimeout(this._loadTimeout);var a = this._tag;(\"loaded\" == a.readyState || \"complete\" == a.readyState) && this._handleTagComplete();\n  }, b._handleError = function () {\n    this._clean(), this.dispatchEvent(\"error\");\n  }, b._handleTagComplete = function () {\n    this._rawResult = this._tag, this._result = this.resultFormatter && this.resultFormatter(this) || this._rawResult, this._clean(), this._showTag(), this.dispatchEvent(\"complete\");\n  }, b._handleTimeout = function () {\n    this._clean(), this.dispatchEvent(new createjs.Event(\"timeout\"));\n  }, b._clean = function () {\n    this._tag.onload = null, this._tag.onreadystatechange = null, this._tag.onerror = null, this._addedToDOM && null != this._tag.parentNode && this._tag.parentNode.removeChild(this._tag), clearTimeout(this._loadTimeout);\n  }, b._hideTag = function () {\n    this._startTagVisibility = this._tag.style.visibility, this._tag.style.visibility = \"hidden\";\n  }, b._showTag = function () {\n    this._tag.style.visibility = this._startTagVisibility;\n  }, b._handleStalled = function () {}, createjs.TagRequest = createjs.promote(a, \"AbstractRequest\");\n}(), this.createjs = this.createjs || {}, function () {\n  \"use strict\";\n  function a(a, b, c) {\n    this.AbstractRequest_constructor(a), this._tag = b, this._tagSrcAttribute = c, this._loadedHandler = createjs.proxy(this._handleTagComplete, this);\n  }var b = createjs.extend(a, createjs.TagRequest);b.load = function () {\n    var a = createjs.proxy(this._handleStalled, this);this._stalledCallback = a;var b = createjs.proxy(this._handleProgress, this);this._handleProgress = b, this._tag.addEventListener(\"stalled\", a), this._tag.addEventListener(\"progress\", b), this._tag.addEventListener && this._tag.addEventListener(\"canplaythrough\", this._loadedHandler, !1), this.TagRequest_load();\n  }, b._handleReadyStateChange = function () {\n    clearTimeout(this._loadTimeout);var a = this._tag;(\"loaded\" == a.readyState || \"complete\" == a.readyState) && this._handleTagComplete();\n  }, b._handleStalled = function () {}, b._handleProgress = function (a) {\n    if (a && !(a.loaded > 0 && 0 == a.total)) {\n      var b = new createjs.ProgressEvent(a.loaded, a.total);this.dispatchEvent(b);\n    }\n  }, b._clean = function () {\n    this._tag.removeEventListener && this._tag.removeEventListener(\"canplaythrough\", this._loadedHandler), this._tag.removeEventListener(\"stalled\", this._stalledCallback), this._tag.removeEventListener(\"progress\", this._progressCallback), this.TagRequest__clean();\n  }, createjs.MediaTagRequest = createjs.promote(a, \"TagRequest\");\n}(), this.createjs = this.createjs || {}, function () {\n  \"use strict\";\n  function a(a) {\n    this.AbstractRequest_constructor(a), this._request = null, this._loadTimeout = null, this._xhrLevel = 1, this._response = null, this._rawResponse = null, this._canceled = !1, this._handleLoadStartProxy = createjs.proxy(this._handleLoadStart, this), this._handleProgressProxy = createjs.proxy(this._handleProgress, this), this._handleAbortProxy = createjs.proxy(this._handleAbort, this), this._handleErrorProxy = createjs.proxy(this._handleError, this), this._handleTimeoutProxy = createjs.proxy(this._handleTimeout, this), this._handleLoadProxy = createjs.proxy(this._handleLoad, this), this._handleReadyStateChangeProxy = createjs.proxy(this._handleReadyStateChange, this), !this._createXHR(a);\n  }var b = createjs.extend(a, createjs.AbstractRequest);a.ACTIVEX_VERSIONS = [\"Msxml2.XMLHTTP.6.0\", \"Msxml2.XMLHTTP.5.0\", \"Msxml2.XMLHTTP.4.0\", \"MSXML2.XMLHTTP.3.0\", \"MSXML2.XMLHTTP\", \"Microsoft.XMLHTTP\"], b.getResult = function (a) {\n    return a && this._rawResponse ? this._rawResponse : this._response;\n  }, b.cancel = function () {\n    this.canceled = !0, this._clean(), this._request.abort();\n  }, b.load = function () {\n    if (null == this._request) return void this._handleError();null != this._request.addEventListener ? (this._request.addEventListener(\"loadstart\", this._handleLoadStartProxy, !1), this._request.addEventListener(\"progress\", this._handleProgressProxy, !1), this._request.addEventListener(\"abort\", this._handleAbortProxy, !1), this._request.addEventListener(\"error\", this._handleErrorProxy, !1), this._request.addEventListener(\"timeout\", this._handleTimeoutProxy, !1), this._request.addEventListener(\"load\", this._handleLoadProxy, !1), this._request.addEventListener(\"readystatechange\", this._handleReadyStateChangeProxy, !1)) : (this._request.onloadstart = this._handleLoadStartProxy, this._request.onprogress = this._handleProgressProxy, this._request.onabort = this._handleAbortProxy, this._request.onerror = this._handleErrorProxy, this._request.ontimeout = this._handleTimeoutProxy, this._request.onload = this._handleLoadProxy, this._request.onreadystatechange = this._handleReadyStateChangeProxy), 1 == this._xhrLevel && (this._loadTimeout = setTimeout(createjs.proxy(this._handleTimeout, this), this._item.loadTimeout));try {\n      this._item.values && this._item.method != createjs.AbstractLoader.GET ? this._item.method == createjs.AbstractLoader.POST && this._request.send(createjs.RequestUtils.formatQueryString(this._item.values)) : this._request.send();\n    } catch (a) {\n      this.dispatchEvent(new createjs.ErrorEvent(\"XHR_SEND\", null, a));\n    }\n  }, b.setResponseType = function (a) {\n    \"blob\" === a && (a = window.URL ? \"blob\" : \"arraybuffer\", this._responseType = a), this._request.responseType = a;\n  }, b.getAllResponseHeaders = function () {\n    return this._request.getAllResponseHeaders instanceof Function ? this._request.getAllResponseHeaders() : null;\n  }, b.getResponseHeader = function (a) {\n    return this._request.getResponseHeader instanceof Function ? this._request.getResponseHeader(a) : null;\n  }, b._handleProgress = function (a) {\n    if (a && !(a.loaded > 0 && 0 == a.total)) {\n      var b = new createjs.ProgressEvent(a.loaded, a.total);this.dispatchEvent(b);\n    }\n  }, b._handleLoadStart = function (a) {\n    clearTimeout(this._loadTimeout), this.dispatchEvent(\"loadstart\");\n  }, b._handleAbort = function (a) {\n    this._clean(), this.dispatchEvent(new createjs.ErrorEvent(\"XHR_ABORTED\", null, a));\n  }, b._handleError = function (a) {\n    this._clean(), this.dispatchEvent(new createjs.ErrorEvent(a.message));\n  }, b._handleReadyStateChange = function (a) {\n    4 == this._request.readyState && this._handleLoad();\n  }, b._handleLoad = function (a) {\n    if (!this.loaded) {\n      this.loaded = !0;var b = this._checkError();if (b) return void this._handleError(b);if (this._response = this._getResponse(), \"arraybuffer\" === this._responseType) try {\n        this._response = new Blob([this._response]);\n      } catch (c) {\n        if (window.BlobBuilder = window.BlobBuilder || window.WebKitBlobBuilder || window.MozBlobBuilder || window.MSBlobBuilder, \"TypeError\" === c.name && window.BlobBuilder) {\n          var d = new BlobBuilder();d.append(this._response), this._response = d.getBlob();\n        }\n      }this._clean(), this.dispatchEvent(new createjs.Event(\"complete\"));\n    }\n  }, b._handleTimeout = function (a) {\n    this._clean(), this.dispatchEvent(new createjs.ErrorEvent(\"PRELOAD_TIMEOUT\", null, a));\n  }, b._checkError = function () {\n    var a = parseInt(this._request.status);switch (a) {case 404:case 0:\n        return new Error(a);}return null;\n  }, b._getResponse = function () {\n    if (null != this._response) return this._response;if (null != this._request.response) return this._request.response;try {\n      if (null != this._request.responseText) return this._request.responseText;\n    } catch (a) {}try {\n      if (null != this._request.responseXML) return this._request.responseXML;\n    } catch (a) {}return null;\n  }, b._createXHR = function (a) {\n    var b = createjs.RequestUtils.isCrossDomain(a),\n        c = {},\n        d = null;if (window.XMLHttpRequest) d = new XMLHttpRequest(), b && void 0 === d.withCredentials && window.XDomainRequest && (d = new XDomainRequest());else {\n      for (var e = 0, f = s.ACTIVEX_VERSIONS.length; f > e; e++) {\n        var g = s.ACTIVEX_VERSIONS[e];try {\n          d = new ActiveXObject(g);break;\n        } catch (h) {}\n      }if (null == d) return !1;\n    }null == a.mimeType && createjs.RequestUtils.isText(a.type) && (a.mimeType = \"text/plain; charset=utf-8\"), a.mimeType && d.overrideMimeType && d.overrideMimeType(a.mimeType), this._xhrLevel = \"string\" == typeof d.responseType ? 2 : 1;var i = null;if (i = a.method == createjs.AbstractLoader.GET ? createjs.RequestUtils.buildPath(a.src, a.values) : a.src, d.open(a.method || createjs.AbstractLoader.GET, i, !0), b && d instanceof XMLHttpRequest && 1 == this._xhrLevel && (c.Origin = location.origin), a.values && a.method == createjs.AbstractLoader.POST && (c[\"Content-Type\"] = \"application/x-www-form-urlencoded\"), b || c[\"X-Requested-With\"] || (c[\"X-Requested-With\"] = \"XMLHttpRequest\"), a.headers) for (var j in a.headers) c[j] = a.headers[j];for (j in c) d.setRequestHeader(j, c[j]);return d instanceof XMLHttpRequest && void 0 !== a.withCredentials && (d.withCredentials = a.withCredentials), this._request = d, !0;\n  }, b._clean = function () {\n    clearTimeout(this._loadTimeout), null != this._request.removeEventListener ? (this._request.removeEventListener(\"loadstart\", this._handleLoadStartProxy), this._request.removeEventListener(\"progress\", this._handleProgressProxy), this._request.removeEventListener(\"abort\", this._handleAbortProxy), this._request.removeEventListener(\"error\", this._handleErrorProxy), this._request.removeEventListener(\"timeout\", this._handleTimeoutProxy), this._request.removeEventListener(\"load\", this._handleLoadProxy), this._request.removeEventListener(\"readystatechange\", this._handleReadyStateChangeProxy)) : (this._request.onloadstart = null, this._request.onprogress = null, this._request.onabort = null, this._request.onerror = null, this._request.ontimeout = null, this._request.onload = null, this._request.onreadystatechange = null);\n  }, b.toString = function () {\n    return \"[PreloadJS XHRRequest]\";\n  }, createjs.XHRRequest = createjs.promote(a, \"AbstractRequest\");\n}(), this.createjs = this.createjs || {}, function () {\n  \"use strict\";\n  function a(a, b, c) {\n    this.AbstractLoader_constructor(), this._plugins = [], this._typeCallbacks = {}, this._extensionCallbacks = {}, this.next = null, this.maintainScriptOrder = !0, this.stopOnError = !1, this._maxConnections = 1, this._availableLoaders = [createjs.ImageLoader, createjs.JavaScriptLoader, createjs.CSSLoader, createjs.JSONLoader, createjs.JSONPLoader, createjs.SoundLoader, createjs.ManifestLoader, createjs.SpriteSheetLoader, createjs.XMLLoader, createjs.SVGLoader, createjs.BinaryLoader, createjs.VideoLoader, createjs.TextLoader], this._defaultLoaderLength = this._availableLoaders.length, this.init(a, b, c);\n  }var b = createjs.extend(a, createjs.AbstractLoader),\n      c = a;b.init = function (a, b, c) {\n    this.useXHR = !0, this.preferXHR = !0, this._preferXHR = !0, this.setPreferXHR(a), this._paused = !1, this._basePath = b, this._crossOrigin = c, this._loadStartWasDispatched = !1, this._currentlyLoadingScript = null, this._currentLoads = [], this._loadQueue = [], this._loadQueueBackup = [], this._loadItemsById = {}, this._loadItemsBySrc = {}, this._loadedResults = {}, this._loadedRawResults = {}, this._numItems = 0, this._numItemsLoaded = 0, this._scriptOrder = [], this._loadedScripts = [], this._lastProgress = NaN;\n  }, c.loadTimeout = 8e3, c.LOAD_TIMEOUT = 0, c.BINARY = createjs.AbstractLoader.BINARY, c.CSS = createjs.AbstractLoader.CSS, c.IMAGE = createjs.AbstractLoader.IMAGE, c.JAVASCRIPT = createjs.AbstractLoader.JAVASCRIPT, c.JSON = createjs.AbstractLoader.JSON, c.JSONP = createjs.AbstractLoader.JSONP, c.MANIFEST = createjs.AbstractLoader.MANIFEST, c.SOUND = createjs.AbstractLoader.SOUND, c.VIDEO = createjs.AbstractLoader.VIDEO, c.SVG = createjs.AbstractLoader.SVG, c.TEXT = createjs.AbstractLoader.TEXT, c.XML = createjs.AbstractLoader.XML, c.POST = createjs.AbstractLoader.POST, c.GET = createjs.AbstractLoader.GET, b.registerLoader = function (a) {\n    if (!a || !a.canLoadItem) throw new Error(\"loader is of an incorrect type.\");if (-1 != this._availableLoaders.indexOf(a)) throw new Error(\"loader already exists.\");this._availableLoaders.unshift(a);\n  }, b.unregisterLoader = function (a) {\n    var b = this._availableLoaders.indexOf(a);-1 != b && b < this._defaultLoaderLength - 1 && this._availableLoaders.splice(b, 1);\n  }, b.setUseXHR = function (a) {\n    return this.setPreferXHR(a);\n  }, b.setPreferXHR = function (a) {\n    return this.preferXHR = 0 != a && null != window.XMLHttpRequest, this.preferXHR;\n  }, b.removeAll = function () {\n    this.remove();\n  }, b.remove = function (a) {\n    var b = null;if (a && !Array.isArray(a)) b = [a];else if (a) b = a;else if (arguments.length > 0) return;var c = !1;if (b) {\n      for (; b.length;) {\n        var d = b.pop(),\n            e = this.getResult(d);for (f = this._loadQueue.length - 1; f >= 0; f--) if (g = this._loadQueue[f].getItem(), g.id == d || g.src == d) {\n          this._loadQueue.splice(f, 1)[0].cancel();break;\n        }for (f = this._loadQueueBackup.length - 1; f >= 0; f--) if (g = this._loadQueueBackup[f].getItem(), g.id == d || g.src == d) {\n          this._loadQueueBackup.splice(f, 1)[0].cancel();break;\n        }if (e) this._disposeItem(this.getItem(d));else for (var f = this._currentLoads.length - 1; f >= 0; f--) {\n          var g = this._currentLoads[f].getItem();if (g.id == d || g.src == d) {\n            this._currentLoads.splice(f, 1)[0].cancel(), c = !0;break;\n          }\n        }\n      }c && this._loadNext();\n    } else {\n      this.close();for (var h in this._loadItemsById) this._disposeItem(this._loadItemsById[h]);this.init(this.preferXHR, this._basePath);\n    }\n  }, b.reset = function () {\n    this.close();for (var a in this._loadItemsById) this._disposeItem(this._loadItemsById[a]);for (var b = [], c = 0, d = this._loadQueueBackup.length; d > c; c++) b.push(this._loadQueueBackup[c].getItem());this.loadManifest(b, !1);\n  }, b.installPlugin = function (a) {\n    if (null != a && null != a.getPreloadHandlers) {\n      this._plugins.push(a);var b = a.getPreloadHandlers();if (b.scope = a, null != b.types) for (var c = 0, d = b.types.length; d > c; c++) this._typeCallbacks[b.types[c]] = b;if (null != b.extensions) for (c = 0, d = b.extensions.length; d > c; c++) this._extensionCallbacks[b.extensions[c]] = b;\n    }\n  }, b.setMaxConnections = function (a) {\n    this._maxConnections = a, !this._paused && this._loadQueue.length > 0 && this._loadNext();\n  }, b.loadFile = function (a, b, c) {\n    if (null == a) {\n      var d = new createjs.ErrorEvent(\"PRELOAD_NO_FILE\");return void this._sendError(d);\n    }this._addItem(a, null, c), b !== !1 ? this.setPaused(!1) : this.setPaused(!0);\n  }, b.loadManifest = function (a, b, d) {\n    var e = null,\n        f = null;if (Array.isArray(a)) {\n      if (0 == a.length) {\n        var g = new createjs.ErrorEvent(\"PRELOAD_MANIFEST_EMPTY\");return void this._sendError(g);\n      }e = a;\n    } else if (\"string\" == typeof a) e = [{ src: a, type: c.MANIFEST }];else {\n      if (\"object\" != typeof a) {\n        var g = new createjs.ErrorEvent(\"PRELOAD_MANIFEST_NULL\");return void this._sendError(g);\n      }if (void 0 !== a.src) {\n        if (null == a.type) a.type = c.MANIFEST;else if (a.type != c.MANIFEST) {\n          var g = new createjs.ErrorEvent(\"PRELOAD_MANIFEST_TYPE\");this._sendError(g);\n        }e = [a];\n      } else void 0 !== a.manifest && (e = a.manifest, f = a.path);\n    }for (var h = 0, i = e.length; i > h; h++) this._addItem(e[h], f, d);b !== !1 ? this.setPaused(!1) : this.setPaused(!0);\n  }, b.load = function () {\n    this.setPaused(!1);\n  }, b.getItem = function (a) {\n    return this._loadItemsById[a] || this._loadItemsBySrc[a];\n  }, b.getResult = function (a, b) {\n    var c = this._loadItemsById[a] || this._loadItemsBySrc[a];if (null == c) return null;var d = c.id;return b && this._loadedRawResults[d] ? this._loadedRawResults[d] : this._loadedResults[d];\n  }, b.getItems = function (a) {\n    var b = [];for (var c in this._loadItemsById) {\n      var d = this._loadItemsById[c],\n          e = this.getResult(c);(a !== !0 || null != e) && b.push({ item: d, result: e, rawResult: this.getResult(c, !0) });\n    }return b;\n  }, b.setPaused = function (a) {\n    this._paused = a, this._paused || this._loadNext();\n  }, b.close = function () {\n    for (; this._currentLoads.length;) this._currentLoads.pop().cancel();this._scriptOrder.length = 0, this._loadedScripts.length = 0, this.loadStartWasDispatched = !1, this._itemCount = 0, this._lastProgress = NaN;\n  }, b._addItem = function (a, b, c) {\n    var d = this._createLoadItem(a, b, c);if (null != d) {\n      var e = this._createLoader(d);null != e && (\"plugins\" in e && (e.plugins = this._plugins), d._loader = e, this._loadQueue.push(e), this._loadQueueBackup.push(e), this._numItems++, this._updateProgress(), (this.maintainScriptOrder && d.type == createjs.LoadQueue.JAVASCRIPT || d.maintainOrder === !0) && (this._scriptOrder.push(d), this._loadedScripts.push(null)));\n    }\n  }, b._createLoadItem = function (a, b, c) {\n    var d = createjs.LoadItem.create(a);if (null == d) return null;var e = \"\",\n        f = c || this._basePath;if (d.src instanceof Object) {\n      if (!d.type) return null;if (b) {\n        e = b;var g = createjs.RequestUtils.parseURI(b);null == f || g.absolute || g.relative || (e = f + e);\n      } else null != f && (e = f);\n    } else {\n      var h = createjs.RequestUtils.parseURI(d.src);h.extension && (d.ext = h.extension), null == d.type && (d.type = createjs.RequestUtils.getTypeByExtension(d.ext));var i = d.src;if (!h.absolute && !h.relative) if (b) {\n        e = b;var g = createjs.RequestUtils.parseURI(b);i = b + i, null == f || g.absolute || g.relative || (e = f + e);\n      } else null != f && (e = f);d.src = e + d.src;\n    }d.path = e, (void 0 === d.id || null === d.id || \"\" === d.id) && (d.id = i);var j = this._typeCallbacks[d.type] || this._extensionCallbacks[d.ext];if (j) {\n      var k = j.callback.call(j.scope, d, this);if (k === !1) return null;k === !0 || null != k && (d._loader = k), h = createjs.RequestUtils.parseURI(d.src), null != h.extension && (d.ext = h.extension);\n    }return this._loadItemsById[d.id] = d, this._loadItemsBySrc[d.src] = d, null == d.crossOrigin && (d.crossOrigin = this._crossOrigin), d;\n  }, b._createLoader = function (a) {\n    if (null != a._loader) return a._loader;for (var b = this.preferXHR, c = 0; c < this._availableLoaders.length; c++) {\n      var d = this._availableLoaders[c];if (d && d.canLoadItem(a)) return new d(a, b);\n    }return null;\n  }, b._loadNext = function () {\n    if (!this._paused) {\n      this._loadStartWasDispatched || (this._sendLoadStart(), this._loadStartWasDispatched = !0), this._numItems == this._numItemsLoaded ? (this.loaded = !0, this._sendComplete(), this.next && this.next.load && this.next.load()) : this.loaded = !1;for (var a = 0; a < this._loadQueue.length && !(this._currentLoads.length >= this._maxConnections); a++) {\n        var b = this._loadQueue[a];this._canStartLoad(b) && (this._loadQueue.splice(a, 1), a--, this._loadItem(b));\n      }\n    }\n  }, b._loadItem = function (a) {\n    a.on(\"fileload\", this._handleFileLoad, this), a.on(\"progress\", this._handleProgress, this), a.on(\"complete\", this._handleFileComplete, this), a.on(\"error\", this._handleError, this), a.on(\"fileerror\", this._handleFileError, this), this._currentLoads.push(a), this._sendFileStart(a.getItem()), a.load();\n  }, b._handleFileLoad = function (a) {\n    a.target = null, this.dispatchEvent(a);\n  }, b._handleFileError = function (a) {\n    var b = new createjs.ErrorEvent(\"FILE_LOAD_ERROR\", null, a.item);this._sendError(b);\n  }, b._handleError = function (a) {\n    var b = a.target;this._numItemsLoaded++, this._finishOrderedItem(b, !0), this._updateProgress();var c = new createjs.ErrorEvent(\"FILE_LOAD_ERROR\", null, b.getItem());this._sendError(c), this.stopOnError ? this.setPaused(!0) : (this._removeLoadItem(b), this._cleanLoadItem(b), this._loadNext());\n  }, b._handleFileComplete = function (a) {\n    var b = a.target,\n        c = b.getItem(),\n        d = b.getResult();this._loadedResults[c.id] = d;var e = b.getResult(!0);null != e && e !== d && (this._loadedRawResults[c.id] = e), this._saveLoadedItems(b), this._removeLoadItem(b), this._finishOrderedItem(b) || this._processFinishedLoad(c, b), this._cleanLoadItem(b);\n  }, b._saveLoadedItems = function (a) {\n    var b = a.getLoadedItems();if (null !== b) for (var c = 0; c < b.length; c++) {\n      var d = b[c].item;this._loadItemsBySrc[d.src] = d, this._loadItemsById[d.id] = d, this._loadedResults[d.id] = b[c].result, this._loadedRawResults[d.id] = b[c].rawResult;\n    }\n  }, b._finishOrderedItem = function (a, b) {\n    var c = a.getItem();if (this.maintainScriptOrder && c.type == createjs.LoadQueue.JAVASCRIPT || c.maintainOrder) {\n      a instanceof createjs.JavaScriptLoader && (this._currentlyLoadingScript = !1);var d = createjs.indexOf(this._scriptOrder, c);return -1 == d ? !1 : (this._loadedScripts[d] = b === !0 ? !0 : c, this._checkScriptLoadOrder(), !0);\n    }return !1;\n  }, b._checkScriptLoadOrder = function () {\n    for (var a = this._loadedScripts.length, b = 0; a > b; b++) {\n      var c = this._loadedScripts[b];if (null === c) break;if (c !== !0) {\n        var d = this._loadedResults[c.id];c.type == createjs.LoadQueue.JAVASCRIPT && createjs.DomUtils.appendToHead(d);var e = c._loader;this._processFinishedLoad(c, e), this._loadedScripts[b] = !0;\n      }\n    }\n  }, b._processFinishedLoad = function (a, b) {\n    if (this._numItemsLoaded++, !this.maintainScriptOrder && a.type == createjs.LoadQueue.JAVASCRIPT) {\n      var c = b.getTag();createjs.DomUtils.appendToHead(c);\n    }this._updateProgress(), this._sendFileComplete(a, b), this._loadNext();\n  }, b._canStartLoad = function (a) {\n    if (!this.maintainScriptOrder || a.preferXHR) return !0;var b = a.getItem();if (b.type != createjs.LoadQueue.JAVASCRIPT) return !0;if (this._currentlyLoadingScript) return !1;for (var c = this._scriptOrder.indexOf(b), d = 0; c > d;) {\n      var e = this._loadedScripts[d];if (null == e) return !1;d++;\n    }return this._currentlyLoadingScript = !0, !0;\n  }, b._removeLoadItem = function (a) {\n    for (var b = this._currentLoads.length, c = 0; b > c; c++) if (this._currentLoads[c] == a) {\n      this._currentLoads.splice(c, 1);break;\n    }\n  }, b._cleanLoadItem = function (a) {\n    var b = a.getItem();b && delete b._loader;\n  }, b._handleProgress = function (a) {\n    var b = a.target;this._sendFileProgress(b.getItem(), b.progress), this._updateProgress();\n  }, b._updateProgress = function () {\n    var a = this._numItemsLoaded / this._numItems,\n        b = this._numItems - this._numItemsLoaded;if (b > 0) {\n      for (var c = 0, d = 0, e = this._currentLoads.length; e > d; d++) c += this._currentLoads[d].progress;a += c / b * (b / this._numItems);\n    }this._lastProgress != a && (this._sendProgress(a), this._lastProgress = a);\n  }, b._disposeItem = function (a) {\n    delete this._loadedResults[a.id], delete this._loadedRawResults[a.id], delete this._loadItemsById[a.id], delete this._loadItemsBySrc[a.src];\n  }, b._sendFileProgress = function (a, b) {\n    if (!this._isCanceled() && !this._paused && this.hasEventListener(\"fileprogress\")) {\n      var c = new createjs.Event(\"fileprogress\");c.progress = b, c.loaded = b, c.total = 1, c.item = a, this.dispatchEvent(c);\n    }\n  }, b._sendFileComplete = function (a, b) {\n    if (!this._isCanceled() && !this._paused) {\n      var c = new createjs.Event(\"fileload\");c.loader = b, c.item = a, c.result = this._loadedResults[a.id], c.rawResult = this._loadedRawResults[a.id], a.completeHandler && a.completeHandler(c), this.hasEventListener(\"fileload\") && this.dispatchEvent(c);\n    }\n  }, b._sendFileStart = function (a) {\n    var b = new createjs.Event(\"filestart\");b.item = a, this.hasEventListener(\"filestart\") && this.dispatchEvent(b);\n  }, b.toString = function () {\n    return \"[PreloadJS LoadQueue]\";\n  }, createjs.LoadQueue = createjs.promote(a, \"AbstractLoader\");\n}(), this.createjs = this.createjs || {}, function () {\n  \"use strict\";\n  function a(a) {\n    this.AbstractLoader_constructor(a, !0, createjs.AbstractLoader.TEXT);\n  }var b = (createjs.extend(a, createjs.AbstractLoader), a);b.canLoadItem = function (a) {\n    return a.type == createjs.AbstractLoader.TEXT;\n  }, createjs.TextLoader = createjs.promote(a, \"AbstractLoader\");\n}(), this.createjs = this.createjs || {}, function () {\n  \"use strict\";\n  function a(a) {\n    this.AbstractLoader_constructor(a, !0, createjs.AbstractLoader.BINARY), this.on(\"initialize\", this._updateXHR, this);\n  }var b = createjs.extend(a, createjs.AbstractLoader),\n      c = a;c.canLoadItem = function (a) {\n    return a.type == createjs.AbstractLoader.BINARY;\n  }, b._updateXHR = function (a) {\n    a.loader.setResponseType(\"arraybuffer\");\n  }, createjs.BinaryLoader = createjs.promote(a, \"AbstractLoader\");\n}(), this.createjs = this.createjs || {}, function () {\n  \"use strict\";\n  function a(a, b) {\n    this.AbstractLoader_constructor(a, b, createjs.AbstractLoader.CSS), this.resultFormatter = this._formatResult, this._tagSrcAttribute = \"href\", b ? this._tag = document.createElement(\"style\") : this._tag = document.createElement(\"link\"), this._tag.rel = \"stylesheet\", this._tag.type = \"text/css\";\n  }var b = createjs.extend(a, createjs.AbstractLoader),\n      c = a;c.canLoadItem = function (a) {\n    return a.type == createjs.AbstractLoader.CSS;\n  }, b._formatResult = function (a) {\n    if (this._preferXHR) {\n      var b = a.getTag();if (b.styleSheet) b.styleSheet.cssText = a.getResult(!0);else {\n        var c = document.createTextNode(a.getResult(!0));b.appendChild(c);\n      }\n    } else b = this._tag;return createjs.DomUtils.appendToHead(b), b;\n  }, createjs.CSSLoader = createjs.promote(a, \"AbstractLoader\");\n}(), this.createjs = this.createjs || {}, function () {\n  \"use strict\";\n  function a(a, b) {\n    this.AbstractLoader_constructor(a, b, createjs.AbstractLoader.IMAGE), this.resultFormatter = this._formatResult, this._tagSrcAttribute = \"src\", createjs.RequestUtils.isImageTag(a) ? this._tag = a : createjs.RequestUtils.isImageTag(a.src) ? this._tag = a.src : createjs.RequestUtils.isImageTag(a.tag) && (this._tag = a.tag), null != this._tag ? this._preferXHR = !1 : this._tag = document.createElement(\"img\"), this.on(\"initialize\", this._updateXHR, this);\n  }var b = createjs.extend(a, createjs.AbstractLoader),\n      c = a;c.canLoadItem = function (a) {\n    return a.type == createjs.AbstractLoader.IMAGE;\n  }, b.load = function () {\n    if (\"\" != this._tag.src && this._tag.complete) return void this._sendComplete();var a = this._item.crossOrigin;1 == a && (a = \"Anonymous\"), null == a || createjs.RequestUtils.isLocal(this._item.src) || (this._tag.crossOrigin = a), this.AbstractLoader_load();\n  }, b._updateXHR = function (a) {\n    a.loader.mimeType = \"text/plain; charset=x-user-defined-binary\", a.loader.setResponseType && a.loader.setResponseType(\"blob\");\n  }, b._formatResult = function (a) {\n    return this._formatImage;\n  }, b._formatImage = function (a, b) {\n    var c = this._tag,\n        d = window.URL || window.webkitURL;if (this._preferXHR) {\n      if (d) {\n        var e = d.createObjectURL(this.getResult(!0));c.src = e, c.addEventListener(\"load\", this._cleanUpURL, !1), c.addEventListener(\"error\", this._cleanUpURL, !1);\n      } else c.src = this._item.src;\n    } else ;c.complete ? a(c) : (c.onload = createjs.proxy(function () {\n      a(this._tag);\n    }, this), c.onerror = createjs.proxy(function () {\n      b(_this._tag);\n    }, this));\n  }, b._cleanUpURL = function (a) {\n    var b = window.URL || window.webkitURL;b.revokeObjectURL(a.target.src);\n  }, createjs.ImageLoader = createjs.promote(a, \"AbstractLoader\");\n}(), this.createjs = this.createjs || {}, function () {\n  \"use strict\";\n  function a(a, b) {\n    this.AbstractLoader_constructor(a, b, createjs.AbstractLoader.JAVASCRIPT), this.resultFormatter = this._formatResult, this._tagSrcAttribute = \"src\", this.setTag(document.createElement(\"script\"));\n  }var b = createjs.extend(a, createjs.AbstractLoader),\n      c = a;c.canLoadItem = function (a) {\n    return a.type == createjs.AbstractLoader.JAVASCRIPT;\n  }, b._formatResult = function (a) {\n    var b = a.getTag();return this._preferXHR && (b.text = a.getResult(!0)), b;\n  }, createjs.JavaScriptLoader = createjs.promote(a, \"AbstractLoader\");\n}(), this.createjs = this.createjs || {}, function () {\n  \"use strict\";\n  function a(a) {\n    this.AbstractLoader_constructor(a, !0, createjs.AbstractLoader.JSON), this.resultFormatter = this._formatResult;\n  }var b = createjs.extend(a, createjs.AbstractLoader),\n      c = a;c.canLoadItem = function (a) {\n    return a.type == createjs.AbstractLoader.JSON;\n  }, b._formatResult = function (a) {\n    var b = null;try {\n      b = createjs.DataUtils.parseJSON(a.getResult(!0));\n    } catch (c) {\n      var d = new createjs.ErrorEvent(\"JSON_FORMAT\", null, c);return this._sendError(d), c;\n    }return b;\n  }, createjs.JSONLoader = createjs.promote(a, \"AbstractLoader\");\n}(), this.createjs = this.createjs || {}, function () {\n  \"use strict\";\n  function a(a) {\n    this.AbstractLoader_constructor(a, !1, createjs.AbstractLoader.JSONP), this.setTag(document.createElement(\"script\")), this.getTag().type = \"text/javascript\";\n  }var b = createjs.extend(a, createjs.AbstractLoader),\n      c = a;c.canLoadItem = function (a) {\n    return a.type == createjs.AbstractLoader.JSONP;\n  }, b.cancel = function () {\n    this.AbstractLoader_cancel(), this._dispose();\n  }, b.load = function () {\n    if (null == this._item.callback) throw new Error(\"callback is required for loading JSONP requests.\");if (null != window[this._item.callback]) throw new Error(\"JSONP callback '\" + this._item.callback + \"' already exists on window. You need to specify a different callback or re-name the current one.\");window[this._item.callback] = createjs.proxy(this._handleLoad, this), window.document.body.appendChild(this._tag), this._loadTimeout = setTimeout(createjs.proxy(this._handleTimeout, this), this._item.loadTimeout), this._tag.src = this._item.src;\n  }, b._handleLoad = function (a) {\n    this._result = this._rawResult = a, this._sendComplete(), this._dispose();\n  }, b._handleTimeout = function () {\n    this._dispose(), this.dispatchEvent(new createjs.ErrorEvent(\"timeout\"));\n  }, b._dispose = function () {\n    window.document.body.removeChild(this._tag), delete window[this._item.callback], clearTimeout(this._loadTimeout);\n  }, createjs.JSONPLoader = createjs.promote(a, \"AbstractLoader\");\n}(), this.createjs = this.createjs || {}, function () {\n  \"use strict\";\n  function a(a) {\n    this.AbstractLoader_constructor(a, null, createjs.AbstractLoader.MANIFEST), this.plugins = null, this._manifestQueue = null;\n  }var b = createjs.extend(a, createjs.AbstractLoader),\n      c = a;c.MANIFEST_PROGRESS = .25, c.canLoadItem = function (a) {\n    return a.type == createjs.AbstractLoader.MANIFEST;\n  }, b.load = function () {\n    this.AbstractLoader_load();\n  }, b._createRequest = function () {\n    var a = this._item.callback;null != a ? this._request = new createjs.JSONPLoader(this._item) : this._request = new createjs.JSONLoader(this._item);\n  }, b.handleEvent = function (a) {\n    switch (a.type) {case \"complete\":\n        return this._rawResult = a.target.getResult(!0), this._result = a.target.getResult(), this._sendProgress(c.MANIFEST_PROGRESS), void this._loadManifest(this._result);case \"progress\":\n        return a.loaded *= c.MANIFEST_PROGRESS, this.progress = a.loaded / a.total, (isNaN(this.progress) || this.progress == 1 / 0) && (this.progress = 0), void this._sendProgress(a);}this.AbstractLoader_handleEvent(a);\n  }, b.destroy = function () {\n    this.AbstractLoader_destroy(), this._manifestQueue.close();\n  }, b._loadManifest = function (a) {\n    if (a && a.manifest) {\n      var b = this._manifestQueue = new createjs.LoadQueue();b.on(\"fileload\", this._handleManifestFileLoad, this), b.on(\"progress\", this._handleManifestProgress, this), b.on(\"complete\", this._handleManifestComplete, this, !0), b.on(\"error\", this._handleManifestError, this, !0);for (var c = 0, d = this.plugins.length; d > c; c++) b.installPlugin(this.plugins[c]);b.loadManifest(a);\n    } else this._sendComplete();\n  }, b._handleManifestFileLoad = function (a) {\n    a.target = null, this.dispatchEvent(a);\n  }, b._handleManifestComplete = function (a) {\n    this._loadedItems = this._manifestQueue.getItems(!0), this._sendComplete();\n  }, b._handleManifestProgress = function (a) {\n    this.progress = a.progress * (1 - c.MANIFEST_PROGRESS) + c.MANIFEST_PROGRESS, this._sendProgress(this.progress);\n  }, b._handleManifestError = function (a) {\n    var b = new createjs.Event(\"fileerror\");b.item = a.data, this.dispatchEvent(b);\n  }, createjs.ManifestLoader = createjs.promote(a, \"AbstractLoader\");\n}(), this.createjs = this.createjs || {}, function () {\n  \"use strict\";\n  function a(a, b) {\n    this.AbstractMediaLoader_constructor(a, b, createjs.AbstractLoader.SOUND), createjs.RequestUtils.isAudioTag(a) ? this._tag = a : createjs.RequestUtils.isAudioTag(a.src) ? this._tag = a : createjs.RequestUtils.isAudioTag(a.tag) && (this._tag = createjs.RequestUtils.isAudioTag(a) ? a : a.src), null != this._tag && (this._preferXHR = !1);\n  }var b = createjs.extend(a, createjs.AbstractMediaLoader),\n      c = a;c.canLoadItem = function (a) {\n    return a.type == createjs.AbstractLoader.SOUND;\n  }, b._createTag = function (a) {\n    var b = document.createElement(\"audio\");return b.autoplay = !1, b.preload = \"none\", b.src = a, b;\n  }, createjs.SoundLoader = createjs.promote(a, \"AbstractMediaLoader\");\n}(), this.createjs = this.createjs || {}, function () {\n  \"use strict\";\n  function a(a, b) {\n    this.AbstractMediaLoader_constructor(a, b, createjs.AbstractLoader.VIDEO), createjs.RequestUtils.isVideoTag(a) || createjs.RequestUtils.isVideoTag(a.src) ? (this.setTag(createjs.RequestUtils.isVideoTag(a) ? a : a.src), this._preferXHR = !1) : this.setTag(this._createTag());\n  }var b = createjs.extend(a, createjs.AbstractMediaLoader),\n      c = a;b._createTag = function () {\n    return document.createElement(\"video\");\n  }, c.canLoadItem = function (a) {\n    return a.type == createjs.AbstractLoader.VIDEO;\n  }, createjs.VideoLoader = createjs.promote(a, \"AbstractMediaLoader\");\n}(), this.createjs = this.createjs || {}, function () {\n  \"use strict\";\n  function a(a, b) {\n    this.AbstractLoader_constructor(a, b, createjs.AbstractLoader.SPRITESHEET), this._manifestQueue = null;\n  }var b = createjs.extend(a, createjs.AbstractLoader),\n      c = a;c.SPRITESHEET_PROGRESS = .25, c.canLoadItem = function (a) {\n    return a.type == createjs.AbstractLoader.SPRITESHEET;\n  }, b.destroy = function () {\n    this.AbstractLoader_destroy, this._manifestQueue.close();\n  }, b._createRequest = function () {\n    var a = this._item.callback;null != a ? this._request = new createjs.JSONPLoader(this._item) : this._request = new createjs.JSONLoader(this._item);\n  }, b.handleEvent = function (a) {\n    switch (a.type) {case \"complete\":\n        return this._rawResult = a.target.getResult(!0), this._result = a.target.getResult(), this._sendProgress(c.SPRITESHEET_PROGRESS), void this._loadManifest(this._result);case \"progress\":\n        return a.loaded *= c.SPRITESHEET_PROGRESS, this.progress = a.loaded / a.total, (isNaN(this.progress) || this.progress == 1 / 0) && (this.progress = 0), void this._sendProgress(a);}this.AbstractLoader_handleEvent(a);\n  }, b._loadManifest = function (a) {\n    if (a && a.images) {\n      var b = this._manifestQueue = new createjs.LoadQueue(this._preferXHR, this._item.path, this._item.crossOrigin);b.on(\"complete\", this._handleManifestComplete, this, !0), b.on(\"fileload\", this._handleManifestFileLoad, this), b.on(\"progress\", this._handleManifestProgress, this), b.on(\"error\", this._handleManifestError, this, !0), b.loadManifest(a.images);\n    }\n  }, b._handleManifestFileLoad = function (a) {\n    var b = a.result;if (null != b) {\n      var c = this.getResult().images,\n          d = c.indexOf(a.item.src);c[d] = b;\n    }\n  }, b._handleManifestComplete = function (a) {\n    this._result = new createjs.SpriteSheet(this._result), this._loadedItems = this._manifestQueue.getItems(!0), this._sendComplete();\n  }, b._handleManifestProgress = function (a) {\n    this.progress = a.progress * (1 - c.SPRITESHEET_PROGRESS) + c.SPRITESHEET_PROGRESS, this._sendProgress(this.progress);\n  }, b._handleManifestError = function (a) {\n    var b = new createjs.Event(\"fileerror\");b.item = a.data, this.dispatchEvent(b);\n  }, createjs.SpriteSheetLoader = createjs.promote(a, \"AbstractLoader\");\n}(), this.createjs = this.createjs || {}, function () {\n  \"use strict\";\n  function a(a, b) {\n    this.AbstractLoader_constructor(a, b, createjs.AbstractLoader.SVG), this.resultFormatter = this._formatResult, this._tagSrcAttribute = \"data\", b ? this.setTag(document.createElement(\"svg\")) : (this.setTag(document.createElement(\"object\")), this.getTag().type = \"image/svg+xml\");\n  }var b = createjs.extend(a, createjs.AbstractLoader),\n      c = a;c.canLoadItem = function (a) {\n    return a.type == createjs.AbstractLoader.SVG;\n  }, b._formatResult = function (a) {\n    var b = createjs.DataUtils.parseXML(a.getResult(!0), \"text/xml\"),\n        c = a.getTag();return !this._preferXHR && document.body.contains(c) && document.body.removeChild(c), null != b.documentElement ? (c.appendChild(b.documentElement), c.style.visibility = \"visible\", c) : b;\n  }, createjs.SVGLoader = createjs.promote(a, \"AbstractLoader\");\n}(), this.createjs = this.createjs || {}, function () {\n  \"use strict\";\n  function a(a) {\n    this.AbstractLoader_constructor(a, !0, createjs.AbstractLoader.XML), this.resultFormatter = this._formatResult;\n  }var b = createjs.extend(a, createjs.AbstractLoader),\n      c = a;c.canLoadItem = function (a) {\n    return a.type == createjs.AbstractLoader.XML;\n  }, b._formatResult = function (a) {\n    return createjs.DataUtils.parseXML(a.getResult(!0), \"text/xml\");\n  }, createjs.XMLLoader = createjs.promote(a, \"AbstractLoader\");\n}(), this.createjs = this.createjs || {}, function () {\n  var a = createjs.SoundJS = createjs.SoundJS || {};a.version = \"0.6.2\", a.buildDate = \"Thu, 26 Nov 2015 20:44:31 GMT\";\n}(), this.createjs = this.createjs || {}, createjs.indexOf = function (a, b) {\n  \"use strict\";\n  for (var c = 0, d = a.length; d > c; c++) if (b === a[c]) return c;return -1;\n}, this.createjs = this.createjs || {}, function () {\n  \"use strict\";\n  createjs.proxy = function (a, b) {\n    var c = Array.prototype.slice.call(arguments, 2);return function () {\n      return a.apply(b, Array.prototype.slice.call(arguments, 0).concat(c));\n    };\n  };\n}(), this.createjs = this.createjs || {}, function () {\n  \"use strict\";\n  function a() {\n    throw \"BrowserDetect cannot be instantiated\";\n  }var b = a.agent = window.navigator.userAgent;a.isWindowPhone = b.indexOf(\"IEMobile\") > -1 || b.indexOf(\"Windows Phone\") > -1, a.isFirefox = b.indexOf(\"Firefox\") > -1, a.isOpera = null != window.opera, a.isChrome = b.indexOf(\"Chrome\") > -1, a.isIOS = (b.indexOf(\"iPod\") > -1 || b.indexOf(\"iPhone\") > -1 || b.indexOf(\"iPad\") > -1) && !a.isWindowPhone, a.isAndroid = b.indexOf(\"Android\") > -1 && !a.isWindowPhone, a.isBlackberry = b.indexOf(\"Blackberry\") > -1, createjs.BrowserDetect = a;\n}(), this.createjs = this.createjs || {}, function () {\n  \"use strict\";\n  var a = function () {\n    this.interrupt = null, this.delay = null, this.offset = null, this.loop = null, this.volume = null, this.pan = null, this.startTime = null, this.duration = null;\n  },\n      b = a.prototype = {},\n      c = a;c.create = function (a) {\n    if (a instanceof c || a instanceof Object) {\n      var b = new createjs.PlayPropsConfig();return b.set(a), b;\n    }throw new Error(\"Type not recognized.\");\n  }, b.set = function (a) {\n    for (var b in a) this[b] = a[b];return this;\n  }, b.toString = function () {\n    return \"[PlayPropsConfig]\";\n  }, createjs.PlayPropsConfig = c;\n}(), this.createjs = this.createjs || {}, function () {\n  \"use strict\";\n  function a() {\n    throw \"Sound cannot be instantiated\";\n  }function b(a, b) {\n    this.init(a, b);\n  }var c = a;c.INTERRUPT_ANY = \"any\", c.INTERRUPT_EARLY = \"early\", c.INTERRUPT_LATE = \"late\", c.INTERRUPT_NONE = \"none\", c.PLAY_INITED = \"playInited\", c.PLAY_SUCCEEDED = \"playSucceeded\", c.PLAY_INTERRUPTED = \"playInterrupted\", c.PLAY_FINISHED = \"playFinished\", c.PLAY_FAILED = \"playFailed\", c.SUPPORTED_EXTENSIONS = [\"mp3\", \"ogg\", \"opus\", \"mpeg\", \"wav\", \"m4a\", \"mp4\", \"aiff\", \"wma\", \"mid\"], c.EXTENSION_MAP = { m4a: \"mp4\" }, c.FILE_PATTERN = /^(?:(\\w+:)\\/{2}(\\w+(?:\\.\\w+)*\\/?))?([\\/.]*?(?:[^?]+)?\\/)?((?:[^\\/?]+)\\.(\\w+))(?:\\?(\\S+)?)?$/, c.defaultInterruptBehavior = c.INTERRUPT_NONE, c.alternateExtensions = [], c.activePlugin = null, c._masterVolume = 1, Object.defineProperty(c, \"volume\", { get: function () {\n      return this._masterVolume;\n    }, set: function (a) {\n      if (null == Number(a)) return !1;if (a = Math.max(0, Math.min(1, a)), c._masterVolume = a, !this.activePlugin || !this.activePlugin.setVolume || !this.activePlugin.setVolume(a)) for (var b = this._instances, d = 0, e = b.length; e > d; d++) b[d].setMasterVolume(a);\n    } }), c._masterMute = !1, Object.defineProperty(c, \"muted\", { get: function () {\n      return this._masterMute;\n    }, set: function (a) {\n      if (null == a) return !1;if (this._masterMute = a, !this.activePlugin || !this.activePlugin.setMute || !this.activePlugin.setMute(a)) for (var b = this._instances, c = 0, d = b.length; d > c; c++) b[c].setMasterMute(a);return !0;\n    } }), Object.defineProperty(c, \"capabilities\", { get: function () {\n      return null == c.activePlugin ? null : c.activePlugin._capabilities;\n    }, set: function (a) {\n      return !1;\n    } }), c._pluginsRegistered = !1, c._lastID = 0, c._instances = [], c._idHash = {}, c._preloadHash = {}, c._defaultPlayPropsHash = {}, c.addEventListener = null, c.removeEventListener = null, c.removeAllEventListeners = null, c.dispatchEvent = null, c.hasEventListener = null, c._listeners = null, createjs.EventDispatcher.initialize(c), c.getPreloadHandlers = function () {\n    return { callback: createjs.proxy(c.initLoad, c), types: [\"sound\"], extensions: c.SUPPORTED_EXTENSIONS };\n  }, c._handleLoadComplete = function (a) {\n    var b = a.target.getItem().src;if (c._preloadHash[b]) for (var d = 0, e = c._preloadHash[b].length; e > d; d++) {\n      var f = c._preloadHash[b][d];if (c._preloadHash[b][d] = !0, c.hasEventListener(\"fileload\")) {\n        var a = new createjs.Event(\"fileload\");a.src = f.src, a.id = f.id, a.data = f.data, a.sprite = f.sprite, c.dispatchEvent(a);\n      }\n    }\n  }, c._handleLoadError = function (a) {\n    var b = a.target.getItem().src;if (c._preloadHash[b]) for (var d = 0, e = c._preloadHash[b].length; e > d; d++) {\n      var f = c._preloadHash[b][d];if (c._preloadHash[b][d] = !1, c.hasEventListener(\"fileerror\")) {\n        var a = new createjs.Event(\"fileerror\");a.src = f.src, a.id = f.id, a.data = f.data, a.sprite = f.sprite, c.dispatchEvent(a);\n      }\n    }\n  }, c._registerPlugin = function (a) {\n    return a.isSupported() ? (c.activePlugin = new a(), !0) : !1;\n  }, c.registerPlugins = function (a) {\n    c._pluginsRegistered = !0;for (var b = 0, d = a.length; d > b; b++) if (c._registerPlugin(a[b])) return !0;return !1;\n  }, c.initializeDefaultPlugins = function () {\n    return null != c.activePlugin ? !0 : c._pluginsRegistered ? !1 : c.registerPlugins([createjs.WebAudioPlugin, createjs.HTMLAudioPlugin]) ? !0 : !1;\n  }, c.isReady = function () {\n    return null != c.activePlugin;\n  }, c.getCapabilities = function () {\n    return null == c.activePlugin ? null : c.activePlugin._capabilities;\n  }, c.getCapability = function (a) {\n    return null == c.activePlugin ? null : c.activePlugin._capabilities[a];\n  }, c.initLoad = function (a) {\n    return c._registerSound(a);\n  }, c._registerSound = function (a) {\n    if (!c.initializeDefaultPlugins()) return !1;var d;if (a.src instanceof Object ? (d = c._parseSrc(a.src), d.src = a.path + d.src) : d = c._parsePath(a.src), null == d) return !1;a.src = d.src, a.type = \"sound\";var e = a.data,\n        f = null;if (null != e && (isNaN(e.channels) ? isNaN(e) || (f = parseInt(e)) : f = parseInt(e.channels), e.audioSprite)) for (var g, h = e.audioSprite.length; h--;) g = e.audioSprite[h], c._idHash[g.id] = { src: a.src, startTime: parseInt(g.startTime), duration: parseInt(g.duration) }, g.defaultPlayProps && (c._defaultPlayPropsHash[g.id] = createjs.PlayPropsConfig.create(g.defaultPlayProps));null != a.id && (c._idHash[a.id] = { src: a.src });var i = c.activePlugin.register(a);return b.create(a.src, f), null != e && isNaN(e) ? a.data.channels = f || b.maxPerChannel() : a.data = f || b.maxPerChannel(), i.type && (a.type = i.type), a.defaultPlayProps && (c._defaultPlayPropsHash[a.src] = createjs.PlayPropsConfig.create(a.defaultPlayProps)), i;\n  }, c.registerSound = function (a, b, d, e, f) {\n    var g = { src: a, id: b, data: d, defaultPlayProps: f };a instanceof Object && a.src && (e = b, g = a), g = createjs.LoadItem.create(g), g.path = e, null == e || g.src instanceof Object || (g.src = e + a);var h = c._registerSound(g);if (!h) return !1;if (c._preloadHash[g.src] || (c._preloadHash[g.src] = []), c._preloadHash[g.src].push(g), 1 == c._preloadHash[g.src].length) h.on(\"complete\", createjs.proxy(this._handleLoadComplete, this)), h.on(\"error\", createjs.proxy(this._handleLoadError, this)), c.activePlugin.preload(h);else if (1 == c._preloadHash[g.src][0]) return !0;return g;\n  }, c.registerSounds = function (a, b) {\n    var c = [];a.path && (b ? b += a.path : b = a.path, a = a.manifest);for (var d = 0, e = a.length; e > d; d++) c[d] = createjs.Sound.registerSound(a[d].src, a[d].id, a[d].data, b, a[d].defaultPlayProps);return c;\n  }, c.removeSound = function (a, d) {\n    if (null == c.activePlugin) return !1;a instanceof Object && a.src && (a = a.src);var e;if (a instanceof Object ? e = c._parseSrc(a) : (a = c._getSrcById(a).src, e = c._parsePath(a)), null == e) return !1;a = e.src, null != d && (a = d + a);for (var f in c._idHash) c._idHash[f].src == a && delete c._idHash[f];return b.removeSrc(a), delete c._preloadHash[a], c.activePlugin.removeSound(a), !0;\n  }, c.removeSounds = function (a, b) {\n    var c = [];a.path && (b ? b += a.path : b = a.path, a = a.manifest);for (var d = 0, e = a.length; e > d; d++) c[d] = createjs.Sound.removeSound(a[d].src, b);return c;\n  }, c.removeAllSounds = function () {\n    c._idHash = {}, c._preloadHash = {}, b.removeAll(), c.activePlugin && c.activePlugin.removeAllSounds();\n  }, c.loadComplete = function (a) {\n    if (!c.isReady()) return !1;var b = c._parsePath(a);return a = b ? c._getSrcById(b.src).src : c._getSrcById(a).src, void 0 == c._preloadHash[a] ? !1 : 1 == c._preloadHash[a][0];\n  }, c._parsePath = function (a) {\n    \"string\" != typeof a && (a = a.toString());var b = a.match(c.FILE_PATTERN);if (null == b) return !1;for (var d = b[4], e = b[5], f = c.capabilities, g = 0; !f[e];) if (e = c.alternateExtensions[g++], g > c.alternateExtensions.length) return null;a = a.replace(\".\" + b[5], \".\" + e);var h = { name: d, src: a, extension: e };return h;\n  }, c._parseSrc = function (a) {\n    var b = { name: void 0, src: void 0, extension: void 0 },\n        d = c.capabilities;for (var e in a) if (a.hasOwnProperty(e) && d[e]) {\n      b.src = a[e], b.extension = e;break;\n    }if (!b.src) return !1;var f = b.src.lastIndexOf(\"/\");return -1 != f ? b.name = b.src.slice(f + 1) : b.name = b.src, b;\n  }, c.play = function (a, b, d, e, f, g, h, i, j) {\n    var k;k = b instanceof Object || b instanceof createjs.PlayPropsConfig ? createjs.PlayPropsConfig.create(b) : createjs.PlayPropsConfig.create({ interrupt: b, delay: d, offset: e, loop: f, volume: g, pan: h, startTime: i, duration: j });var l = c.createInstance(a, k.startTime, k.duration),\n        m = c._playInstance(l, k);return m || l._playFailed(), l;\n  }, c.createInstance = function (a, d, e) {\n    if (!c.initializeDefaultPlugins()) return new createjs.DefaultSoundInstance(a, d, e);var f = c._defaultPlayPropsHash[a];a = c._getSrcById(a);var g = c._parsePath(a.src),\n        h = null;return null != g && null != g.src ? (b.create(g.src), null == d && (d = a.startTime), h = c.activePlugin.create(g.src, d, e || a.duration), f = f || c._defaultPlayPropsHash[g.src], f && h.applyPlayProps(f)) : h = new createjs.DefaultSoundInstance(a, d, e), h.uniqueId = c._lastID++, h;\n  }, c.stop = function () {\n    for (var a = this._instances, b = a.length; b--;) a[b].stop();\n  }, c.setVolume = function (a) {\n    if (null == Number(a)) return !1;if (a = Math.max(0, Math.min(1, a)), c._masterVolume = a, !this.activePlugin || !this.activePlugin.setVolume || !this.activePlugin.setVolume(a)) for (var b = this._instances, d = 0, e = b.length; e > d; d++) b[d].setMasterVolume(a);\n  }, c.getVolume = function () {\n    return this._masterVolume;\n  }, c.setMute = function (a) {\n    if (null == a) return !1;if (this._masterMute = a, !this.activePlugin || !this.activePlugin.setMute || !this.activePlugin.setMute(a)) for (var b = this._instances, c = 0, d = b.length; d > c; c++) b[c].setMasterMute(a);return !0;\n  }, c.getMute = function () {\n    return this._masterMute;\n  }, c.setDefaultPlayProps = function (a, b) {\n    a = c._getSrcById(a), c._defaultPlayPropsHash[c._parsePath(a.src).src] = createjs.PlayPropsConfig.create(b);\n  }, c.getDefaultPlayProps = function (a) {\n    return a = c._getSrcById(a), c._defaultPlayPropsHash[c._parsePath(a.src).src];\n  }, c._playInstance = function (a, b) {\n    var d = c._defaultPlayPropsHash[a.src] || {};if (null == b.interrupt && (b.interrupt = d.interrupt || c.defaultInterruptBehavior), null == b.delay && (b.delay = d.delay || 0), null == b.offset && (b.offset = a.getPosition()), null == b.loop && (b.loop = a.loop), null == b.volume && (b.volume = a.volume), null == b.pan && (b.pan = a.pan), 0 == b.delay) {\n      var e = c._beginPlaying(a, b);if (!e) return !1;\n    } else {\n      var f = setTimeout(function () {\n        c._beginPlaying(a, b);\n      }, b.delay);a.delayTimeoutId = f;\n    }return this._instances.push(a), !0;\n  }, c._beginPlaying = function (a, c) {\n    if (!b.add(a, c.interrupt)) return !1;var d = a._beginPlaying(c);if (!d) {\n      var e = createjs.indexOf(this._instances, a);return e > -1 && this._instances.splice(e, 1), !1;\n    }return !0;\n  }, c._getSrcById = function (a) {\n    return c._idHash[a] || { src: a };\n  }, c._playFinished = function (a) {\n    b.remove(a);var c = createjs.indexOf(this._instances, a);c > -1 && this._instances.splice(c, 1);\n  }, createjs.Sound = a, b.channels = {}, b.create = function (a, c) {\n    var d = b.get(a);return null == d ? (b.channels[a] = new b(a, c), !0) : !1;\n  }, b.removeSrc = function (a) {\n    var c = b.get(a);return null == c ? !1 : (c._removeAll(), delete b.channels[a], !0);\n  }, b.removeAll = function () {\n    for (var a in b.channels) b.channels[a]._removeAll();b.channels = {};\n  }, b.add = function (a, c) {\n    var d = b.get(a.src);return null == d ? !1 : d._add(a, c);\n  }, b.remove = function (a) {\n    var c = b.get(a.src);return null == c ? !1 : (c._remove(a), !0);\n  }, b.maxPerChannel = function () {\n    return d.maxDefault;\n  }, b.get = function (a) {\n    return b.channels[a];\n  };var d = b.prototype;d.constructor = b, d.src = null, d.max = null, d.maxDefault = 100, d.length = 0, d.init = function (a, b) {\n    this.src = a, this.max = b || this.maxDefault, -1 == this.max && (this.max = this.maxDefault), this._instances = [];\n  }, d._get = function (a) {\n    return this._instances[a];\n  }, d._add = function (a, b) {\n    return this._getSlot(b, a) ? (this._instances.push(a), this.length++, !0) : !1;\n  }, d._remove = function (a) {\n    var b = createjs.indexOf(this._instances, a);return -1 == b ? !1 : (this._instances.splice(b, 1), this.length--, !0);\n  }, d._removeAll = function () {\n    for (var a = this.length - 1; a >= 0; a--) this._instances[a].stop();\n  }, d._getSlot = function (b, c) {\n    var d, e;if (b != a.INTERRUPT_NONE && (e = this._get(0), null == e)) return !0;for (var f = 0, g = this.max; g > f; f++) {\n      if (d = this._get(f), null == d) return !0;if (d.playState == a.PLAY_FINISHED || d.playState == a.PLAY_INTERRUPTED || d.playState == a.PLAY_FAILED) {\n        e = d;break;\n      }b != a.INTERRUPT_NONE && (b == a.INTERRUPT_EARLY && d.getPosition() < e.getPosition() || b == a.INTERRUPT_LATE && d.getPosition() > e.getPosition()) && (e = d);\n    }return null != e ? (e._interrupt(), this._remove(e), !0) : !1;\n  }, d.toString = function () {\n    return \"[Sound SoundChannel]\";\n  };\n}(), this.createjs = this.createjs || {}, function () {\n  \"use strict\";\n  var a = function (a, b, c, d) {\n    this.EventDispatcher_constructor(), this.src = a, this.uniqueId = -1, this.playState = null, this.delayTimeoutId = null, this._volume = 1, Object.defineProperty(this, \"volume\", { get: this.getVolume, set: this.setVolume }), this._pan = 0, Object.defineProperty(this, \"pan\", { get: this.getPan, set: this.setPan }), this._startTime = Math.max(0, b || 0), Object.defineProperty(this, \"startTime\", { get: this.getStartTime, set: this.setStartTime }), this._duration = Math.max(0, c || 0), Object.defineProperty(this, \"duration\", { get: this.getDuration, set: this.setDuration }), this._playbackResource = null, Object.defineProperty(this, \"playbackResource\", { get: this.getPlaybackResource, set: this.setPlaybackResource }), d !== !1 && d !== !0 && this.setPlaybackResource(d), this._position = 0, Object.defineProperty(this, \"position\", { get: this.getPosition, set: this.setPosition }), this._loop = 0, Object.defineProperty(this, \"loop\", { get: this.getLoop, set: this.setLoop }), this._muted = !1, Object.defineProperty(this, \"muted\", { get: this.getMuted, set: this.setMuted }), this._paused = !1, Object.defineProperty(this, \"paused\", { get: this.getPaused, set: this.setPaused });\n  },\n      b = createjs.extend(a, createjs.EventDispatcher);b.play = function (a, b, c, d, e, f) {\n    var g;return g = a instanceof Object || a instanceof createjs.PlayPropsConfig ? createjs.PlayPropsConfig.create(a) : createjs.PlayPropsConfig.create({ interrupt: a, delay: b, offset: c, loop: d, volume: e, pan: f }), this.playState == createjs.Sound.PLAY_SUCCEEDED ? (this.applyPlayProps(g), void (this._paused && this.setPaused(!1))) : (this._cleanUp(), createjs.Sound._playInstance(this, g), this);\n  }, b.stop = function () {\n    return this._position = 0, this._paused = !1, this._handleStop(), this._cleanUp(), this.playState = createjs.Sound.PLAY_FINISHED, this;\n  }, b.destroy = function () {\n    this._cleanUp(), this.src = null, this.playbackResource = null, this.removeAllEventListeners();\n  }, b.applyPlayProps = function (a) {\n    return null != a.offset && this.setPosition(a.offset), null != a.loop && this.setLoop(a.loop), null != a.volume && this.setVolume(a.volume), null != a.pan && this.setPan(a.pan), null != a.startTime && (this.setStartTime(a.startTime), this.setDuration(a.duration)), this;\n  }, b.toString = function () {\n    return \"[AbstractSoundInstance]\";\n  }, b.getPaused = function () {\n    return this._paused;\n  }, b.setPaused = function (a) {\n    return a !== !0 && a !== !1 || this._paused == a || 1 == a && this.playState != createjs.Sound.PLAY_SUCCEEDED ? void 0 : (this._paused = a, a ? this._pause() : this._resume(), clearTimeout(this.delayTimeoutId), this);\n  }, b.setVolume = function (a) {\n    return a == this._volume ? this : (this._volume = Math.max(0, Math.min(1, a)), this._muted || this._updateVolume(), this);\n  }, b.getVolume = function () {\n    return this._volume;\n  }, b.setMuted = function (a) {\n    return a === !0 || a === !1 ? (this._muted = a, this._updateVolume(), this) : void 0;\n  }, b.getMuted = function () {\n    return this._muted;\n  }, b.setPan = function (a) {\n    return a == this._pan ? this : (this._pan = Math.max(-1, Math.min(1, a)), this._updatePan(), this);\n  }, b.getPan = function () {\n    return this._pan;\n  }, b.getPosition = function () {\n    return this._paused || this.playState != createjs.Sound.PLAY_SUCCEEDED || (this._position = this._calculateCurrentPosition()), this._position;\n  }, b.setPosition = function (a) {\n    return this._position = Math.max(0, a), this.playState == createjs.Sound.PLAY_SUCCEEDED && this._updatePosition(), this;\n  }, b.getStartTime = function () {\n    return this._startTime;\n  }, b.setStartTime = function (a) {\n    return a == this._startTime ? this : (this._startTime = Math.max(0, a || 0), this._updateStartTime(), this);\n  }, b.getDuration = function () {\n    return this._duration;\n  }, b.setDuration = function (a) {\n    return a == this._duration ? this : (this._duration = Math.max(0, a || 0), this._updateDuration(), this);\n  }, b.setPlaybackResource = function (a) {\n    return this._playbackResource = a, 0 == this._duration && this._setDurationFromSource(), this;\n  }, b.getPlaybackResource = function () {\n    return this._playbackResource;\n  }, b.getLoop = function () {\n    return this._loop;\n  }, b.setLoop = function (a) {\n    null != this._playbackResource && (0 != this._loop && 0 == a ? this._removeLooping(a) : 0 == this._loop && 0 != a && this._addLooping(a)), this._loop = a;\n  }, b._sendEvent = function (a) {\n    var b = new createjs.Event(a);this.dispatchEvent(b);\n  }, b._cleanUp = function () {\n    clearTimeout(this.delayTimeoutId), this._handleCleanUp(), this._paused = !1, createjs.Sound._playFinished(this);\n  }, b._interrupt = function () {\n    this._cleanUp(), this.playState = createjs.Sound.PLAY_INTERRUPTED, this._sendEvent(\"interrupted\");\n  }, b._beginPlaying = function (a) {\n    return this.setPosition(a.offset), this.setLoop(a.loop), this.setVolume(a.volume), this.setPan(a.pan), null != a.startTime && (this.setStartTime(a.startTime), this.setDuration(a.duration)), null != this._playbackResource && this._position < this._duration ? (this._paused = !1, this._handleSoundReady(), this.playState = createjs.Sound.PLAY_SUCCEEDED, this._sendEvent(\"succeeded\"), !0) : (this._playFailed(), !1);\n  }, b._playFailed = function () {\n    this._cleanUp(), this.playState = createjs.Sound.PLAY_FAILED, this._sendEvent(\"failed\");\n  }, b._handleSoundComplete = function (a) {\n    return this._position = 0, 0 != this._loop ? (this._loop--, this._handleLoop(), void this._sendEvent(\"loop\")) : (this._cleanUp(), this.playState = createjs.Sound.PLAY_FINISHED, void this._sendEvent(\"complete\"));\n  }, b._handleSoundReady = function () {}, b._updateVolume = function () {}, b._updatePan = function () {}, b._updateStartTime = function () {}, b._updateDuration = function () {}, b._setDurationFromSource = function () {}, b._calculateCurrentPosition = function () {}, b._updatePosition = function () {}, b._removeLooping = function (a) {}, b._addLooping = function (a) {}, b._pause = function () {}, b._resume = function () {}, b._handleStop = function () {}, b._handleCleanUp = function () {}, b._handleLoop = function () {}, createjs.AbstractSoundInstance = createjs.promote(a, \"EventDispatcher\"), createjs.DefaultSoundInstance = createjs.AbstractSoundInstance;\n}(), this.createjs = this.createjs || {}, function () {\n  \"use strict\";\n  var a = function () {\n    this._capabilities = null, this._loaders = {}, this._audioSources = {}, this._soundInstances = {}, this._volume = 1, this._loaderClass, this._soundInstanceClass;\n  },\n      b = a.prototype;a._capabilities = null, a.isSupported = function () {\n    return !0;\n  }, b.register = function (a) {\n    var b = this._loaders[a.src];return b && !b.canceled ? this._loaders[a.src] : (this._audioSources[a.src] = !0, this._soundInstances[a.src] = [], b = new this._loaderClass(a), b.on(\"complete\", this._handlePreloadComplete, this), this._loaders[a.src] = b, b);\n  }, b.preload = function (a) {\n    a.on(\"error\", this._handlePreloadError, this), a.load();\n  }, b.isPreloadStarted = function (a) {\n    return null != this._audioSources[a];\n  }, b.isPreloadComplete = function (a) {\n    return !(null == this._audioSources[a] || 1 == this._audioSources[a]);\n  }, b.removeSound = function (a) {\n    if (this._soundInstances[a]) {\n      for (var b = this._soundInstances[a].length; b--;) {\n        var c = this._soundInstances[a][b];c.destroy();\n      }delete this._soundInstances[a], delete this._audioSources[a], this._loaders[a] && this._loaders[a].destroy(), delete this._loaders[a];\n    }\n  }, b.removeAllSounds = function () {\n    for (var a in this._audioSources) this.removeSound(a);\n  }, b.create = function (a, b, c) {\n    this.isPreloadStarted(a) || this.preload(this.register(a));var d = new this._soundInstanceClass(a, b, c, this._audioSources[a]);return this._soundInstances[a].push(d), d;\n  }, b.setVolume = function (a) {\n    return this._volume = a, this._updateVolume(), !0;\n  }, b.getVolume = function () {\n    return this._volume;\n  }, b.setMute = function (a) {\n    return this._updateVolume(), !0;\n  }, b.toString = function () {\n    return \"[AbstractPlugin]\";\n  }, b._handlePreloadComplete = function (a) {\n    var b = a.target.getItem().src;this._audioSources[b] = a.result;for (var c = 0, d = this._soundInstances[b].length; d > c; c++) {\n      var e = this._soundInstances[b][c];e.setPlaybackResource(this._audioSources[b]);\n    }\n  }, b._handlePreloadError = function (a) {}, b._updateVolume = function () {}, createjs.AbstractPlugin = a;\n}(), this.createjs = this.createjs || {}, function () {\n  \"use strict\";\n  function a(a) {\n    this.AbstractLoader_constructor(a, !0, createjs.AbstractLoader.SOUND);\n  }var b = createjs.extend(a, createjs.AbstractLoader);a.context = null, b.toString = function () {\n    return \"[WebAudioLoader]\";\n  }, b._createRequest = function () {\n    this._request = new createjs.XHRRequest(this._item, !1), this._request.setResponseType(\"arraybuffer\");\n  }, b._sendComplete = function (b) {\n    a.context.decodeAudioData(this._rawResult, createjs.proxy(this._handleAudioDecoded, this), createjs.proxy(this._sendError, this));\n  }, b._handleAudioDecoded = function (a) {\n    this._result = a, this.AbstractLoader__sendComplete();\n  }, createjs.WebAudioLoader = createjs.promote(a, \"AbstractLoader\");\n}(), this.createjs = this.createjs || {}, function () {\n  \"use strict\";\n  function a(a, b, d, e) {\n    this.AbstractSoundInstance_constructor(a, b, d, e), this.gainNode = c.context.createGain(), this.panNode = c.context.createPanner(), this.panNode.panningModel = c._panningModel, this.panNode.connect(this.gainNode), this._updatePan(), this.sourceNode = null, this._soundCompleteTimeout = null, this._sourceNodeNext = null, this._playbackStartTime = 0, this._endedHandler = createjs.proxy(this._handleSoundComplete, this);\n  }var b = createjs.extend(a, createjs.AbstractSoundInstance),\n      c = a;c.context = null, c._scratchBuffer = null, c.destinationNode = null, c._panningModel = \"equalpower\", b.destroy = function () {\n    this.AbstractSoundInstance_destroy(), this.panNode.disconnect(0), this.panNode = null, this.gainNode.disconnect(0), this.gainNode = null;\n  }, b.toString = function () {\n    return \"[WebAudioSoundInstance]\";\n  }, b._updatePan = function () {\n    this.panNode.setPosition(this._pan, 0, -.5);\n  }, b._removeLooping = function (a) {\n    this._sourceNodeNext = this._cleanUpAudioNode(this._sourceNodeNext);\n  }, b._addLooping = function (a) {\n    this.playState == createjs.Sound.PLAY_SUCCEEDED && (this._sourceNodeNext = this._createAndPlayAudioNode(this._playbackStartTime, 0));\n  }, b._setDurationFromSource = function () {\n    this._duration = 1e3 * this.playbackResource.duration;\n  }, b._handleCleanUp = function () {\n    this.sourceNode && this.playState == createjs.Sound.PLAY_SUCCEEDED && (this.sourceNode = this._cleanUpAudioNode(this.sourceNode), this._sourceNodeNext = this._cleanUpAudioNode(this._sourceNodeNext)), 0 != this.gainNode.numberOfOutputs && this.gainNode.disconnect(0), clearTimeout(this._soundCompleteTimeout), this._playbackStartTime = 0;\n  }, b._cleanUpAudioNode = function (a) {\n    if (a) {\n      a.stop(0), a.disconnect(0);try {\n        a.buffer = c._scratchBuffer;\n      } catch (b) {}a = null;\n    }return a;\n  }, b._handleSoundReady = function (a) {\n    this.gainNode.connect(c.destinationNode);var b = .001 * this._duration,\n        d = .001 * this._position;d > b && (d = b), this.sourceNode = this._createAndPlayAudioNode(c.context.currentTime - b, d), this._playbackStartTime = this.sourceNode.startTime - d, this._soundCompleteTimeout = setTimeout(this._endedHandler, 1e3 * (b - d)), 0 != this._loop && (this._sourceNodeNext = this._createAndPlayAudioNode(this._playbackStartTime, 0));\n  }, b._createAndPlayAudioNode = function (a, b) {\n    var d = c.context.createBufferSource();d.buffer = this.playbackResource, d.connect(this.panNode);var e = .001 * this._duration;return d.startTime = a + e, d.start(d.startTime, b + .001 * this._startTime, e - b), d;\n  }, b._pause = function () {\n    this._position = 1e3 * (c.context.currentTime - this._playbackStartTime), this.sourceNode = this._cleanUpAudioNode(this.sourceNode), this._sourceNodeNext = this._cleanUpAudioNode(this._sourceNodeNext), 0 != this.gainNode.numberOfOutputs && this.gainNode.disconnect(0), clearTimeout(this._soundCompleteTimeout);\n  }, b._resume = function () {\n    this._handleSoundReady();\n  }, b._updateVolume = function () {\n    var a = this._muted ? 0 : this._volume;a != this.gainNode.gain.value && (this.gainNode.gain.value = a);\n  }, b._calculateCurrentPosition = function () {\n    return 1e3 * (c.context.currentTime - this._playbackStartTime);\n  }, b._updatePosition = function () {\n    this.sourceNode = this._cleanUpAudioNode(this.sourceNode), this._sourceNodeNext = this._cleanUpAudioNode(this._sourceNodeNext), clearTimeout(this._soundCompleteTimeout), this._paused || this._handleSoundReady();\n  }, b._handleLoop = function () {\n    this._cleanUpAudioNode(this.sourceNode), this.sourceNode = this._sourceNodeNext, this._playbackStartTime = this.sourceNode.startTime, this._sourceNodeNext = this._createAndPlayAudioNode(this._playbackStartTime, 0), this._soundCompleteTimeout = setTimeout(this._endedHandler, this._duration);\n  }, b._updateDuration = function () {\n    this.playState == createjs.Sound.PLAY_SUCCEEDED && (this._pause(), this._resume());\n  }, createjs.WebAudioSoundInstance = createjs.promote(a, \"AbstractSoundInstance\");\n}(), this.createjs = this.createjs || {}, function () {\n  \"use strict\";\n  function a() {\n    this.AbstractPlugin_constructor(), this._panningModel = c._panningModel, this.context = c.context, this.dynamicsCompressorNode = this.context.createDynamicsCompressor(), this.dynamicsCompressorNode.connect(this.context.destination), this.gainNode = this.context.createGain(), this.gainNode.connect(this.dynamicsCompressorNode), createjs.WebAudioSoundInstance.destinationNode = this.gainNode, this._capabilities = c._capabilities, this._loaderClass = createjs.WebAudioLoader, this._soundInstanceClass = createjs.WebAudioSoundInstance, this._addPropsToClasses();\n  }var b = createjs.extend(a, createjs.AbstractPlugin),\n      c = a;c._capabilities = null, c._panningModel = \"equalpower\", c.context = null, c._scratchBuffer = null, c._unlocked = !1, c.isSupported = function () {\n    var a = createjs.BrowserDetect.isIOS || createjs.BrowserDetect.isAndroid || createjs.BrowserDetect.isBlackberry;return \"file:\" != location.protocol || a || this._isFileXHRSupported() ? (c._generateCapabilities(), null == c.context ? !1 : !0) : !1;\n  }, c.playEmptySound = function () {\n    if (null != c.context) {\n      var a = c.context.createBufferSource();a.buffer = c._scratchBuffer, a.connect(c.context.destination), a.start(0, 0, 0);\n    }\n  }, c._isFileXHRSupported = function () {\n    var a = !0,\n        b = new XMLHttpRequest();try {\n      b.open(\"GET\", \"WebAudioPluginTest.fail\", !1);\n    } catch (c) {\n      return a = !1;\n    }b.onerror = function () {\n      a = !1;\n    }, b.onload = function () {\n      a = 404 == this.status || 200 == this.status || 0 == this.status && \"\" != this.response;\n    };try {\n      b.send();\n    } catch (c) {\n      a = !1;\n    }return a;\n  }, c._generateCapabilities = function () {\n    if (null == c._capabilities) {\n      var a = document.createElement(\"audio\");if (null == a.canPlayType) return null;if (null == c.context) if (window.AudioContext) c.context = new AudioContext();else {\n        if (!window.webkitAudioContext) return null;c.context = new webkitAudioContext();\n      }null == c._scratchBuffer && (c._scratchBuffer = c.context.createBuffer(1, 1, 22050)), c._compatibilitySetUp(), \"ontouchstart\" in window && \"running\" != c.context.state && (c._unlock(), document.addEventListener(\"mousedown\", c._unlock, !0), document.addEventListener(\"touchend\", c._unlock, !0)), c._capabilities = { panning: !0, volume: !0, tracks: -1 };for (var b = createjs.Sound.SUPPORTED_EXTENSIONS, d = createjs.Sound.EXTENSION_MAP, e = 0, f = b.length; f > e; e++) {\n        var g = b[e],\n            h = d[g] || g;c._capabilities[g] = \"no\" != a.canPlayType(\"audio/\" + g) && \"\" != a.canPlayType(\"audio/\" + g) || \"no\" != a.canPlayType(\"audio/\" + h) && \"\" != a.canPlayType(\"audio/\" + h);\n      }c.context.destination.numberOfChannels < 2 && (c._capabilities.panning = !1);\n    }\n  }, c._compatibilitySetUp = function () {\n    if (c._panningModel = \"equalpower\", !c.context.createGain) {\n      c.context.createGain = c.context.createGainNode;var a = c.context.createBufferSource();a.__proto__.start = a.__proto__.noteGrainOn, a.__proto__.stop = a.__proto__.noteOff, c._panningModel = 0;\n    }\n  }, c._unlock = function () {\n    c._unlocked || (c.playEmptySound(), \"running\" == c.context.state && (document.removeEventListener(\"mousedown\", c._unlock, !0), document.removeEventListener(\"touchend\", c._unlock, !0), c._unlocked = !0));\n  }, b.toString = function () {\n    return \"[WebAudioPlugin]\";\n  }, b._addPropsToClasses = function () {\n    var a = this._soundInstanceClass;a.context = this.context, a._scratchBuffer = c._scratchBuffer, a.destinationNode = this.gainNode, a._panningModel = this._panningModel, this._loaderClass.context = this.context;\n  }, b._updateVolume = function () {\n    var a = createjs.Sound._masterMute ? 0 : this._volume;a != this.gainNode.gain.value && (this.gainNode.gain.value = a);\n  }, createjs.WebAudioPlugin = createjs.promote(a, \"AbstractPlugin\");\n}(), this.createjs = this.createjs || {}, function () {\n  \"use strict\";\n  function a() {\n    throw \"HTMLAudioTagPool cannot be instantiated\";\n  }function b(a) {\n    this._tags = [];\n  }var c = a;c._tags = {}, c._tagPool = new b(), c._tagUsed = {}, c.get = function (a) {\n    var b = c._tags[a];return null == b ? (b = c._tags[a] = c._tagPool.get(), b.src = a) : c._tagUsed[a] ? (b = c._tagPool.get(), b.src = a) : c._tagUsed[a] = !0, b;\n  }, c.set = function (a, b) {\n    b == c._tags[a] ? c._tagUsed[a] = !1 : c._tagPool.set(b);\n  }, c.remove = function (a) {\n    var b = c._tags[a];return null == b ? !1 : (c._tagPool.set(b), delete c._tags[a], delete c._tagUsed[a], !0);\n  }, c.getDuration = function (a) {\n    var b = c._tags[a];return null != b && b.duration ? 1e3 * b.duration : 0;\n  }, createjs.HTMLAudioTagPool = a;var d = b.prototype;d.constructor = b, d.get = function () {\n    var a;return a = 0 == this._tags.length ? this._createTag() : this._tags.pop(), null == a.parentNode && document.body.appendChild(a), a;\n  }, d.set = function (a) {\n    var b = createjs.indexOf(this._tags, a);-1 == b && (this._tags.src = null, this._tags.push(a));\n  }, d.toString = function () {\n    return \"[TagPool]\";\n  }, d._createTag = function () {\n    var a = document.createElement(\"audio\");return a.autoplay = !1, a.preload = \"none\", a;\n  };\n}(), this.createjs = this.createjs || {}, function () {\n  \"use strict\";\n  function a(a, b, c, d) {\n    this.AbstractSoundInstance_constructor(a, b, c, d), this._audioSpriteStopTime = null, this._delayTimeoutId = null, this._endedHandler = createjs.proxy(this._handleSoundComplete, this), this._readyHandler = createjs.proxy(this._handleTagReady, this), this._stalledHandler = createjs.proxy(this._playFailed, this), this._audioSpriteEndHandler = createjs.proxy(this._handleAudioSpriteLoop, this), this._loopHandler = createjs.proxy(this._handleSoundComplete, this), c ? this._audioSpriteStopTime = .001 * (b + c) : this._duration = createjs.HTMLAudioTagPool.getDuration(this.src);\n  }var b = createjs.extend(a, createjs.AbstractSoundInstance);b.setMasterVolume = function (a) {\n    this._updateVolume();\n  }, b.setMasterMute = function (a) {\n    this._updateVolume();\n  }, b.toString = function () {\n    return \"[HTMLAudioSoundInstance]\";\n  }, b._removeLooping = function () {\n    null != this._playbackResource && (this._playbackResource.loop = !1, this._playbackResource.removeEventListener(createjs.HTMLAudioPlugin._AUDIO_SEEKED, this._loopHandler, !1));\n  }, b._addLooping = function () {\n    null == this._playbackResource || this._audioSpriteStopTime || (this._playbackResource.addEventListener(createjs.HTMLAudioPlugin._AUDIO_SEEKED, this._loopHandler, !1), this._playbackResource.loop = !0);\n  }, b._handleCleanUp = function () {\n    var a = this._playbackResource;if (null != a) {\n      a.pause(), a.loop = !1, a.removeEventListener(createjs.HTMLAudioPlugin._AUDIO_ENDED, this._endedHandler, !1), a.removeEventListener(createjs.HTMLAudioPlugin._AUDIO_READY, this._readyHandler, !1), a.removeEventListener(createjs.HTMLAudioPlugin._AUDIO_STALLED, this._stalledHandler, !1), a.removeEventListener(createjs.HTMLAudioPlugin._AUDIO_SEEKED, this._loopHandler, !1), a.removeEventListener(createjs.HTMLAudioPlugin._TIME_UPDATE, this._audioSpriteEndHandler, !1);try {\n        a.currentTime = this._startTime;\n      } catch (b) {}createjs.HTMLAudioTagPool.set(this.src, a), this._playbackResource = null;\n    }\n  }, b._beginPlaying = function (a) {\n    return this._playbackResource = createjs.HTMLAudioTagPool.get(this.src), this.AbstractSoundInstance__beginPlaying(a);\n  }, b._handleSoundReady = function (a) {\n    if (4 !== this._playbackResource.readyState) {\n      var b = this._playbackResource;return b.addEventListener(createjs.HTMLAudioPlugin._AUDIO_READY, this._readyHandler, !1), b.addEventListener(createjs.HTMLAudioPlugin._AUDIO_STALLED, this._stalledHandler, !1), b.preload = \"auto\", void b.load();\n    }this._updateVolume(), this._playbackResource.currentTime = .001 * (this._startTime + this._position), this._audioSpriteStopTime ? this._playbackResource.addEventListener(createjs.HTMLAudioPlugin._TIME_UPDATE, this._audioSpriteEndHandler, !1) : (this._playbackResource.addEventListener(createjs.HTMLAudioPlugin._AUDIO_ENDED, this._endedHandler, !1), 0 != this._loop && (this._playbackResource.addEventListener(createjs.HTMLAudioPlugin._AUDIO_SEEKED, this._loopHandler, !1), this._playbackResource.loop = !0)), this._playbackResource.play();\n  }, b._handleTagReady = function (a) {\n    this._playbackResource.removeEventListener(createjs.HTMLAudioPlugin._AUDIO_READY, this._readyHandler, !1), this._playbackResource.removeEventListener(createjs.HTMLAudioPlugin._AUDIO_STALLED, this._stalledHandler, !1), this._handleSoundReady();\n  }, b._pause = function () {\n    this._playbackResource.pause();\n  }, b._resume = function () {\n    this._playbackResource.play();\n  }, b._updateVolume = function () {\n    if (null != this._playbackResource) {\n      var a = this._muted || createjs.Sound._masterMute ? 0 : this._volume * createjs.Sound._masterVolume;a != this._playbackResource.volume && (this._playbackResource.volume = a);\n    }\n  }, b._calculateCurrentPosition = function () {\n    return 1e3 * this._playbackResource.currentTime - this._startTime;\n  }, b._updatePosition = function () {\n    this._playbackResource.removeEventListener(createjs.HTMLAudioPlugin._AUDIO_SEEKED, this._loopHandler, !1), this._playbackResource.addEventListener(createjs.HTMLAudioPlugin._AUDIO_SEEKED, this._handleSetPositionSeek, !1);try {\n      this._playbackResource.currentTime = .001 * (this._position + this._startTime);\n    } catch (a) {\n      this._handleSetPositionSeek(null);\n    }\n  }, b._handleSetPositionSeek = function (a) {\n    null != this._playbackResource && (this._playbackResource.removeEventListener(createjs.HTMLAudioPlugin._AUDIO_SEEKED, this._handleSetPositionSeek, !1), this._playbackResource.addEventListener(createjs.HTMLAudioPlugin._AUDIO_SEEKED, this._loopHandler, !1));\n  }, b._handleAudioSpriteLoop = function (a) {\n    this._playbackResource.currentTime <= this._audioSpriteStopTime || (this._playbackResource.pause(), 0 == this._loop ? this._handleSoundComplete(null) : (this._position = 0, this._loop--, this._playbackResource.currentTime = .001 * this._startTime, this._paused || this._playbackResource.play(), this._sendEvent(\"loop\")));\n  }, b._handleLoop = function (a) {\n    0 == this._loop && (this._playbackResource.loop = !1, this._playbackResource.removeEventListener(createjs.HTMLAudioPlugin._AUDIO_SEEKED, this._loopHandler, !1));\n  }, b._updateStartTime = function () {\n    this._audioSpriteStopTime = .001 * (this._startTime + this._duration), this.playState == createjs.Sound.PLAY_SUCCEEDED && (this._playbackResource.removeEventListener(createjs.HTMLAudioPlugin._AUDIO_ENDED, this._endedHandler, !1), this._playbackResource.addEventListener(createjs.HTMLAudioPlugin._TIME_UPDATE, this._audioSpriteEndHandler, !1));\n  }, b._updateDuration = function () {\n    this._audioSpriteStopTime = .001 * (this._startTime + this._duration), this.playState == createjs.Sound.PLAY_SUCCEEDED && (this._playbackResource.removeEventListener(createjs.HTMLAudioPlugin._AUDIO_ENDED, this._endedHandler, !1), this._playbackResource.addEventListener(createjs.HTMLAudioPlugin._TIME_UPDATE, this._audioSpriteEndHandler, !1));\n  }, b._setDurationFromSource = function () {\n    this._duration = createjs.HTMLAudioTagPool.getDuration(this.src), this._playbackResource = null;\n  }, createjs.HTMLAudioSoundInstance = createjs.promote(a, \"AbstractSoundInstance\");\n}(), this.createjs = this.createjs || {}, function () {\n  \"use strict\";\n  function a() {\n    this.AbstractPlugin_constructor(), this.defaultNumChannels = 2, this._capabilities = c._capabilities, this._loaderClass = createjs.SoundLoader, this._soundInstanceClass = createjs.HTMLAudioSoundInstance;\n  }var b = createjs.extend(a, createjs.AbstractPlugin),\n      c = a;c.MAX_INSTANCES = 30, c._AUDIO_READY = \"canplaythrough\", c._AUDIO_ENDED = \"ended\", c._AUDIO_SEEKED = \"seeked\", c._AUDIO_STALLED = \"stalled\", c._TIME_UPDATE = \"timeupdate\", c._capabilities = null, c.isSupported = function () {\n    return c._generateCapabilities(), null != c._capabilities;\n  }, c._generateCapabilities = function () {\n    if (null == c._capabilities) {\n      var a = document.createElement(\"audio\");if (null == a.canPlayType) return null;c._capabilities = { panning: !1, volume: !0, tracks: -1 };for (var b = createjs.Sound.SUPPORTED_EXTENSIONS, d = createjs.Sound.EXTENSION_MAP, e = 0, f = b.length; f > e; e++) {\n        var g = b[e],\n            h = d[g] || g;c._capabilities[g] = \"no\" != a.canPlayType(\"audio/\" + g) && \"\" != a.canPlayType(\"audio/\" + g) || \"no\" != a.canPlayType(\"audio/\" + h) && \"\" != a.canPlayType(\"audio/\" + h);\n      }\n    }\n  }, b.register = function (a) {\n    var b = createjs.HTMLAudioTagPool.get(a.src),\n        c = this.AbstractPlugin_register(a);return c.setTag(b), c;\n  }, b.removeSound = function (a) {\n    this.AbstractPlugin_removeSound(a), createjs.HTMLAudioTagPool.remove(a);\n  }, b.create = function (a, b, c) {\n    var d = this.AbstractPlugin_create(a, b, c);return d.setPlaybackResource(null), d;\n  }, b.toString = function () {\n    return \"[HTMLAudioPlugin]\";\n  }, b.setVolume = b.getVolume = b.setMute = null, createjs.HTMLAudioPlugin = createjs.promote(a, \"AbstractPlugin\");\n}(), this.createjs = this.createjs || {}, function () {\n  \"use strict\";\n  function a(b, c, d) {\n    this.ignoreGlobalPause = !1, this.loop = !1, this.duration = 0, this.pluginData = d || {}, this.target = b, this.position = null, this.passive = !1, this._paused = !1, this._curQueueProps = {}, this._initQueueProps = {}, this._steps = [], this._actions = [], this._prevPosition = 0, this._stepPosition = 0, this._prevPos = -1, this._target = b, this._useTicks = !1, this._inited = !1, this._registered = !1, c && (this._useTicks = c.useTicks, this.ignoreGlobalPause = c.ignoreGlobalPause, this.loop = c.loop, c.onChange && this.addEventListener(\"change\", c.onChange), c.override && a.removeTweens(b)), c && c.paused ? this._paused = !0 : createjs.Tween._register(this, !0), c && null != c.position && this.setPosition(c.position, a.NONE);\n  }var b = createjs.extend(a, createjs.EventDispatcher);a.NONE = 0, a.LOOP = 1, a.REVERSE = 2, a.IGNORE = {}, a._tweens = [], a._plugins = {}, a.get = function (b, c, d, e) {\n    return e && a.removeTweens(b), new a(b, c, d);\n  }, a.tick = function (b, c) {\n    for (var d = a._tweens.slice(), e = d.length - 1; e >= 0; e--) {\n      var f = d[e];c && !f.ignoreGlobalPause || f._paused || f.tick(f._useTicks ? 1 : b);\n    }\n  }, a.handleEvent = function (a) {\n    \"tick\" == a.type && this.tick(a.delta, a.paused);\n  }, a.removeTweens = function (b) {\n    if (b.tweenjs_count) {\n      for (var c = a._tweens, d = c.length - 1; d >= 0; d--) {\n        var e = c[d];e._target == b && (e._paused = !0, c.splice(d, 1));\n      }b.tweenjs_count = 0;\n    }\n  }, a.removeAllTweens = function () {\n    for (var b = a._tweens, c = 0, d = b.length; d > c; c++) {\n      var e = b[c];e._paused = !0, e.target && (e.target.tweenjs_count = 0);\n    }b.length = 0;\n  }, a.hasActiveTweens = function (b) {\n    return b ? null != b.tweenjs_count && !!b.tweenjs_count : a._tweens && !!a._tweens.length;\n  }, a.installPlugin = function (b, c) {\n    var d = b.priority;null == d && (b.priority = d = 0);for (var e = 0, f = c.length, g = a._plugins; f > e; e++) {\n      var h = c[e];if (g[h]) {\n        for (var i = g[h], j = 0, k = i.length; k > j && !(d < i[j].priority); j++);g[h].splice(j, 0, b);\n      } else g[h] = [b];\n    }\n  }, a._register = function (b, c) {\n    var d = b._target,\n        e = a._tweens;if (c && !b._registered) d && (d.tweenjs_count = d.tweenjs_count ? d.tweenjs_count + 1 : 1), e.push(b), !a._inited && createjs.Ticker && (createjs.Ticker.addEventListener(\"tick\", a), a._inited = !0);else if (!c && b._registered) {\n      d && d.tweenjs_count--;for (var f = e.length; f--;) if (e[f] == b) {\n        e.splice(f, 1);break;\n      }\n    }b._registered = c;\n  }, b.wait = function (a, b) {\n    if (null == a || 0 >= a) return this;var c = this._cloneProps(this._curQueueProps);return this._addStep({ d: a, p0: c, e: this._linearEase, p1: c, v: b });\n  }, b.to = function (a, b, c) {\n    return (isNaN(b) || 0 > b) && (b = 0), this._addStep({ d: b || 0, p0: this._cloneProps(this._curQueueProps), e: c, p1: this._cloneProps(this._appendQueueProps(a)) });\n  }, b.call = function (a, b, c) {\n    return this._addAction({ f: a, p: b ? b : [this], o: c ? c : this._target });\n  }, b.set = function (a, b) {\n    return this._addAction({ f: this._set, o: this, p: [a, b ? b : this._target] });\n  }, b.play = function (a) {\n    return a || (a = this), this.call(a.setPaused, [!1], a);\n  }, b.pause = function (a) {\n    return a || (a = this), this.call(a.setPaused, [!0], a);\n  }, b.setPosition = function (a, b) {\n    0 > a && (a = 0), null == b && (b = 1);var c = a,\n        d = !1;if (c >= this.duration && (this.loop ? c %= this.duration : (c = this.duration, d = !0)), c == this._prevPos) return d;var e = this._prevPos;if (this.position = this._prevPos = c, this._prevPosition = a, this._target) if (d) this._updateTargetProps(null, 1);else if (this._steps.length > 0) {\n      for (var f = 0, g = this._steps.length; g > f && !(this._steps[f].t > c); f++);var h = this._steps[f - 1];this._updateTargetProps(h, (this._stepPosition = c - h.t) / h.d);\n    }return 0 != b && this._actions.length > 0 && (this._useTicks ? this._runActions(c, c) : 1 == b && e > c ? (e != this.duration && this._runActions(e, this.duration), this._runActions(0, c, !0)) : this._runActions(e, c)), d && this.setPaused(!0), this.dispatchEvent(\"change\"), d;\n  }, b.tick = function (a) {\n    this._paused || this.setPosition(this._prevPosition + a);\n  }, b.setPaused = function (b) {\n    return this._paused === !!b ? this : (this._paused = !!b, a._register(this, !b), this);\n  }, b.w = b.wait, b.t = b.to, b.c = b.call, b.s = b.set, b.toString = function () {\n    return \"[Tween]\";\n  }, b.clone = function () {\n    throw \"Tween can not be cloned.\";\n  }, b._updateTargetProps = function (b, c) {\n    var d, e, f, g, h, i;if (b || 1 != c) {\n      if (this.passive = !!b.v, this.passive) return;b.e && (c = b.e(c, 0, 1, 1)), d = b.p0, e = b.p1;\n    } else this.passive = !1, d = e = this._curQueueProps;for (var j in this._initQueueProps) {\n      null == (g = d[j]) && (d[j] = g = this._initQueueProps[j]), null == (h = e[j]) && (e[j] = h = g), f = g == h || 0 == c || 1 == c || \"number\" != typeof g ? 1 == c ? h : g : g + (h - g) * c;var k = !1;if (i = a._plugins[j]) for (var l = 0, m = i.length; m > l; l++) {\n        var n = i[l].tween(this, j, f, d, e, c, !!b && d == e, !b);n == a.IGNORE ? k = !0 : f = n;\n      }k || (this._target[j] = f);\n    }\n  }, b._runActions = function (a, b, c) {\n    var d = a,\n        e = b,\n        f = -1,\n        g = this._actions.length,\n        h = 1;for (a > b && (d = b, e = a, f = g, g = h = -1); (f += h) != g;) {\n      var i = this._actions[f],\n          j = i.t;(j == e || j > d && e > j || c && j == a) && i.f.apply(i.o, i.p);\n    }\n  }, b._appendQueueProps = function (b) {\n    var c, d, e, f, g;for (var h in b) if (void 0 === this._initQueueProps[h]) {\n      if (d = this._target[h], c = a._plugins[h]) for (e = 0, f = c.length; f > e; e++) d = c[e].init(this, h, d);this._initQueueProps[h] = this._curQueueProps[h] = void 0 === d ? null : d;\n    } else d = this._curQueueProps[h];for (var h in b) {\n      if (d = this._curQueueProps[h], c = a._plugins[h]) for (g = g || {}, e = 0, f = c.length; f > e; e++) c[e].step && c[e].step(this, h, d, b[h], g);this._curQueueProps[h] = b[h];\n    }return g && this._appendQueueProps(g), this._curQueueProps;\n  }, b._cloneProps = function (a) {\n    var b = {};for (var c in a) b[c] = a[c];return b;\n  }, b._addStep = function (a) {\n    return a.d > 0 && (this._steps.push(a), a.t = this.duration, this.duration += a.d), this;\n  }, b._addAction = function (a) {\n    return a.t = this.duration, this._actions.push(a), this;\n  }, b._set = function (a, b) {\n    for (var c in a) b[c] = a[c];\n  }, createjs.Tween = createjs.promote(a, \"EventDispatcher\");\n}(), this.createjs = this.createjs || {}, function () {\n  \"use strict\";\n  function a(a, b, c) {\n    this.EventDispatcher_constructor(), this.ignoreGlobalPause = !1, this.duration = 0, this.loop = !1, this.position = null, this._paused = !1, this._tweens = [], this._labels = null, this._labelList = null, this._prevPosition = 0, this._prevPos = -1, this._useTicks = !1, this._registered = !1, c && (this._useTicks = c.useTicks, this.loop = c.loop, this.ignoreGlobalPause = c.ignoreGlobalPause, c.onChange && this.addEventListener(\"change\", c.onChange)), a && this.addTween.apply(this, a), this.setLabels(b), c && c.paused ? this._paused = !0 : createjs.Tween._register(this, !0), c && null != c.position && this.setPosition(c.position, createjs.Tween.NONE);\n  }var b = createjs.extend(a, createjs.EventDispatcher);b.addTween = function (a) {\n    var b = arguments.length;if (b > 1) {\n      for (var c = 0; b > c; c++) this.addTween(arguments[c]);return arguments[0];\n    }return 0 == b ? null : (this.removeTween(a), this._tweens.push(a), a.setPaused(!0), a._paused = !1, a._useTicks = this._useTicks, a.duration > this.duration && (this.duration = a.duration), this._prevPos >= 0 && a.setPosition(this._prevPos, createjs.Tween.NONE), a);\n  }, b.removeTween = function (a) {\n    var b = arguments.length;if (b > 1) {\n      for (var c = !0, d = 0; b > d; d++) c = c && this.removeTween(arguments[d]);return c;\n    }if (0 == b) return !1;for (var e = this._tweens, d = e.length; d--;) if (e[d] == a) return e.splice(d, 1), a.duration >= this.duration && this.updateDuration(), !0;return !1;\n  }, b.addLabel = function (a, b) {\n    this._labels[a] = b;var c = this._labelList;if (c) {\n      for (var d = 0, e = c.length; e > d && !(b < c[d].position); d++);c.splice(d, 0, { label: a, position: b });\n    }\n  }, b.setLabels = function (a) {\n    this._labels = a ? a : {};\n  }, b.getLabels = function () {\n    var a = this._labelList;if (!a) {\n      a = this._labelList = [];var b = this._labels;for (var c in b) a.push({ label: c, position: b[c] });a.sort(function (a, b) {\n        return a.position - b.position;\n      });\n    }return a;\n  }, b.getCurrentLabel = function () {\n    var a = this.getLabels(),\n        b = this.position,\n        c = a.length;if (c) {\n      for (var d = 0; c > d && !(b < a[d].position); d++);return 0 == d ? null : a[d - 1].label;\n    }return null;\n  }, b.gotoAndPlay = function (a) {\n    this.setPaused(!1), this._goto(a);\n  }, b.gotoAndStop = function (a) {\n    this.setPaused(!0), this._goto(a);\n  }, b.setPosition = function (a, b) {\n    var c = this._calcPosition(a),\n        d = !this.loop && a >= this.duration;if (c == this._prevPos) return d;this._prevPosition = a, this.position = this._prevPos = c;for (var e = 0, f = this._tweens.length; f > e; e++) if (this._tweens[e].setPosition(c, b), c != this._prevPos) return !1;return d && this.setPaused(!0), this.dispatchEvent(\"change\"), d;\n  }, b.setPaused = function (a) {\n    this._paused = !!a, createjs.Tween._register(this, !a);\n  }, b.updateDuration = function () {\n    this.duration = 0;for (var a = 0, b = this._tweens.length; b > a; a++) {\n      var c = this._tweens[a];c.duration > this.duration && (this.duration = c.duration);\n    }\n  }, b.tick = function (a) {\n    this.setPosition(this._prevPosition + a);\n  }, b.resolve = function (a) {\n    var b = Number(a);return isNaN(b) && (b = this._labels[a]), b;\n  }, b.toString = function () {\n    return \"[Timeline]\";\n  }, b.clone = function () {\n    throw \"Timeline can not be cloned.\";\n  }, b._goto = function (a) {\n    var b = this.resolve(a);null != b && this.setPosition(b);\n  }, b._calcPosition = function (a) {\n    return 0 > a ? 0 : a < this.duration ? a : this.loop ? a % this.duration : this.duration;\n  }, createjs.Timeline = createjs.promote(a, \"EventDispatcher\");\n}(), this.createjs = this.createjs || {}, function () {\n  \"use strict\";\n  function a() {\n    throw \"Ease cannot be instantiated.\";\n  }a.linear = function (a) {\n    return a;\n  }, a.none = a.linear, a.get = function (a) {\n    return -1 > a && (a = -1), a > 1 && (a = 1), function (b) {\n      return 0 == a ? b : 0 > a ? b * (b * -a + 1 + a) : b * ((2 - b) * a + (1 - a));\n    };\n  }, a.getPowIn = function (a) {\n    return function (b) {\n      return Math.pow(b, a);\n    };\n  }, a.getPowOut = function (a) {\n    return function (b) {\n      return 1 - Math.pow(1 - b, a);\n    };\n  }, a.getPowInOut = function (a) {\n    return function (b) {\n      return (b *= 2) < 1 ? .5 * Math.pow(b, a) : 1 - .5 * Math.abs(Math.pow(2 - b, a));\n    };\n  }, a.quadIn = a.getPowIn(2), a.quadOut = a.getPowOut(2), a.quadInOut = a.getPowInOut(2), a.cubicIn = a.getPowIn(3), a.cubicOut = a.getPowOut(3), a.cubicInOut = a.getPowInOut(3), a.quartIn = a.getPowIn(4), a.quartOut = a.getPowOut(4), a.quartInOut = a.getPowInOut(4), a.quintIn = a.getPowIn(5), a.quintOut = a.getPowOut(5), a.quintInOut = a.getPowInOut(5), a.sineIn = function (a) {\n    return 1 - Math.cos(a * Math.PI / 2);\n  }, a.sineOut = function (a) {\n    return Math.sin(a * Math.PI / 2);\n  }, a.sineInOut = function (a) {\n    return -.5 * (Math.cos(Math.PI * a) - 1);\n  }, a.getBackIn = function (a) {\n    return function (b) {\n      return b * b * ((a + 1) * b - a);\n    };\n  }, a.backIn = a.getBackIn(1.7), a.getBackOut = function (a) {\n    return function (b) {\n      return --b * b * ((a + 1) * b + a) + 1;\n    };\n  }, a.backOut = a.getBackOut(1.7), a.getBackInOut = function (a) {\n    return a *= 1.525, function (b) {\n      return (b *= 2) < 1 ? .5 * (b * b * ((a + 1) * b - a)) : .5 * ((b -= 2) * b * ((a + 1) * b + a) + 2);\n    };\n  }, a.backInOut = a.getBackInOut(1.7), a.circIn = function (a) {\n    return -(Math.sqrt(1 - a * a) - 1);\n  }, a.circOut = function (a) {\n    return Math.sqrt(1 - --a * a);\n  }, a.circInOut = function (a) {\n    return (a *= 2) < 1 ? -.5 * (Math.sqrt(1 - a * a) - 1) : .5 * (Math.sqrt(1 - (a -= 2) * a) + 1);\n  }, a.bounceIn = function (b) {\n    return 1 - a.bounceOut(1 - b);\n  }, a.bounceOut = function (a) {\n    return 1 / 2.75 > a ? 7.5625 * a * a : 2 / 2.75 > a ? 7.5625 * (a -= 1.5 / 2.75) * a + .75 : 2.5 / 2.75 > a ? 7.5625 * (a -= 2.25 / 2.75) * a + .9375 : 7.5625 * (a -= 2.625 / 2.75) * a + .984375;\n  }, a.bounceInOut = function (b) {\n    return .5 > b ? .5 * a.bounceIn(2 * b) : .5 * a.bounceOut(2 * b - 1) + .5;\n  }, a.getElasticIn = function (a, b) {\n    var c = 2 * Math.PI;return function (d) {\n      if (0 == d || 1 == d) return d;var e = b / c * Math.asin(1 / a);return -(a * Math.pow(2, 10 * (d -= 1)) * Math.sin((d - e) * c / b));\n    };\n  }, a.elasticIn = a.getElasticIn(1, .3), a.getElasticOut = function (a, b) {\n    var c = 2 * Math.PI;return function (d) {\n      if (0 == d || 1 == d) return d;var e = b / c * Math.asin(1 / a);return a * Math.pow(2, -10 * d) * Math.sin((d - e) * c / b) + 1;\n    };\n  }, a.elasticOut = a.getElasticOut(1, .3), a.getElasticInOut = function (a, b) {\n    var c = 2 * Math.PI;return function (d) {\n      var e = b / c * Math.asin(1 / a);return (d *= 2) < 1 ? -.5 * (a * Math.pow(2, 10 * (d -= 1)) * Math.sin((d - e) * c / b)) : a * Math.pow(2, -10 * (d -= 1)) * Math.sin((d - e) * c / b) * .5 + 1;\n    };\n  }, a.elasticInOut = a.getElasticInOut(1, .3 * 1.5), createjs.Ease = a;\n}(), this.createjs = this.createjs || {}, function () {\n  \"use strict\";\n  function a() {\n    throw \"MotionGuidePlugin cannot be instantiated.\";\n  }a.priority = 0, a._rotOffS, a._rotOffE, a._rotNormS, a._rotNormE, a.install = function () {\n    return createjs.Tween.installPlugin(a, [\"guide\", \"x\", \"y\", \"rotation\"]), createjs.Tween.IGNORE;\n  }, a.init = function (a, b, c) {\n    var d = a.target;return d.hasOwnProperty(\"x\") || (d.x = 0), d.hasOwnProperty(\"y\") || (d.y = 0), d.hasOwnProperty(\"rotation\") || (d.rotation = 0), \"rotation\" == b && (a.__needsRot = !0), \"guide\" == b ? null : c;\n  }, a.step = function (b, c, d, e, f) {\n    if (\"rotation\" == c && (b.__rotGlobalS = d, b.__rotGlobalE = e, a.testRotData(b, f)), \"guide\" != c) return e;var g,\n        h = e;h.hasOwnProperty(\"path\") || (h.path = []);var i = h.path;if (h.hasOwnProperty(\"end\") || (h.end = 1), h.hasOwnProperty(\"start\") || (h.start = d && d.hasOwnProperty(\"end\") && d.path === i ? d.end : 0), h.hasOwnProperty(\"_segments\") && h._length) return e;var j = i.length,\n        k = 10;if (!(j >= 6 && (j - 2) % 4 == 0)) throw \"invalid 'path' data, please see documentation for valid paths\";h._segments = [], h._length = 0;for (var l = 2; j > l; l += 4) {\n      for (var m, n, o = i[l - 2], p = i[l - 1], q = i[l + 0], r = i[l + 1], s = i[l + 2], t = i[l + 3], u = o, v = p, w = 0, x = [], y = 1; k >= y; y++) {\n        var z = y / k,\n            A = 1 - z;m = A * A * o + 2 * A * z * q + z * z * s, n = A * A * p + 2 * A * z * r + z * z * t, w += x[x.push(Math.sqrt((g = m - u) * g + (g = n - v) * g)) - 1], u = m, v = n;\n      }h._segments.push(w), h._segments.push(x), h._length += w;\n    }g = h.orient, h.orient = !0;var B = {};return a.calc(h, h.start, B), b.__rotPathS = Number(B.rotation.toFixed(5)), a.calc(h, h.end, B), b.__rotPathE = Number(B.rotation.toFixed(5)), h.orient = !1, a.calc(h, h.end, f), h.orient = g, h.orient ? (b.__guideData = h, a.testRotData(b, f), e) : e;\n  }, a.testRotData = function (a, b) {\n    if (void 0 === a.__rotGlobalS || void 0 === a.__rotGlobalE) {\n      if (a.__needsRot) return;void 0 !== a._curQueueProps.rotation ? a.__rotGlobalS = a.__rotGlobalE = a._curQueueProps.rotation : a.__rotGlobalS = a.__rotGlobalE = b.rotation = a.target.rotation || 0;\n    }if (void 0 !== a.__guideData) {\n      var c = a.__guideData,\n          d = a.__rotGlobalE - a.__rotGlobalS,\n          e = a.__rotPathE - a.__rotPathS,\n          f = d - e;if (\"auto\" == c.orient) f > 180 ? f -= 360 : -180 > f && (f += 360);else if (\"cw\" == c.orient) {\n        for (; 0 > f;) f += 360;0 == f && d > 0 && 180 != d && (f += 360);\n      } else if (\"ccw\" == c.orient) {\n        for (f = d - (e > 180 ? 360 - e : e); f > 0;) f -= 360;0 == f && 0 > d && -180 != d && (f -= 360);\n      }c.rotDelta = f, c.rotOffS = a.__rotGlobalS - a.__rotPathS, a.__rotGlobalS = a.__rotGlobalE = a.__guideData = a.__needsRot = void 0;\n    }\n  }, a.tween = function (b, c, d, e, f, g, h, i) {\n    var j = f.guide;if (void 0 == j || j === e.guide) return d;if (j.lastRatio != g) {\n      var k = (j.end - j.start) * (h ? j.end : g) + j.start;switch (a.calc(j, k, b.target), j.orient) {case \"cw\":case \"ccw\":case \"auto\":\n          b.target.rotation += j.rotOffS + j.rotDelta * g;break;case \"fixed\":default:\n          b.target.rotation += j.rotOffS;}j.lastRatio = g;\n    }return \"rotation\" != c || j.orient && \"false\" != j.orient ? b.target[c] : d;\n  }, a.calc = function (a, b, c) {\n    if (void 0 == a._segments) throw \"Missing critical pre-calculated information, please file a bug\";void 0 == c && (c = { x: 0, y: 0, rotation: 0 });for (var d = a._segments, e = a.path, f = a._length * b, g = d.length - 2, h = 0; f > d[h] && g > h;) f -= d[h], h += 2;var i = d[h + 1],\n        j = 0;for (g = i.length - 1; f > i[j] && g > j;) f -= i[j], j++;var k = j / ++g + f / (g * i[j]);h = 2 * h + 2;var l = 1 - k;return c.x = l * l * e[h - 2] + 2 * l * k * e[h + 0] + k * k * e[h + 2], c.y = l * l * e[h - 1] + 2 * l * k * e[h + 1] + k * k * e[h + 3], a.orient && (c.rotation = 57.2957795 * Math.atan2((e[h + 1] - e[h - 1]) * l + (e[h + 3] - e[h + 1]) * k, (e[h + 0] - e[h - 2]) * l + (e[h + 2] - e[h + 0]) * k)), c;\n  }, createjs.MotionGuidePlugin = a;\n}(), this.createjs = this.createjs || {}, function () {\n  \"use strict\";\n  var a = createjs.TweenJS = createjs.TweenJS || {};a.version = \"0.6.2\", a.buildDate = \"Thu, 26 Nov 2015 20:44:31 GMT\";\n}();"
 
 /***/ }),
-/* 201 */
+/* 202 */
 /***/ (function(module, exports) {
 
 module.exports = "(function (exports) {\n  var PVector = function (x, y, z) {\n    if (!(this instanceof PVector)) {\n      return new PVector(x, y, z);\n    }\n\n    this.x = x || 0;\n    this.y = y || 0;\n    this.z = z || 0;\n    return this;\n  };\n\n  PVector.fromAngle = function (angle) {\n    return new PVector(Math.cos(angle), Math.sin(angle));\n  };\n\n  PVector.prototype.set = function (x, y, z) {\n    this.x = x || 0;\n    this.y = y || 0;\n    this.z = z || 0;\n  };\n\n  PVector.prototype.add = function (other) {\n    this.x += other.x;\n    this.y += other.y;\n    this.z += other.z;\n    return this;\n  };\n\n  PVector.add = function (one, other) {\n    return new PVector(one.x + other.x, one.y + other.y, one.z + other.z);\n  };\n\n  PVector.prototype.sub = function (other) {\n    this.x -= other.x;\n    this.y -= other.y;\n    this.z -= other.z;\n    return this;\n  };\n\n  PVector.sub = function (one, other) {\n    try {\n      return new PVector(one.x - other.x, one.y - other.y, one.z - other.z);\n    } catch (e) {}\n  };\n\n  PVector.prototype.div = function (n) {\n    this.x /= n;\n    this.y /= n;\n    this.z /= n;\n    return this;\n  };\n\n  PVector.div = function (vector, n, target) {\n    if (target instanceof PVector) {\n      target.x = vector.x / n;\n      target.y = vector.y / n;\n      target.z = vector.z / n;\n      return target;\n    }\n    return new PVector(vector.x / n, vector.y / n, vector.z / n);\n  };\n\n  PVector.prototype.mult = function (rate) {\n    this.x *= rate;\n    this.y *= rate;\n    this.z *= rate;\n    return this;\n  };\n\n  PVector.mult = function (vector, n, target) {\n    if (target instanceof PVector) {\n      target.x = vector.x * n;\n      target.y = vector.y * n;\n      target.z = vector.z * n;\n      return target;\n    }\n    return new PVector(vector.x * n, vector.y * n, vector.z * n);\n  };\n\n  PVector.prototype.dot = function (p) {\n    return this.x * p.x + this.y * p.y;\n  };\n\n  PVector.dot = function (a, b) {\n    return a.x * b.x + a.y * b.y;\n  };\n\n  PVector.prototype.mag = function () {\n    return Math.sqrt(Math.pow(this.x, 2) + Math.pow(this.y, 2));\n  };\n\n  PVector.dist = function (loc1, loc2) {\n    return Math.sqrt(Math.pow(loc1.x - loc2.x, 2) + Math.pow(loc1.y - loc2.y, 2));\n  };\n  PVector.distsimple = function (loc1, loc2) {\n    //Math.pow(loc1.x - loc2.x, 2) + Math.pow(loc1.y - loc2.y, 2);\n    return (loc1.x - loc2.x) * (loc1.x - loc2.x) + (loc1.y - loc2.y) * (loc1.y - loc2.y);\n  };\n\n  PVector.prototype.normalize = function () {\n    var mag = this.mag();\n    if (mag === 0) {\n      this.x = 0;\n      this.y = 0;\n    } else {\n      this.x /= mag;\n      this.y /= mag;\n    }\n    return this;\n  };\n\n  PVector.prototype.limit = function (limit) {\n    if (this.mag() <= limit) {\n      return this;\n    }\n    this.normalize();\n    this.x *= limit;\n    this.y *= limit;\n    return this;\n  };\n\n  PVector.prototype.setMag = function (mag) {\n    this.normalize();\n    this.x *= mag;\n    this.y *= mag;\n    return this;\n  };\n\n  PVector.prototype.clone = function () {\n    return new PVector(this.x, this.y);\n  };\n\n  PVector.random2D = function (vector) {\n    var num = utils.random(2 * Math.PI);\n    var x = Math.sin(num);\n    var y = Math.cos(num);\n    if (!vector) {\n      return new PVector(x, y);\n    }\n    vector.x = x;\n    vector.y = y;\n    return vector;\n  };\n\n  PVector.prototype.heading = function () {\n    if (this.x === 0) {\n      return this.y > 0 ? Math.PI / 2 : Math.PI / -2;\n    }\n    var theta = Math.atan(this.y / this.x);\n    if (this.x > 0) {\n      return theta;\n    } else {\n      return Math.PI + theta;\n    }\n    return Math.atan(this.y / this.x);\n  };\n\n  PVector.angleBetween = function (a, b) {\n    // A dot B = (magnitude of A)*(magnitude of B)*cos(theta)\n    var dot = a.dot(b);\n    return Math.acos(dot / (a.mag() * b.mag()));\n  };\n\n  PVector.prototype.angleBetween = function (other) {\n    var dot = this.dot(other);\n    return Math.acos(dot / (this.mag() * other.mag()));\n  };\n\n  exports.PVector = PVector;\n})(this);"
 
 /***/ }),
-/* 202 */
+/* 203 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -41640,7 +41794,7 @@ var singleton = null;
 var	singletonCounter = 0;
 var	stylesInsertedAtTop = [];
 
-var	fixUrls = __webpack_require__(203);
+var	fixUrls = __webpack_require__(204);
 
 module.exports = function(list, options) {
 	if (typeof DEBUG !== "undefined" && DEBUG) {
@@ -41953,7 +42107,7 @@ function updateLink (link, options, obj) {
 
 
 /***/ }),
-/* 203 */
+/* 204 */
 /***/ (function(module, exports) {
 
 
@@ -42048,7 +42202,7 @@ module.exports = function (css) {
 
 
 /***/ }),
-/* 204 */
+/* 205 */
 /***/ (function(module, exports) {
 
 module.exports = function(module) {
@@ -42076,7 +42230,7 @@ module.exports = function(module) {
 
 
 /***/ }),
-/* 205 */
+/* 206 */
 /***/ (function(module, exports) {
 
 // shim for using process in browser
@@ -42266,7 +42420,7 @@ process.umask = function() { return 0; };
 
 
 /***/ }),
-/* 206 */
+/* 207 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(module, global) {var __WEBPACK_AMD_DEFINE_RESULT__;/*! https://mths.be/punycode v1.4.1 by @mathias */
@@ -42802,10 +42956,10 @@ process.umask = function() { return 0; };
 
 }(this));
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(204)(module), __webpack_require__(41)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(205)(module), __webpack_require__(41)))
 
 /***/ }),
-/* 207 */
+/* 208 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -42896,7 +43050,7 @@ var isArray = Array.isArray || function (xs) {
 
 
 /***/ }),
-/* 208 */
+/* 209 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -42988,18 +43142,18 @@ var objectKeys = Object.keys || function (obj) {
 
 
 /***/ }),
-/* 209 */
+/* 210 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-exports.decode = exports.parse = __webpack_require__(207);
-exports.encode = exports.stringify = __webpack_require__(208);
+exports.decode = exports.parse = __webpack_require__(208);
+exports.encode = exports.stringify = __webpack_require__(209);
 
 
 /***/ }),
-/* 210 */
+/* 211 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";

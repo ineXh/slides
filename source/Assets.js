@@ -7,6 +7,9 @@ Assets.textures = {};
 var loadAssets = function(cb){
 	PIXI.loader
 	.add('bunny', "assets/misc/bunny.png")
+	.add('class', "assets/background/class.png")
+	.add('desk', "assets/background/desk.png")
+	.add('deskShadow', "assets/background/desk_shadow.png")
 	.add('school', "assets/background/school.png")
 	// Characters
 	.add('cowBody', "assets/cow/body.png")
@@ -16,6 +19,10 @@ var loadAssets = function(cb){
 	.add('cowLeft', "assets/cow/left.png")
 	.add('cowLeftLeg', "assets/cow/leftleg.png")
 	.add('cowRightLeg', "assets/cow/rightleg.png")
+
+	.add('womanBody', "assets/woman/body.png")
+	.add('womanLeft', "assets/woman/left.png")
+	.add('womanHairBack', "assets/woman/hair_back.png")
 	// Mouth
 	.add('mouth1', "assets/mouth/1.png")
 	.add('mouth2', "assets/mouth/2.png")
@@ -27,6 +34,17 @@ var loadAssets = function(cb){
 	.add('mouth12', "assets/mouth/12.png")
 	.add('mouth13', "assets/mouth/13.png")
 	.add('mouth14', "assets/mouth/14.png")
+
+	.add('womanMouth1', "assets/woman/mouth/1.png")
+	.add('womanMouth10', "assets/woman/mouth/10.png")
+	.add('womanMouth11', "assets/woman/mouth/11.png")
+	.add('womanMouth12', "assets/woman/mouth/12.png")
+	.add('womanMouth13', "assets/woman/mouth/13.png")
+	.add('womanMouth14', "assets/woman/mouth/14.png")
+	.add('womanMouth15', "assets/woman/mouth/15.png")
+	.add('womanMouth16', "assets/woman/mouth/16.png")
+	.add('womanMouth17', "assets/woman/mouth/17.png")
+	.add('womanMouth18', "assets/woman/mouth/18.png")
 	.load(cb.bind(this));
 
 } // end loadAssets
@@ -34,6 +52,9 @@ var loadAssets = function(cb){
 var loadTextures = function(){
 	Assets.textures = {};
 	Assets.textures.bunnyTexture  = PIXI.Texture.fromFrame("bunny");
+	Assets.textures.classTexture = PIXI.Texture.fromFrame("class");
+	Assets.textures.deskTexture = PIXI.Texture.fromFrame("desk");
+	Assets.textures.deskShadowTexture = PIXI.Texture.fromFrame("deskShadow");
 	Assets.textures.schoolTexture = PIXI.Texture.fromFrame("school");
 	loadCharacterTextures();
 }
@@ -46,6 +67,12 @@ var loadCharacterTextures = function(){
 	Assets.characterTextures.cowLeftTexture 	= PIXI.Texture.fromFrame("cowLeft");
 	Assets.characterTextures.cowLeftLegTexture 	= PIXI.Texture.fromFrame("cowLeftLeg");
 	Assets.characterTextures.cowRightLegTexture = PIXI.Texture.fromFrame("cowRightLeg");
+
+	Assets.characterTextures.womanBodyTexture 	= PIXI.Texture.fromFrame("womanBody");
+	Assets.characterTextures.womanLeftTexture 	= PIXI.Texture.fromFrame("womanLeft");
+	Assets.characterTextures.womanHairBackTexture 	= PIXI.Texture.fromFrame("womanHairBack");
+
+
 	loadMouthTextures();
 }
 var loadMouthTextures = function(){
@@ -66,6 +93,17 @@ var loadMouthTextures = function(){
     for(var i = 13; i >= 11; i--){
         Assets.mouthTextures.cowTalkTexture.push(PIXI.Texture.fromFrame('mouth' + i));
     }
+
+    
+    Assets.mouthTextures.womanMouth1Texture 	= PIXI.Texture.fromFrame("womanMouth1");
+    Assets.mouthTextures.womanTalkTexture = [];
+    for(var i = 10; i <= 18; i++){
+        Assets.mouthTextures.womanTalkTexture.push(PIXI.Texture.fromFrame('womanMouth' + i));
+    }
+    for(var i = 17; i >= 11; i--){
+        Assets.mouthTextures.womanTalkTexture.push(PIXI.Texture.fromFrame('womanMouth' + i));
+    }
+
 } // end loadMouthTextures
 
 
