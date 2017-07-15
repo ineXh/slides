@@ -32,13 +32,14 @@ Robot.prototype = {
     this.shadowSprite.scale.set(this.scale);
     this.shadowSprite.y = this.bodySprite.height*0.475
 
-    this.head = new PIXI.Container();    
+    this.head = new PIXI.Container();
     this.headSprite = Helper.buttonCreate(Assets.characterTextures.robot.headTexture,
                      0, 0, width);
     this.headSprite.scale.set(this.scale);
     this.eyeSprite = Helper.buttonCreate(Assets.characterTextures.robot.eye1Texture,
                      0, 0, width);
     this.eyeSprite.scale.set(this.scale);
+
     this.headBotSprite = Helper.buttonCreate(Assets.characterTextures.robot.headBotTexture,
                      0, 0, width);
     this.headBotSprite.scale.set(this.scale);
@@ -48,20 +49,25 @@ Robot.prototype = {
     this.headBotSprite.x = -this.headSprite.width/2;
     this.headBotSprite.y = -this.bodySprite.height*0.8;//this.headSprite.height/2 - this.headBotSprite.height;
 
-    this.head.y = this.headBotSprite.y + this.headBotSprite.height*0.25
+    
 
     this.headTopSprite = Helper.buttonCreate(Assets.characterTextures.robot.headTopTexture,
                      0, 0, width);
     this.headTopSprite.scale.set(this.scale);
-    this.headTopSprite.anchor.x = 0;
+    this.headTopSprite.anchor.x = 0.0;
     this.headTopSprite.anchor.y = 1;
-    this.headTopSprite.x = -this.headSprite.width/2;
-    //this.headTopSprite.y = this.headBotSprite.y + this.headBotSprite.height*0.25
+    this.headTopSprite.x = 0;//-this.headSprite.width/2;
+    this.eyeSprite.x = this.headSprite.width/2;
+    this.eyeSprite.y = this.headTopSprite.y - this.headTopSprite.height*0.45
+    this.head.x = -this.headSprite.width/2
+    this.head.y = this.headBotSprite.y + this.headBotSprite.height*0.25
+    this.head.pivot.x = 0;//-this.headSprite.width;
+    this.head.pivot.y = 0;
 
-
+    //debugger;
     //this.head.addChild(this.headSprite)
     this.head.addChild(this.headTopSprite)
-    
+
     this.head.addChild(this.eyeSprite)
     this.robot.addChild(this.headBotSprite)
     this.robot.addChild(this.shadowSprite)
@@ -82,11 +88,44 @@ Robot.prototype = {
 
     this.queue = [];
     robot = this;
-    this.queue.push({Duration: 1000, cb: function(){}})
-    //this.queue.push({Duration: 1000, cb: function(){robot.isOpening = true;}})
-    //this.queue.push({Duration: 1000, cb: function(){robot.isClosing = true;}})
-    this.queue.push({Duration: 1000, cb: function(){robot.isMunching = true;}})
+    this.queue.push({Duration: 3000, cb: function(){}})
+    this.queue.push({Duration: 3000, cb: function(){robot.isOpening = true;}})
+    this.queue.push({Duration: 3000, cb: function(){robot.isClosing = true;}})
+    this.queue.push({Duration: 3000, cb: function(){
+      robot.isMunching = true;
+    }})
+    this.queue.push({Duration: 3000, cb: function(){
+      robot.isChomping = true;
+    }})
+
     this.queue.push({Duration: 2000, cb: function(){
+      robot.isFlashing = true;
+    }})
+    this.queue.push({Duration: 10, cb: function(){
+      robot.isFlashing = false;
+      robot.eyeSprite.texture = Assets.characterTextures.robot.eye1Texture
+    }})
+    // idle
+    this.queue.push({Duration: 3000, cb: function(){}})
+    // Munch Flash
+    this.queue.push({Duration: 1000, cb: function(){
+      robot.isMunching = true;
+    }})
+    this.queue.push({Duration: 2000, cb: function(){
+      robot.isFlashing = true;
+    }})
+    this.queue.push({Duration: 10, cb: function(){
+      robot.isFlashing = false;
+      robot.eyeSprite.texture = Assets.characterTextures.robot.eye1Texture
+    }})
+    // Munch Chomp Flash
+    this.queue.push({Duration: 100, cb: function(){
+      robot.isMunching = true;
+    }})
+    this.queue.push({Duration: 500, cb: function(){
+      robot.isChomping = true;
+    }})
+    this.queue.push({Duration: 3000, cb: function(){
       robot.isFlashing = true;
     }})
     this.queue.push({Duration: 10, cb: function(){
@@ -99,6 +138,8 @@ Robot.prototype = {
     this.isClosing = false
     this.isMunching = false
     this.munchCount = 0;
+    this.isChomping = false
+    this.chompCount = 0;
     this.isFlashing = false;
     this.flashCount = 0;
   },
@@ -119,10 +160,30 @@ Robot.prototype = {
     this.headOpen();
     this.headClose();
     this.headMunch();
+    this.headChomp();
     //this.headTopSprite.x = this.headTopPos.x
     //this.headTopSprite.y = this.headTopPos.y
-    this.eyeSprite.y = this.headTopSprite.y - this.headTopSprite.height*0.45
+
   },
+  headChomp: function(){
+    if(!this.isChomping) return;
+    
+    if(this.chompCount%2 == 0){
+      this.head.rotation -= 0.05;
+      if(this.head.rotation <= -0.75)
+        this.chompCount++;
+    }else if(this.chompCount%2 == 1){
+      this.head.rotation += 0.05;
+      if(this.head.rotation >= 0){        
+        this.head.rotation = 0;
+        this.chompCount++;
+      }
+    }
+    if(this.chompCount >= 6){
+      this.isChomping = false
+      this.chompCount = 0;
+    }
+  }, // end headChomp
   headMunch: function(){
     if(!this.isMunching) return;
     if(this.munchCount%2 == 0){
