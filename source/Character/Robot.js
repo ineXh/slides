@@ -108,7 +108,7 @@ Robot.prototype = {
     // idle
     this.queue.push({Duration: 3000, cb: function(){}})
     // Munch Flash
-    this.queue.push({Duration: 1000, cb: function(){
+    this.queue.push({Duration: 500, cb: function(){
       robot.isMunching = true;
     }})
     this.queue.push({Duration: 2000, cb: function(){
@@ -118,6 +118,21 @@ Robot.prototype = {
       robot.isFlashing = false;
       robot.eyeSprite.texture = Assets.characterTextures.robot.eye1Texture
     }})
+    // idle
+    this.queue.push({Duration: 3000, cb: function(){}})
+    // Chomp Flash
+    this.queue.push({Duration: 500, cb: function(){
+      robot.isChomping = true;
+    }})
+    this.queue.push({Duration: 2000, cb: function(){
+      robot.isFlashing = true;
+    }})
+    this.queue.push({Duration: 10, cb: function(){
+      robot.isFlashing = false;
+      robot.eyeSprite.texture = Assets.characterTextures.robot.eye1Texture
+    }})
+    // idle
+    this.queue.push({Duration: 3000, cb: function(){}})
     // Munch Chomp Flash
     this.queue.push({Duration: 100, cb: function(){
       robot.isMunching = true;
@@ -125,7 +140,7 @@ Robot.prototype = {
     this.queue.push({Duration: 500, cb: function(){
       robot.isChomping = true;
     }})
-    this.queue.push({Duration: 3000, cb: function(){
+    this.queue.push({Duration: 2000, cb: function(){
       robot.isFlashing = true;
     }})
     this.queue.push({Duration: 10, cb: function(){
