@@ -23,6 +23,15 @@ var loadAssets = function(cb){
 	.add('womanBody', "assets/woman/body.png")
 	.add('womanLeft', "assets/woman/left.png")
 	.add('womanHairBack', "assets/woman/hair_back.png")
+	// Robot
+	.add('robotBody', "assets/robot/body.png")
+	.add('robotArm', "assets/robot/arm.png")
+	.add('robotHead', "assets/robot/head.png")
+	.add('robotHeadTop', "assets/robot/head_bot.png")
+	.add('robotHeadBot', "assets/robot/head_top.png")
+	.add('robotEye1', "assets/robot/eye1.png")
+	.add('robotEye2', "assets/robot/eye2.png")
+	.add('robotShadow', "assets/robot/shadow.png")
 	// Mouth
 	.add('mouth1', "assets/mouth/1.png")
 	.add('mouth2', "assets/mouth/2.png")
@@ -72,6 +81,15 @@ var loadCharacterTextures = function(){
 	Assets.characterTextures.womanLeftTexture 	= PIXI.Texture.fromFrame("womanLeft");
 	Assets.characterTextures.womanHairBackTexture 	= PIXI.Texture.fromFrame("womanHairBack");
 
+	Assets.characterTextures.robot = {};
+	Assets.characterTextures.robot.bodyTexture 	= PIXI.Texture.fromFrame("robotBody");
+	Assets.characterTextures.robot.armTexture 	= PIXI.Texture.fromFrame("robotArm");
+	Assets.characterTextures.robot.headTexture 	= PIXI.Texture.fromFrame("robotHead");
+	Assets.characterTextures.robot.headTopTexture 	= PIXI.Texture.fromFrame("robotHeadTop");
+	Assets.characterTextures.robot.headBotTexture 	= PIXI.Texture.fromFrame("robotHeadBot");
+	Assets.characterTextures.robot.eye1Texture 	= PIXI.Texture.fromFrame("robotEye1");
+	Assets.characterTextures.robot.eye2Texture 	= PIXI.Texture.fromFrame("robotEye2");
+	Assets.characterTextures.robot.shadowTexture 	= PIXI.Texture.fromFrame("robotShadow");
 
 	loadMouthTextures();
 }
@@ -94,7 +112,7 @@ var loadMouthTextures = function(){
         Assets.mouthTextures.cowTalkTexture.push(PIXI.Texture.fromFrame('mouth' + i));
     }
 
-    
+
     Assets.mouthTextures.womanMouth1Texture 	= PIXI.Texture.fromFrame("womanMouth1");
     Assets.mouthTextures.womanTalkTexture = [];
     for(var i = 10; i <= 18; i++){
