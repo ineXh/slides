@@ -8,6 +8,7 @@ var lastTime = startTime = 0;
 
 var worldRenderer = null;
 var loader = null;
+var loaded = false;
 var resources = null;
 var stage0 = null;
 var stage = null;

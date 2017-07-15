@@ -49,6 +49,9 @@ import pvector from 'script-loader!./Lib/pvector.js';
         loader = load;
         resources = res;
         Assets.loadTextures();
+        loaded = true;
+        lastTime = Date.now();
+        //console.log('loaded')
 
 		updateQueue = new UpdateQueue();
 
@@ -69,7 +72,7 @@ import pvector from 'script-loader!./Lib/pvector.js';
 		createjs.MotionGuidePlugin.install();
 
 		var character = new Robot();
-		character.init(stage, width*0.2, height*0.5);
+		character.init(stage, width*0.2, height*0.8);
 		updateQueue.add(character);
 
 
