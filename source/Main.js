@@ -71,9 +71,9 @@ import pvector from 'script-loader!./Lib/pvector.js';
 
 		createjs.MotionGuidePlugin.install();
 
-		var character = new Robot();
+		/*var character = new Robot();
 		character.init(stage, width*0.2, height*0.8);
-		updateQueue.add(character);
+		updateQueue.add(character);*/
 
 
 		//var ball = new Ball(0, 0, width/20, true, Assets.textures.bunnyTexture);
@@ -81,7 +81,7 @@ import pvector from 'script-loader!./Lib/pvector.js';
 		//var ball = new Ball(0, 0, width/20, true, Assets.textures.bunnyTexture);
 		//updateQueue.add(ball);
 
-		/*var desk = Helper.buttonCreate(Assets.textures.deskTexture,
+		var desk = Helper.buttonCreate(Assets.textures.deskTexture,
                      width*0.2, height*0.765, width);
 		desk.scale.set(1.75);
 		var deskShadow = Helper.buttonCreate(Assets.textures.deskShadowTexture,
@@ -120,7 +120,7 @@ import pvector from 'script-loader!./Lib/pvector.js';
         titleText.x = width*0.675;
         titleText.y = height*0.35;
 
-        stage.addChild(titleText)*/
+        stage.addChild(titleText)
 
 
 
@@ -147,7 +147,7 @@ import pvector from 'script-loader!./Lib/pvector.js';
 		//http://jsfiddle.net/aybalasubramanian/y8c38b3k/
 		// SpeechSynthesisUtterance not tab audio, cannot capture
 		// try http://www.masswerk.at/mespeak/
-		/*var interval = setInterval(function () {
+		var interval = setInterval(function () {
 		    voices = speechSynthesis.getVoices();
 		    if (voices.length) clearInterval(interval); else return;
 		    var index = 0;
@@ -166,7 +166,7 @@ import pvector from 'script-loader!./Lib/pvector.js';
 					character.smile();
 				}
 		    }
-		}, 10);*/
+		}, 10);
 
 
 
